@@ -1,11 +1,12 @@
 from __future__ import annotations
 
-from common.config import ANNUAL_RETURN_WINDOW, INDEX_TICKERS
-from common.fetchers import MarketDataFetcher
-from indicators.base import BaseIndicator, IndicatorMetadata
+from common.config import INDEX_TICKERS, ANNUAL_RETURN_WINDOW
+from common.models import IndicatorResult
+from indicators.base import IndicatorMetadata
+from indicators.technical.base_price import PriceSeriesIndicator
 
 
-class AnnualizedReturnIndicator(BaseIndicator):
+class AnnualizedReturnIndicator(PriceSeriesIndicator):
     metadata = IndicatorMetadata(
         name="12M Annualized Return",
         category="Technical",
@@ -13,32 +14,42 @@ class AnnualizedReturnIndicator(BaseIndicator):
         markets=["US Market", "Nasdaq 100"],
         topics=["Technical", "Momentum"],
     )
+    tickers = {"Nasdaq 100": INDEX_TICKERS["Nasdaq 100"]}
 
-    def evaluate(self, fetcher: MarketDataFetcher):
-        ticker = INDEX_TICKERS["Nasdaq 100"]
-        try:
-            history = fetcher.get_price_history(ticker, period="max")
-            adj_close = history["Adj Close"].dropna()
-            if len(adj_close) <= ANNUAL_RETURN_WINDOW:
-                raise ValueError("Insufficient history for 12-month return")
-            current_price = adj_close.iat[-1]
-            past_price = adj_close.iat[-ANNUAL_RETURN_WINDOW]
-            annual_return = (current_price / past_price - 1) * 100
-            status = "high" if annual_return > 40 else "normal"
-            raw_value = f"{annual_return:.2f}%"
-            pure_value = [
-                {"market": "Nasdaq 100", "annualized_return_pct": annual_return}
-            ]
-            return self.build_result(
-                raw_value=raw_value,
-                pure_value=pure_value,
-                status=status,
-                notes="Trailing 252-trading-day return computed from adjusted close.",
-            )
-        except Exception as exc:  # pylint: disable=broad-except
+    def compute(self, clean_df, fetcher) -> IndicatorResult:
+        series_by_market = self.prepare_price_series(clean_df)
+        series = series_by_market.get("Nasdaq 100")
+        if series is None or series.empty:
             return self.build_result(
                 raw_value=None,
                 pure_value=None,
                 status="unavailable",
-                notes=f"12M annualized return failed: {exc}",
+                notes="No Nasdaq 100 price history available.",
             )
+
+        if len(series) <= ANNUAL_RETURN_WINDOW:
+            return self.build_result(
+                raw_value=None,
+                pure_value=None,
+                status="unavailable",
+                notes="Insufficient history for 12-month return.",
+            )
+
+        current_price = float(series.iloc[-1])
+        past_price = float(series.iloc[-ANNUAL_RETURN_WINDOW])
+        annual_return = (current_price / past_price - 1) * 100
+        status = "high" if annual_return > 40 else "normal"
+        pure_value = [
+            {
+                "market": "Nasdaq 100",
+                "annualized_return_pct": annual_return,
+                "current_price": current_price,
+                "price_252d_ago": past_price,
+            }
+        ]
+        return self.build_result(
+            raw_value=f"{annual_return:.2f}%",
+            pure_value=pure_value,
+            status=status,
+            notes="Trailing 252-trading-day return computed from adjusted close.",
+        )

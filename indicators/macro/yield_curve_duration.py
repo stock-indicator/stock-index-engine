@@ -1,12 +1,13 @@
 from __future__ import annotations
 
-from datetime import timedelta
+import pandas as pd
 
-from common.fetchers import MarketDataFetcher
-from indicators.base import BaseIndicator, IndicatorMetadata
+from common.models import IndicatorResult
+from indicators.base import IndicatorMetadata
+from indicators.macro.base_fred import FREDIndicator
 
 
-class YieldCurveDurationIndicator(BaseIndicator):
+class YieldCurveDurationIndicator(FREDIndicator):
     metadata = IndicatorMetadata(
         name="Yield Curve Duration",
         category="Macro",
@@ -14,48 +15,60 @@ class YieldCurveDurationIndicator(BaseIndicator):
         markets=["US Market"],
         topics=["Macro", "Yield Curve"],
     )
+    required_series = {
+        "spread_pct": "T10Y2Y",
+    }
 
-    def evaluate(self, fetcher: MarketDataFetcher):
-        spread = fetcher.fetch_fred_series("T10Y2Y", observation_start="2000-01-01")
-        if spread is None or spread.empty:
+    def compute(self, clean_df, fetcher) -> IndicatorResult:
+        if clean_df.empty or "spread_pct" not in clean_df.columns:
             return self.build_result(
                 raw_value=None,
                 pure_value=None,
                 status="unavailable",
                 notes="FRED series T10Y2Y unavailable.",
             )
-        spread = spread.dropna()
-        latest_value = float(spread.iloc[-1])
-        latest_date = spread.index[-1]
+        df = clean_df.dropna(subset=["spread_pct"]).copy()
+        if df.empty:
+            return self.build_result(
+                raw_value=None,
+                pure_value=None,
+                status="unavailable",
+                notes="Spread dataset empty after cleaning.",
+            )
+        df = df.sort_values("data_start_date")
+        latest_row = df.iloc[-1]
+        latest_value = float(latest_row["spread_pct"])
+        latest_date = latest_row["data_start_date"].date().isoformat()
         if latest_value >= 0:
-            raw_value = f"Spread {latest_value:.2f}% (as of {latest_date.date().isoformat()})"
             pure_value = [
-                {"metric": "spread_pct", "value": latest_value},
+                {"metric": "spread_pct", "value": latest_value, "as_of": latest_date},
                 {"metric": "inversion_months", "value": 0.0},
             ]
             return self.build_result(
-                raw_value=raw_value,
+                raw_value=f"Spread {latest_value:.2f}% (as of {latest_date})",
                 pure_value=pure_value,
                 status="normal",
                 notes="Yield curve not inverted currently.",
             )
 
-        non_negative = spread[spread >= 0]
-        if non_negative.empty:
-            inversion_start = spread.index[0]
+        df["data_start_date"] = pd.to_datetime(df["data_start_date"], errors="coerce")
+        df = df.dropna(subset=["data_start_date"])
+        spread_series = df.set_index("data_start_date")["spread_pct"].astype(float)
+        negative_mask = spread_series < 0
+        if not negative_mask.any():
+            months = 0.0
         else:
-            prior_non_negative = non_negative.index[non_negative.index < latest_date]
-            inversion_start = (
-                prior_non_negative[-1] + timedelta(days=1)
-                if len(prior_non_negative) > 0
-                else spread.index[0]
-            )
-        duration_days = max((latest_date - inversion_start).days, 0)
-        duration_months = duration_days / 30.4375
-        status = "high" if duration_months >= 12 else "normal"
+            last_negative_date = negative_mask[negative_mask].index[-1]
+            contiguous_negative = spread_series[last_negative_date:]
+            first_non_negative = contiguous_negative[contiguous_negative >= 0]
+            if not first_non_negative.empty:
+                months = 0.0
+            else:
+                first_negative_date = contiguous_negative.index[0]
+                months = (last_negative_date - first_negative_date).days / 30.4375
+        status = "high" if months >= 12 else "normal"
         raw_value = (
-            f"Spread {latest_value:.2f}% (as of {latest_date.date().isoformat()}); "
-            f"current inversion ~{duration_months:.1f} months"
+            f"Spread {latest_value:.2f}% (as of {latest_date}); current inversion ~{months:.1f} months"
         )
         notes = (
             "Yield curve inverted for over 12 months"
@@ -63,7 +76,12 @@ class YieldCurveDurationIndicator(BaseIndicator):
             else "Yield curve inversion duration below 12 months"
         )
         pure_value = [
-            {"metric": "spread_pct", "value": latest_value},
-            {"metric": "inversion_months", "value": duration_months},
+            {"metric": "spread_pct", "value": latest_value, "as_of": latest_date},
+            {"metric": "inversion_months", "value": months, "as_of": latest_date},
         ]
-        return self.build_result(raw_value=raw_value, pure_value=pure_value, status=status, notes=notes)
+        return self.build_result(
+            raw_value=raw_value,
+            pure_value=pure_value,
+            status=status,
+            notes=notes,
+        )

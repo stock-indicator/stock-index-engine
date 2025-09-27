@@ -2,11 +2,12 @@ from __future__ import annotations
 
 import pandas as pd
 
-from common.fetchers import MarketDataFetcher
-from indicators.base import BaseIndicator, IndicatorMetadata
+from common.models import IndicatorResult
+from indicators.base import IndicatorMetadata
+from indicators.macro.base_fred import FREDIndicator
 
 
-class CorporateProfitsToGDPIndicator(BaseIndicator):
+class CorporateProfitsToGDPIndicator(FREDIndicator):
     metadata = IndicatorMetadata(
         name="Corporate Profits vs GDP",
         category="Macro",
@@ -14,66 +15,52 @@ class CorporateProfitsToGDPIndicator(BaseIndicator):
         markets=["US Market", "US Economy"],
         topics=["Macro", "Profits"],
     )
+    required_series = {
+        "gdp": "GDP",
+        "corporate_profits": "CPATAX",
+    }
+    default_history_days = 365 * 5
 
-    def evaluate(self, fetcher: MarketDataFetcher):
-        gdp = fetcher.fetch_fred_series("GDP", observation_start="2000-01-01")
-        profits = fetcher.fetch_fred_series("CPATAX", observation_start="2000-01-01")
-        if gdp is None or profits is None or gdp.empty or profits.empty:
+    def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:
+        if clean_df.empty or "gdp" not in clean_df.columns or "corporate_profits" not in clean_df.columns:
             return self.build_result(
                 raw_value=None,
                 pure_value=None,
                 status="unavailable",
                 notes="Unable to fetch GDP or corporate profits series from FRED.",
             )
-
-        combined_index = gdp.index.intersection(profits.index)
-        if combined_index.empty:
-            return self.build_result(
-                raw_value=None,
-                pure_value=None,
-                status="unavailable",
-                notes="No overlapping observations for GDP and corporate profits.",
-            )
-
-        gdp_vals = gdp.loc[combined_index].astype(float)
-        profit_vals = profits.loc[combined_index].astype(float)
-
-        ratio = (profit_vals / gdp_vals) * 100
-        ratio = ratio.dropna()
-        if ratio.empty:
+        df = clean_df.dropna(subset=["gdp", "corporate_profits"]).copy()
+        if df.empty:
             return self.build_result(
                 raw_value=None,
                 pure_value=None,
                 status="unavailable",
                 notes="Unable to compute corporate profit share due to missing data.",
             )
-
-        latest_date = ratio.index[-1].to_period("Q").to_timestamp()
-        latest_ratio = float(ratio.iloc[-1])
-        latest_profit = float(profit_vals.loc[ratio.index[-1]])
-        latest_gdp = float(gdp_vals.loc[ratio.index[-1]])
-
+        df = df.sort_values("data_start_date")
+        df["profit_share_pct"] = (df["corporate_profits"].astype(float) / df["gdp"].astype(float)) * 100
+        df = df.dropna(subset=["profit_share_pct"])
+        if df.empty:
+            return self.build_result(
+                raw_value=None,
+                pure_value=None,
+                status="unavailable",
+                notes="Unable to compute corporate profit share due to missing data.",
+            )
+        latest = df.iloc[-1]
+        latest_ratio = float(latest["profit_share_pct"])
+        latest_date = latest["data_start_date"].date().isoformat()
+        latest_profit = float(latest["corporate_profits"])
+        latest_gdp = float(latest["gdp"])
         status = "high" if latest_ratio > 12 else "normal"
         raw_value = (
-            f"Corporate profits/GDP: {latest_ratio:.2f}% (profits={latest_profit:,.0f}, "
-            f"GDP={latest_gdp:,.0f})"
+            f"Corporate profits/GDP: {latest_ratio:.2f}% (profits={latest_profit:,.0f}, GDP={latest_gdp:,.0f})"
         )
         pure_value = [
-            {
-                "metric": "corporate_profit_share_pct",
-                "value": latest_ratio,
-                "as_of": latest_date.date().isoformat(),
-            },
-            {
-                "metric": "corporate_profits",
-                "value": latest_profit,
-            },
-            {
-                "metric": "gdp",
-                "value": latest_gdp,
-            },
+            {"metric": "corporate_profit_share_pct", "value": latest_ratio, "as_of": latest_date},
+            {"metric": "corporate_profits", "value": latest_profit, "as_of": latest_date},
+            {"metric": "gdp", "value": latest_gdp, "as_of": latest_date},
         ]
-
         notes = (
             "Corporate profit share above 12% threshold"
             if status == "high"

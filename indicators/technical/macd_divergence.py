@@ -11,8 +11,9 @@ from common.config import (
     MACD_SIGNAL,
     MACD_SLOW,
 )
-from common.fetchers import MarketDataFetcher
-from indicators.base import BaseIndicator, IndicatorMetadata
+from indicators.base import IndicatorMetadata
+from indicators.technical.base_price import PriceSeriesIndicator
+from common.models import IndicatorResult
 
 
 def _compute_macd(prices: pd.Series) -> pd.DataFrame:
@@ -24,7 +25,7 @@ def _compute_macd(prices: pd.Series) -> pd.DataFrame:
     return pd.DataFrame({"macd": macd_line, "signal": signal_line, "hist": histogram})
 
 
-class MACDDivergenceIndicator(BaseIndicator):
+class MACDDivergenceIndicator(PriceSeriesIndicator):
     metadata = IndicatorMetadata(
         name="MACD Divergence",
         category="Technical",
@@ -32,27 +33,27 @@ class MACDDivergenceIndicator(BaseIndicator):
         markets=["US Market", "S&P 500", "Nasdaq 100"],
         topics=["Technical", "Trend"],
     )
+    tickers: Dict[str, str] = INDEX_TICKERS
 
-    def evaluate(self, fetcher: MarketDataFetcher):
+    def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:
+        series_by_market = self.prepare_price_series(clean_df)
         values: Dict[str, Tuple[bool, bool, float]] = {}
         missing: Dict[str, str] = {}
-        for market, ticker in INDEX_TICKERS.items():
+        for market, series in series_by_market.items():
             try:
-                history = fetcher.get_price_history(ticker, period="3y")
-                adj_close = history["Adj Close"].dropna()
-                macd_df = _compute_macd(adj_close)
+                macd_df = _compute_macd(series)
                 if macd_df.empty:
                     raise ValueError("Insufficient data")
-                price_window = adj_close.iloc[-MACD_LOOKBACK:]
+                price_window = series.iloc[-MACD_LOOKBACK:]
                 macd_window = macd_df["macd"].iloc[-MACD_LOOKBACK:]
                 if price_window.empty or macd_window.empty:
                     raise ValueError("Not enough lookback data")
-                price_new_high = adj_close.iat[-1] >= price_window.max() * 0.999
-                macd_new_high = macd_df["macd"].iat[-1] >= macd_window.max() * 0.999
+                price_new_high = series.iloc[-1] >= price_window.max() * 0.999
+                macd_new_high = macd_df["macd"].iloc[-1] >= macd_window.max() * 0.999
                 values[market] = (
-                    price_new_high,
-                    macd_new_high,
-                    float(macd_df["macd"].iat[-1]),
+                    bool(price_new_high),
+                    bool(macd_new_high),
+                    float(macd_df["macd"].iloc[-1]),
                 )
             except Exception as exc:  # pylint: disable=broad-except
                 missing[market] = str(exc)
@@ -61,18 +62,20 @@ class MACDDivergenceIndicator(BaseIndicator):
             note = "MACD evaluation failed for all indices: " + "; ".join(
                 f"{k} ({v})" for k, v in missing.items()
             )
-            return self.build_result(raw_value=None, pure_value=None, status="unavailable", notes=note)
-
-        divergence_detected = any(p and not m for p, m, _ in values.values())
-
-        def _format(entry: Tuple[bool, bool, float]) -> str:
-            price_new, macd_new, macd_value = entry
-            return (
-                f"price_new_high={price_new}; macd_new_high={macd_new}; macd={macd_value:.2f}"
+            return self.build_result(
+                raw_value=None,
+                pure_value=None,
+                status="unavailable",
+                notes=note,
             )
 
+        divergence_detected = any(
+            price_new and not macd_new for price_new, macd_new, _ in values.values()
+        )
+
         raw_value = "; ".join(
-            f"{market}: {_format(data)}" for market, data in values.items()
+            f"{market}: price_new_high={vals[0]}; macd_new_high={vals[1]}; macd={vals[2]:.2f}"
+            for market, vals in values.items()
         )
         note_suffix = ""
         if missing:
@@ -81,7 +84,7 @@ class MACDDivergenceIndicator(BaseIndicator):
         pure_value = [
             {
                 "market": market,
-                "price_new_high": vals[0],
+                "price_new_high": bool(vals[0]),
                 "macd_new_high": bool(vals[1]),
                 "macd": float(vals[2]),
             }

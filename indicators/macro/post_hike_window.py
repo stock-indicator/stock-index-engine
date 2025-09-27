@@ -1,10 +1,13 @@
 from __future__ import annotations
 
-from common.fetchers import MarketDataFetcher
-from indicators.base import BaseIndicator, IndicatorMetadata
+import pandas as pd
+
+from common.models import IndicatorResult
+from indicators.base import IndicatorMetadata
+from indicators.macro.base_fred import FREDIndicator
 
 
-class PostHikeWindowIndicator(BaseIndicator):
+class PostHikeWindowIndicator(FREDIndicator):
     metadata = IndicatorMetadata(
         name="Post-Hike Window",
         category="Macro",
@@ -12,28 +15,41 @@ class PostHikeWindowIndicator(BaseIndicator):
         markets=["US Market"],
         topics=["Macro", "Policy"],
     )
+    required_series = {
+        "fed_funds": "FEDFUNDS",
+    }
 
-    def evaluate(self, fetcher: MarketDataFetcher):
-        fed_funds = fetcher.fetch_fred_series("FEDFUNDS", observation_start="2000-01-01")
-        if fed_funds is None or fed_funds.empty:
+    def compute(self, clean_df, fetcher) -> IndicatorResult:
+        if clean_df.empty or "fed_funds" not in clean_df.columns:
             return self.build_result(
                 raw_value=None,
                 pure_value=None,
                 status="unavailable",
                 notes="FRED series FEDFUNDS unavailable.",
             )
-        fed_funds = fed_funds.dropna()
-        changes = fed_funds.diff()
-        last_hike_dates = changes[changes > 0].index
-        if last_hike_dates.empty:
+        df = clean_df.dropna(subset=["fed_funds"]).copy()
+        if df.empty:
+            return self.build_result(
+                raw_value=None,
+                pure_value=None,
+                status="unavailable",
+                notes="No rate observations available.",
+            )
+        df = df.sort_values("data_start_date")
+        df["fed_funds"] = df["fed_funds"].astype(float)
+        series = df.set_index("data_start_date")["fed_funds"]
+        changes = series.diff()
+        hikes = changes[changes > 0]
+        if hikes.empty:
+            pure_value = [{"metric": "months_since_hike", "value": None}]
             return self.build_result(
                 raw_value="No hikes in sample",
-                pure_value=[{"metric": "months_since_hike", "value": None}],
+                pure_value=pure_value,
                 status="normal",
                 notes="No rate hikes detected in observation window.",
             )
-        last_hike_date = last_hike_dates[-1]
-        current_date = fed_funds.index[-1]
+        last_hike_date = hikes.index[-1]
+        current_date = series.index[-1]
         months_since = (
             (current_date.year - last_hike_date.year) * 12
             + (current_date.month - last_hike_date.month)
@@ -51,4 +67,9 @@ class PostHikeWindowIndicator(BaseIndicator):
             {"metric": "months_since_hike", "value": months_since},
             {"metric": "last_hike_date", "value": last_hike_date.date().isoformat()},
         ]
-        return self.build_result(raw_value=raw_value, pure_value=pure_value, status=status, notes=notes)
+        return self.build_result(
+            raw_value=raw_value,
+            pure_value=pure_value,
+            status=status,
+            notes=notes,
+        )

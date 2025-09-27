@@ -1,10 +1,16 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timedelta
 from pathlib import Path
+from typing import Optional
+
+import pandas as pd
+import requests
 
 from common.fetchers import resource_fetcher
-from indicators.base import BaseIndicator, IndicatorMetadata
+from common.models import IndicatorResult
+from indicators.base import BaseIndicator, IndicatorMetadata, compute_end_date
 
 
 class SmartVsDumbMoneyIndicator(BaseIndicator):
@@ -15,91 +21,106 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
         markets=["US Market"],
         topics=["Sentiment"],
     )
+    default_history_days = 365
 
-    def evaluate(self, fetcher):  # fetcher unused
+    def collect_full(self, fetcher) -> pd.DataFrame:
         path = resource_fetcher.ensure(
             "CNN-Fear-and-Greed-Index-JSON",
             ttl_days=1,
             filename="cnn_fear_greed.json",
         )
-        if path is None or not Path(path).exists():
+        if path is None:
+            return pd.DataFrame()
+        return self._parse_json(Path(path).read_text(encoding="utf-8"))
+
+    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher):
+        return self.collect_full(fetcher)
+
+    def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:
+        if raw.empty:
+            return pd.DataFrame()
+        df = raw.copy()
+        df["data_start_date"] = pd.to_datetime(df["as_of"], errors="coerce")
+        df = df.dropna(subset=["data_start_date", "fear_greed_index"])
+        df = df.sort_values("data_start_date")
+        df["data_end_date"] = compute_end_date(df["data_start_date"].tolist())
+        df = df.rename(columns={"fear_greed_index": "index_value"})
+        return df[["data_start_date", "data_end_date", "index_value", "rating"]]
+
+    def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:
+        if clean_df.empty:
             return self.build_result(
                 raw_value=None,
                 pure_value=None,
                 status="unavailable",
-                notes="Unable to download CNN Fear & Greed index.",
+                notes="CNN Fear & Greed dataset empty.",
             )
-
-        try:
-            data = json.loads(Path(path).read_text(encoding="utf-8"))
-        except Exception as exc:  # pylint: disable=broad-except
-            return self.build_result(
-                raw_value=None,
-                pure_value=None,
-                status="unavailable",
-                notes=f"Failed to parse CNN Fear & Greed JSON: {exc}",
-            )
-
-        if "fear_and_greed" in data:
-            latest_entry = data["fear_and_greed"]
-            latest_value = float(latest_entry.get("score"))
-            latest_date = latest_entry.get("timestamp") or latest_entry.get("date") or "unknown"
-        else:
-            series_list = list(data.get("data", {}).values())
-            if not series_list:
-                return self.build_result(
-                    raw_value=None,
-                    pure_value=None,
-                    status="unavailable",
-                    notes="CNN Fear & Greed JSON missing data series.",
-                )
-
-            primary_series = series_list[0].get("series")
-            if not primary_series:
-                return self.build_result(
-                    raw_value=None,
-                    pure_value=None,
-                    status="unavailable",
-                    notes="CNN Fear & Greed JSON missing primary series.",
-                )
-
-            fear_greed_points = primary_series[0]
-            if not fear_greed_points:
-                return self.build_result(
-                    raw_value=None,
-                    pure_value=None,
-                    status="unavailable",
-                    notes="CNN Fear & Greed primary series empty.",
-                )
-
-            latest_date, latest_value_str = fear_greed_points[-1]
-            try:
-                latest_value = float(latest_value_str)
-            except ValueError:
-                return self.build_result(
-                    raw_value=None,
-                    pure_value=None,
-                    status="unavailable",
-                    notes="CNN Fear & Greed latest observation is not numeric.",
-                )
-
+        latest = clean_df.iloc[-1]
+        latest_value = float(latest["index_value"])
+        latest_date = latest["data_start_date"].isoformat()
         status = "high" if latest_value >= 70 else "normal"
-        raw_value = f"Fear & Greed index: {latest_value:.1f} (as of {latest_date})"
-        pure_value = [
-            {
-                "metric": "fear_greed_index",
-                "value": latest_value,
-                "as_of": latest_date,
-            }
-        ]
         notes = (
             "Dumb money confidence very high (index >= 70)"
             if status == "high"
             else "Fear & Greed index below exuberance threshold"
         )
+        pure_value = [
+            {"metric": "fear_greed_index", "value": latest_value, "as_of": latest_date},
+            {"metric": "rating", "value": latest.get("rating")},
+        ]
         return self.build_result(
-            raw_value=raw_value,
+            raw_value=f"Fear & Greed index: {latest_value:.1f} (as of {latest_date})",
             pure_value=pure_value,
             status=status,
             notes=notes,
         )
+
+    def _parse_json(self, text: str) -> pd.DataFrame:
+        data = json.loads(text)
+        if "fear_and_greed" in data:
+            latest_entry = data["fear_and_greed"]
+            latest_ts = latest_entry.get("timestamp")
+            if latest_ts:
+                latest_dt = datetime.fromisoformat(latest_ts.replace("Z", "+00:00"))
+            else:
+                latest_dt = datetime.utcnow()
+            rows = self._collect_historical(data)
+            rows.append({
+                "as_of": latest_dt,
+                "fear_greed_index": latest_entry.get("score"),
+                "rating": latest_entry.get("rating"),
+            })
+            return pd.DataFrame(rows)
+        if "data" in data:
+            series_list = list(data["data"].values())
+            if not series_list or "series" not in series_list[0]:
+                return pd.DataFrame()
+            primary_series = series_list[0]["series"][0]
+            rows = [
+                {
+                    "as_of": datetime.fromisoformat(date),
+                    "fear_greed_index": float(value),
+                    "rating": None,
+                }
+                for date, value in primary_series
+            ]
+            return pd.DataFrame(rows)
+        return pd.DataFrame()
+
+    def _collect_historical(self, payload: dict) -> List[dict]:
+        rows: List[dict] = []
+        historical = payload.get("fear_and_greed_historical", {})
+        data = historical.get("data", [])
+        for item in data:
+            timestamp_ms = item.get("x")
+            value = item.get("y")
+            rating = item.get("rating")
+            if timestamp_ms is None or value is None:
+                continue
+            dt = datetime.utcfromtimestamp(timestamp_ms / 1000)
+            rows.append({
+                "as_of": dt,
+                "fear_greed_index": float(value),
+                "rating": rating,
+            })
+        return rows

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2025-09-27T07:16:52+00:00",
+  "generated_at": "2025-09-27T17:28:17+00:00",
   "summary": {
     "triggered_total": 3,
-    "total_total": 22,
+    "total_total": 21,
     "triggered_available": 3,
     "total_available": 16,
-    "ratio_total": "3/22",
+    "ratio_total": "3/21",
     "ratio_available": "3/16",
     "by_category": {
       "Technical": {
-        "high": 0,
-        "normal": 5,
+        "high": 1,
+        "normal": 4,
         "unavailable": 0
       },
       "Valuation": {
-        "high": 2,
-        "normal": 1,
+        "high": 1,
+        "normal": 2,
         "unavailable": 3
       },
       "Macro": {
@@ -26,7 +26,7 @@
       "Sentiment": {
         "high": 1,
         "normal": 2,
-        "unavailable": 3
+        "unavailable": 2
       }
     }
   },
@@ -40,17 +40,17 @@
         "Nasdaq 100"
       ],
       "threshold": "> 80",
-      "status": "normal",
+      "status": "high",
       "notes": "14-day RSI using adjusted close prices",
-      "raw_value": "S&P 500: 70.47; Nasdaq 100: 73.04",
+      "raw_value": "Nasdaq 100: 96.38; S&P 500: 68.25",
       "pure_value": [
         {
-          "market": "S&P 500",
-          "value": 70.47108299969722
+          "market": "Nasdaq 100",
+          "value": 96.38366744736344
         },
         {
-          "market": "Nasdaq 100",
-          "value": 73.04022768786373
+          "market": "S&P 500",
+          "value": 68.25487305392514
         }
       ],
       "topics": [
@@ -69,19 +69,19 @@
       "threshold": "Bearish divergence",
       "status": "normal",
       "notes": "Bearish divergence if price makes new high but MACD does not",
-      "raw_value": "S&P 500: price_new_high=False; macd_new_high=False; macd=60.38; Nasdaq 100: price_new_high=False; macd_new_high=False; macd=295.48",
+      "raw_value": "Nasdaq 100: price_new_high=True; macd_new_high=True; macd=564.98; S&P 500: price_new_high=False; macd_new_high=False; macd=62.20",
       "pure_value": [
+        {
+          "market": "Nasdaq 100",
+          "price_new_high": true,
+          "macd_new_high": true,
+          "macd": 564.9822009872005
+        },
         {
           "market": "S&P 500",
           "price_new_high": false,
           "macd_new_high": false,
-          "macd": 60.384902375389174
-        },
-        {
-          "market": "Nasdaq 100",
-          "price_new_high": false,
-          "macd_new_high": false,
-          "macd": 295.4750820125337
+          "macd": 62.20127098489411
         }
       ],
       "topics": [
@@ -99,16 +99,12 @@
       ],
       "threshold": "> 25%",
       "status": "normal",
-      "notes": "Deviation from 200-day moving average",
-      "raw_value": "S&P 500: 10.45%; Nasdaq 100: 13.42%",
+      "notes": "Deviation from 200-day moving average; missing: Nasdaq 100 (Insufficient data for 200DMA)",
+      "raw_value": "S&P 500: 9.86%",
       "pure_value": [
         {
           "market": "S&P 500",
-          "deviation_pct": 10.453802888429674
-        },
-        {
-          "market": "Nasdaq 100",
-          "deviation_pct": 13.419505223558875
+          "deviation_pct": 9.856286498409315
         }
       ],
       "topics": [
@@ -130,7 +126,9 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "annualized_return_pct": 22.687272099993194
+          "annualized_return_pct": 22.68726232097553,
+          "current_price": 24503.84765625,
+          "price_252d_ago": 19972.609375
         }
       ],
       "topics": [
@@ -168,11 +166,12 @@
       "threshold": "> 35",
       "status": "normal",
       "notes": "Source: multpl.com monthly PE table.",
-      "raw_value": "30.76 (as of Sep 26, 2025)",
+      "raw_value": "30.76 (as of 2025-09-26)",
       "pure_value": [
         {
-          "market": "S&P 500",
-          "pe": 30.76
+          "metric": "pe_ratio",
+          "value": 30.76,
+          "as_of": "2025-09-26"
         }
       ],
       "topics": [
@@ -187,13 +186,14 @@
         "S&P 500"
       ],
       "threshold": "< 1.2%",
-      "status": "high",
+      "status": "normal",
       "notes": "Source: multpl.com dividend yield table.",
-      "raw_value": "1.16% (as of Sep 26, 2025)",
+      "raw_value": "1.21% (as of 2025-09-30)",
       "pure_value": [
         {
-          "market": "S&P 500",
-          "dividend_yield_pct": 1.16
+          "metric": "dividend_yield_pct",
+          "value": 1.21,
+          "as_of": "2025-09-30"
         }
       ],
       "topics": [
@@ -211,11 +211,12 @@
       "threshold": "> 35",
       "status": "high",
       "notes": "Source: multpl.com Shiller CAPE table.",
-      "raw_value": "39.84 (as of Sep 26, 2025)",
+      "raw_value": "39.84 (as of 2025-09-26)",
       "pure_value": [
         {
-          "market": "S&P 500",
-          "cape": 39.84
+          "metric": "cape",
+          "value": 39.84,
+          "as_of": "2025-09-26"
         }
       ],
       "topics": [
@@ -236,11 +237,13 @@
       "pure_value": [
         {
           "metric": "10Y_yield_pct",
-          "value": 4.26
+          "value": 4.26,
+          "as_of": "2025-08-01"
         },
         {
           "metric": "CPI_yoy_pct",
-          "value": 2.9392196249335534
+          "value": 2.9392196249335534,
+          "as_of": "2025-08-01"
         }
       ],
       "topics": [
@@ -261,7 +264,8 @@
       "pure_value": [
         {
           "metric": "spread_pct",
-          "value": 0.57
+          "value": 0.57,
+          "as_of": "2025-09-26"
         },
         {
           "metric": "inversion_months",
@@ -281,16 +285,12 @@
       ],
       "threshold": "0-6 months",
       "status": "normal",
-      "notes": "More than 6 months since last rate hike",
-      "raw_value": "Months since last hike: 24 (hike on 2023-08-01)",
+      "notes": "No rate hikes detected in observation window.",
+      "raw_value": "No hikes in sample",
       "pure_value": [
         {
           "metric": "months_since_hike",
-          "value": 24
-        },
-        {
-          "metric": "last_hike_date",
-          "value": "2023-08-01"
+          "value": null
         }
       ],
       "topics": [
@@ -317,11 +317,13 @@
         },
         {
           "metric": "corporate_profits",
-          "value": 3259.405
+          "value": 3259.405,
+          "as_of": "2025-04-01"
         },
         {
           "metric": "gdp",
-          "value": 30485.729
+          "value": 30485.729,
+          "as_of": "2025-04-01"
         }
       ],
       "topics": [
@@ -420,12 +422,16 @@
       "threshold": "> 70",
       "status": "normal",
       "notes": "Fear & Greed index below exuberance threshold",
-      "raw_value": "Fear & Greed index: 52.8 (as of 2025-09-26T23:59:55+00:00)",
+      "raw_value": "Fear & Greed index: 52.8 (as of 2025-09-26T23:59:55)",
       "pure_value": [
         {
           "metric": "fear_greed_index",
           "value": 52.8,
-          "as_of": "2025-09-26T23:59:55+00:00"
+          "as_of": "2025-09-26T23:59:55"
+        },
+        {
+          "metric": "rating",
+          "value": "neutral"
         }
       ],
       "topics": [
@@ -480,21 +486,6 @@
       "pure_value": null,
       "topics": [
         "Valuation"
-      ]
-    },
-    {
-      "name": "Retail Positioning",
-      "category": "Sentiment",
-      "markets": [
-        "US Market"
-      ],
-      "threshold": "> 70%",
-      "status": "unavailable",
-      "notes": "Requires AAII/Vanda or similar feed.",
-      "raw_value": null,
-      "pure_value": null,
-      "topics": [
-        "Sentiment"
       ]
     },
     {

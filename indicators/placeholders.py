@@ -2,7 +2,10 @@ from __future__ import annotations
 
 from typing import List, Optional
 
+import pandas as pd
+
 from indicators.base import BaseIndicator, IndicatorMetadata
+from common.models import IndicatorResult
 
 
 class UnavailableIndicator(BaseIndicator):
@@ -26,7 +29,13 @@ class UnavailableIndicator(BaseIndicator):
         self._notes = notes
         super().__init__()
 
-    def evaluate(self, fetcher):  # fetcher unused
+    def collect_full(self, fetcher) -> pd.DataFrame:  # pragma: no cover - placeholder
+        return pd.DataFrame()
+
+    def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:  # pragma: no cover
+        return pd.DataFrame()
+
+    def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:  # pragma: no cover
         return self.build_result(
             raw_value=None,
             pure_value=None,
@@ -56,13 +65,6 @@ PLACEHOLDER_INDICATORS: List[UnavailableIndicator] = [
         market=["US Market", "S&P 500", "Nasdaq 100"],
         threshold="> 6 S&P / > 10 Nasdaq",
         notes="Quarterly P/S requires S&P Global or Bloomberg API.",
-    ),
-    UnavailableIndicator(
-        name="Retail Positioning",
-        category="Sentiment",
-        market=["US Market"],
-        threshold="> 70%",
-        notes="Requires AAII/Vanda or similar feed.",
     ),
     UnavailableIndicator(
         name="ETF Net Inflows Streak",

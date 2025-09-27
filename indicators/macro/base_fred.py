@@ -1,0 +1,45 @@
+from __future__ import annotations
+
+from datetime import datetime, timedelta
+from typing import Dict
+
+import pandas as pd
+
+from indicators.base import BaseIndicator, compute_end_date
+
+
+class FREDIndicator(BaseIndicator):
+    required_series: Dict[str, str] = {}
+
+    def collect_full(self, fetcher) -> pd.DataFrame:
+        start = datetime.utcnow() - timedelta(days=self.get_history_window_days() + 120)
+        combined = None
+        for alias, series_id in self.required_series.items():
+            series = fetcher.fetch_fred_series(series_id, observation_start=start.strftime("%Y-%m-%d"))
+            if series is None or series.empty:
+                continue
+            series = series.astype(float)
+            df = series.to_frame(name=alias)
+            combined = df if combined is None else combined.join(df, how="outer")
+        if combined is None or combined.empty:
+            return pd.DataFrame()
+        combined = combined.sort_index()
+        combined.index.name = "date"
+        combined = combined.reset_index()
+        return combined
+
+    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher):
+        # 简化：直接重新抓取全集，merge 时会去重
+        return self.collect_full(fetcher)
+
+    def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:
+        if raw.empty:
+            return pd.DataFrame()
+        df = raw.copy()
+        df["data_start_date"] = pd.to_datetime(df["date"], errors="coerce")
+        df = df.dropna(subset=["data_start_date"])
+        df = df.sort_values("data_start_date")
+        end_dates = compute_end_date(df["data_start_date"].tolist())
+        df["data_end_date"] = end_dates
+        df = df.drop(columns=["date"])
+        return df

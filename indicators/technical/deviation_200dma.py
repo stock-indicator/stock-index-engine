@@ -2,13 +2,15 @@ from __future__ import annotations
 
 from typing import Dict
 
+import pandas as pd
+
 from common.config import INDEX_TICKERS, MOVING_AVG_WINDOW
-from common.fetchers import MarketDataFetcher
 from common.utils import summarize_values
-from indicators.base import BaseIndicator, IndicatorMetadata
+from indicators.base import IndicatorMetadata
+from indicators.technical.base_price import PriceSeriesIndicator
 
 
-class Price200DMADeviationIndicator(BaseIndicator):
+class Price200DMADeviationIndicator(PriceSeriesIndicator):
     metadata = IndicatorMetadata(
         name="Price vs 200DMA",
         category="Technical",
@@ -16,19 +18,20 @@ class Price200DMADeviationIndicator(BaseIndicator):
         markets=["US Market", "S&P 500", "Nasdaq 100"],
         topics=["Technical", "Trend"],
     )
+    tickers: Dict[str, str] = INDEX_TICKERS
 
-    def evaluate(self, fetcher: MarketDataFetcher):
+    def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:
+        series_by_market = self.prepare_price_series(clean_df)
         values: Dict[str, float] = {}
         missing: Dict[str, str] = {}
-        for market, ticker in INDEX_TICKERS.items():
+        for market, series in series_by_market.items():
             try:
-                history = fetcher.get_price_history(ticker, period="5y")
-                adj_close = history["Adj Close"].dropna()
-                ma = adj_close.rolling(window=MOVING_AVG_WINDOW).mean()
-                latest_ma = ma.iat[-1]
-                if latest_ma != latest_ma:  # NaN check
+                ma = series.rolling(window=MOVING_AVG_WINDOW).mean()
+                latest_ma = ma.iloc[-1]
+                latest_price = series.iloc[-1]
+                if pd.isna(latest_ma):
                     raise ValueError("Insufficient data for 200DMA")
-                deviation = (adj_close.iat[-1] - latest_ma) / latest_ma * 100
+                deviation = (latest_price - latest_ma) / latest_ma * 100
                 values[market] = float(deviation)
             except Exception as exc:  # pylint: disable=broad-except
                 missing[market] = str(exc)
@@ -37,7 +40,12 @@ class Price200DMADeviationIndicator(BaseIndicator):
             note = "200DMA deviation failed for all indices: " + "; ".join(
                 f"{k} ({v})" for k, v in missing.items()
             )
-            return self.build_result(raw_value=None, pure_value=None, status="unavailable", notes=note)
+            return self.build_result(
+                raw_value=None,
+                pure_value=None,
+                status="unavailable",
+                notes=note,
+            )
 
         status = "high" if any(val > 25 for val in values.values()) else "normal"
         note_suffix = ""
