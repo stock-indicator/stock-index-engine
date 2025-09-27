@@ -17,7 +17,7 @@ class RetailPositioningIndicator(BaseIndicator):
     )
     default_history_days = 365 * 3
 
-    def collect_full(self, fetcher) -> pd.DataFrame:
+    def collect_full(self, fetcher=None) -> pd.DataFrame:
         path = resource_fetcher.ensure(
             "AAII-Sentiment-Survey",
             ttl_days=7,
@@ -27,7 +27,7 @@ class RetailPositioningIndicator(BaseIndicator):
             return pd.DataFrame()
         return pd.read_excel(path, header=3)
 
-    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher):
+    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher=None):
         return self.collect_full(fetcher)
 
     def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:

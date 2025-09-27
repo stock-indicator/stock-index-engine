@@ -17,7 +17,7 @@ class CreditToGDPIndicator(BaseIndicator):
     )
     default_history_days = 365 * 5  # BIS 数据按季度
 
-    def collect_full(self, fetcher) -> pd.DataFrame:
+    def collect_full(self, fetcher=None) -> pd.DataFrame:
         path = resource_fetcher.ensure(
             "BIS-Credit-to-GDP",
             ttl_days=180,
@@ -27,7 +27,7 @@ class CreditToGDPIndicator(BaseIndicator):
             return pd.DataFrame()
         return pd.read_csv(path)
 
-    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher) -> pd.DataFrame:
+    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher=None) -> pd.DataFrame:
         return self.collect_full(fetcher)
 
     def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:

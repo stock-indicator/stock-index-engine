@@ -9,9 +9,13 @@ import numpy as np
 from common.api_keys import load_api_keys
 from common.config import OUTPUT_DIR
 from common.fetchers import MarketDataFetcher
+from common.logger import get_logger
 from common.models import IndicatorResult
 from common.utils import sanitize_column_name
 from indicators import ALL_INDICATORS
+
+
+logger = get_logger("runner")
 
 
 def _sanitize_for_json(obj):
@@ -91,15 +95,24 @@ def update_csv(results: List[IndicatorResult], summary: Dict[str, object]) -> No
 
 
 def main() -> None:
+    logger.info("Starting market indicator evaluation for %d indicators", len(ALL_INDICATORS))
     load_api_keys()
+    logger.debug("API keys loaded")
     fetcher = MarketDataFetcher()
+    logger.debug("MarketDataFetcher initialized")
 
     results: List[IndicatorResult] = []
     for indicator in ALL_INDICATORS:
+        meta = indicator.metadata
+        logger.info(
+            "Evaluating indicator '%s' (%s)",
+            meta.name,
+            indicator.__class__.__name__,
+        )
         try:
             result = indicator.evaluate(fetcher)
         except Exception as exc:  # pylint: disable=broad-except
-            meta = indicator.metadata
+            logger.exception("Indicator '%s' failed: %s", meta.name, exc)
             results.append(
                 IndicatorResult(
                     name=meta.name,
@@ -115,13 +128,33 @@ def main() -> None:
             )
             continue
         if isinstance(result, list):
+            for item in result:
+                logger.info(
+                    "Indicator '%s' completed with status=%s",
+                    item.name,
+                    item.status,
+                )
             results.extend(result)
         else:
+            logger.info(
+                "Indicator '%s' completed with status=%s",
+                result.name,
+                result.status,
+            )
             results.append(result)
 
     summary = build_summary(results)
+    logger.info(
+        "Summary: total=%s triggered=%s available_total=%s available_triggered=%s",
+        summary["total_total"],
+        summary["triggered_total"],
+        summary["total_available"],
+        summary["triggered_available"],
+    )
     write_json(results, summary)
+    logger.info("JSON written to %s", OUTPUT_DIR / "market_status.latest.json")
     update_csv(results, summary)
+    logger.info("CSV updated at %s", OUTPUT_DIR / "market_indicator_log.csv")
 
     print(f"JSON written to {OUTPUT_DIR / 'market_status.latest.json'}")
     print(f"CSV updated at {OUTPUT_DIR / 'market_indicator_log.csv'}")
@@ -136,5 +169,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as exc:  # pragma: no cover
+        logger.exception("Market indicator run failed: %s", exc)
+        raise
 

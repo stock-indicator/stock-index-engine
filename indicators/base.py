@@ -10,6 +10,8 @@ from typing import Any, Dict, List, Optional, Union
 import numpy as np
 import pandas as pd
 
+from common.db import upsert_indicator_dataframe
+from common.logger import get_logger
 from common.models import IndicatorResult
 from common.settings import settings
 
@@ -40,6 +42,7 @@ class BaseIndicator(ABC):
         if not hasattr(self, "metadata"):
             raise ValueError("Indicator subclasses must define 'metadata'.")
         self.metadata = self.metadata  # type: ignore[assignment]
+        self.logger = get_logger(f"indicator.{self.slug}")
 
     # ------------------------------------------------------------------
     # Paths & identifiers
@@ -73,8 +76,10 @@ class BaseIndicator(ABC):
     # Core lifecycle
     # ------------------------------------------------------------------
     def ensure_data(self, fetcher: Any) -> pd.DataFrame:
+        self.logger.debug("Ensuring data availability")
         clean_df = self.load_clean_data()
         if clean_df is None:
+            self.logger.info("No existing clean data. Collecting full history.")
             raw_full = self.collect_full(fetcher)
             self._store_raw_snapshot(raw_full, tag="full")
             clean_df = self.clean_data(raw_full)
@@ -82,10 +87,15 @@ class BaseIndicator(ABC):
         else:
             raw_incremental = self.collect_incremental(clean_df, fetcher)
             if raw_incremental is not None:
+                self.logger.info("Collected incremental dataset")
                 self._store_raw_snapshot(raw_incremental, tag="incremental")
                 clean_incremental = self.clean_data(raw_incremental)
                 clean_df = self.merge_clean_data(clean_df, clean_incremental)
                 self.store_clean_data(clean_df)
+            else:
+                self.logger.debug("No incremental updates available")
+        self.ingest_dataframe(clean_df)
+        self.logger.debug("Clean data ready with %d rows", 0 if clean_df is None else len(clean_df))
         return clean_df
 
     def evaluate(self, fetcher: Any) -> IndicatorResult:
@@ -138,6 +148,14 @@ class BaseIndicator(ABC):
             topics=topics if topics is not None else meta.topics,
         )
 
+    def ingest_dataframe(self, df: Optional[pd.DataFrame]) -> None:
+        if df is None or df.empty:
+            return
+        try:
+            upsert_indicator_dataframe(self.slug, df)
+        except Exception as exc:  # pragma: no cover
+            print(f"[DB] ingestion failed for {self.slug}: {exc}")
+
     def merge_clean_data(self, existing: pd.DataFrame, new: pd.DataFrame) -> pd.DataFrame:
         combined = pd.concat([existing, new], ignore_index=True)
         combined = combined.drop_duplicates(subset="data_start_date", keep="last")
@@ -157,13 +175,16 @@ class BaseIndicator(ABC):
             if column in df_to_store.columns:
                 df_to_store[column] = pd.to_datetime(df_to_store[column]).dt.strftime("%Y-%m-%d")
         df_to_store.to_csv(self.clean_storage_path, index=False, encoding="utf-8")
+        self.logger.debug("Stored clean data to %s", self.clean_storage_path)
 
     def load_clean_data(self) -> Optional[pd.DataFrame]:
         if not self.clean_storage_path.exists():
+            self.logger.debug("Clean data file not found at %s", self.clean_storage_path)
             return None
         try:
             df = pd.read_csv(self.clean_storage_path)
         except pd.errors.EmptyDataError:
+            self.logger.warning("Clean data file empty at %s", self.clean_storage_path)
             return None
         if df.empty:
             return None
@@ -177,12 +198,15 @@ class BaseIndicator(ABC):
         if isinstance(data, pd.DataFrame):
             path = self.raw_storage_dir / f"{tag}_{timestamp}.csv"
             data.to_csv(path, index=False)
+            self.logger.debug("Saved raw CSV snapshot to %s", path)
         elif isinstance(data, (list, dict)):
             path = self.raw_storage_dir / f"{tag}_{timestamp}.json"
             path.write_text(json.dumps(data, default=self._json_default), encoding="utf-8")
+            self.logger.debug("Saved raw JSON snapshot to %s", path)
         else:
             path = self.raw_storage_dir / f"{tag}_{timestamp}.txt"
             path.write_text(str(data), encoding="utf-8")
+            self.logger.debug("Saved raw text snapshot to %s", path)
 
     # ------------------------------------------------------------------
     # Optional database hook (placeholder)

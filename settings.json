@@ -1,0 +1,13 @@
+{
+    "psql.connections": [
+        {
+            "name": "Financial1",
+            "host": "140.238.215.228",
+            "port": 5432,
+            "database": "financialdb",
+            "user": "ljyou001",
+            "password": "@vault:psql.Financial1.password"
+        }
+    ]
+}
+

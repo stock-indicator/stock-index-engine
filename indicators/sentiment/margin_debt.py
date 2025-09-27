@@ -17,7 +17,7 @@ class MarginDebtIndicator(BaseIndicator):
     )
     default_history_days = 365 * 5
 
-    def collect_full(self, fetcher) -> pd.DataFrame:
+    def collect_full(self, fetcher=None) -> pd.DataFrame:
         df = fetch_finra_margin_table(ttl_days=90)
         return df if df is not None else pd.DataFrame()
 
@@ -49,7 +49,7 @@ class MarginDebtIndicator(BaseIndicator):
             "margin_credit",
         ]]
 
-    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher):
+    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher=None):
         return self.collect_full(fetcher)
 
     def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:

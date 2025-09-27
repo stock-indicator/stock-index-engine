@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-09-27T17:28:17+00:00",
+  "generated_at": "2025-09-27T19:08:03+00:00",
   "summary": {
     "triggered_total": 3,
-    "total_total": 21,
+    "total_total": 24,
     "triggered_available": 3,
-    "total_available": 16,
-    "ratio_total": "3/21",
-    "ratio_available": "3/16",
+    "total_available": 19,
+    "ratio_total": "3/24",
+    "ratio_available": "3/19",
     "by_category": {
       "Technical": {
         "high": 1,
@@ -15,7 +15,7 @@
       },
       "Valuation": {
         "high": 1,
-        "normal": 2,
+        "normal": 4,
         "unavailable": 3
       },
       "Macro": {
@@ -25,7 +25,7 @@
       },
       "Sentiment": {
         "high": 1,
-        "normal": 2,
+        "normal": 3,
         "unavailable": 2
       }
     }
@@ -225,6 +225,50 @@
       ]
     },
     {
+      "name": "Price-to-Book",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "S&P 500"
+      ],
+      "threshold": "> 6",
+      "status": "normal",
+      "notes": "Source: multpl.com price-to-book table.",
+      "raw_value": "5.57 (as of 2025-09-26)",
+      "pure_value": [
+        {
+          "metric": "price_to_book",
+          "value": 5.57,
+          "as_of": "2025-09-26"
+        }
+      ],
+      "topics": [
+        "Valuation"
+      ]
+    },
+    {
+      "name": "Price-to-Sales",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "S&P 500"
+      ],
+      "threshold": "> 6",
+      "status": "normal",
+      "notes": "Source: multpl.com price-to-sales table.",
+      "raw_value": "3.35 (as of 2025-09-26)",
+      "pure_value": [
+        {
+          "metric": "price_to_sales",
+          "value": 3.35,
+          "as_of": "2025-09-26"
+        }
+      ],
+      "topics": [
+        "Valuation"
+      ]
+    },
+    {
       "name": "10Y Yield vs CPI",
       "category": "Macro",
       "markets": [
@@ -411,6 +455,33 @@
       "topics": [
         "Sentiment",
         "AAII"
+      ]
+    },
+    {
+      "name": "ETF Net Inflows Streak",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "> 20",
+      "status": "normal",
+      "notes": "ETF inflow streak below 20-day threshold",
+      "raw_value": "QQQ: streak=0 days; SPY: streak=3 days",
+      "pure_value": [
+        {
+          "ticker": "QQQ",
+          "consecutive_inflow_days": 0,
+          "latest_flow_musd": -29.68
+        },
+        {
+          "ticker": "SPY",
+          "consecutive_inflow_days": 3,
+          "latest_flow_musd": 1052.61
+        }
+      ],
+      "topics": [
+        "Sentiment",
+        "ETF"
       ]
     },
     {

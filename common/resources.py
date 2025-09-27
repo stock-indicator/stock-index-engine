@@ -8,9 +8,13 @@ from typing import Dict, Optional
 import requests
 
 from .config import HTTP_HEADERS
+from .logger import get_logger
 
 RESOURCE_BASE_DIR = Path("resources/files")
 DOWNLOAD_CONFIG = Path("resources/download_url.conf")
+
+
+LOGGER = get_logger("resources")
 
 
 class ResourceFetcher:
@@ -24,11 +28,18 @@ class ResourceFetcher:
         self.base_dir = base_dir
         self.base_dir.mkdir(parents=True, exist_ok=True)
         self.config_path = config_path
+        self.logger = LOGGER.getChild("fetcher")
+        self.logger.debug(
+            "Initializing ResourceFetcher (base_dir=%s, config_path=%s)",
+            self.base_dir,
+            self.config_path,
+        )
         self._urls = self._load_urls()
 
     def _load_urls(self) -> Dict[str, str]:
         urls: Dict[str, str] = {}
         if not self.config_path.exists():
+            self.logger.debug("Resource config not found at %s", self.config_path)
             return urls
 
         pattern = re.compile(r"^([^#=]+)\s*=\s*\"(.+?)\"\s*$")
@@ -37,6 +48,7 @@ class ResourceFetcher:
             if match:
                 key, value = match.groups()
                 urls[key.strip()] = value.strip()
+        self.logger.debug("Loaded %d resource URLs", len(urls))
         return urls
 
     def get_url(self, key: str) -> Optional[str]:
@@ -77,8 +89,15 @@ class ResourceFetcher:
         ttl_days: Optional[int] = None,
         filename: Optional[str] = None,
     ) -> Optional[Path]:
+        self.logger.debug(
+            "Ensuring resource %s (ttl_days=%s, filename=%s)",
+            key,
+            ttl_days,
+            filename,
+        )
         url = self.get_url(key)
         if not url:
+            self.logger.warning("No URL configured for resource %s", key)
             return None
 
         folder = self.base_dir / key
@@ -90,8 +109,15 @@ class ResourceFetcher:
         if ttl_days is not None and latest is not None:
             age = dt.datetime.utcnow() - dt.datetime.utcfromtimestamp(latest.stat().st_mtime)
             if age <= dt.timedelta(days=ttl_days):
+                self.logger.info(
+                    "Using cached resource %s at %s (age=%s)",
+                    key,
+                    latest,
+                    age,
+                )
                 return latest
         elif ttl_days is None and latest is not None:
+            self.logger.info("Using cached resource %s at %s", key, latest)
             return latest
 
         timestamp = dt.datetime.utcnow().strftime("%Y%m%d")
@@ -100,13 +126,18 @@ class ResourceFetcher:
         target = folder / dated_filename
 
         if target.exists():
+            self.logger.info("Reusing existing download for resource %s at %s", key, target)
             return target
 
         try:
             response = requests.get(url, timeout=30, headers=HTTP_HEADERS)
             response.raise_for_status()
-        except requests.RequestException:
+        except requests.RequestException as exc:
+            self.logger.warning("Failed to download resource %s: %s", key, exc)
+            if latest is not None:
+                self.logger.info("Falling back to cached resource %s at %s", key, latest)
             return latest if latest is not None else None
 
         target.write_bytes(response.content)
+        self.logger.info("Downloaded resource %s to %s", key, target)
         return target

@@ -23,7 +23,7 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
     )
     default_history_days = 365
 
-    def collect_full(self, fetcher) -> pd.DataFrame:
+    def collect_full(self, fetcher=None) -> pd.DataFrame:
         path = resource_fetcher.ensure(
             "CNN-Fear-and-Greed-Index-JSON",
             ttl_days=1,
@@ -33,7 +33,7 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
             return pd.DataFrame()
         return self._parse_json(Path(path).read_text(encoding="utf-8"))
 
-    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher):
+    def collect_incremental(self, existing_clean: pd.DataFrame, fetcher=None):
         return self.collect_full(fetcher)
 
     def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:
