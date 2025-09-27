@@ -1,0 +1,531 @@
+{
+  "generated_at": "2025-09-27T07:16:52+00:00",
+  "summary": {
+    "triggered_total": 3,
+    "total_total": 22,
+    "triggered_available": 3,
+    "total_available": 16,
+    "ratio_total": "3/22",
+    "ratio_available": "3/16",
+    "by_category": {
+      "Technical": {
+        "high": 0,
+        "normal": 5,
+        "unavailable": 0
+      },
+      "Valuation": {
+        "high": 2,
+        "normal": 1,
+        "unavailable": 3
+      },
+      "Macro": {
+        "high": 0,
+        "normal": 5,
+        "unavailable": 0
+      },
+      "Sentiment": {
+        "high": 1,
+        "normal": 2,
+        "unavailable": 3
+      }
+    }
+  },
+  "indicators": [
+    {
+      "name": "RSI 14",
+      "category": "Technical",
+      "markets": [
+        "US Market",
+        "S&P 500",
+        "Nasdaq 100"
+      ],
+      "threshold": "> 80",
+      "status": "normal",
+      "notes": "14-day RSI using adjusted close prices",
+      "raw_value": "S&P 500: 70.47; Nasdaq 100: 73.04",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "value": 70.47108299969722
+        },
+        {
+          "market": "Nasdaq 100",
+          "value": 73.04022768786373
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Momentum"
+      ]
+    },
+    {
+      "name": "MACD Divergence",
+      "category": "Technical",
+      "markets": [
+        "US Market",
+        "S&P 500",
+        "Nasdaq 100"
+      ],
+      "threshold": "Bearish divergence",
+      "status": "normal",
+      "notes": "Bearish divergence if price makes new high but MACD does not",
+      "raw_value": "S&P 500: price_new_high=False; macd_new_high=False; macd=60.38; Nasdaq 100: price_new_high=False; macd_new_high=False; macd=295.48",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "price_new_high": false,
+          "macd_new_high": false,
+          "macd": 60.384902375389174
+        },
+        {
+          "market": "Nasdaq 100",
+          "price_new_high": false,
+          "macd_new_high": false,
+          "macd": 295.4750820125337
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Trend"
+      ]
+    },
+    {
+      "name": "Price vs 200DMA",
+      "category": "Technical",
+      "markets": [
+        "US Market",
+        "S&P 500",
+        "Nasdaq 100"
+      ],
+      "threshold": "> 25%",
+      "status": "normal",
+      "notes": "Deviation from 200-day moving average",
+      "raw_value": "S&P 500: 10.45%; Nasdaq 100: 13.42%",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "deviation_pct": 10.453802888429674
+        },
+        {
+          "market": "Nasdaq 100",
+          "deviation_pct": 13.419505223558875
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Trend"
+      ]
+    },
+    {
+      "name": "12M Annualized Return",
+      "category": "Technical",
+      "markets": [
+        "US Market",
+        "Nasdaq 100"
+      ],
+      "threshold": "> 40%",
+      "status": "normal",
+      "notes": "Trailing 252-trading-day return computed from adjusted close.",
+      "raw_value": "22.69%",
+      "pure_value": [
+        {
+          "market": "Nasdaq 100",
+          "annualized_return_pct": 22.687272099993194
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Momentum"
+      ]
+    },
+    {
+      "name": "VIX Level",
+      "category": "Technical",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "< 10",
+      "status": "normal",
+      "notes": "Low VIX signals complacency",
+      "raw_value": "15.29",
+      "pure_value": [
+        {
+          "market": "US Market",
+          "vix": 15.289999961853027
+        }
+      ],
+      "topics": [
+        "Volatility"
+      ]
+    },
+    {
+      "name": "Index PE",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "S&P 500"
+      ],
+      "threshold": "> 35",
+      "status": "normal",
+      "notes": "Source: multpl.com monthly PE table.",
+      "raw_value": "30.76 (as of Sep 26, 2025)",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "pe": 30.76
+        }
+      ],
+      "topics": [
+        "Valuation"
+      ]
+    },
+    {
+      "name": "Dividend Yield",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "S&P 500"
+      ],
+      "threshold": "< 1.2%",
+      "status": "high",
+      "notes": "Source: multpl.com dividend yield table.",
+      "raw_value": "1.16% (as of Sep 26, 2025)",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "dividend_yield_pct": 1.16
+        }
+      ],
+      "topics": [
+        "Valuation",
+        "Income"
+      ]
+    },
+    {
+      "name": "CAPE Ratio",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "S&P 500"
+      ],
+      "threshold": "> 35",
+      "status": "high",
+      "notes": "Source: multpl.com Shiller CAPE table.",
+      "raw_value": "39.84 (as of Sep 26, 2025)",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "cape": 39.84
+        }
+      ],
+      "topics": [
+        "Valuation",
+        "Cycles"
+      ]
+    },
+    {
+      "name": "10Y Yield vs CPI",
+      "category": "Macro",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "10Y < CPI",
+      "status": "normal",
+      "notes": "10Y yield above CPI YoY",
+      "raw_value": "Yield: 4.26% (2025-08-01); CPI YoY: 2.94% (2025-08-01)",
+      "pure_value": [
+        {
+          "metric": "10Y_yield_pct",
+          "value": 4.26
+        },
+        {
+          "metric": "CPI_yoy_pct",
+          "value": 2.9392196249335534
+        }
+      ],
+      "topics": [
+        "Macro",
+        "Rates"
+      ]
+    },
+    {
+      "name": "Yield Curve Duration",
+      "category": "Macro",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "> 12 months",
+      "status": "normal",
+      "notes": "Yield curve not inverted currently.",
+      "raw_value": "Spread 0.57% (as of 2025-09-26)",
+      "pure_value": [
+        {
+          "metric": "spread_pct",
+          "value": 0.57
+        },
+        {
+          "metric": "inversion_months",
+          "value": 0.0
+        }
+      ],
+      "topics": [
+        "Macro",
+        "Yield Curve"
+      ]
+    },
+    {
+      "name": "Post-Hike Window",
+      "category": "Macro",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "0-6 months",
+      "status": "normal",
+      "notes": "More than 6 months since last rate hike",
+      "raw_value": "Months since last hike: 24 (hike on 2023-08-01)",
+      "pure_value": [
+        {
+          "metric": "months_since_hike",
+          "value": 24
+        },
+        {
+          "metric": "last_hike_date",
+          "value": "2023-08-01"
+        }
+      ],
+      "topics": [
+        "Macro",
+        "Policy"
+      ]
+    },
+    {
+      "name": "Corporate Profits vs GDP",
+      "category": "Macro",
+      "markets": [
+        "US Market",
+        "US Economy"
+      ],
+      "threshold": "> 12%",
+      "status": "normal",
+      "notes": "Corporate profit share below threshold",
+      "raw_value": "Corporate profits/GDP: 10.69% (profits=3,259, GDP=30,486)",
+      "pure_value": [
+        {
+          "metric": "corporate_profit_share_pct",
+          "value": 10.691576376605592,
+          "as_of": "2025-04-01"
+        },
+        {
+          "metric": "corporate_profits",
+          "value": 3259.405
+        },
+        {
+          "metric": "gdp",
+          "value": 30485.729
+        }
+      ],
+      "topics": [
+        "Macro",
+        "Profits"
+      ]
+    },
+    {
+      "name": "Credit-to-GDP",
+      "category": "Macro",
+      "markets": [
+        "US Market",
+        "US Economy"
+      ],
+      "threshold": "> 350%",
+      "status": "normal",
+      "notes": "Credit-to-GDP below threshold",
+      "raw_value": "US credit-to-GDP ratio: 154.7% (as of 2025-01-01)",
+      "pure_value": [
+        {
+          "metric": "credit_to_gdp_pct",
+          "value": 154.7,
+          "as_of": "2025-01-01"
+        }
+      ],
+      "topics": [
+        "Macro",
+        "Leverage"
+      ]
+    },
+    {
+      "name": "Margin Debt",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "New high",
+      "status": "high",
+      "notes": "Latest margin debt at record high",
+      "raw_value": "1,059,723 (latest: 2025-08-01); peak: 1,059,723 (as of 2025-08-01)",
+      "pure_value": [
+        {
+          "metric": "latest_margin_debt",
+          "value": 1059723.0,
+          "as_of": "2025-08-01"
+        },
+        {
+          "metric": "peak_margin_debt",
+          "value": 1059723.0,
+          "as_of": "2025-08-01"
+        }
+      ],
+      "topics": [
+        "Sentiment",
+        "Leverage"
+      ]
+    },
+    {
+      "name": "Retail Positioning",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "> 70%",
+      "status": "normal",
+      "notes": "Retail bullish sentiment below 70% threshold",
+      "raw_value": "AAII bullish: 41.7% (as of 2025-09-25)",
+      "pure_value": [
+        {
+          "metric": "bullish_pct",
+          "value": 41.726600000000005,
+          "as_of": "2025-09-25"
+        },
+        {
+          "metric": "neutral_pct",
+          "value": 19.064700000000002,
+          "as_of": "2025-09-25"
+        },
+        {
+          "metric": "bearish_pct",
+          "value": 39.2086,
+          "as_of": "2025-09-25"
+        }
+      ],
+      "topics": [
+        "Sentiment",
+        "AAII"
+      ]
+    },
+    {
+      "name": "Smart vs Dumb Money",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "> 70",
+      "status": "normal",
+      "notes": "Fear & Greed index below exuberance threshold",
+      "raw_value": "Fear & Greed index: 52.8 (as of 2025-09-26T23:59:55+00:00)",
+      "pure_value": [
+        {
+          "metric": "fear_greed_index",
+          "value": 52.8,
+          "as_of": "2025-09-26T23:59:55+00:00"
+        }
+      ],
+      "topics": [
+        "Sentiment"
+      ]
+    },
+    {
+      "name": "Index PE",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "Nasdaq 100"
+      ],
+      "threshold": "> 35",
+      "status": "unavailable",
+      "notes": "Requires Nasdaq 100 fundamentals (configure data feed).",
+      "raw_value": null,
+      "pure_value": null,
+      "topics": [
+        "Valuation"
+      ]
+    },
+    {
+      "name": "Price-to-Book",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "S&P 500",
+        "Nasdaq 100"
+      ],
+      "threshold": "> 6-7 S&P / > 9 Nasdaq",
+      "status": "unavailable",
+      "notes": "PB ratios need aggregated fundamentals data feed.",
+      "raw_value": null,
+      "pure_value": null,
+      "topics": [
+        "Valuation"
+      ]
+    },
+    {
+      "name": "Price-to-Sales",
+      "category": "Valuation",
+      "markets": [
+        "US Market",
+        "S&P 500",
+        "Nasdaq 100"
+      ],
+      "threshold": "> 6 S&P / > 10 Nasdaq",
+      "status": "unavailable",
+      "notes": "Quarterly P/S requires S&P Global or Bloomberg API.",
+      "raw_value": null,
+      "pure_value": null,
+      "topics": [
+        "Valuation"
+      ]
+    },
+    {
+      "name": "Retail Positioning",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "> 70%",
+      "status": "unavailable",
+      "notes": "Requires AAII/Vanda or similar feed.",
+      "raw_value": null,
+      "pure_value": null,
+      "topics": [
+        "Sentiment"
+      ]
+    },
+    {
+      "name": "ETF Net Inflows Streak",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "> 20 days",
+      "status": "unavailable",
+      "notes": "ETF flow data (e.g., QQQ/SPY) not yet scripted.",
+      "raw_value": null,
+      "pure_value": null,
+      "topics": [
+        "Sentiment"
+      ]
+    },
+    {
+      "name": "IPO Activity",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "Frothy",
+      "status": "unavailable",
+      "notes": "Requires NASDAQ or Renaissance Capital dataset.",
+      "raw_value": null,
+      "pure_value": null,
+      "topics": [
+        "Sentiment"
+      ]
+    }
+  ]
+}
