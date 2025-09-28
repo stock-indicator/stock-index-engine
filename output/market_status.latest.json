@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-27T19:33:29+00:00",
+  "generated_at": "2025-09-28T09:03:58+00:00",
   "summary": {
     "triggered_total": 4,
     "total_total": 20,
@@ -493,7 +493,7 @@
       "threshold": "Frothy",
       "status": "high",
       "notes": "IPO market running hot; 12M IPO count 201 >= 200",
-      "raw_value": "Trailing 12M IPOs (2024-10-01 to 2025-09-01): 201; 2024 IPOs: 150 ($29.6B); 2025 YTD IPOs: 157",
+      "raw_value": "Trailing 12M IPOs (2024-10-01 to 2025-09-01): 201; 2023 IPOs: 109 ($19.5B)",
       "pure_value": [
         {
           "metric": "trailing_12m_ipo_count",
@@ -504,14 +504,9 @@
         },
         {
           "metric": "last_full_year_ipo_count",
-          "value": 150,
-          "year": "2024",
-          "proceeds_billion": 29.6
-        },
-        {
-          "metric": "current_year_ipo_count",
-          "value": 157,
-          "year": 2025
+          "value": 109,
+          "year": "2023",
+          "proceeds_billion": 19.5
         }
       ],
       "topics": [
