@@ -1,12 +1,12 @@
 {
-  "generated_at": "2025-09-27T19:08:03+00:00",
+  "generated_at": "2025-09-27T19:33:29+00:00",
   "summary": {
-    "triggered_total": 3,
-    "total_total": 24,
-    "triggered_available": 3,
-    "total_available": 19,
-    "ratio_total": "3/24",
-    "ratio_available": "3/19",
+    "triggered_total": 4,
+    "total_total": 20,
+    "triggered_available": 4,
+    "total_available": 20,
+    "ratio_total": "4/20",
+    "ratio_available": "4/20",
     "by_category": {
       "Technical": {
         "high": 1,
@@ -16,7 +16,7 @@
       "Valuation": {
         "high": 1,
         "normal": 4,
-        "unavailable": 3
+        "unavailable": 0
       },
       "Macro": {
         "high": 0,
@@ -24,9 +24,9 @@
         "unavailable": 0
       },
       "Sentiment": {
-        "high": 1,
+        "high": 2,
         "normal": 3,
-        "unavailable": 2
+        "unavailable": 0
       }
     }
   },
@@ -485,6 +485,41 @@
       ]
     },
     {
+      "name": "IPO Activity",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": "Frothy",
+      "status": "high",
+      "notes": "IPO market running hot; 12M IPO count 201 >= 200",
+      "raw_value": "Trailing 12M IPOs (2024-10-01 to 2025-09-01): 201; 2024 IPOs: 150 ($29.6B); 2025 YTD IPOs: 157",
+      "pure_value": [
+        {
+          "metric": "trailing_12m_ipo_count",
+          "value": 201,
+          "window_start": "2024-10-01",
+          "window_end": "2025-09-01",
+          "as_of": "2025-09-27"
+        },
+        {
+          "metric": "last_full_year_ipo_count",
+          "value": 150,
+          "year": "2024",
+          "proceeds_billion": 29.6
+        },
+        {
+          "metric": "current_year_ipo_count",
+          "value": 157,
+          "year": 2025
+        }
+      ],
+      "topics": [
+        "Sentiment",
+        "IPO"
+      ]
+    },
+    {
       "name": "Smart vs Dumb Money",
       "category": "Sentiment",
       "markets": [
@@ -505,86 +540,6 @@
           "value": "neutral"
         }
       ],
-      "topics": [
-        "Sentiment"
-      ]
-    },
-    {
-      "name": "Index PE",
-      "category": "Valuation",
-      "markets": [
-        "US Market",
-        "Nasdaq 100"
-      ],
-      "threshold": "> 35",
-      "status": "unavailable",
-      "notes": "Requires Nasdaq 100 fundamentals (configure data feed).",
-      "raw_value": null,
-      "pure_value": null,
-      "topics": [
-        "Valuation"
-      ]
-    },
-    {
-      "name": "Price-to-Book",
-      "category": "Valuation",
-      "markets": [
-        "US Market",
-        "S&P 500",
-        "Nasdaq 100"
-      ],
-      "threshold": "> 6-7 S&P / > 9 Nasdaq",
-      "status": "unavailable",
-      "notes": "PB ratios need aggregated fundamentals data feed.",
-      "raw_value": null,
-      "pure_value": null,
-      "topics": [
-        "Valuation"
-      ]
-    },
-    {
-      "name": "Price-to-Sales",
-      "category": "Valuation",
-      "markets": [
-        "US Market",
-        "S&P 500",
-        "Nasdaq 100"
-      ],
-      "threshold": "> 6 S&P / > 10 Nasdaq",
-      "status": "unavailable",
-      "notes": "Quarterly P/S requires S&P Global or Bloomberg API.",
-      "raw_value": null,
-      "pure_value": null,
-      "topics": [
-        "Valuation"
-      ]
-    },
-    {
-      "name": "ETF Net Inflows Streak",
-      "category": "Sentiment",
-      "markets": [
-        "US Market"
-      ],
-      "threshold": "> 20 days",
-      "status": "unavailable",
-      "notes": "ETF flow data (e.g., QQQ/SPY) not yet scripted.",
-      "raw_value": null,
-      "pure_value": null,
-      "topics": [
-        "Sentiment"
-      ]
-    },
-    {
-      "name": "IPO Activity",
-      "category": "Sentiment",
-      "markets": [
-        "US Market"
-      ],
-      "threshold": "Frothy",
-      "status": "unavailable",
-      "notes": "Requires NASDAQ or Renaissance Capital dataset.",
-      "raw_value": null,
-      "pure_value": null,
       "topics": [
         "Sentiment"
       ]

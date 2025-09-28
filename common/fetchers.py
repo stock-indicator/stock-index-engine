@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import json
 import os
 import re
-from typing import Dict, Optional, Tuple
+from datetime import datetime
+from typing import Dict, List, Optional, Tuple
 
 import pandas as pd
 import requests
@@ -20,6 +22,7 @@ LOGGER = get_logger("fetchers")
 FRED_LOGGER = LOGGER.getChild("fred")
 MULTPL_LOGGER = LOGGER.getChild("multpl")
 FINRA_LOGGER = LOGGER.getChild("finra")
+IPO_LOGGER = LOGGER.getChild("ipo")
 
 
 class MarketDataFetcher:
@@ -185,3 +188,151 @@ def fetch_finra_margin_table(ttl_days: int = 60) -> Optional[pd.DataFrame]:
         len(df.columns),
     )
     return df
+
+def fetch_renaissance_ipo_stats(ttl_days: int = 1) -> Optional[Dict[str, object]]:
+    """Download annual and monthly IPO statistics from Renaissance Capital."""
+
+    IPO_LOGGER.info("Ensuring Renaissance Capital IPO stats (ttl_days=%s)", ttl_days)
+    path = resource_fetcher.ensure(
+        "RENAISSANCE-CAPITAL-IPO-REPORT-WEBPAGE",
+        ttl_days=ttl_days,
+        filename="ipo_stats.html",
+    )
+    if path is None or not path.exists():
+        IPO_LOGGER.warning("IPO stats HTML unavailable after ensure()")
+        return None
+
+    try:
+        html = path.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        html = path.read_text(encoding="utf-8", errors="ignore")
+
+    pattern = re.compile(r"var\s+ChartOptions\s*=\s*(\{.*?\});", re.S)
+    matches = pattern.findall(html)
+    if not matches:
+        IPO_LOGGER.warning("No ChartOptions definitions found in IPO stats HTML")
+        return None
+
+    charts: List[Dict[str, object]] = []
+    for snippet in matches:
+        try:
+            charts.append(json.loads(snippet))
+        except json.JSONDecodeError as exc:
+            IPO_LOGGER.warning("Failed to decode ChartOptions JSON: %s", exc)
+
+    if not charts:
+        IPO_LOGGER.warning("Unable to decode any ChartOptions payloads for IPO stats")
+        return None
+
+    def parse_as_of(text: str) -> Optional[datetime]:
+        if not text:
+            return None
+        match = re.search(r"as of (\d{2}/\d{2}/\d{4})", text)
+        if match:
+            try:
+                return datetime.strptime(match.group(1), "%m/%d/%Y")
+            except ValueError:
+                return None
+        return None
+
+    as_of_dt: Optional[datetime] = None
+    annual_records: List[Dict[str, object]] = []
+    monthly_records: List[Dict[str, object]] = []
+
+    for options in charts:
+        render_to = (options.get("chart") or {}).get("renderTo", "")
+        credits_text = (options.get("credits") or {}).get("text", "")
+        if as_of_dt is None:
+            as_of_dt = parse_as_of(credits_text)
+
+        series = options.get("series") or []
+        if render_to == "chart2":
+            categories = ((options.get("xAxis") or [{}])[0].get("categories") or [])
+            proceeds_series = next(
+                (
+                    s
+                    for s in series
+                    if isinstance(s.get("name"), str)
+                    and "proceeds" in s["name"].lower()
+                ),
+                None,
+            )
+            count_series = next(
+                (
+                    s
+                    for s in series
+                    if isinstance(s.get("name"), str)
+                    and "number of ipo" in s["name"].lower()
+                ),
+                None,
+            )
+            for idx, label in enumerate(categories):
+                try:
+                    year = int(label)
+                except (TypeError, ValueError):
+                    continue
+                count = None
+                if count_series:
+                    data_points = count_series.get("data", [])
+                    if idx < len(data_points):
+                        point = data_points[idx]
+                        count = point.get("y") if isinstance(point, dict) else point
+                proceeds = None
+                if proceeds_series:
+                    data_points = proceeds_series.get("data", [])
+                    if idx < len(data_points):
+                        point = data_points[idx]
+                        proceeds = point.get("y") if isinstance(point, dict) else point
+                annual_records.append(
+                    {
+                        "year": year,
+                        "ipo_count": float(count) if count is not None else None,
+                        "proceeds_billion": float(proceeds) if proceeds is not None else None,
+                    }
+                )
+        elif "pricings" in render_to.lower():
+            title_text = (options.get("title") or {}).get("text", "")
+            year_match = re.search(r"(20\d{2})", title_text)
+            if not year_match:
+                continue
+            year = int(year_match.group(1))
+            categories = ((options.get("xAxis") or [{}])[0].get("categories") or [])
+            data_series = series[0] if series else None
+            data_points = data_series.get("data", []) if isinstance(data_series, dict) else []
+            for idx, month_name in enumerate(categories):
+                if idx >= len(data_points):
+                    break
+                point = data_points[idx]
+                value = point.get("y") if isinstance(point, dict) else point
+                if value is None:
+                    continue
+                try:
+                    month = datetime.strptime(month_name, "%B").month
+                except ValueError:
+                    continue
+                monthly_records.append(
+                    {
+                        "year": year,
+                        "month": month,
+                        "ipo_count": float(value),
+                    }
+                )
+
+    if not annual_records:
+        IPO_LOGGER.warning("IPO stats annual series empty after parsing")
+        return None
+
+    annual_records.sort(key=lambda row: row["year"])
+    monthly_records.sort(key=lambda row: (row["year"], row["month"]))
+    result: Dict[str, object] = {
+        "as_of": as_of_dt.date().isoformat() if as_of_dt else None,
+        "annual": annual_records,
+        "monthly": monthly_records,
+    }
+    IPO_LOGGER.info(
+        "Parsed IPO stats: %d annual points, %d monthly points (as_of=%s)",
+        len(annual_records),
+        len(monthly_records),
+        result["as_of"],
+    )
+    return result
