@@ -1,0 +1,52 @@
+{
+  "indicator": "price_to_sales",
+  "display_name": "Price-to-Sales",
+  "category": "Valuation",
+  "markets": [
+    "US Market",
+    "S&P 500"
+  ],
+  "topics": [
+    "Valuation"
+  ],
+  "threshold": "> 6",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-12-31",
+      "status": null,
+      "summary_value": 2.98,
+      "details": {
+        "value": 2.98,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-sales"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": 3.35,
+      "details": {
+        "value": 3.35,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-sales"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "value": 3.35,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-sales"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "value": 3.35,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-sales"
+      }
+    }
+  ]
+}

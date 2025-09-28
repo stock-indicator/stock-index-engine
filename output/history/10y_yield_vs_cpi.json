@@ -1,0 +1,142 @@
+{
+  "indicator": "10y_yield_vs_cpi",
+  "display_name": "10Y Yield vs CPI",
+  "category": "Macro",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Macro",
+    "Rates"
+  ],
+  "threshold": "10Y < CPI",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 4.1,
+      "details": {
+        "ten_year_yield_pct": 4.1,
+        "cpi": 315.564
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": 4.36,
+      "details": {
+        "ten_year_yield_pct": 4.36,
+        "cpi": 316.449
+      }
+    },
+    {
+      "date": "2024-12-01",
+      "status": null,
+      "summary_value": 4.39,
+      "details": {
+        "ten_year_yield_pct": 4.39,
+        "cpi": 317.603
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "status": null,
+      "summary_value": 4.63,
+      "details": {
+        "ten_year_yield_pct": 4.63,
+        "cpi": 319.086
+      }
+    },
+    {
+      "date": "2025-02-01",
+      "status": null,
+      "summary_value": 4.45,
+      "details": {
+        "ten_year_yield_pct": 4.45,
+        "cpi": 319.775
+      }
+    },
+    {
+      "date": "2025-03-01",
+      "status": null,
+      "summary_value": 4.28,
+      "details": {
+        "ten_year_yield_pct": 4.28,
+        "cpi": 319.615
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 4.28,
+      "details": {
+        "ten_year_yield_pct": 4.28,
+        "cpi": 320.321
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 4.42,
+      "details": {
+        "ten_year_yield_pct": 4.42,
+        "cpi": 320.58
+      }
+    },
+    {
+      "date": "2025-06-01",
+      "status": null,
+      "summary_value": 4.38,
+      "details": {
+        "ten_year_yield_pct": 4.38,
+        "cpi": 321.5
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 4.39,
+      "details": {
+        "ten_year_yield_pct": 4.39,
+        "cpi": 322.132
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 4.26,
+      "details": {
+        "ten_year_yield_pct": 4.26,
+        "cpi": 323.364
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {
+        "ten_year_yield_pct": 4.26,
+        "cpi": 323.364
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "ten_year_yield_pct": 4.26,
+        "cpi": 323.364
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "ten_year_yield_pct": 4.26,
+        "cpi": 323.364
+      }
+    }
+  ]
+}

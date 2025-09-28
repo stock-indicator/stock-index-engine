@@ -7,3 +7,6 @@ numpy>=1.26
 xlrd>=2.0
 psycopg[binary]>=3.2
 cloudscraper>=1.2
+fastapi>=0.112
+uvicorn[standard]>=0.30
+apscheduler>=3.10

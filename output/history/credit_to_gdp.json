@@ -1,0 +1,62 @@
+{
+  "indicator": "credit_to_gdp",
+  "display_name": "Credit-to-GDP",
+  "category": "Macro",
+  "markets": [
+    "US Market",
+    "US Economy"
+  ],
+  "topics": [
+    "Macro",
+    "Leverage"
+  ],
+  "threshold": "> 350%",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 155.5,
+      "details": {
+        "credit_to_gdp_pct": 155.5,
+        "source": "BIS WS_CREDIT_GAP"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "status": null,
+      "summary_value": 154.7,
+      "details": {
+        "credit_to_gdp_pct": 154.7,
+        "source": "BIS WS_CREDIT_GAP"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {
+        "credit_to_gdp_pct": 154.7,
+        "source": "BIS WS_CREDIT_GAP"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "credit_to_gdp_pct": 154.7,
+        "source": "BIS WS_CREDIT_GAP"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "credit_to_gdp_pct": 154.7,
+        "source": "BIS WS_CREDIT_GAP"
+      }
+    }
+  ]
+}

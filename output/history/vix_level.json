@@ -1,0 +1,3780 @@
+{
+  "indicator": "vix_level",
+  "display_name": "VIX Level",
+  "category": "Technical",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Volatility"
+  ],
+  "threshold": "< 10",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-09-30",
+      "status": null,
+      "summary_value": 17.010000228881836,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.010000228881836,
+        "high": 17.790000915527344,
+        "low": 16.469999313354492,
+        "close": 16.729999542236328,
+        "adj_close": 16.729999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 16.959999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.959999084472656,
+        "high": 20.729999542236328,
+        "low": 16.610000610351562,
+        "close": 19.26000022888184,
+        "adj_close": 19.26000022888184,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-02",
+      "status": null,
+      "summary_value": 19.64999961853028,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.64999961853028,
+        "high": 20.36000061035156,
+        "low": 18.57999992370605,
+        "close": 18.89999961853028,
+        "adj_close": 18.89999961853028,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-03",
+      "status": null,
+      "summary_value": 19.6299991607666,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.6299991607666,
+        "high": 20.75,
+        "low": 19.15999984741211,
+        "close": 20.489999771118164,
+        "adj_close": 20.489999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-04",
+      "status": null,
+      "summary_value": 20.479999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.479999542236328,
+        "high": 20.479999542236328,
+        "low": 18.479999542236328,
+        "close": 19.209999084472656,
+        "adj_close": 19.209999084472656,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-07",
+      "status": null,
+      "summary_value": 20.76000022888184,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.76000022888184,
+        "high": 23.030000686645508,
+        "low": 20.64999961853028,
+        "close": 22.63999938964844,
+        "adj_close": 22.63999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-08",
+      "status": null,
+      "summary_value": 22.920000076293945,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.920000076293945,
+        "high": 23.13999938964844,
+        "low": 21.13999938964844,
+        "close": 21.420000076293945,
+        "adj_close": 21.420000076293945,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-09",
+      "status": null,
+      "summary_value": 21.979999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.979999542236328,
+        "high": 22.01000022888184,
+        "low": 20.709999084472656,
+        "close": 20.86000061035156,
+        "adj_close": 20.86000061035156,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-10",
+      "status": null,
+      "summary_value": 20.90999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.90999984741211,
+        "high": 21.38999938964844,
+        "low": 20.63999938964844,
+        "close": 20.93000030517578,
+        "adj_close": 20.93000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-11",
+      "status": null,
+      "summary_value": 20.8700008392334,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.8700008392334,
+        "high": 21.15999984741211,
+        "low": 20.13999938964844,
+        "close": 20.459999084472656,
+        "adj_close": 20.459999084472656,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-14",
+      "status": null,
+      "summary_value": 20.86000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.86000061035156,
+        "high": 20.86000061035156,
+        "low": 19.690000534057617,
+        "close": 19.700000762939453,
+        "adj_close": 19.700000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-15",
+      "status": null,
+      "summary_value": 19.61000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.61000061035156,
+        "high": 20.88999938964844,
+        "low": 19.440000534057617,
+        "close": 20.63999938964844,
+        "adj_close": 20.63999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-16",
+      "status": null,
+      "summary_value": 20.770000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.770000457763672,
+        "high": 21.01000022888184,
+        "low": 19.450000762939453,
+        "close": 19.57999992370605,
+        "adj_close": 19.57999992370605,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "status": null,
+      "summary_value": 19.549999237060547,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.549999237060547,
+        "high": 19.64999961853028,
+        "low": 18.8799991607666,
+        "close": 19.11000061035156,
+        "adj_close": 19.11000061035156,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-18",
+      "status": null,
+      "summary_value": 19.299999237060547,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.299999237060547,
+        "high": 19.31999969482422,
+        "low": 17.989999771118164,
+        "close": 18.030000686645508,
+        "adj_close": 18.030000686645508,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-21",
+      "status": null,
+      "summary_value": 18.780000686645508,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.780000686645508,
+        "high": 19.34000015258789,
+        "low": 18.36000061035156,
+        "close": 18.3700008392334,
+        "adj_close": 18.3700008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "status": null,
+      "summary_value": 18.790000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.790000915527344,
+        "high": 19.440000534057617,
+        "low": 18.049999237060547,
+        "close": 18.200000762939453,
+        "adj_close": 18.200000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-23",
+      "status": null,
+      "summary_value": 18.209999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.209999084472656,
+        "high": 20.46999931335449,
+        "low": 18.18000030517578,
+        "close": 19.239999771118164,
+        "adj_close": 19.239999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-24",
+      "status": null,
+      "summary_value": 18.8700008392334,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.8700008392334,
+        "high": 20.239999771118164,
+        "low": 18.6299991607666,
+        "close": 19.07999992370605,
+        "adj_close": 19.07999992370605,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-25",
+      "status": null,
+      "summary_value": 19.21999931335449,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.21999931335449,
+        "high": 20.51000022888184,
+        "low": 18.229999542236328,
+        "close": 20.32999992370605,
+        "adj_close": 20.32999992370605,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "status": null,
+      "summary_value": 19.11000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.11000061035156,
+        "high": 19.8799991607666,
+        "low": 18.90999984741211,
+        "close": 19.799999237060547,
+        "adj_close": 19.799999237060547,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-29",
+      "status": null,
+      "summary_value": 19.75,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.75,
+        "high": 20.530000686645508,
+        "low": 19.059999465942383,
+        "close": 19.34000015258789,
+        "adj_close": 19.34000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-30",
+      "status": null,
+      "summary_value": 19.32999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.32999992370605,
+        "high": 20.440000534057617,
+        "low": 19.299999237060547,
+        "close": 20.350000381469727,
+        "adj_close": 20.350000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "status": null,
+      "summary_value": 21.440000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.440000534057617,
+        "high": 23.420000076293945,
+        "low": 21.1200008392334,
+        "close": 23.15999984741211,
+        "adj_close": 23.15999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": 22.959999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.959999084472656,
+        "high": 23.09000015258789,
+        "low": 21.15999984741211,
+        "close": 21.8799991607666,
+        "adj_close": 21.8799991607666,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-04",
+      "status": null,
+      "summary_value": 22.5,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.5,
+        "high": 23.06999969482422,
+        "low": 21.729999542236328,
+        "close": 21.979999542236328,
+        "adj_close": 21.979999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-05",
+      "status": null,
+      "summary_value": 21.979999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.979999542236328,
+        "high": 22.059999465942383,
+        "low": 20.200000762939453,
+        "close": 20.489999771118164,
+        "adj_close": 20.489999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-06",
+      "status": null,
+      "summary_value": 16.059999465942383,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.059999465942383,
+        "high": 16.81999969482422,
+        "low": 15.4399995803833,
+        "close": 16.270000457763672,
+        "adj_close": 16.270000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "status": null,
+      "summary_value": 15.859999656677246,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.859999656677246,
+        "high": 15.859999656677246,
+        "low": 15.130000114440918,
+        "close": 15.199999809265137,
+        "adj_close": 15.199999809265137,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-08",
+      "status": null,
+      "summary_value": 15.130000114440918,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.130000114440918,
+        "high": 15.329999923706056,
+        "low": 14.65999984741211,
+        "close": 14.9399995803833,
+        "adj_close": 14.9399995803833,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-11",
+      "status": null,
+      "summary_value": 15.329999923706056,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.329999923706056,
+        "high": 15.5600004196167,
+        "low": 14.890000343322754,
+        "close": 14.970000267028809,
+        "adj_close": 14.970000267028809,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "status": null,
+      "summary_value": 15.09000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.09000015258789,
+        "high": 15.369999885559082,
+        "low": 14.6899995803833,
+        "close": 14.710000038146973,
+        "adj_close": 14.710000038146973,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-13",
+      "status": null,
+      "summary_value": 15.09000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.09000015258789,
+        "high": 15.260000228881836,
+        "low": 13.770000457763672,
+        "close": 14.020000457763672,
+        "adj_close": 14.020000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-14",
+      "status": null,
+      "summary_value": 14.170000076293944,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.170000076293944,
+        "high": 14.31999969482422,
+        "low": 13.59000015258789,
+        "close": 14.3100004196167,
+        "adj_close": 14.3100004196167,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-15",
+      "status": null,
+      "summary_value": 15.020000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.020000457763672,
+        "high": 17.549999237060547,
+        "low": 14.5600004196167,
+        "close": 16.139999389648438,
+        "adj_close": 16.139999389648438,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-18",
+      "status": null,
+      "summary_value": 16.600000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.600000381469727,
+        "high": 17.0,
+        "low": 15.350000381469728,
+        "close": 15.579999923706056,
+        "adj_close": 15.579999923706056,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-19",
+      "status": null,
+      "summary_value": 15.4399995803833,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.4399995803833,
+        "high": 17.93000030517578,
+        "low": 15.369999885559082,
+        "close": 16.350000381469727,
+        "adj_close": 16.350000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-20",
+      "status": null,
+      "summary_value": 16.190000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.190000534057617,
+        "high": 18.790000915527344,
+        "low": 16.040000915527344,
+        "close": 17.15999984741211,
+        "adj_close": 17.15999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "status": null,
+      "summary_value": 17.100000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.100000381469727,
+        "high": 17.989999771118164,
+        "low": 15.729999542236328,
+        "close": 16.8700008392334,
+        "adj_close": 16.8700008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-22",
+      "status": null,
+      "summary_value": 16.670000076293945,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.670000076293945,
+        "high": 17.559999465942383,
+        "low": 15.239999771118164,
+        "close": 15.239999771118164,
+        "adj_close": 15.239999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-25",
+      "status": null,
+      "summary_value": 15.229999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.229999542236328,
+        "high": 15.720000267028809,
+        "low": 14.539999961853027,
+        "close": 14.600000381469728,
+        "adj_close": 14.600000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-26",
+      "status": null,
+      "summary_value": 14.949999809265137,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.949999809265137,
+        "high": 15.029999732971191,
+        "low": 13.880000114440918,
+        "close": 14.100000381469728,
+        "adj_close": 14.100000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-27",
+      "status": null,
+      "summary_value": 14.279999732971191,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.279999732971191,
+        "high": 15.130000114440918,
+        "low": 13.960000038146973,
+        "close": 14.100000381469728,
+        "adj_close": 14.100000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-11-29",
+      "status": null,
+      "summary_value": 14.0,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.0,
+        "high": 14.149999618530272,
+        "low": 13.489999771118164,
+        "close": 13.510000228881836,
+        "adj_close": 13.510000228881836,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-02",
+      "status": null,
+      "summary_value": 14.079999923706056,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.079999923706056,
+        "high": 14.100000381469728,
+        "low": 13.300000190734863,
+        "close": 13.34000015258789,
+        "adj_close": 13.34000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "status": null,
+      "summary_value": 13.380000114440918,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 13.380000114440918,
+        "high": 13.770000457763672,
+        "low": 13.1899995803833,
+        "close": 13.300000190734863,
+        "adj_close": 13.300000190734863,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-04",
+      "status": null,
+      "summary_value": 13.15999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 13.15999984741211,
+        "high": 13.609999656677246,
+        "low": 12.890000343322754,
+        "close": 13.449999809265137,
+        "adj_close": 13.449999809265137,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "status": null,
+      "summary_value": 13.460000038146973,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 13.460000038146973,
+        "high": 13.699999809265137,
+        "low": 13.260000228881836,
+        "close": 13.539999961853027,
+        "adj_close": 13.539999961853027,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-06",
+      "status": null,
+      "summary_value": 13.619999885559082,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 13.619999885559082,
+        "high": 13.739999771118164,
+        "low": 12.699999809265137,
+        "close": 12.770000457763672,
+        "adj_close": 12.770000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-09",
+      "status": null,
+      "summary_value": 13.359999656677246,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 13.359999656677246,
+        "high": 14.229999542236328,
+        "low": 13.350000381469728,
+        "close": 14.1899995803833,
+        "adj_close": 14.1899995803833,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-10",
+      "status": null,
+      "summary_value": 14.300000190734863,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.300000190734863,
+        "high": 14.539999961853027,
+        "low": 13.859999656677246,
+        "close": 14.18000030517578,
+        "adj_close": 14.18000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-11",
+      "status": null,
+      "summary_value": 14.420000076293944,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.420000076293944,
+        "high": 14.43000030517578,
+        "low": 13.520000457763672,
+        "close": 13.579999923706056,
+        "adj_close": 13.579999923706056,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-12",
+      "status": null,
+      "summary_value": 13.729999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 13.729999542236328,
+        "high": 13.949999809265137,
+        "low": 13.390000343322754,
+        "close": 13.920000076293944,
+        "adj_close": 13.920000076293944,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-13",
+      "status": null,
+      "summary_value": 13.56999969482422,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 13.56999969482422,
+        "high": 14.25,
+        "low": 13.239999771118164,
+        "close": 13.8100004196167,
+        "adj_close": 13.8100004196167,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "status": null,
+      "summary_value": 14.369999885559082,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.369999885559082,
+        "high": 14.6899995803833,
+        "low": 13.989999771118164,
+        "close": 14.6899995803833,
+        "adj_close": 14.6899995803833,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-17",
+      "status": null,
+      "summary_value": 14.979999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.979999542236328,
+        "high": 15.9399995803833,
+        "low": 14.779999732971191,
+        "close": 15.869999885559082,
+        "adj_close": 15.869999885559082,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-18",
+      "status": null,
+      "summary_value": 15.56999969482422,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.56999969482422,
+        "high": 28.31999969482422,
+        "low": 14.81999969482422,
+        "close": 27.6200008392334,
+        "adj_close": 27.6200008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "status": null,
+      "summary_value": 21.61000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.61000061035156,
+        "high": 24.1200008392334,
+        "low": 20.15999984741211,
+        "close": 24.09000015258789,
+        "adj_close": 24.09000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-20",
+      "status": null,
+      "summary_value": 24.13999938964844,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.13999938964844,
+        "high": 26.51000022888184,
+        "low": 17.81999969482422,
+        "close": 18.36000061035156,
+        "adj_close": 18.36000061035156,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-23",
+      "status": null,
+      "summary_value": 18.09000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.09000015258789,
+        "high": 20.020000457763672,
+        "low": 16.739999771118164,
+        "close": 16.780000686645508,
+        "adj_close": 16.780000686645508,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "status": null,
+      "summary_value": 16.969999313354492,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.969999313354492,
+        "high": 17.040000915527344,
+        "low": 14.270000457763672,
+        "close": 14.270000457763672,
+        "adj_close": 14.270000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "status": null,
+      "summary_value": 14.989999771118164,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.989999771118164,
+        "high": 15.93000030517578,
+        "low": 14.550000190734863,
+        "close": 14.729999542236328,
+        "adj_close": 14.729999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-27",
+      "status": null,
+      "summary_value": 15.380000114440918,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.380000114440918,
+        "high": 18.450000762939453,
+        "low": 15.289999961853027,
+        "close": 15.949999809265137,
+        "adj_close": 15.949999809265137,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-30",
+      "status": null,
+      "summary_value": 17.209999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.209999084472656,
+        "high": 19.21999931335449,
+        "low": 16.440000534057617,
+        "close": 17.399999618530273,
+        "adj_close": 17.399999618530273,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2024-12-31",
+      "status": null,
+      "summary_value": 17.389999389648438,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.389999389648438,
+        "high": 17.809999465942383,
+        "low": 16.68000030517578,
+        "close": 17.350000381469727,
+        "adj_close": 17.350000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "status": null,
+      "summary_value": 17.209999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.209999084472656,
+        "high": 19.5,
+        "low": 16.959999084472656,
+        "close": 17.93000030517578,
+        "adj_close": 17.93000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "status": null,
+      "summary_value": 17.65999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.65999984741211,
+        "high": 17.940000534057617,
+        "low": 16.110000610351562,
+        "close": 16.1299991607666,
+        "adj_close": 16.1299991607666,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "status": null,
+      "summary_value": 16.770000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.770000457763672,
+        "high": 16.8700008392334,
+        "low": 15.710000038146973,
+        "close": 16.040000915527344,
+        "adj_close": 16.040000915527344,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "status": null,
+      "summary_value": 16.479999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.479999542236328,
+        "high": 18.89999961853028,
+        "low": 15.789999961853027,
+        "close": 17.81999969482422,
+        "adj_close": 17.81999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-08",
+      "status": null,
+      "summary_value": 17.90999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.90999984741211,
+        "high": 19.5,
+        "low": 17.3700008392334,
+        "close": 17.700000762939453,
+        "adj_close": 17.700000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "status": null,
+      "summary_value": 18.290000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.290000915527344,
+        "high": 20.309999465942383,
+        "low": 18.049999237060547,
+        "close": 19.540000915527344,
+        "adj_close": 19.540000915527344,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "status": null,
+      "summary_value": 21.18000030517578,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.18000030517578,
+        "high": 22.040000915527344,
+        "low": 19.14999961853028,
+        "close": 19.190000534057617,
+        "adj_close": 19.190000534057617,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "status": null,
+      "summary_value": 18.790000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.790000915527344,
+        "high": 19.65999984741211,
+        "low": 18.239999771118164,
+        "close": 18.709999084472656,
+        "adj_close": 18.709999084472656,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "status": null,
+      "summary_value": 19.07999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.07999992370605,
+        "high": 19.13999938964844,
+        "low": 15.960000038146973,
+        "close": 16.1200008392334,
+        "adj_close": 16.1200008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "status": null,
+      "summary_value": 15.869999885559082,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.869999885559082,
+        "high": 16.600000381469727,
+        "low": 15.640000343322754,
+        "close": 16.600000381469727,
+        "adj_close": 16.600000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "status": null,
+      "summary_value": 16.190000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.190000534057617,
+        "high": 16.229999542236328,
+        "low": 15.529999732971191,
+        "close": 15.970000267028809,
+        "adj_close": 15.970000267028809,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "status": null,
+      "summary_value": 16.290000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.290000915527344,
+        "high": 16.290000915527344,
+        "low": 14.93000030517578,
+        "close": 15.0600004196167,
+        "adj_close": 15.0600004196167,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-22",
+      "status": null,
+      "summary_value": 14.890000343322754,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.890000343322754,
+        "high": 15.289999961853027,
+        "low": 14.59000015258789,
+        "close": 15.100000381469728,
+        "adj_close": 15.100000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "status": null,
+      "summary_value": 15.279999732971191,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.279999732971191,
+        "high": 15.390000343322754,
+        "low": 14.59000015258789,
+        "close": 15.020000457763672,
+        "adj_close": 15.020000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-24",
+      "status": null,
+      "summary_value": 15.020000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.020000457763672,
+        "high": 15.15999984741211,
+        "low": 14.579999923706056,
+        "close": 14.850000381469728,
+        "adj_close": 14.850000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "status": null,
+      "summary_value": 18.82999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.82999992370605,
+        "high": 22.51000022888184,
+        "low": 17.56999969482422,
+        "close": 17.899999618530273,
+        "adj_close": 17.899999618530273,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "status": null,
+      "summary_value": 18.290000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.290000915527344,
+        "high": 18.38999938964844,
+        "low": 16.25,
+        "close": 16.40999984741211,
+        "adj_close": 16.40999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-29",
+      "status": null,
+      "summary_value": 16.420000076293945,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.420000076293945,
+        "high": 18.07999992370605,
+        "low": 16.170000076293945,
+        "close": 16.559999465942383,
+        "adj_close": 16.559999465942383,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "status": null,
+      "summary_value": 15.93000030517578,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.93000030517578,
+        "high": 16.420000076293945,
+        "low": 15.31999969482422,
+        "close": 15.84000015258789,
+        "adj_close": 15.84000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "status": null,
+      "summary_value": 15.449999809265137,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.449999809265137,
+        "high": 17.09000015258789,
+        "low": 14.899999618530272,
+        "close": 16.43000030517578,
+        "adj_close": 16.43000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "status": null,
+      "summary_value": 20.36000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.36000061035156,
+        "high": 20.420000076293945,
+        "low": 17.65999984741211,
+        "close": 18.6200008392334,
+        "adj_close": 18.6200008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-04",
+      "status": null,
+      "summary_value": 18.780000686645508,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.780000686645508,
+        "high": 19.11000061035156,
+        "low": 16.780000686645508,
+        "close": 17.209999084472656,
+        "adj_close": 17.209999084472656,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-05",
+      "status": null,
+      "summary_value": 17.540000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.540000915527344,
+        "high": 17.75,
+        "low": 15.770000457763672,
+        "close": 15.770000457763672,
+        "adj_close": 15.770000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-06",
+      "status": null,
+      "summary_value": 15.880000114440918,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.880000114440918,
+        "high": 16.149999618530273,
+        "low": 14.989999771118164,
+        "close": 15.5,
+        "adj_close": 15.5,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "status": null,
+      "summary_value": 15.380000114440918,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.380000114440918,
+        "high": 16.65999984741211,
+        "low": 14.789999961853027,
+        "close": 16.540000915527344,
+        "adj_close": 16.540000915527344,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-10",
+      "status": null,
+      "summary_value": 16.579999923706055,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.579999923706055,
+        "high": 16.610000610351562,
+        "low": 15.699999809265137,
+        "close": 15.8100004196167,
+        "adj_close": 15.8100004196167,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-11",
+      "status": null,
+      "summary_value": 16.1299991607666,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.1299991607666,
+        "high": 16.420000076293945,
+        "low": 15.75,
+        "close": 16.020000457763672,
+        "adj_close": 16.020000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-12",
+      "status": null,
+      "summary_value": 15.90999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.90999984741211,
+        "high": 17.18000030517578,
+        "low": 15.640000343322754,
+        "close": 15.890000343322754,
+        "adj_close": 15.890000343322754,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-13",
+      "status": null,
+      "summary_value": 15.970000267028809,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.970000267028809,
+        "high": 16.329999923706055,
+        "low": 14.979999542236328,
+        "close": 15.100000381469728,
+        "adj_close": 15.100000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-14",
+      "status": null,
+      "summary_value": 15.079999923706056,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.079999923706056,
+        "high": 15.420000076293944,
+        "low": 14.739999771118164,
+        "close": 14.770000457763672,
+        "adj_close": 14.770000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-18",
+      "status": null,
+      "summary_value": 15.56999969482422,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.56999969482422,
+        "high": 16.030000686645508,
+        "low": 15.350000381469728,
+        "close": 15.350000381469728,
+        "adj_close": 15.350000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-19",
+      "status": null,
+      "summary_value": 15.140000343322754,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.140000343322754,
+        "high": 15.960000038146973,
+        "low": 15.050000190734863,
+        "close": 15.270000457763672,
+        "adj_close": 15.270000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "status": null,
+      "summary_value": 15.609999656677246,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.609999656677246,
+        "high": 16.6299991607666,
+        "low": 15.119999885559082,
+        "close": 15.65999984741211,
+        "adj_close": 15.65999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "status": null,
+      "summary_value": 15.630000114440918,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.630000114440918,
+        "high": 19.030000686645508,
+        "low": 15.279999732971191,
+        "close": 18.209999084472656,
+        "adj_close": 18.209999084472656,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-24",
+      "status": null,
+      "summary_value": 18.07999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.07999992370605,
+        "high": 20.239999771118164,
+        "low": 17.309999465942383,
+        "close": 18.979999542236328,
+        "adj_close": 18.979999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "status": null,
+      "summary_value": 19.09000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.09000015258789,
+        "high": 21.479999542236328,
+        "low": 18.850000381469727,
+        "close": 19.43000030517578,
+        "adj_close": 19.43000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-26",
+      "status": null,
+      "summary_value": 18.959999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.959999084472656,
+        "high": 20.059999465942383,
+        "low": 17.829999923706055,
+        "close": 19.100000381469727,
+        "adj_close": 19.100000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "status": null,
+      "summary_value": 18.25,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.25,
+        "high": 21.46999931335449,
+        "low": 17.670000076293945,
+        "close": 21.1299991607666,
+        "adj_close": 21.1299991607666,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-02-28",
+      "status": null,
+      "summary_value": 21.209999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.209999084472656,
+        "high": 22.39999961853028,
+        "low": 19.049999237060547,
+        "close": 19.6299991607666,
+        "adj_close": 19.6299991607666,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-03",
+      "status": null,
+      "summary_value": 19.82999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.82999992370605,
+        "high": 24.309999465942383,
+        "low": 19.25,
+        "close": 22.780000686645508,
+        "adj_close": 22.780000686645508,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "status": null,
+      "summary_value": 22.959999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.959999084472656,
+        "high": 26.350000381469727,
+        "low": 21.709999084472656,
+        "close": 23.51000022888184,
+        "adj_close": 23.51000022888184,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-05",
+      "status": null,
+      "summary_value": 23.030000686645508,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 23.030000686645508,
+        "high": 24.84000015258789,
+        "low": 21.3700008392334,
+        "close": 21.93000030517578,
+        "adj_close": 21.93000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "status": null,
+      "summary_value": 22.600000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.600000381469727,
+        "high": 25.920000076293945,
+        "low": 22.38999938964844,
+        "close": 24.8700008392334,
+        "adj_close": 24.8700008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-07",
+      "status": null,
+      "summary_value": 24.850000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.850000381469727,
+        "high": 26.559999465942383,
+        "low": 23.09000015258789,
+        "close": 23.3700008392334,
+        "adj_close": 23.3700008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-10",
+      "status": null,
+      "summary_value": 24.700000762939453,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.700000762939453,
+        "high": 29.559999465942383,
+        "low": 24.68000030517578,
+        "close": 27.86000061035156,
+        "adj_close": 27.86000061035156,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "status": null,
+      "summary_value": 27.940000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 27.940000534057617,
+        "high": 29.56999969482422,
+        "low": 26.18000030517578,
+        "close": 26.920000076293945,
+        "adj_close": 26.920000076293945,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-12",
+      "status": null,
+      "summary_value": 26.8799991607666,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 26.8799991607666,
+        "high": 26.90999984741211,
+        "low": 23.88999938964844,
+        "close": 24.229999542236328,
+        "adj_close": 24.229999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "status": null,
+      "summary_value": 24.920000076293945,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.920000076293945,
+        "high": 26.1299991607666,
+        "low": 23.459999084472656,
+        "close": 24.65999984741211,
+        "adj_close": 24.65999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-14",
+      "status": null,
+      "summary_value": 24.350000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.350000381469727,
+        "high": 24.36000061035156,
+        "low": 21.479999542236328,
+        "close": 21.770000457763672,
+        "adj_close": 21.770000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-17",
+      "status": null,
+      "summary_value": 22.88999938964844,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.88999938964844,
+        "high": 22.950000762939453,
+        "low": 20.31999969482422,
+        "close": 20.51000022888184,
+        "adj_close": 20.51000022888184,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-18",
+      "status": null,
+      "summary_value": 20.82999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.82999992370605,
+        "high": 22.56999969482422,
+        "low": 20.40999984741211,
+        "close": 21.700000762939453,
+        "adj_close": 21.700000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-19",
+      "status": null,
+      "summary_value": 21.84000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.84000015258789,
+        "high": 22.100000381469727,
+        "low": 19.420000076293945,
+        "close": 19.89999961853028,
+        "adj_close": 19.89999961853028,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-20",
+      "status": null,
+      "summary_value": 19.520000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.520000457763672,
+        "high": 21.170000076293945,
+        "low": 19.299999237060547,
+        "close": 19.799999237060547,
+        "adj_close": 19.799999237060547,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-21",
+      "status": null,
+      "summary_value": 20.020000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.020000457763672,
+        "high": 21.13999938964844,
+        "low": 19.14999961853028,
+        "close": 19.280000686645508,
+        "adj_close": 19.280000686645508,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "status": null,
+      "summary_value": 19.1299991607666,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.1299991607666,
+        "high": 19.13999938964844,
+        "low": 17.459999084472656,
+        "close": 17.479999542236328,
+        "adj_close": 17.479999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-25",
+      "status": null,
+      "summary_value": 17.579999923706055,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.579999923706055,
+        "high": 17.770000457763672,
+        "low": 17.020000457763672,
+        "close": 17.149999618530273,
+        "adj_close": 17.149999618530273,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-26",
+      "status": null,
+      "summary_value": 17.229999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.229999542236328,
+        "high": 19.06999969482422,
+        "low": 16.969999313354492,
+        "close": 18.32999992370605,
+        "adj_close": 18.32999992370605,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "status": null,
+      "summary_value": 18.36000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.36000061035156,
+        "high": 19.280000686645508,
+        "low": 17.950000762939453,
+        "close": 18.690000534057617,
+        "adj_close": 18.690000534057617,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-28",
+      "status": null,
+      "summary_value": 19.07999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.07999992370605,
+        "high": 22.18000030517578,
+        "low": 18.920000076293945,
+        "close": 21.64999961853028,
+        "adj_close": 21.64999961853028,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "status": null,
+      "summary_value": 24.11000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.11000061035156,
+        "high": 24.799999237060547,
+        "low": 21.670000076293945,
+        "close": 22.280000686645508,
+        "adj_close": 22.280000686645508,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 22.059999465942383,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.059999465942383,
+        "high": 23.520000457763672,
+        "low": 21.57999992370605,
+        "close": 21.770000457763672,
+        "adj_close": 21.770000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-02",
+      "status": null,
+      "summary_value": 22.299999237060547,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.299999237060547,
+        "high": 23.65999984741211,
+        "low": 20.68000030517578,
+        "close": 21.51000022888184,
+        "adj_close": 21.51000022888184,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-03",
+      "status": null,
+      "summary_value": 26.3799991607666,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 26.3799991607666,
+        "high": 30.020000457763672,
+        "low": 24.93000030517578,
+        "close": 30.020000457763672,
+        "adj_close": 30.020000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-04",
+      "status": null,
+      "summary_value": 30.1200008392334,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 30.1200008392334,
+        "high": 45.61000061035156,
+        "low": 29.989999771118164,
+        "close": 45.310001373291016,
+        "adj_close": 45.310001373291016,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-07",
+      "status": null,
+      "summary_value": 60.130001068115234,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 60.130001068115234,
+        "high": 60.130001068115234,
+        "low": 38.58000183105469,
+        "close": 46.97999954223633,
+        "adj_close": 46.97999954223633,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "status": null,
+      "summary_value": 44.040000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 44.040000915527344,
+        "high": 57.52000045776367,
+        "low": 36.47999954223633,
+        "close": 52.33000183105469,
+        "adj_close": 52.33000183105469,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-09",
+      "status": null,
+      "summary_value": 50.97999954223633,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 50.97999954223633,
+        "high": 57.959999084472656,
+        "low": 31.89999961853028,
+        "close": 33.619998931884766,
+        "adj_close": 33.619998931884766,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "status": null,
+      "summary_value": 34.439998626708984,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 34.439998626708984,
+        "high": 54.869998931884766,
+        "low": 34.439998626708984,
+        "close": 40.720001220703125,
+        "adj_close": 40.720001220703125,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-11",
+      "status": null,
+      "summary_value": 40.79999923706055,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 40.79999923706055,
+        "high": 46.119998931884766,
+        "low": 36.84999847412109,
+        "close": 37.560001373291016,
+        "adj_close": 37.560001373291016,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-14",
+      "status": null,
+      "summary_value": 34.7599983215332,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 34.7599983215332,
+        "high": 35.16999816894531,
+        "low": 29.75,
+        "close": 30.88999938964844,
+        "adj_close": 30.88999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-15",
+      "status": null,
+      "summary_value": 30.01000022888184,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 30.01000022888184,
+        "high": 31.450000762939453,
+        "low": 28.290000915527344,
+        "close": 30.1200008392334,
+        "adj_close": 30.1200008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-16",
+      "status": null,
+      "summary_value": 33.2400016784668,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 33.2400016784668,
+        "high": 34.959999084472656,
+        "low": 29.479999542236328,
+        "close": 32.63999938964844,
+        "adj_close": 32.63999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-17",
+      "status": null,
+      "summary_value": 30.790000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 30.790000915527344,
+        "high": 32.54999923706055,
+        "low": 29.56999969482422,
+        "close": 29.64999961853028,
+        "adj_close": 29.64999961853028,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-21",
+      "status": null,
+      "summary_value": 32.75,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 32.75,
+        "high": 35.75,
+        "low": 31.790000915527344,
+        "close": 33.81999969482422,
+        "adj_close": 33.81999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "status": null,
+      "summary_value": 32.61000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 32.61000061035156,
+        "high": 32.68000030517578,
+        "low": 30.07999992370605,
+        "close": 30.56999969482422,
+        "adj_close": 30.56999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-23",
+      "status": null,
+      "summary_value": 28.75,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 28.75,
+        "high": 30.290000915527344,
+        "low": 27.11000061035156,
+        "close": 28.450000762939453,
+        "adj_close": 28.450000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-24",
+      "status": null,
+      "summary_value": 28.690000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 28.690000534057617,
+        "high": 29.65999984741211,
+        "low": 26.36000061035156,
+        "close": 26.46999931335449,
+        "adj_close": 26.46999931335449,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-25",
+      "status": null,
+      "summary_value": 26.21999931335449,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 26.21999931335449,
+        "high": 27.200000762939453,
+        "low": 24.84000015258789,
+        "close": 24.84000015258789,
+        "adj_close": 24.84000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-28",
+      "status": null,
+      "summary_value": 25.75,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 25.75,
+        "high": 26.93000030517578,
+        "low": 24.700000762939453,
+        "close": 25.14999961853028,
+        "adj_close": 25.14999961853028,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-29",
+      "status": null,
+      "summary_value": 24.76000022888184,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.76000022888184,
+        "high": 25.989999771118164,
+        "low": 23.76000022888184,
+        "close": 24.170000076293945,
+        "adj_close": 24.170000076293945,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-04-30",
+      "status": null,
+      "summary_value": 24.350000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.350000381469727,
+        "high": 28.170000076293945,
+        "low": 24.229999542236328,
+        "close": 24.700000762939453,
+        "adj_close": 24.700000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 23.940000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 23.940000534057617,
+        "high": 25.18000030517578,
+        "low": 23.299999237060547,
+        "close": 24.600000381469727,
+        "adj_close": 24.600000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "status": null,
+      "summary_value": 23.6299991607666,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 23.6299991607666,
+        "high": 24.31999969482422,
+        "low": 22.34000015258789,
+        "close": 22.68000030517578,
+        "adj_close": 22.68000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-05",
+      "status": null,
+      "summary_value": 24.25,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.25,
+        "high": 24.6299991607666,
+        "low": 22.809999465942383,
+        "close": 23.63999938964844,
+        "adj_close": 23.63999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-06",
+      "status": null,
+      "summary_value": 23.96999931335449,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 23.96999931335449,
+        "high": 25.11000061035156,
+        "low": 23.89999961853028,
+        "close": 24.76000022888184,
+        "adj_close": 24.76000022888184,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "status": null,
+      "summary_value": 24.559999465942383,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 24.559999465942383,
+        "high": 25.6200008392334,
+        "low": 23.290000915527344,
+        "close": 23.549999237060547,
+        "adj_close": 23.549999237060547,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "status": null,
+      "summary_value": 22.84000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.84000015258789,
+        "high": 23.61000061035156,
+        "low": 21.8799991607666,
+        "close": 22.479999542236328,
+        "adj_close": 22.479999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "status": null,
+      "summary_value": 22.39999961853028,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 22.39999961853028,
+        "high": 22.81999969482422,
+        "low": 21.82999992370605,
+        "close": 21.89999961853028,
+        "adj_close": 21.89999961853028,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-12",
+      "status": null,
+      "summary_value": 19.84000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.84000015258789,
+        "high": 20.440000534057617,
+        "low": 18.13999938964844,
+        "close": 18.38999938964844,
+        "adj_close": 18.38999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "status": null,
+      "summary_value": 18.690000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.690000534057617,
+        "high": 18.850000381469727,
+        "low": 17.649999618530273,
+        "close": 18.21999931335449,
+        "adj_close": 18.21999931335449,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-14",
+      "status": null,
+      "summary_value": 18.100000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.100000381469727,
+        "high": 18.81999969482422,
+        "low": 18.059999465942383,
+        "close": 18.6200008392334,
+        "adj_close": 18.6200008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "status": null,
+      "summary_value": 19.190000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.190000534057617,
+        "high": 19.3799991607666,
+        "low": 17.770000457763672,
+        "close": 17.829999923706055,
+        "adj_close": 17.829999923706055,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-16",
+      "status": null,
+      "summary_value": 17.959999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.959999084472656,
+        "high": 17.959999084472656,
+        "low": 17.149999618530273,
+        "close": 17.239999771118164,
+        "adj_close": 17.239999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-19",
+      "status": null,
+      "summary_value": 19.84000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.84000015258789,
+        "high": 19.920000076293945,
+        "low": 17.920000076293945,
+        "close": 18.13999938964844,
+        "adj_close": 18.13999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "status": null,
+      "summary_value": 18.459999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.459999084472656,
+        "high": 18.68000030517578,
+        "low": 17.700000762939453,
+        "close": 18.09000015258789,
+        "adj_close": 18.09000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "status": null,
+      "summary_value": 18.770000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.770000457763672,
+        "high": 21.049999237060547,
+        "low": 17.770000457763672,
+        "close": 20.8700008392334,
+        "adj_close": 20.8700008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "status": null,
+      "summary_value": 20.6200008392334,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.6200008392334,
+        "high": 22.06999969482422,
+        "low": 19.63999938964844,
+        "close": 20.280000686645508,
+        "adj_close": 20.280000686645508,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-23",
+      "status": null,
+      "summary_value": 20.13999938964844,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.13999938964844,
+        "high": 25.530000686645508,
+        "low": 19.82999992370605,
+        "close": 22.290000915527344,
+        "adj_close": 22.290000915527344,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "status": null,
+      "summary_value": 20.6299991607666,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.6299991607666,
+        "high": 21.01000022888184,
+        "low": 18.950000762939453,
+        "close": 18.959999084472656,
+        "adj_close": 18.959999084472656,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "status": null,
+      "summary_value": 19.209999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.209999084472656,
+        "high": 19.43000030517578,
+        "low": 18.68000030517578,
+        "close": 19.309999465942383,
+        "adj_close": 19.309999465942383,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "status": null,
+      "summary_value": 18.25,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.25,
+        "high": 20.200000762939453,
+        "low": 18.11000061035156,
+        "close": 19.18000030517578,
+        "adj_close": 19.18000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-05-30",
+      "status": null,
+      "summary_value": 19.61000061035156,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.61000061035156,
+        "high": 20.549999237060547,
+        "low": 18.56999969482422,
+        "close": 18.56999969482422,
+        "adj_close": 18.56999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-02",
+      "status": null,
+      "summary_value": 19.809999465942383,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.809999465942383,
+        "high": 20.450000762939453,
+        "low": 18.36000061035156,
+        "close": 18.36000061035156,
+        "adj_close": 18.36000061035156,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-03",
+      "status": null,
+      "summary_value": 18.82999992370605,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.82999992370605,
+        "high": 19.209999084472656,
+        "low": 17.639999389648438,
+        "close": 17.690000534057617,
+        "adj_close": 17.690000534057617,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-04",
+      "status": null,
+      "summary_value": 17.68000030517578,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.68000030517578,
+        "high": 18.06999969482422,
+        "low": 17.40999984741211,
+        "close": 17.610000610351562,
+        "adj_close": 17.610000610351562,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "status": null,
+      "summary_value": 17.68000030517578,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.68000030517578,
+        "high": 18.799999237060547,
+        "low": 17.079999923706055,
+        "close": 18.479999542236328,
+        "adj_close": 18.479999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-06",
+      "status": null,
+      "summary_value": 18.15999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.15999984741211,
+        "high": 18.350000381469727,
+        "low": 16.649999618530273,
+        "close": 16.770000457763672,
+        "adj_close": 16.770000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-09",
+      "status": null,
+      "summary_value": 17.690000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.690000534057617,
+        "high": 17.719999313354492,
+        "low": 16.81999969482422,
+        "close": 17.15999984741211,
+        "adj_close": 17.15999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-10",
+      "status": null,
+      "summary_value": 17.5,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.5,
+        "high": 17.989999771118164,
+        "low": 16.68000030517578,
+        "close": 16.950000762939453,
+        "adj_close": 16.950000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-11",
+      "status": null,
+      "summary_value": 17.040000915527344,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.040000915527344,
+        "high": 18.09000015258789,
+        "low": 16.229999542236328,
+        "close": 17.260000228881836,
+        "adj_close": 17.260000228881836,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "status": null,
+      "summary_value": 17.8700008392334,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.8700008392334,
+        "high": 18.8700008392334,
+        "low": 17.43000030517578,
+        "close": 18.020000457763672,
+        "adj_close": 18.020000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-13",
+      "status": null,
+      "summary_value": 21.76000022888184,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.76000022888184,
+        "high": 22.0,
+        "low": 18.8799991607666,
+        "close": 20.81999969482422,
+        "adj_close": 20.81999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-16",
+      "status": null,
+      "summary_value": 19.780000686645508,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.780000686645508,
+        "high": 20.21999931335449,
+        "low": 18.670000076293945,
+        "close": 19.11000061035156,
+        "adj_close": 19.11000061035156,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "status": null,
+      "summary_value": 20.530000686645508,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.530000686645508,
+        "high": 21.790000915527344,
+        "low": 19.549999237060547,
+        "close": 21.600000381469727,
+        "adj_close": 21.600000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-18",
+      "status": null,
+      "summary_value": 20.89999961853028,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.89999961853028,
+        "high": 21.57999992370605,
+        "low": 19.59000015258789,
+        "close": 20.13999938964844,
+        "adj_close": 20.13999938964844,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-20",
+      "status": null,
+      "summary_value": 20.739999771118164,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 20.739999771118164,
+        "high": 21.06999969482422,
+        "low": 19.11000061035156,
+        "close": 20.6200008392334,
+        "adj_close": 20.6200008392334,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-23",
+      "status": null,
+      "summary_value": 21.14999961853028,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 21.14999961853028,
+        "high": 22.51000022888184,
+        "low": 19.81999969482422,
+        "close": 19.82999992370605,
+        "adj_close": 19.82999992370605,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-24",
+      "status": null,
+      "summary_value": 18.190000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 18.190000534057617,
+        "high": 18.71999931335449,
+        "low": 17.329999923706055,
+        "close": 17.479999542236328,
+        "adj_close": 17.479999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "status": null,
+      "summary_value": 17.280000686645508,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.280000686645508,
+        "high": 17.510000228881836,
+        "low": 16.68000030517578,
+        "close": 16.760000228881836,
+        "adj_close": 16.760000228881836,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "status": null,
+      "summary_value": 16.670000076293945,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.670000076293945,
+        "high": 16.780000686645508,
+        "low": 16.110000610351562,
+        "close": 16.59000015258789,
+        "adj_close": 16.59000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "status": null,
+      "summary_value": 16.309999465942383,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.309999465942383,
+        "high": 17.290000915527344,
+        "low": 16.1200008392334,
+        "close": 16.31999969482422,
+        "adj_close": 16.31999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "status": null,
+      "summary_value": 17.190000534057617,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.190000534057617,
+        "high": 17.43000030517578,
+        "low": 16.549999237060547,
+        "close": 16.729999542236328,
+        "adj_close": 16.729999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 16.979999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.979999542236328,
+        "high": 17.479999542236328,
+        "low": 16.510000228881836,
+        "close": 16.829999923706055,
+        "adj_close": 16.829999923706055,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "status": null,
+      "summary_value": 16.75,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.75,
+        "high": 17.3700008392334,
+        "low": 16.540000915527344,
+        "close": 16.639999389648438,
+        "adj_close": 16.639999389648438,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "status": null,
+      "summary_value": 16.649999618530273,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.649999618530273,
+        "high": 16.829999923706055,
+        "low": 16.139999389648438,
+        "close": 16.3799991607666,
+        "adj_close": 16.3799991607666,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "status": null,
+      "summary_value": 17.829999923706055,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.829999923706055,
+        "high": 18.5,
+        "low": 17.510000228881836,
+        "close": 17.790000915527344,
+        "adj_close": 17.790000915527344,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-08",
+      "status": null,
+      "summary_value": 17.40999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.40999984741211,
+        "high": 17.440000534057617,
+        "low": 16.540000915527344,
+        "close": 16.809999465942383,
+        "adj_close": 16.809999465942383,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-09",
+      "status": null,
+      "summary_value": 16.760000228881836,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.760000228881836,
+        "high": 16.760000228881836,
+        "low": 15.760000228881836,
+        "close": 15.9399995803833,
+        "adj_close": 15.9399995803833,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-10",
+      "status": null,
+      "summary_value": 16.229999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.229999542236328,
+        "high": 16.239999771118164,
+        "low": 15.699999809265137,
+        "close": 15.779999732971191,
+        "adj_close": 15.779999732971191,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-11",
+      "status": null,
+      "summary_value": 16.40999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.40999984741211,
+        "high": 17.239999771118164,
+        "low": 15.979999542236328,
+        "close": 16.399999618530273,
+        "adj_close": 16.399999618530273,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-14",
+      "status": null,
+      "summary_value": 17.729999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.729999542236328,
+        "high": 17.850000381469727,
+        "low": 16.90999984741211,
+        "close": 17.200000762939453,
+        "adj_close": 17.200000762939453,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "status": null,
+      "summary_value": 16.889999389648438,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.889999389648438,
+        "high": 17.389999389648438,
+        "low": 16.559999465942383,
+        "close": 17.3799991607666,
+        "adj_close": 17.3799991607666,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-16",
+      "status": null,
+      "summary_value": 17.65999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.65999984741211,
+        "high": 19.479999542236328,
+        "low": 16.690000534057617,
+        "close": 17.15999984741211,
+        "adj_close": 17.15999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "status": null,
+      "summary_value": 17.15999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.15999984741211,
+        "high": 17.3700008392334,
+        "low": 16.479999542236328,
+        "close": 16.520000457763672,
+        "adj_close": 16.520000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-18",
+      "status": null,
+      "summary_value": 16.43000030517578,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.43000030517578,
+        "high": 16.809999465942383,
+        "low": 16.280000686645508,
+        "close": 16.40999984741211,
+        "adj_close": 16.40999984741211,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-21",
+      "status": null,
+      "summary_value": 16.8700008392334,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.8700008392334,
+        "high": 16.989999771118164,
+        "low": 16.299999237060547,
+        "close": 16.649999618530273,
+        "adj_close": 16.649999618530273,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "status": null,
+      "summary_value": 16.75,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.75,
+        "high": 17.479999542236328,
+        "low": 16.43000030517578,
+        "close": 16.5,
+        "adj_close": 16.5,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-23",
+      "status": null,
+      "summary_value": 16.229999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.229999542236328,
+        "high": 16.31999969482422,
+        "low": 15.31999969482422,
+        "close": 15.369999885559082,
+        "adj_close": 15.369999885559082,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "status": null,
+      "summary_value": 15.390000343322754,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.390000343322754,
+        "high": 15.539999961853027,
+        "low": 14.949999809265137,
+        "close": 15.390000343322754,
+        "adj_close": 15.390000343322754,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "status": null,
+      "summary_value": 15.329999923706056,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.329999923706056,
+        "high": 15.390000343322754,
+        "low": 14.920000076293944,
+        "close": 14.93000030517578,
+        "adj_close": 14.93000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "status": null,
+      "summary_value": 15.149999618530272,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.149999618530272,
+        "high": 15.539999961853027,
+        "low": 15.0,
+        "close": 15.029999732971191,
+        "adj_close": 15.029999732971191,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "status": null,
+      "summary_value": 14.949999809265137,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.949999809265137,
+        "high": 16.1200008392334,
+        "low": 14.699999809265137,
+        "close": 15.979999542236328,
+        "adj_close": 15.979999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "status": null,
+      "summary_value": 15.869999885559082,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.869999885559082,
+        "high": 17.270000457763672,
+        "low": 15.4399995803833,
+        "close": 15.479999542236328,
+        "adj_close": 15.479999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "status": null,
+      "summary_value": 14.989999771118164,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.989999771118164,
+        "high": 17.170000076293945,
+        "low": 14.739999771118164,
+        "close": 16.719999313354492,
+        "adj_close": 16.719999313354492,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 17.399999618530273,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.399999618530273,
+        "high": 21.89999961853028,
+        "low": 17.389999389648438,
+        "close": 20.3799991607666,
+        "adj_close": 20.3799991607666,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "status": null,
+      "summary_value": 19.559999465942383,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 19.559999465942383,
+        "high": 19.57999992370605,
+        "low": 17.479999542236328,
+        "close": 17.520000457763672,
+        "adj_close": 17.520000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "status": null,
+      "summary_value": 17.209999084472656,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.209999084472656,
+        "high": 18.940000534057617,
+        "low": 17.110000610351562,
+        "close": 17.850000381469727,
+        "adj_close": 17.850000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "status": null,
+      "summary_value": 17.219999313354492,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.219999313354492,
+        "high": 17.8799991607666,
+        "low": 16.559999465942383,
+        "close": 16.770000457763672,
+        "adj_close": 16.770000457763672,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "status": null,
+      "summary_value": 16.40999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.40999984741211,
+        "high": 17.639999389648438,
+        "low": 15.979999542236328,
+        "close": 16.56999969482422,
+        "adj_close": 16.56999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "status": null,
+      "summary_value": 16.479999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.479999542236328,
+        "high": 16.520000457763672,
+        "low": 15.149999618530272,
+        "close": 15.149999618530272,
+        "adj_close": 15.149999618530272,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "status": null,
+      "summary_value": 15.8100004196167,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.8100004196167,
+        "high": 16.360000610351562,
+        "low": 15.520000457763672,
+        "close": 16.25,
+        "adj_close": 16.25,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "status": null,
+      "summary_value": 16.09000015258789,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.09000015258789,
+        "high": 16.559999465942383,
+        "low": 14.65999984741211,
+        "close": 14.729999542236328,
+        "adj_close": 14.729999542236328,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "status": null,
+      "summary_value": 14.619999885559082,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.619999885559082,
+        "high": 14.8100004196167,
+        "low": 14.300000190734863,
+        "close": 14.489999771118164,
+        "adj_close": 14.489999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "status": null,
+      "summary_value": 14.65999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.65999984741211,
+        "high": 15.390000343322754,
+        "low": 14.56999969482422,
+        "close": 14.829999923706056,
+        "adj_close": 14.829999923706056,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "status": null,
+      "summary_value": 14.43000030517578,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.43000030517578,
+        "high": 15.18000030517578,
+        "low": 14.399999618530272,
+        "close": 15.09000015258789,
+        "adj_close": 15.09000015258789,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "status": null,
+      "summary_value": 15.729999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.729999542236328,
+        "high": 15.949999809265137,
+        "low": 14.949999809265137,
+        "close": 14.989999771118164,
+        "adj_close": 14.989999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "status": null,
+      "summary_value": 15.229999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.229999542236328,
+        "high": 15.90999984741211,
+        "low": 14.760000228881836,
+        "close": 15.56999969482422,
+        "adj_close": 15.56999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "status": null,
+      "summary_value": 15.949999809265137,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.949999809265137,
+        "high": 17.190000534057617,
+        "low": 15.56999969482422,
+        "close": 15.6899995803833,
+        "adj_close": 15.6899995803833,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "status": null,
+      "summary_value": 15.720000267028809,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.720000267028809,
+        "high": 17.239999771118164,
+        "low": 15.649999618530272,
+        "close": 16.600000381469727,
+        "adj_close": 16.600000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "status": null,
+      "summary_value": 16.809999465942383,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.809999465942383,
+        "high": 16.829999923706055,
+        "low": 14.210000038146973,
+        "close": 14.220000267028809,
+        "adj_close": 14.220000267028809,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "status": null,
+      "summary_value": 15.050000190734863,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.050000190734863,
+        "high": 15.1899995803833,
+        "low": 14.239999771118164,
+        "close": 14.789999961853027,
+        "adj_close": 14.789999961853027,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "status": null,
+      "summary_value": 15.75,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.75,
+        "high": 15.75,
+        "low": 14.619999885559082,
+        "close": 14.619999885559082,
+        "adj_close": 14.619999885559082,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "status": null,
+      "summary_value": 14.65999984741211,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.65999984741211,
+        "high": 15.229999542236328,
+        "low": 14.65999984741211,
+        "close": 14.850000381469728,
+        "adj_close": 14.850000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "status": null,
+      "summary_value": 14.420000076293944,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.420000076293944,
+        "high": 14.6899995803833,
+        "low": 14.119999885559082,
+        "close": 14.43000030517578,
+        "adj_close": 14.43000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "status": null,
+      "summary_value": 14.3100004196167,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.3100004196167,
+        "high": 15.970000267028809,
+        "low": 14.3100004196167,
+        "close": 15.359999656677246,
+        "adj_close": 15.359999656677246,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "status": null,
+      "summary_value": 16.649999618530273,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.649999618530273,
+        "high": 19.3799991607666,
+        "low": 16.549999237060547,
+        "close": 17.170000076293945,
+        "adj_close": 17.170000076293945,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "status": null,
+      "summary_value": 17.399999618530273,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 17.399999618530273,
+        "high": 17.56999969482422,
+        "low": 16.34000015258789,
+        "close": 16.350000381469727,
+        "adj_close": 16.350000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "status": null,
+      "summary_value": 16.219999313354492,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.219999313354492,
+        "high": 16.350000381469727,
+        "low": 15.279999732971191,
+        "close": 15.300000190734863,
+        "adj_close": 15.300000190734863,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "status": null,
+      "summary_value": 15.229999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.229999542236328,
+        "high": 16.920000076293945,
+        "low": 14.739999771118164,
+        "close": 15.18000030517578,
+        "adj_close": 15.18000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "status": null,
+      "summary_value": 15.579999923706056,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.579999923706056,
+        "high": 15.649999618530272,
+        "low": 14.989999771118164,
+        "close": 15.109999656677246,
+        "adj_close": 15.109999656677246,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "status": null,
+      "summary_value": 15.020000457763672,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.020000457763672,
+        "high": 15.81999969482422,
+        "low": 14.970000267028809,
+        "close": 15.039999961853027,
+        "adj_close": 15.039999961853027,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "status": null,
+      "summary_value": 14.979999542236328,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.979999542236328,
+        "high": 15.630000114440918,
+        "low": 14.630000114440918,
+        "close": 15.350000381469728,
+        "adj_close": 15.350000381469728,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "status": null,
+      "summary_value": 15.1899995803833,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.1899995803833,
+        "high": 15.239999771118164,
+        "low": 14.649999618530272,
+        "close": 14.710000038146973,
+        "adj_close": 14.710000038146973,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "status": null,
+      "summary_value": 14.619999885559082,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.619999885559082,
+        "high": 14.970000267028809,
+        "low": 14.40999984741211,
+        "close": 14.760000228881836,
+        "adj_close": 14.760000228881836,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "status": null,
+      "summary_value": 15.140000343322754,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.140000343322754,
+        "high": 15.84000015258789,
+        "low": 14.920000076293944,
+        "close": 15.6899995803833,
+        "adj_close": 15.6899995803833,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "status": null,
+      "summary_value": 15.600000381469728,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.600000381469728,
+        "high": 16.3799991607666,
+        "low": 15.4399995803833,
+        "close": 16.360000610351562,
+        "adj_close": 16.360000610351562,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "status": null,
+      "summary_value": 16.420000076293945,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.420000076293945,
+        "high": 16.75,
+        "low": 15.260000228881836,
+        "close": 15.720000267028809,
+        "adj_close": 15.720000267028809,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "status": null,
+      "summary_value": 14.93000030517578,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 14.93000030517578,
+        "high": 15.800000190734863,
+        "low": 14.329999923706056,
+        "close": 15.699999809265137,
+        "adj_close": 15.699999809265137,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "status": null,
+      "summary_value": 15.760000228881836,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 15.760000228881836,
+        "high": 16.1299991607666,
+        "low": 15.289999961853027,
+        "close": 15.449999809265137,
+        "adj_close": 15.449999809265137,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "status": null,
+      "summary_value": 16.139999389648438,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.139999389648438,
+        "high": 16.350000381469727,
+        "low": 15.779999732971191,
+        "close": 16.100000381469727,
+        "adj_close": 16.100000381469727,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "status": null,
+      "summary_value": 16.100000381469727,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.100000381469727,
+        "high": 17.06999969482422,
+        "low": 15.949999809265137,
+        "close": 16.639999389648438,
+        "adj_close": 16.639999389648438,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "status": null,
+      "summary_value": 16.56999969482422,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.56999969482422,
+        "high": 17.209999084472656,
+        "low": 16.18000030517578,
+        "close": 16.18000030517578,
+        "adj_close": 16.18000030517578,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "status": null,
+      "summary_value": 16.549999237060547,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.549999237060547,
+        "high": 17.739999771118164,
+        "low": 16.31999969482422,
+        "close": 16.739999771118164,
+        "adj_close": 16.739999771118164,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "normal",
+      "summary_value": 16.889999389648438,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.889999389648438,
+        "high": 17.049999237060547,
+        "low": 15.289999961853027,
+        "close": 15.289999961853027,
+        "adj_close": 15.289999961853027,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.889999389648438,
+        "high": 17.049999237060547,
+        "low": 15.289999961853027,
+        "close": 15.289999961853027,
+        "adj_close": 15.289999961853027,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.889999389648438,
+        "high": 17.049999237060547,
+        "low": 15.289999961853027,
+        "close": 15.289999961853027,
+        "adj_close": 15.289999961853027,
+        "volume": 0
+      }
+    }
+  ]
+}

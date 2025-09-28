@@ -1,0 +1,566 @@
+{
+  "indicator": "retail_positioning",
+  "display_name": "Retail Positioning",
+  "category": "Sentiment",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Sentiment",
+    "AAII"
+  ],
+  "threshold": "> 70%",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-10-03",
+      "status": null,
+      "summary_value": 45.4545,
+      "details": {
+        "Bullish": 45.4545,
+        "Neutral": 27.2727,
+        "Bearish": 27.2727
+      }
+    },
+    {
+      "date": "2024-10-10",
+      "status": null,
+      "summary_value": 49.0119,
+      "details": {
+        "Bullish": 49.0119,
+        "Neutral": 30.4348,
+        "Bearish": 20.5534
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "status": null,
+      "summary_value": 45.4545,
+      "details": {
+        "Bullish": 45.4545,
+        "Neutral": 29.1667,
+        "Bearish": 25.3788
+      }
+    },
+    {
+      "date": "2024-10-24",
+      "status": null,
+      "summary_value": 37.7049,
+      "details": {
+        "Bullish": 37.7049,
+        "Neutral": 32.377,
+        "Bearish": 29.918
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "status": null,
+      "summary_value": 39.485,
+      "details": {
+        "Bullish": 39.485,
+        "Neutral": 29.6137,
+        "Bearish": 30.9013
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "status": null,
+      "summary_value": 41.5441,
+      "details": {
+        "Bullish": 41.5441,
+        "Neutral": 30.8824,
+        "Bearish": 27.5735
+      }
+    },
+    {
+      "date": "2024-11-14",
+      "status": null,
+      "summary_value": 49.8442,
+      "details": {
+        "Bullish": 49.8442,
+        "Neutral": 21.8069,
+        "Bearish": 28.3489
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "status": null,
+      "summary_value": 41.2903,
+      "details": {
+        "Bullish": 41.2903,
+        "Neutral": 25.4839,
+        "Bearish": 33.2258
+      }
+    },
+    {
+      "date": "2024-11-28",
+      "status": null,
+      "summary_value": 37.0518,
+      "details": {
+        "Bullish": 37.0518,
+        "Neutral": 24.3028,
+        "Bearish": 38.6454
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "status": null,
+      "summary_value": 48.3333,
+      "details": {
+        "Bullish": 48.3333,
+        "Neutral": 21.0,
+        "Bearish": 30.6667
+      }
+    },
+    {
+      "date": "2024-12-12",
+      "status": null,
+      "summary_value": 43.3333,
+      "details": {
+        "Bullish": 43.3333,
+        "Neutral": 25.0,
+        "Bearish": 31.6667
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "status": null,
+      "summary_value": 40.7143,
+      "details": {
+        "Bullish": 40.7143,
+        "Neutral": 27.857100000000003,
+        "Bearish": 31.4286
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "status": null,
+      "summary_value": 37.8049,
+      "details": {
+        "Bullish": 37.8049,
+        "Neutral": 28.0488,
+        "Bearish": 34.146300000000004
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "status": null,
+      "summary_value": 35.443000000000005,
+      "details": {
+        "Bullish": 35.443000000000005,
+        "Neutral": 30.3797,
+        "Bearish": 34.1772
+      }
+    },
+    {
+      "date": "2025-01-09",
+      "status": null,
+      "summary_value": 34.6674,
+      "details": {
+        "Bullish": 34.6674,
+        "Neutral": 27.957,
+        "Bearish": 37.3656
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "status": null,
+      "summary_value": 25.428600000000003,
+      "details": {
+        "Bullish": 25.428600000000003,
+        "Neutral": 34.0,
+        "Bearish": 40.5714
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "status": null,
+      "summary_value": 43.4286,
+      "details": {
+        "Bullish": 43.4286,
+        "Neutral": 27.1429,
+        "Bearish": 29.4286
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "status": null,
+      "summary_value": 40.9639,
+      "details": {
+        "Bullish": 40.9639,
+        "Neutral": 25.0,
+        "Bearish": 34.036100000000005
+      }
+    },
+    {
+      "date": "2025-02-06",
+      "status": null,
+      "summary_value": 33.3333,
+      "details": {
+        "Bullish": 33.3333,
+        "Neutral": 23.8095,
+        "Bearish": 42.8571
+      }
+    },
+    {
+      "date": "2025-02-13",
+      "status": null,
+      "summary_value": 28.4153,
+      "details": {
+        "Bullish": 28.4153,
+        "Neutral": 24.3169,
+        "Bearish": 47.2678
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "status": null,
+      "summary_value": 29.1908,
+      "details": {
+        "Bullish": 29.1908,
+        "Neutral": 30.3468,
+        "Bearish": 40.4624
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "status": null,
+      "summary_value": 19.3846,
+      "details": {
+        "Bullish": 19.3846,
+        "Neutral": 20.0,
+        "Bearish": 60.6154
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "status": null,
+      "summary_value": 19.3333,
+      "details": {
+        "Bullish": 19.3333,
+        "Neutral": 23.5556,
+        "Bearish": 57.1111
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "status": null,
+      "summary_value": 19.1083,
+      "details": {
+        "Bullish": 19.1083,
+        "Neutral": 21.6561,
+        "Bearish": 59.2357
+      }
+    },
+    {
+      "date": "2025-03-20",
+      "status": null,
+      "summary_value": 21.5812,
+      "details": {
+        "Bullish": 21.5812,
+        "Neutral": 20.2991,
+        "Bearish": 58.1197
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "status": null,
+      "summary_value": 27.4194,
+      "details": {
+        "Bullish": 27.4194,
+        "Neutral": 20.4301,
+        "Bearish": 52.1505
+      }
+    },
+    {
+      "date": "2025-04-03",
+      "status": null,
+      "summary_value": 21.7617,
+      "details": {
+        "Bullish": 21.7617,
+        "Neutral": 16.3212,
+        "Bearish": 61.917100000000005
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "status": null,
+      "summary_value": 28.5171,
+      "details": {
+        "Bullish": 28.5171,
+        "Neutral": 12.5475,
+        "Bearish": 58.9354
+      }
+    },
+    {
+      "date": "2025-04-17",
+      "status": null,
+      "summary_value": 25.4364,
+      "details": {
+        "Bullish": 25.4364,
+        "Neutral": 17.7057,
+        "Bearish": 56.8579
+      }
+    },
+    {
+      "date": "2025-04-24",
+      "status": null,
+      "summary_value": 21.9373,
+      "details": {
+        "Bullish": 21.9373,
+        "Neutral": 22.5071,
+        "Bearish": 55.555600000000005
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 20.944,
+      "details": {
+        "Bullish": 20.944,
+        "Neutral": 19.764,
+        "Bearish": 59.292
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "status": null,
+      "summary_value": 29.4479,
+      "details": {
+        "Bullish": 29.4479,
+        "Neutral": 19.0184,
+        "Bearish": 51.5337
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "status": null,
+      "summary_value": 35.932199999999995,
+      "details": {
+        "Bullish": 35.932199999999995,
+        "Neutral": 19.661,
+        "Bearish": 44.4068
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "status": null,
+      "summary_value": 37.7049,
+      "details": {
+        "Bullish": 37.7049,
+        "Neutral": 25.5738,
+        "Bearish": 36.7213
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "status": null,
+      "summary_value": 32.8904,
+      "details": {
+        "Bullish": 32.8904,
+        "Neutral": 25.2492,
+        "Bearish": 41.8605
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "status": null,
+      "summary_value": 32.6599,
+      "details": {
+        "Bullish": 32.6599,
+        "Neutral": 25.9259,
+        "Bearish": 41.4141
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "status": null,
+      "summary_value": 36.6667,
+      "details": {
+        "Bullish": 36.6667,
+        "Neutral": 29.7436,
+        "Bearish": 33.5897
+      }
+    },
+    {
+      "date": "2025-06-19",
+      "status": null,
+      "summary_value": 33.209,
+      "details": {
+        "Bullish": 33.209,
+        "Neutral": 25.3731,
+        "Bearish": 41.4179
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "status": null,
+      "summary_value": 35.0694,
+      "details": {
+        "Bullish": 35.0694,
+        "Neutral": 24.6528,
+        "Bearish": 40.2778
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "status": null,
+      "summary_value": 45.0161,
+      "details": {
+        "Bullish": 45.0161,
+        "Neutral": 21.865,
+        "Bearish": 33.119
+      }
+    },
+    {
+      "date": "2025-07-10",
+      "status": null,
+      "summary_value": 41.3793,
+      "details": {
+        "Bullish": 41.3793,
+        "Neutral": 22.9885,
+        "Bearish": 35.632200000000005
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "status": null,
+      "summary_value": 39.2655,
+      "details": {
+        "Bullish": 39.2655,
+        "Neutral": 21.7514,
+        "Bearish": 38.9831
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "status": null,
+      "summary_value": 36.7781,
+      "details": {
+        "Bullish": 36.7781,
+        "Neutral": 29.1793,
+        "Bearish": 34.0426
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "status": null,
+      "summary_value": 40.3333,
+      "details": {
+        "Bullish": 40.3333,
+        "Neutral": 26.6667,
+        "Bearish": 33.0
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "status": null,
+      "summary_value": 34.8703,
+      "details": {
+        "Bullish": 34.8703,
+        "Neutral": 21.902,
+        "Bearish": 43.2277
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "status": null,
+      "summary_value": 29.8817,
+      "details": {
+        "Bullish": 29.8817,
+        "Neutral": 23.9645,
+        "Bearish": 46.1538
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "status": null,
+      "summary_value": 30.8442,
+      "details": {
+        "Bullish": 30.8442,
+        "Neutral": 24.3506,
+        "Bearish": 44.8052
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "status": null,
+      "summary_value": 34.6021,
+      "details": {
+        "Bullish": 34.6021,
+        "Neutral": 25.951600000000003,
+        "Bearish": 39.4464
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "status": null,
+      "summary_value": 32.6861,
+      "details": {
+        "Bullish": 32.6861,
+        "Neutral": 23.9482,
+        "Bearish": 43.3657
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "status": null,
+      "summary_value": 28.0277,
+      "details": {
+        "Bullish": 28.0277,
+        "Neutral": 22.4913,
+        "Bearish": 49.481
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "status": null,
+      "summary_value": 41.6667,
+      "details": {
+        "Bullish": 41.6667,
+        "Neutral": 15.9722,
+        "Bearish": 42.3611
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "status": null,
+      "summary_value": 41.726600000000005,
+      "details": {
+        "Bullish": 41.726600000000005,
+        "Neutral": 19.0647,
+        "Bearish": 39.2086
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {
+        "Bullish": 41.726600000000005,
+        "Neutral": 19.0647,
+        "Bearish": 39.2086
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "Bullish": 41.726600000000005,
+        "Neutral": 19.0647,
+        "Bearish": 39.2086
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "Bullish": 41.726600000000005,
+        "Neutral": 19.0647,
+        "Bearish": 39.2086
+      }
+    }
+  ]
+}

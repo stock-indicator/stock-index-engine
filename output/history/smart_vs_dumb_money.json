@@ -1,0 +1,2283 @@
+{
+  "indicator": "smart_vs_dumb_money",
+  "display_name": "Smart vs Dumb Money",
+  "category": "Sentiment",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Sentiment"
+  ],
+  "threshold": "> 70",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-09-30",
+      "status": null,
+      "summary_value": 73.6857142857143,
+      "details": {
+        "index_value": 73.6857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 70.31428571428572,
+      "details": {
+        "index_value": 70.31428571428572,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-02",
+      "status": null,
+      "summary_value": 70.57142857142857,
+      "details": {
+        "index_value": 70.57142857142857,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-03",
+      "status": null,
+      "summary_value": 69.42857142857143,
+      "details": {
+        "index_value": 69.42857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-04",
+      "status": null,
+      "summary_value": 71.4,
+      "details": {
+        "index_value": 71.4,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-07",
+      "status": null,
+      "summary_value": 70.82857142857144,
+      "details": {
+        "index_value": 70.82857142857144,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-08",
+      "status": null,
+      "summary_value": 71.17142857142856,
+      "details": {
+        "index_value": 71.17142857142856,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-09",
+      "status": null,
+      "summary_value": 71.14285714285715,
+      "details": {
+        "index_value": 71.14285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-10",
+      "status": null,
+      "summary_value": 70.28571428571429,
+      "details": {
+        "index_value": 70.28571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-11",
+      "status": null,
+      "summary_value": 71.65714285714286,
+      "details": {
+        "index_value": 71.65714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-14",
+      "status": null,
+      "summary_value": 74.22857142857143,
+      "details": {
+        "index_value": 74.22857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-15",
+      "status": null,
+      "summary_value": 71.14285714285715,
+      "details": {
+        "index_value": 71.14285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-16",
+      "status": null,
+      "summary_value": 69.02857142857142,
+      "details": {
+        "index_value": 69.02857142857142,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "status": null,
+      "summary_value": 68.57142857142857,
+      "details": {
+        "index_value": 68.57142857142857,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-18",
+      "status": null,
+      "summary_value": 72.42857142857143,
+      "details": {
+        "index_value": 72.42857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-21",
+      "status": null,
+      "summary_value": 69.8,
+      "details": {
+        "index_value": 69.8,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "status": null,
+      "summary_value": 70.37142857142858,
+      "details": {
+        "index_value": 70.37142857142858,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-23",
+      "status": null,
+      "summary_value": 63.2,
+      "details": {
+        "index_value": 63.2,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-24",
+      "status": null,
+      "summary_value": 62.94285714285714,
+      "details": {
+        "index_value": 62.94285714285714,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-25",
+      "status": null,
+      "summary_value": 58.74285714285715,
+      "details": {
+        "index_value": 58.74285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "status": null,
+      "summary_value": 60.85714285714287,
+      "details": {
+        "index_value": 60.85714285714287,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-29",
+      "status": null,
+      "summary_value": 60.057142857142864,
+      "details": {
+        "index_value": 60.057142857142864,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-30",
+      "status": null,
+      "summary_value": 57.2,
+      "details": {
+        "index_value": 57.2,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "status": null,
+      "summary_value": 40.45714285714286,
+      "details": {
+        "index_value": 40.45714285714286,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": 50.48571428571429,
+      "details": {
+        "index_value": 50.48571428571429,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-11-04",
+      "status": null,
+      "summary_value": 42.42857142857143,
+      "details": {
+        "index_value": 42.42857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-11-05",
+      "status": null,
+      "summary_value": 43.54285714285715,
+      "details": {
+        "index_value": 43.54285714285715,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-11-06",
+      "status": null,
+      "summary_value": 44.0,
+      "details": {
+        "index_value": 44.0,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "status": null,
+      "summary_value": 59.05714285714286,
+      "details": {
+        "index_value": 59.05714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-08",
+      "status": null,
+      "summary_value": 59.42857142857144,
+      "details": {
+        "index_value": 59.42857142857144,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-11",
+      "status": null,
+      "summary_value": 66.6,
+      "details": {
+        "index_value": 66.6,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "status": null,
+      "summary_value": 66.71428571428571,
+      "details": {
+        "index_value": 66.71428571428571,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-13",
+      "status": null,
+      "summary_value": 66.31428571428572,
+      "details": {
+        "index_value": 66.31428571428572,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-14",
+      "status": null,
+      "summary_value": 60.31428571428573,
+      "details": {
+        "index_value": 60.31428571428573,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-15",
+      "status": null,
+      "summary_value": 51.2,
+      "details": {
+        "index_value": 51.2,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-11-18",
+      "status": null,
+      "summary_value": 50.285714285714285,
+      "details": {
+        "index_value": 50.285714285714285,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-11-19",
+      "status": null,
+      "summary_value": 49.51428571428572,
+      "details": {
+        "index_value": 49.51428571428572,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-11-20",
+      "status": null,
+      "summary_value": 49.51428571428572,
+      "details": {
+        "index_value": 49.51428571428572,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "status": null,
+      "summary_value": 56.60000000000001,
+      "details": {
+        "index_value": 56.60000000000001,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-22",
+      "status": null,
+      "summary_value": 60.71428571428572,
+      "details": {
+        "index_value": 60.71428571428572,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-25",
+      "status": null,
+      "summary_value": 62.88571428571429,
+      "details": {
+        "index_value": 62.88571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-26",
+      "status": null,
+      "summary_value": 65.91428571428573,
+      "details": {
+        "index_value": 65.91428571428573,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-27",
+      "status": null,
+      "summary_value": 64.4,
+      "details": {
+        "index_value": 64.4,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-11-29",
+      "status": null,
+      "summary_value": 65.0,
+      "details": {
+        "index_value": 65.0,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-12-02",
+      "status": null,
+      "summary_value": 65.31428571428572,
+      "details": {
+        "index_value": 65.31428571428572,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "status": null,
+      "summary_value": 59.57142857142858,
+      "details": {
+        "index_value": 59.57142857142858,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-12-04",
+      "status": null,
+      "summary_value": 57.48571428571429,
+      "details": {
+        "index_value": 57.48571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "status": null,
+      "summary_value": 54.91428571428572,
+      "details": {
+        "index_value": 54.91428571428572,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-06",
+      "status": null,
+      "summary_value": 52.142857142857146,
+      "details": {
+        "index_value": 52.142857142857146,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-09",
+      "status": null,
+      "summary_value": 49.25714285714287,
+      "details": {
+        "index_value": 49.25714285714287,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-10",
+      "status": null,
+      "summary_value": 46.971428571428575,
+      "details": {
+        "index_value": 46.971428571428575,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-11",
+      "status": null,
+      "summary_value": 49.2,
+      "details": {
+        "index_value": 49.2,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-12",
+      "status": null,
+      "summary_value": 47.114285714285714,
+      "details": {
+        "index_value": 47.114285714285714,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-13",
+      "status": null,
+      "summary_value": 49.114285714285714,
+      "details": {
+        "index_value": 49.114285714285714,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "status": null,
+      "summary_value": 56.057142857142864,
+      "details": {
+        "index_value": 56.057142857142864,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2024-12-17",
+      "status": null,
+      "summary_value": 51.4,
+      "details": {
+        "index_value": 51.4,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2024-12-18",
+      "status": null,
+      "summary_value": 33.12857142857143,
+      "details": {
+        "index_value": 33.12857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "status": null,
+      "summary_value": 19.51428571428572,
+      "details": {
+        "index_value": 19.51428571428572,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2024-12-20",
+      "status": null,
+      "summary_value": 27.600000000000005,
+      "details": {
+        "index_value": 27.600000000000005,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-12-23",
+      "status": null,
+      "summary_value": 30.142857142857142,
+      "details": {
+        "index_value": 30.142857142857142,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "status": null,
+      "summary_value": 34.51428571428571,
+      "details": {
+        "index_value": 34.51428571428571,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "status": null,
+      "summary_value": 34.17142857142857,
+      "details": {
+        "index_value": 34.17142857142857,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-12-27",
+      "status": null,
+      "summary_value": 33.82857142857143,
+      "details": {
+        "index_value": 33.82857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-12-30",
+      "status": null,
+      "summary_value": 28.6,
+      "details": {
+        "index_value": 28.6,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2024-12-31",
+      "status": null,
+      "summary_value": 26.314285714285717,
+      "details": {
+        "index_value": 26.314285714285717,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "status": null,
+      "summary_value": 24.31428571428572,
+      "details": {
+        "index_value": 24.31428571428572,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "status": null,
+      "summary_value": 28.885714285714283,
+      "details": {
+        "index_value": 28.885714285714283,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "status": null,
+      "summary_value": 33.77142857142857,
+      "details": {
+        "index_value": 33.77142857142857,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "status": null,
+      "summary_value": 34.31428571428572,
+      "details": {
+        "index_value": 34.31428571428572,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-08",
+      "status": null,
+      "summary_value": 31.91428571428572,
+      "details": {
+        "index_value": 31.91428571428572,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "status": null,
+      "summary_value": 25.62857142857143,
+      "details": {
+        "index_value": 25.62857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "status": null,
+      "summary_value": 25.34285714285715,
+      "details": {
+        "index_value": 25.34285714285715,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "status": null,
+      "summary_value": 25.142857142857142,
+      "details": {
+        "index_value": 25.142857142857142,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "status": null,
+      "summary_value": 27.428571428571427,
+      "details": {
+        "index_value": 27.428571428571427,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "status": null,
+      "summary_value": 27.342857142857145,
+      "details": {
+        "index_value": 27.342857142857145,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "status": null,
+      "summary_value": 36.02857142857143,
+      "details": {
+        "index_value": 36.02857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "status": null,
+      "summary_value": 39.91428571428572,
+      "details": {
+        "index_value": 39.91428571428572,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-22",
+      "status": null,
+      "summary_value": 41.62857142857143,
+      "details": {
+        "index_value": 41.62857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "status": null,
+      "summary_value": 43.68571428571429,
+      "details": {
+        "index_value": 43.68571428571429,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-24",
+      "status": null,
+      "summary_value": 45.8,
+      "details": {
+        "index_value": 45.8,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "status": null,
+      "summary_value": 37.971428571428575,
+      "details": {
+        "index_value": 37.971428571428575,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "status": null,
+      "summary_value": 40.62857142857143,
+      "details": {
+        "index_value": 40.62857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-29",
+      "status": null,
+      "summary_value": 42.4,
+      "details": {
+        "index_value": 42.4,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "status": null,
+      "summary_value": 45.91428571428571,
+      "details": {
+        "index_value": 45.91428571428571,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "status": null,
+      "summary_value": 43.771428571428565,
+      "details": {
+        "index_value": 43.771428571428565,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "status": null,
+      "summary_value": 37.4,
+      "details": {
+        "index_value": 37.4,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-04",
+      "status": null,
+      "summary_value": 37.142857142857146,
+      "details": {
+        "index_value": 37.142857142857146,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-05",
+      "status": null,
+      "summary_value": 38.62857142857143,
+      "details": {
+        "index_value": 38.62857142857143,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-06",
+      "status": null,
+      "summary_value": 39.68571428571429,
+      "details": {
+        "index_value": 39.68571428571429,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "status": null,
+      "summary_value": 38.371428571428574,
+      "details": {
+        "index_value": 38.371428571428574,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-10",
+      "status": null,
+      "summary_value": 44.71428571428572,
+      "details": {
+        "index_value": 44.71428571428572,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-11",
+      "status": null,
+      "summary_value": 45.4,
+      "details": {
+        "index_value": 45.4,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-02-12",
+      "status": null,
+      "summary_value": 41.371428571428574,
+      "details": {
+        "index_value": 41.371428571428574,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-13",
+      "status": null,
+      "summary_value": 46.60000000000001,
+      "details": {
+        "index_value": 46.60000000000001,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-02-14",
+      "status": null,
+      "summary_value": 43.68571428571429,
+      "details": {
+        "index_value": 43.68571428571429,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-18",
+      "status": null,
+      "summary_value": 46.8,
+      "details": {
+        "index_value": 46.8,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-02-19",
+      "status": null,
+      "summary_value": 47.62857142857143,
+      "details": {
+        "index_value": 47.62857142857143,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "status": null,
+      "summary_value": 44.22857142857144,
+      "details": {
+        "index_value": 44.22857142857144,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "status": null,
+      "summary_value": 36.971428571428575,
+      "details": {
+        "index_value": 36.971428571428575,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-24",
+      "status": null,
+      "summary_value": 29.542857142857144,
+      "details": {
+        "index_value": 29.542857142857144,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "status": null,
+      "summary_value": 24.2,
+      "details": {
+        "index_value": 24.2,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-02-26",
+      "status": null,
+      "summary_value": 21.25714285714286,
+      "details": {
+        "index_value": 21.25714285714286,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "status": null,
+      "summary_value": 12.757142857142858,
+      "details": {
+        "index_value": 12.757142857142858,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-02-28",
+      "status": null,
+      "summary_value": 20.65714285714285,
+      "details": {
+        "index_value": 20.65714285714285,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-03",
+      "status": null,
+      "summary_value": 12.342857142857143,
+      "details": {
+        "index_value": 12.342857142857143,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "status": null,
+      "summary_value": 11.042857142857144,
+      "details": {
+        "index_value": 11.042857142857144,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-05",
+      "status": null,
+      "summary_value": 11.514285714285714,
+      "details": {
+        "index_value": 11.514285714285714,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "status": null,
+      "summary_value": 17.2,
+      "details": {
+        "index_value": 17.2,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-07",
+      "status": null,
+      "summary_value": 17.642857142857146,
+      "details": {
+        "index_value": 17.642857142857146,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-10",
+      "status": null,
+      "summary_value": 17.071428571428573,
+      "details": {
+        "index_value": 17.071428571428573,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "status": null,
+      "summary_value": 15.114285714285716,
+      "details": {
+        "index_value": 15.114285714285716,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-12",
+      "status": null,
+      "summary_value": 15.914285714285716,
+      "details": {
+        "index_value": 15.914285714285716,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "status": null,
+      "summary_value": 15.185714285714289,
+      "details": {
+        "index_value": 15.185714285714289,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-14",
+      "status": null,
+      "summary_value": 22.057142857142857,
+      "details": {
+        "index_value": 22.057142857142857,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-17",
+      "status": null,
+      "summary_value": 22.571428571428573,
+      "details": {
+        "index_value": 22.571428571428573,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-18",
+      "status": null,
+      "summary_value": 22.228571428571428,
+      "details": {
+        "index_value": 22.228571428571428,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-19",
+      "status": null,
+      "summary_value": 21.6,
+      "details": {
+        "index_value": 21.6,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-20",
+      "status": null,
+      "summary_value": 21.685714285714287,
+      "details": {
+        "index_value": 21.685714285714287,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-21",
+      "status": null,
+      "summary_value": 22.685714285714287,
+      "details": {
+        "index_value": 22.685714285714287,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "status": null,
+      "summary_value": 25.4,
+      "details": {
+        "index_value": 25.4,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-03-25",
+      "status": null,
+      "summary_value": 29.285714285714285,
+      "details": {
+        "index_value": 29.285714285714285,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-03-26",
+      "status": null,
+      "summary_value": 28.88571428571429,
+      "details": {
+        "index_value": 28.88571428571429,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "status": null,
+      "summary_value": 28.342857142857145,
+      "details": {
+        "index_value": 28.342857142857145,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-03-28",
+      "status": null,
+      "summary_value": 26.371428571428574,
+      "details": {
+        "index_value": 26.371428571428574,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "status": null,
+      "summary_value": 21.11428571428572,
+      "details": {
+        "index_value": 21.11428571428572,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 19.571428571428573,
+      "details": {
+        "index_value": 19.571428571428573,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-02",
+      "status": null,
+      "summary_value": 22.6,
+      "details": {
+        "index_value": 22.6,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-03",
+      "status": null,
+      "summary_value": 12.142857142857142,
+      "details": {
+        "index_value": 12.142857142857142,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-04",
+      "status": null,
+      "summary_value": 5.385714285714286,
+      "details": {
+        "index_value": 5.385714285714286,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-07",
+      "status": null,
+      "summary_value": 4.0,
+      "details": {
+        "index_value": 4.0,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "status": null,
+      "summary_value": 2.9,
+      "details": {
+        "index_value": 2.9,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-09",
+      "status": null,
+      "summary_value": 9.5,
+      "details": {
+        "index_value": 9.5,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "status": null,
+      "summary_value": 5.614285714285715,
+      "details": {
+        "index_value": 5.614285714285715,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-11",
+      "status": null,
+      "summary_value": 8.385714285714286,
+      "details": {
+        "index_value": 8.385714285714286,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-14",
+      "status": null,
+      "summary_value": 12.342857142857143,
+      "details": {
+        "index_value": 12.342857142857143,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-15",
+      "status": null,
+      "summary_value": 13.114285714285716,
+      "details": {
+        "index_value": 13.114285714285716,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-16",
+      "status": null,
+      "summary_value": 11.142857142857142,
+      "details": {
+        "index_value": 11.142857142857142,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-17",
+      "status": null,
+      "summary_value": 16.057142857142857,
+      "details": {
+        "index_value": 16.057142857142857,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-21",
+      "status": null,
+      "summary_value": 12.371428571428572,
+      "details": {
+        "index_value": 12.371428571428572,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "status": null,
+      "summary_value": 13.600000000000003,
+      "details": {
+        "index_value": 13.600000000000003,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-23",
+      "status": null,
+      "summary_value": 21.542857142857144,
+      "details": {
+        "index_value": 21.542857142857144,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-24",
+      "status": null,
+      "summary_value": 24.08571428571429,
+      "details": {
+        "index_value": 24.08571428571429,
+        "rating": "extreme fear"
+      }
+    },
+    {
+      "date": "2025-04-25",
+      "status": null,
+      "summary_value": 34.51428571428572,
+      "details": {
+        "index_value": 34.51428571428572,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-04-28",
+      "status": null,
+      "summary_value": 32.142857142857146,
+      "details": {
+        "index_value": 32.142857142857146,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-04-29",
+      "status": null,
+      "summary_value": 32.74285714285714,
+      "details": {
+        "index_value": 32.74285714285714,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-04-30",
+      "status": null,
+      "summary_value": 32.371428571428574,
+      "details": {
+        "index_value": 32.371428571428574,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 41.25714285714287,
+      "details": {
+        "index_value": 41.25714285714287,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "status": null,
+      "summary_value": 38.28571428571429,
+      "details": {
+        "index_value": 38.28571428571429,
+        "rating": "fear"
+      }
+    },
+    {
+      "date": "2025-05-05",
+      "status": null,
+      "summary_value": 53.057142857142864,
+      "details": {
+        "index_value": 53.057142857142864,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-05-06",
+      "status": null,
+      "summary_value": 54.65714285714286,
+      "details": {
+        "index_value": 54.65714285714286,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "status": null,
+      "summary_value": 54.142857142857146,
+      "details": {
+        "index_value": 54.142857142857146,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "status": null,
+      "summary_value": 57.65714285714286,
+      "details": {
+        "index_value": 57.65714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "status": null,
+      "summary_value": 60.02857142857143,
+      "details": {
+        "index_value": 60.02857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-12",
+      "status": null,
+      "summary_value": 64.4857142857143,
+      "details": {
+        "index_value": 64.4857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "status": null,
+      "summary_value": 68.2,
+      "details": {
+        "index_value": 68.2,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-14",
+      "status": null,
+      "summary_value": 70.4,
+      "details": {
+        "index_value": 70.4,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "status": null,
+      "summary_value": 69.14285714285714,
+      "details": {
+        "index_value": 69.14285714285714,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-16",
+      "status": null,
+      "summary_value": 70.60000000000001,
+      "details": {
+        "index_value": 70.60000000000001,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-19",
+      "status": null,
+      "summary_value": 69.74285714285715,
+      "details": {
+        "index_value": 69.74285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "status": null,
+      "summary_value": 69.17142857142858,
+      "details": {
+        "index_value": 69.17142857142858,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "status": null,
+      "summary_value": 66.22857142857143,
+      "details": {
+        "index_value": 66.22857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "status": null,
+      "summary_value": 66.8,
+      "details": {
+        "index_value": 66.8,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-23",
+      "status": null,
+      "summary_value": 64.08571428571429,
+      "details": {
+        "index_value": 64.08571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "status": null,
+      "summary_value": 65.74285714285715,
+      "details": {
+        "index_value": 65.74285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "status": null,
+      "summary_value": 64.74285714285715,
+      "details": {
+        "index_value": 64.74285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "status": null,
+      "summary_value": 64.45714285714287,
+      "details": {
+        "index_value": 64.45714285714287,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-05-30",
+      "status": null,
+      "summary_value": 61.91428571428571,
+      "details": {
+        "index_value": 61.91428571428571,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-02",
+      "status": null,
+      "summary_value": 62.42857142857144,
+      "details": {
+        "index_value": 62.42857142857144,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-03",
+      "status": null,
+      "summary_value": 54.57142857142857,
+      "details": {
+        "index_value": 54.57142857142857,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-06-04",
+      "status": null,
+      "summary_value": 54.88571428571429,
+      "details": {
+        "index_value": 54.88571428571429,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "status": null,
+      "summary_value": 57.97142857142858,
+      "details": {
+        "index_value": 57.97142857142858,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-06",
+      "status": null,
+      "summary_value": 61.77142857142858,
+      "details": {
+        "index_value": 61.77142857142858,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-09",
+      "status": null,
+      "summary_value": 63.42857142857143,
+      "details": {
+        "index_value": 63.42857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-10",
+      "status": null,
+      "summary_value": 64.0,
+      "details": {
+        "index_value": 64.0,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-11",
+      "status": null,
+      "summary_value": 64.2,
+      "details": {
+        "index_value": 64.2,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "status": null,
+      "summary_value": 64.6,
+      "details": {
+        "index_value": 64.6,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-13",
+      "status": null,
+      "summary_value": 59.54285714285715,
+      "details": {
+        "index_value": 59.54285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-16",
+      "status": null,
+      "summary_value": 61.114285714285714,
+      "details": {
+        "index_value": 61.114285714285714,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "status": null,
+      "summary_value": 57.42857142857144,
+      "details": {
+        "index_value": 57.42857142857144,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-18",
+      "status": null,
+      "summary_value": 54.285714285714285,
+      "details": {
+        "index_value": 54.285714285714285,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-06-20",
+      "status": null,
+      "summary_value": 54.51428571428573,
+      "details": {
+        "index_value": 54.51428571428573,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-06-23",
+      "status": null,
+      "summary_value": 56.60000000000001,
+      "details": {
+        "index_value": 56.60000000000001,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-24",
+      "status": null,
+      "summary_value": 57.885714285714286,
+      "details": {
+        "index_value": 57.885714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "status": null,
+      "summary_value": 59.25714285714286,
+      "details": {
+        "index_value": 59.25714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "status": null,
+      "summary_value": 63.00000000000001,
+      "details": {
+        "index_value": 63.00000000000001,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "status": null,
+      "summary_value": 64.8,
+      "details": {
+        "index_value": 64.8,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "status": null,
+      "summary_value": 69.22857142857143,
+      "details": {
+        "index_value": 69.22857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 67.54285714285714,
+      "details": {
+        "index_value": 67.54285714285714,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "status": null,
+      "summary_value": 63.71428571428572,
+      "details": {
+        "index_value": 63.71428571428572,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "status": null,
+      "summary_value": 77.62857142857145,
+      "details": {
+        "index_value": 77.62857142857145,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "status": null,
+      "summary_value": 75.08571428571429,
+      "details": {
+        "index_value": 75.08571428571429,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-08",
+      "status": null,
+      "summary_value": 74.62857142857142,
+      "details": {
+        "index_value": 74.62857142857142,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-09",
+      "status": null,
+      "summary_value": 75.91428571428571,
+      "details": {
+        "index_value": 75.91428571428571,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-10",
+      "status": null,
+      "summary_value": 76.97142857142856,
+      "details": {
+        "index_value": 76.97142857142856,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-11",
+      "status": null,
+      "summary_value": 75.25714285714285,
+      "details": {
+        "index_value": 75.25714285714285,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-14",
+      "status": null,
+      "summary_value": 76.11428571428573,
+      "details": {
+        "index_value": 76.11428571428573,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "status": null,
+      "summary_value": 73.4857142857143,
+      "details": {
+        "index_value": 73.4857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-16",
+      "status": null,
+      "summary_value": 72.94285714285715,
+      "details": {
+        "index_value": 72.94285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "status": null,
+      "summary_value": 74.17142857142858,
+      "details": {
+        "index_value": 74.17142857142858,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-18",
+      "status": null,
+      "summary_value": 73.94285714285715,
+      "details": {
+        "index_value": 73.94285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-21",
+      "status": null,
+      "summary_value": 73.28571428571429,
+      "details": {
+        "index_value": 73.28571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "status": null,
+      "summary_value": 73.88571428571429,
+      "details": {
+        "index_value": 73.88571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-23",
+      "status": null,
+      "summary_value": 76.3714285714286,
+      "details": {
+        "index_value": 76.3714285714286,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "status": null,
+      "summary_value": 75.25714285714287,
+      "details": {
+        "index_value": 75.25714285714287,
+        "rating": "extreme greed"
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "status": null,
+      "summary_value": 74.65714285714286,
+      "details": {
+        "index_value": 74.65714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "status": null,
+      "summary_value": 73.8,
+      "details": {
+        "index_value": 73.8,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "status": null,
+      "summary_value": 70.62857142857143,
+      "details": {
+        "index_value": 70.62857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "status": null,
+      "summary_value": 68.02857142857142,
+      "details": {
+        "index_value": 68.02857142857142,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "status": null,
+      "summary_value": 63.71428571428572,
+      "details": {
+        "index_value": 63.71428571428572,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 49.8,
+      "details": {
+        "index_value": 49.8,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "status": null,
+      "summary_value": 56.885714285714286,
+      "details": {
+        "index_value": 56.885714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "status": null,
+      "summary_value": 55.02857142857143,
+      "details": {
+        "index_value": 55.02857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "status": null,
+      "summary_value": 55.31428571428573,
+      "details": {
+        "index_value": 55.31428571428573,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "status": null,
+      "summary_value": 54.71428571428572,
+      "details": {
+        "index_value": 54.71428571428572,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "status": null,
+      "summary_value": 58.37142857142857,
+      "details": {
+        "index_value": 58.37142857142857,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "status": null,
+      "summary_value": 57.62857142857143,
+      "details": {
+        "index_value": 57.62857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "status": null,
+      "summary_value": 62.25714285714286,
+      "details": {
+        "index_value": 62.25714285714286,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "status": null,
+      "summary_value": 63.34285714285714,
+      "details": {
+        "index_value": 63.34285714285714,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "status": null,
+      "summary_value": 63.25714285714287,
+      "details": {
+        "index_value": 63.25714285714287,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "status": null,
+      "summary_value": 63.54285714285715,
+      "details": {
+        "index_value": 63.54285714285715,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "status": null,
+      "summary_value": 64.2,
+      "details": {
+        "index_value": 64.2,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "status": null,
+      "summary_value": 59.88571428571429,
+      "details": {
+        "index_value": 59.88571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "status": null,
+      "summary_value": 55.91428571428572,
+      "details": {
+        "index_value": 55.91428571428572,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "status": null,
+      "summary_value": 55.1142857142857,
+      "details": {
+        "index_value": 55.1142857142857,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "status": null,
+      "summary_value": 61.6571428571429,
+      "details": {
+        "index_value": 61.6571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "status": null,
+      "summary_value": 58.4285714285714,
+      "details": {
+        "index_value": 58.4285714285714,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "status": null,
+      "summary_value": 60.8571428571429,
+      "details": {
+        "index_value": 60.8571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "status": null,
+      "summary_value": 64.8857142857143,
+      "details": {
+        "index_value": 64.8857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "status": null,
+      "summary_value": 65.6857142857143,
+      "details": {
+        "index_value": 65.6857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "status": null,
+      "summary_value": 60.8952380952381,
+      "details": {
+        "index_value": 60.8952380952381,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "status": null,
+      "summary_value": 52.2,
+      "details": {
+        "index_value": 52.2,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "status": null,
+      "summary_value": 51.6,
+      "details": {
+        "index_value": 51.6,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "status": null,
+      "summary_value": 55.5428571428571,
+      "details": {
+        "index_value": 55.5428571428571,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "status": null,
+      "summary_value": 53.0857142857143,
+      "details": {
+        "index_value": 53.0857142857143,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "status": null,
+      "summary_value": 50.2285714285714,
+      "details": {
+        "index_value": 50.2285714285714,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "status": null,
+      "summary_value": 51.0571428571429,
+      "details": {
+        "index_value": 51.0571428571429,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "status": null,
+      "summary_value": 49.8571428571429,
+      "details": {
+        "index_value": 49.8571428571429,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "status": null,
+      "summary_value": 54.5428571428571,
+      "details": {
+        "index_value": 54.5428571428571,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "status": null,
+      "summary_value": 54.4,
+      "details": {
+        "index_value": 54.4,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "status": null,
+      "summary_value": 58.3142857142857,
+      "details": {
+        "index_value": 58.3142857142857,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "status": null,
+      "summary_value": 57.4571428571429,
+      "details": {
+        "index_value": 57.4571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "status": null,
+      "summary_value": 58.4571428571429,
+      "details": {
+        "index_value": 58.4571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "status": null,
+      "summary_value": 61.0571428571429,
+      "details": {
+        "index_value": 61.0571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "status": null,
+      "summary_value": 62.2285714285714,
+      "details": {
+        "index_value": 62.2285714285714,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "status": null,
+      "summary_value": 62.2857142857143,
+      "details": {
+        "index_value": 62.2857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "status": null,
+      "summary_value": 58.4571428571429,
+      "details": {
+        "index_value": 58.4571428571429,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "status": null,
+      "summary_value": 55.2857142857143,
+      "details": {
+        "index_value": 55.2857142857143,
+        "rating": "greed"
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "status": null,
+      "summary_value": 51.8571428571429,
+      "details": {
+        "index_value": 51.8571428571429,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": 52.8,
+      "details": {
+        "index_value": 52.8,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": 52.8,
+      "details": {
+        "index_value": 52.8,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "index_value": 52.8,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "index_value": 52.8,
+        "rating": "neutral"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "indicator": "corporate_profits_vs_gdp",
+  "display_name": "Corporate Profits vs GDP",
+  "category": "Macro",
+  "markets": [
+    "US Market",
+    "US Economy"
+  ],
+  "topics": [
+    "Macro",
+    "Profits"
+  ],
+  "threshold": "> 12%",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 29825.182,
+      "details": {
+        "gdp": 29825.182,
+        "corporate_profits": 3270.619
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "status": null,
+      "summary_value": 30042.113,
+      "details": {
+        "gdp": 30042.113,
+        "corporate_profits": 3252.44
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 30485.729,
+      "details": {
+        "gdp": 30485.729,
+        "corporate_profits": 3259.405
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {
+        "gdp": 30485.729,
+        "corporate_profits": 3259.405
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "gdp": 30485.729,
+        "corporate_profits": 3259.405
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "gdp": 30485.729,
+        "corporate_profits": 3259.405
+      }
+    }
+  ]
+}

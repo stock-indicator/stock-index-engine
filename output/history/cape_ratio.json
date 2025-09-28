@@ -1,0 +1,152 @@
+{
+  "indicator": "cape_ratio",
+  "display_name": "CAPE Ratio",
+  "category": "Valuation",
+  "markets": [
+    "US Market",
+    "S&P 500"
+  ],
+  "topics": [
+    "Valuation",
+    "Cycles"
+  ],
+  "threshold": "> 35",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 36.59,
+      "details": {
+        "value": 36.59,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": 37.36,
+      "details": {
+        "value": 37.36,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2024-12-01",
+      "status": null,
+      "summary_value": 37.72,
+      "details": {
+        "value": 37.72,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "status": null,
+      "summary_value": 37.14,
+      "details": {
+        "value": 37.14,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-02-01",
+      "status": null,
+      "summary_value": 37.19,
+      "details": {
+        "value": 37.19,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-03-01",
+      "status": null,
+      "summary_value": 34.79,
+      "details": {
+        "value": 34.79,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 32.63,
+      "details": {
+        "value": 32.63,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 35.18,
+      "details": {
+        "value": 35.18,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-06-01",
+      "status": null,
+      "summary_value": 36.31,
+      "details": {
+        "value": 36.31,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 37.79,
+      "details": {
+        "value": 37.79,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 38.38,
+      "details": {
+        "value": 38.38,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-09-01",
+      "status": null,
+      "summary_value": 38.34,
+      "details": {
+        "value": 38.34,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": 39.84,
+      "details": {
+        "value": 39.84,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "high",
+      "summary_value": null,
+      "details": {
+        "value": 39.84,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {
+        "value": 39.84,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    }
+  ]
+}

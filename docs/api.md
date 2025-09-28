@@ -1,0 +1,183 @@
+# Market Indicator Service API
+
+Base URL (default): `http://localhost:8000`
+
+FastAPI automatically exposes interactive documentation at `/docs` (Swagger UI) and `/redoc` once the server is running.
+
+## Authentication
+Currently no authentication. Protect the service behind your own gateway or reverse proxy if required.
+
+## Endpoints
+
+### GET /health
+Health probe used by load balancers and orchestrators.
+
+- **Response 200**
+  ```json
+  {
+    "status": "ok"
+  }
+  ```
+
+### GET /summary
+Return metadata about the most recent indicator run.
+
+- **Response 200**
+  ```json
+  {
+    "generated_at": "2025-09-28T09:56:06+00:00",
+    "mode": "manual",
+    "summary": {
+      "triggered_total": 4,
+      "total_total": 20,
+      "triggered_available": 4,
+      "total_available": 20,
+      "ratio_total": "4/20",
+      "ratio_available": "4/20",
+      "by_category": {
+        "Technical": {"high": 1, "normal": 4, "unavailable": 0},
+        "Valuation": {"high": 1, "normal": 4, "unavailable": 0},
+        "Macro": {"high": 0, "normal": 5, "unavailable": 0},
+        "Sentiment": {"high": 2, "normal": 3, "unavailable": 0}
+      }
+    }
+  }
+  ```
+
+- **Errors**
+  - `404` – no indicator run has been recorded yet.
+
+### GET /indicators
+List all indicator results from the latest run.
+
+- **Response 200**
+  ```json
+  {
+    "generated_at": "2025-09-28T09:56:06+00:00",
+    "indicators": [
+      {
+        "name": "RSI 14",
+        "slug": "rsi_14",
+        "category": "Technical",
+        "markets": ["US Market", "S&P 500", "Nasdaq 100"],
+        "threshold": "> 80",
+        "status": "high",
+        "notes": "14-day RSI using adjusted close prices",
+        "raw_value": "Nasdaq 100: 96.38; S&P 500: 68.25",
+        "pure_value": [
+          {"market": "Nasdaq 100", "value": 96.38},
+          {"market": "S&P 500", "value": 68.25}
+        ],
+        "topics": ["Technical", "Momentum"]
+      }
+    ]
+  }
+  ```
+
+- **Errors**
+  - `404` – no indicator run has been recorded yet.
+
+### GET /indicators/{slug}
+Retrieve the latest result for a single indicator. The `slug` is lowercase with underscores (e.g. `rsi_14`).
+
+- **Response 200**
+  ```json
+  {
+    "name": "RSI 14",
+    "slug": "rsi_14",
+    "category": "Technical",
+    "markets": ["US Market", "S&P 500", "Nasdaq 100"],
+    "threshold": "> 80",
+    "status": "high",
+    "notes": "14-day RSI using adjusted close prices",
+    "raw_value": "Nasdaq 100: 96.38; S&P 500: 68.25",
+    "pure_value": [
+      {"market": "Nasdaq 100", "value": 96.38},
+      {"market": "S&P 500", "value": 68.25}
+    ],
+    "topics": ["Technical", "Momentum"]
+  }
+  ```
+
+- **Errors**
+  - `404` – indicator not known or has not been evaluated yet.
+
+### GET /indicators/{slug}/history
+Return the time-series JSON produced from `output/history/{slug}.json`.
+
+- **Response 200**
+  ```json
+  {
+    "indicator": "rsi_14",
+    "display_name": "RSI 14",
+    "category": "Technical",
+    "markets": ["US Market", "S&P 500", "Nasdaq 100"],
+    "topics": ["Technical", "Momentum"],
+    "threshold": "> 80",
+    "updated_at": "2025-09-28T09:56:06+00:00",
+    "series": [
+      {
+        "date": "2025-07-30",
+        "status": null,
+        "summary_value": 68.25,
+        "details": {
+          "market": "S&P 500",
+          "ticker": "^GSPC",
+          "open": 6381.23,
+          "close": 6362.90,
+          "adj_close": 6362.90,
+          "volume": 5375070000
+        }
+      }
+    ]
+  }
+  ```
+
+- **Errors**
+  - `404` – no history file exists for the requested slug.
+
+### POST /refresh
+Trigger a background refresh cycle. The response returns immediately while the refresh executes in the background.
+
+- **Request Body**
+  ```json
+  {
+    "mode": "manual",
+    "lookback_days": 365
+  }
+  ```
+  - `mode` (`manual` | `full`): incremental vs cache-busting refresh.
+  - `lookback_days` (integer >= 30): how much history to regenerate in `output/history`.
+
+- **Response 202**
+  ```json
+  {
+    "status": "accepted",
+    "mode": "manual",
+    "lookback_days": 365
+  }
+  ```
+
+- **Notes**
+  - `manual` refresh reuses cached raw data when available.
+  - `full` refresh deletes cached clean/raw files (and optional shared resource cache) before re-running indicators.
+  - Each refresh persists the snapshot to `output/market_status.latest.json`, updates `output/market_indicator_log.csv`, regenerates history JSON, and writes summary rows to PostgreSQL.
+  - Concurrent refreshes are not guarded; ensure you avoid overlapping jobs or add external coordination.
+
+## Scheduler
+At startup the API enables an AsyncIO scheduler that runs `manual_refresh()` using the cron expression from the `REFRESH_CRON` environment variable (defaults to `0 6 * * *`). Set `REFRESH_CRON` before launching the app to customise the cadence, or disable scheduling by commenting out the job registration in `services/api.py` if you plan to trigger refreshes externally.
+
+## Status Codes
+- `200` – successful requests.
+- `202` – refresh accepted.
+- `404` – resource not available (no run yet, unknown indicator, or missing history file).
+- `500` – unhandled server error. Check `logs/market_indicators.log` or container logs for details.
+
+## Data Locations
+- Latest run snapshot: `output/market_status.latest.json`.
+- Daily log: `output/market_indicator_log.csv`.
+- Per-indicator history JSON: `output/history/{slug}.json`.
+- Database tables: `indicator_timeseries` (clean data snapshots) and `indicator_history_series` (daily history; source fields removed on insert).
+
+## Versioning
+Version `1.0.0` reported via FastAPI metadata. Update `services/api.py` when publishing breaking changes.

@@ -1,0 +1,151 @@
+{
+  "indicator": "index_pe",
+  "display_name": "Index PE",
+  "category": "Valuation",
+  "markets": [
+    "US Market",
+    "S&P 500"
+  ],
+  "topics": [
+    "Valuation"
+  ],
+  "threshold": "> 35",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 28.45,
+      "details": {
+        "value": 28.45,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": 28.66,
+      "details": {
+        "value": 28.66,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2024-12-01",
+      "status": null,
+      "summary_value": 28.6,
+      "details": {
+        "value": 28.6,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "status": null,
+      "summary_value": 28.16,
+      "details": {
+        "value": 28.16,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-02-01",
+      "status": null,
+      "summary_value": 28.15,
+      "details": {
+        "value": 28.15,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-03-01",
+      "status": null,
+      "summary_value": 26.23,
+      "details": {
+        "value": 26.23,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 24.78,
+      "details": {
+        "value": 24.78,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 26.82,
+      "details": {
+        "value": 26.82,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-06-01",
+      "status": null,
+      "summary_value": 27.83,
+      "details": {
+        "value": 27.83,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 29.06,
+      "details": {
+        "value": 29.06,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 29.58,
+      "details": {
+        "value": 29.58,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-09-01",
+      "status": null,
+      "summary_value": 29.61,
+      "details": {
+        "value": 29.61,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": 30.76,
+      "details": {
+        "value": 30.76,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "value": 30.76,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "value": 30.76,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    }
+  ]
+}

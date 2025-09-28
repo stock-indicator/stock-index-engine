@@ -1,0 +1,128 @@
+{
+  "indicator": "post_hike_window",
+  "display_name": "Post-Hike Window",
+  "category": "Macro",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Macro",
+    "Policy"
+  ],
+  "threshold": "0-6 months",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": 4.83,
+      "details": {
+        "fed_funds": 4.83
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": 4.64,
+      "details": {
+        "fed_funds": 4.64
+      }
+    },
+    {
+      "date": "2024-12-01",
+      "status": null,
+      "summary_value": 4.48,
+      "details": {
+        "fed_funds": 4.48
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-02-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-03-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-06-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 4.33,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "fed_funds": 4.33
+      }
+    }
+  ]
+}

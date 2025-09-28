@@ -1,0 +1,52 @@
+{
+  "indicator": "price_to_book",
+  "display_name": "Price-to-Book",
+  "category": "Valuation",
+  "markets": [
+    "US Market",
+    "S&P 500"
+  ],
+  "topics": [
+    "Valuation"
+  ],
+  "threshold": "> 6",
+  "updated_at": "2025-09-28T10:02:45+00:00",
+  "series": [
+    {
+      "date": "2024-12-31",
+      "status": null,
+      "summary_value": 4.99,
+      "details": {
+        "value": 4.99,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": "unavailable",
+      "summary_value": 5.57,
+      "details": {
+        "value": 5.57,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+      }
+    },
+    {
+      "date": "2025-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "value": 5.57,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+      }
+    },
+    {
+      "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "value": 5.57,
+        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+      }
+    }
+  ]
+}
