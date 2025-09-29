@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 import os
-from typing import Any, Dict, List, Literal
+from typing import Any, Dict, Literal, Optional
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 from fastapi import BackgroundTasks, FastAPI, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 
 from common.logger import get_logger
 from common.settings import settings
@@ -26,6 +26,19 @@ REFRESH_CRON = os.getenv("REFRESH_CRON", settings.get("refresh.cron", "0 6 * * *
 class RefreshRequest(BaseModel):
     mode: Literal["manual", "full"] = "manual"
     lookback_days: int = 365
+    indicator_slug: Optional[str] = None
+
+    @model_validator(mode='before')
+    def _validate_indicator(cls, data: Dict[str, object]) -> Dict[str, object]:
+        if not isinstance(data, dict):
+            return data
+        slug = data.get('indicator_slug')
+        if isinstance(slug, str):
+            cleaned = sanitize_column_name(slug.strip())
+            data['indicator_slug'] = cleaned or None
+        if data.get('mode') == 'full' and not data.get('indicator_slug'):
+            raise ValueError("indicator_slug is required when mode='full'")
+        return data
 
 
 def _enrich_indicator(item: Dict[str, object]) -> Dict[str, object]:
@@ -117,11 +130,15 @@ def get_indicator_history(slug: str) -> Dict[str, object]:
 def trigger_refresh(request: RefreshRequest, background_tasks: BackgroundTasks) -> Dict[str, object]:
     mode = request.mode
     lookback_days = max(30, request.lookback_days)
+    indicator_slug = request.indicator_slug
+    if indicator_slug and get_indicator_by_slug(indicator_slug) is None:
+        raise HTTPException(status_code=404, detail=f"Indicator '{indicator_slug}' not found")
+    task_kwargs = {"lookback_days": lookback_days, "indicator_slug": indicator_slug}
     if mode == "manual":
-        background_tasks.add_task(manual_refresh, lookback_days=lookback_days)
+        background_tasks.add_task(manual_refresh, **task_kwargs)
     else:
-        background_tasks.add_task(full_refresh, lookback_days=lookback_days)
-    logger.info("Refresh request accepted (mode=%s, lookback_days=%s)", mode, lookback_days)
-    return {"status": "accepted", "mode": mode, "lookback_days": lookback_days}
+        background_tasks.add_task(full_refresh, **task_kwargs)
+    logger.info("Refresh request accepted (mode=%s, lookback_days=%s, indicator=%s)", mode, lookback_days, indicator_slug or "all")
+    return {"status": "accepted", "mode": mode, "lookback_days": lookback_days, "indicator_slug": indicator_slug}
 
 

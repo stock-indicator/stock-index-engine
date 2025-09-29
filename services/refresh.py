@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import shutil
+from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
@@ -22,10 +23,22 @@ RESOURCES_CLEAN_DIR = Path("resources/clean")
 RESOURCES_FILE_CACHE_DIR = Path("resources/files")
 
 
+def _backup_clean_file(clean_path: Path) -> None:
+    timestamp = datetime.utcnow().strftime('%Y%m%dT%H%M%S')
+    backup_name = '{}.bak{}'.format(clean_path.name, timestamp)
+    backup_path = clean_path.with_name(backup_name)
+    clean_path.rename(backup_path)
+    logger.info('Backed up clean data file from %s to %s', clean_path, backup_path)
+
+
 def _clear_indicator_cache(indicator) -> None:
     clean_path = indicator.clean_storage_path
     if clean_path.exists():
-        clean_path.unlink()
+        try:
+            _backup_clean_file(clean_path)
+        except Exception as exc:  # pragma: no cover
+            logger.warning('Failed to backup clean data at %s: %s', clean_path, exc)
+            clean_path.unlink(missing_ok=True)
     raw_dir = indicator.raw_storage_dir
     if raw_dir.exists():
         for child in raw_dir.iterdir():
@@ -45,6 +58,17 @@ def _ensure_directories() -> None:
     RESOURCES_RAW_DIR.mkdir(parents=True, exist_ok=True)
     RESOURCES_CLEAN_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _prepare_indicators(indicators: Iterable, indicator_slug: str | None) -> list:
+    indicator_list = list(indicators)
+    if indicator_slug is None:
+        return indicator_list
+    target_slug = indicator_slug.lower()
+    selected = [indicator for indicator in indicator_list if indicator.slug == target_slug]
+    if not selected:
+        raise ValueError(f"Indicator '{indicator_slug}' not found")
+    return selected
 
 
 def _run_cycle(
@@ -71,11 +95,12 @@ def manual_refresh(
     indicators: Iterable = ALL_INDICATORS,
     lookback_days: int = 365,
     regenerate_history: bool = True,
+    indicator_slug: str | None = None,
 ) -> IndicatorRun:
     """Run incremental refresh using cached resources where possible."""
 
-    indicators = list(indicators)
-    logger.info("Starting manual refresh for %d indicators", len(indicators))
+    indicators = _prepare_indicators(indicators, indicator_slug)
+    logger.info("Starting manual refresh for %d indicator(s)", len(indicators))
     load_api_keys()
     _ensure_directories()
     fetcher = MarketDataFetcher()
@@ -100,11 +125,14 @@ def full_refresh(
     lookback_days: int = 365,
     regenerate_history: bool = True,
     purge_resource_cache: bool = True,
+    indicator_slug: str | None = None,
 ) -> IndicatorRun:
-    """Force a full data refresh, replacing existing clean/raw caches."""
+    """Force a full data refresh, replacing existing clean/raw caches for a specific indicator."""
 
-    indicators = list(indicators)
-    logger.info("Starting full refresh for %d indicators", len(indicators))
+    if indicator_slug is None:
+        raise ValueError("indicator_slug is required for full refresh operations")
+    indicators = _prepare_indicators(indicators, indicator_slug)
+    logger.info("Starting full refresh for %d indicator(s)", len(indicators))
     load_api_keys()
     _ensure_directories()
     for indicator in indicators:
@@ -127,3 +155,4 @@ def full_refresh(
         run.mode,
     )
     return run
+
