@@ -1,0 +1,93 @@
+{
+  "info": {
+    "name": "Market Indicator Service",
+    "description": "Postman collection for the Market Indicator Service API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000"
+    },
+    {
+      "key": "indicatorSlug",
+      "value": "rsi_14"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/health",
+        "description": "Simple liveness probe to verify the API process is running."
+      },
+      "response": []
+    },
+    {
+      "name": "Summary",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/summary",
+        "description": "Retrieve metadata for the most recent indicator aggregation run."
+      },
+      "response": []
+    },
+    {
+      "name": "List Indicators",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/indicators",
+        "description": "List all indicator payloads from the latest run."
+      },
+      "response": []
+    },
+    {
+      "name": "Indicator Details",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/indicators/{{indicatorSlug}}",
+        "description": "Fetch the latest payload for a specific indicator by slug."
+      },
+      "response": []
+    },
+    {
+      "name": "Indicator History",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/indicators/{{indicatorSlug}}/history",
+        "description": "Retrieve the pre-generated time-series JSON for a specific indicator."
+      },
+      "response": []
+    },
+    {
+      "name": "Trigger Refresh",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"mode\": \"manual\",\n  \"lookback_days\": 365\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/refresh",
+        "description": "Kick off a manual or full refresh in the background. Adjust the JSON body as needed."
+      },
+      "response": []
+    }
+  ]
+}

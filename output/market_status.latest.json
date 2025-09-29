@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-28T09:58:06+00:00",
+  "generated_at": "2025-09-29T06:27:15+00:00",
   "mode": "manual",
   "summary": {
     "triggered_total": 4,
@@ -501,7 +501,7 @@
           "value": 201,
           "window_start": "2024-10-01",
           "window_end": "2025-09-01",
-          "as_of": "2025-09-27"
+          "as_of": "2025-09-29"
         },
         {
           "metric": "last_full_year_ipo_count",

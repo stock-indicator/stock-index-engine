@@ -11,7 +11,7 @@
     "Income"
   ],
   "threshold": "< 1.2%",
-  "updated_at": "2025-09-28T10:02:45+00:00",
+  "updated_at": "2025-09-29T06:27:15+00:00",
   "series": [
     {
       "date": "2024-09-30",
@@ -141,6 +141,15 @@
     },
     {
       "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "value": 1.21,
+        "source_url": "https://www.multpl.com/s-p-500-dividend-yield"
+      }
+    },
+    {
+      "date": "2025-09-29",
       "status": "normal",
       "summary_value": null,
       "details": {

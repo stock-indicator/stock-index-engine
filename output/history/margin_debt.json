@@ -10,7 +10,7 @@
     "Leverage"
   ],
   "threshold": "New high",
-  "updated_at": "2025-09-28T10:02:45+00:00",
+  "updated_at": "2025-09-29T06:27:15+00:00",
   "series": [
     {
       "date": "2024-10-01",
@@ -144,6 +144,16 @@
     },
     {
       "date": "2025-09-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {
+        "margin_debt": 1059723,
+        "cash_balances": 188221,
+        "margin_credit": 181563.0
+      }
+    },
+    {
+      "date": "2025-09-29",
       "status": "high",
       "summary_value": null,
       "details": {

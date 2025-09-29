@@ -12,7 +12,7 @@
     "Trend"
   ],
   "threshold": "> 25%",
-  "updated_at": "2025-09-28T10:02:45+00:00",
+  "updated_at": "2025-09-29T06:27:15+00:00",
   "series": [
     {
       "date": "2024-09-30",
@@ -3766,6 +3766,21 @@
     },
     {
       "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "market": "Nasdaq 100",
+        "ticker": "^NDX",
+        "open": 24410.953125,
+        "high": 24510.3671875,
+        "low": 24297.69921875,
+        "close": 24503.84765625,
+        "adj_close": 24503.84765625,
+        "volume": 1232354000
+      }
+    },
+    {
+      "date": "2025-09-29",
       "status": "normal",
       "summary_value": null,
       "details": {

@@ -42,6 +42,7 @@ uvicorn services.api:app --host 0.0.0.0 --port 8000
 
 - Interactive docs: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
+- Postman collection: import `docs/postman_collection.json` and update the `baseUrl` variable if you deploy elsewhere.
 - Automatic scheduler: set `REFRESH_CRON` (default `0 6 * * *`) to control the background manual refresh cadence.
 - POST `/refresh` triggers manual/full refreshes asynchronously.
 

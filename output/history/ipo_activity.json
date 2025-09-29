@@ -10,7 +10,7 @@
     "IPO"
   ],
   "threshold": "Frothy",
-  "updated_at": "2025-09-28T10:02:45+00:00",
+  "updated_at": "2025-09-29T06:27:15+00:00",
   "series": [
     {
       "date": "2024-10-01",
@@ -20,7 +20,7 @@
         "period_type": "monthly",
         "period_label": "2024-10",
         "ipo_count": 22.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -31,7 +31,7 @@
         "period_type": "monthly",
         "period_label": "2024-11",
         "ipo_count": 8.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -42,7 +42,7 @@
         "period_type": "monthly",
         "period_label": "2024-12",
         "ipo_count": 14.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -53,7 +53,7 @@
         "period_type": "monthly",
         "period_label": "2025-01",
         "ipo_count": 17.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "period_type": "monthly",
         "period_label": "2025-02",
         "ipo_count": 18.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -75,7 +75,7 @@
         "period_type": "monthly",
         "period_label": "2025-03",
         "ipo_count": 18.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -86,7 +86,7 @@
         "period_type": "monthly",
         "period_label": "2025-04",
         "ipo_count": 16.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -97,7 +97,7 @@
         "period_type": "monthly",
         "period_label": "2025-05",
         "ipo_count": 12.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -108,7 +108,7 @@
         "period_type": "monthly",
         "period_label": "2025-06",
         "ipo_count": 16.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -119,7 +119,7 @@
         "period_type": "monthly",
         "period_label": "2025-07",
         "ipo_count": 26.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -130,7 +130,7 @@
         "period_type": "monthly",
         "period_label": "2025-08",
         "ipo_count": 19.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -141,7 +141,7 @@
         "period_type": "monthly",
         "period_label": "2025-09",
         "ipo_count": 15.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -152,7 +152,7 @@
         "period_type": "monthly",
         "period_label": "2025-12",
         "ipo_count": 0.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -163,7 +163,7 @@
         "period_type": "monthly",
         "period_label": "2025-12",
         "ipo_count": 0.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -174,7 +174,18 @@
         "period_type": "monthly",
         "period_label": "2025-12",
         "ipo_count": 0.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "status": "high",
+      "summary_value": null,
+      "details": {
+        "period_type": "monthly",
+        "period_label": "2025-12",
+        "ipo_count": 0.0,
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -185,7 +196,7 @@
         "period_type": "monthly",
         "period_label": "2025-10",
         "ipo_count": 0.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -196,7 +207,7 @@
         "period_type": "monthly",
         "period_label": "2025-11",
         "ipo_count": 0.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     },
     {
@@ -207,7 +218,7 @@
         "period_type": "monthly",
         "period_label": "2025-12",
         "ipo_count": 0.0,
-        "as_of": "2025-09-27 00:00:00"
+        "as_of": "2025-09-29 00:00:00"
       }
     }
   ]

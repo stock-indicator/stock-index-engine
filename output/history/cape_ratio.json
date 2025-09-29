@@ -11,7 +11,7 @@
     "Cycles"
   ],
   "threshold": "> 35",
-  "updated_at": "2025-09-28T10:02:45+00:00",
+  "updated_at": "2025-09-29T06:27:15+00:00",
   "series": [
     {
       "date": "2024-10-01",
@@ -141,6 +141,15 @@
     },
     {
       "date": "2025-09-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {
+        "value": 39.84,
+        "source_url": "https://www.multpl.com/shiller-pe"
+      }
+    },
+    {
+      "date": "2025-09-29",
       "status": "high",
       "summary_value": null,
       "details": {

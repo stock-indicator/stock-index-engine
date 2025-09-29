@@ -10,7 +10,7 @@
     "AAII"
   ],
   "threshold": "> 70%",
-  "updated_at": "2025-09-28T10:02:45+00:00",
+  "updated_at": "2025-09-29T06:27:15+00:00",
   "series": [
     {
       "date": "2024-10-03",
@@ -554,6 +554,16 @@
     },
     {
       "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "Bullish": 41.726600000000005,
+        "Neutral": 19.0647,
+        "Bearish": 39.2086
+      }
+    },
+    {
+      "date": "2025-09-29",
       "status": "normal",
       "summary_value": null,
       "details": {

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import os
-from typing import Dict, List, Literal
+from typing import Any, Dict, List, Literal
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
@@ -81,7 +81,7 @@ def get_summary() -> Dict[str, object]:
 
 
 @app.get("/indicators")
-def list_indicators() -> Dict[str, List[Dict[str, object]]]:
+def list_indicators() -> Dict[str, Any]:
     payload = read_latest_payload()
     if not payload:
         raise HTTPException(status_code=404, detail="No indicator run available")
@@ -123,4 +123,5 @@ def trigger_refresh(request: RefreshRequest, background_tasks: BackgroundTasks) 
         background_tasks.add_task(full_refresh, lookback_days=lookback_days)
     logger.info("Refresh request accepted (mode=%s, lookback_days=%s)", mode, lookback_days)
     return {"status": "accepted", "mode": mode, "lookback_days": lookback_days}
+
 

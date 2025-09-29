@@ -10,7 +10,7 @@
     "Policy"
   ],
   "threshold": "0-6 months",
-  "updated_at": "2025-09-28T10:02:45+00:00",
+  "updated_at": "2025-09-29T06:27:15+00:00",
   "series": [
     {
       "date": "2024-10-01",
@@ -118,6 +118,14 @@
     },
     {
       "date": "2025-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "fed_funds": 4.33
+      }
+    },
+    {
+      "date": "2025-09-29",
       "status": "normal",
       "summary_value": null,
       "details": {
