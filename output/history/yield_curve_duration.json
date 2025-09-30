@@ -10,7 +10,7 @@
     "Yield Curve"
   ],
   "threshold": "> 12 months",
-  "updated_at": "2025-09-29T06:27:15+00:00",
+  "updated_at": "2025-09-30T05:38:09+00:00",
   "series": [
     {
       "date": "2024-09-30",
@@ -2001,7 +2001,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "spread_pct": 0.57
+        "spread_pct": 0.52
       }
     },
     {
@@ -2009,15 +2009,23 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "spread_pct": 0.57
+        "spread_pct": 0.52
       }
     },
     {
       "date": "2025-09-29",
       "status": "normal",
+      "summary_value": 0.52,
+      "details": {
+        "spread_pct": 0.52
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "status": "normal",
       "summary_value": null,
       "details": {
-        "spread_pct": 0.57
+        "spread_pct": 0.52
       }
     }
   ]

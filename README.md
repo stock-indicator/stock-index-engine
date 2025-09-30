@@ -34,13 +34,15 @@ python market_indicators.py --mode manual --skip-history
 - Each run writes to `output/market_status.latest.json`, updates `output/market_indicator_log.csv`, regenerates `output/history/*.json`, and upserts to PostgreSQL (`indicator_timeseries`, `indicator_history_series`). Source-related fields are stripped before DB insertion.
 
 ## Running the API Server
-The FastAPI service wraps refresh hooks and history files.
+The FastAPI service wraps refresh hooks and history files. Host/port are read from `settings.json` (`"api.host"`, `"api.port"`).
 
 ```bash
-uvicorn services.api:app --host 0.0.0.0 --port 8000
+python services/api.py
 ```
 
-- Interactive docs: `http://localhost:8000/docs`
+> Prefer the helper above so that configuration changes propagate automatically. You can still run `uvicorn services.api:app --host ... --port ...` if you need to override settings on the fly.
+
+- Interactive docs: `http://localhost:8000/docs` (swap in your configured host/port)
 - ReDoc: `http://localhost:8000/redoc`
 - Postman collection: import `docs/postman_collection.json` and update the `baseUrl` variable if you deploy elsewhere.
 - Automatic scheduler: set `REFRESH_CRON` (default `0 6 * * *`) to control the background manual refresh cadence.
@@ -56,10 +58,10 @@ Build and run the containerised service if you prefer a self-contained deploymen
 docker build -t stock-index-service .
 
 # Run container with persistent output folder and custom cron
-docker run \
-  -p 8000:8000 \
-  -e REFRESH_CRON="0 */6 * * *" \
-  -v $(pwd)/output:/app/output \
+docker run \\
+  -p 8000:8000 \\
+  -e REFRESH_CRON="0 */6 * * *" \\
+  -v /path/to/output:/app/output \\
   stock-index-service
 ```
 

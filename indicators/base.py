@@ -47,8 +47,12 @@ class BaseIndicator(ABC):
     # ------------------------------------------------------------------
     # Paths & identifiers
     # ------------------------------------------------------------------
+    slug_override: Optional[str] = None
+
     @property
     def slug(self) -> str:
+        if self.slug_override:
+            return self.slug_override
         return self._sanitize(self.metadata.name)
 
     @property
@@ -165,6 +169,17 @@ class BaseIndicator(ABC):
     @abstractmethod
     def compute(self, clean_df: pd.DataFrame, fetcher: Any) -> IndicatorResult:
         """Compute the final indicator result from cleaned data."""
+
+    def build_history_series(
+        self,
+        clean_df: pd.DataFrame,
+        *,
+        status_map: Dict[str, str],
+        as_of: datetime,
+        lookback_days: int,
+    ) -> Optional[List[Dict[str, object]]]:
+        """Optional custom history builder per indicator."""
+        return None
 
     # ------------------------------------------------------------------
     # Data storage helpers

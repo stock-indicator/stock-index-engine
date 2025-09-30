@@ -64,6 +64,17 @@ class Settings:
         schedules = self.get_dict("indicator_schedules")
         return schedules.get(indicator_slug, default)
 
+    def get_api_host(self, default: str = '0.0.0.0') -> str:
+        value = self.get('api.host', default)
+        return str(value) if value is not None else default
+
+    def get_api_port(self, default: int = 8000) -> int:
+        value = self.get('api.port', default)
+        try:
+            return int(value)
+        except (TypeError, ValueError):
+            return default
+
     def get_indicator_history_days(self, indicator_slug: str, default: int) -> int:
         env_key = f"INDICATOR_{indicator_slug.upper()}_HISTORY_DAYS"
         if env_key in os.environ:

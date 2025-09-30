@@ -1,17 +1,17 @@
 {
-  "generated_at": "2025-09-29T06:27:15+00:00",
+  "generated_at": "2025-09-30T05:38:09+00:00",
   "mode": "manual",
   "summary": {
-    "triggered_total": 4,
-    "total_total": 20,
-    "triggered_available": 4,
-    "total_available": 20,
-    "ratio_total": "4/20",
-    "ratio_available": "4/20",
+    "triggered_total": 3,
+    "total_total": 24,
+    "triggered_available": 3,
+    "total_available": 24,
+    "ratio_total": "3/24",
+    "ratio_available": "3/24",
     "by_category": {
       "Technical": {
-        "high": 1,
-        "normal": 4,
+        "high": 0,
+        "normal": 9,
         "unavailable": 0
       },
       "Valuation": {
@@ -33,25 +33,21 @@
   },
   "indicators": [
     {
-      "name": "RSI 14",
+      "name": "RSI 14 (S&P 500)",
       "category": "Technical",
       "markets": [
-        "US Market",
-        "S&P 500",
-        "Nasdaq 100"
+        "S&P 500"
       ],
       "threshold": "> 80",
-      "status": "high",
-      "notes": "14-day RSI using adjusted close prices",
-      "raw_value": "Nasdaq 100: 96.38; S&P 500: 68.25",
+      "status": "normal",
+      "notes": "14-day RSI for S&P 500",
+      "raw_value": "70.48",
       "pure_value": [
         {
-          "market": "Nasdaq 100",
-          "value": 96.38366744736344
-        },
-        {
           "market": "S&P 500",
-          "value": 68.25487305392514
+          "indicator_value": 70.47513580210367,
+          "rsi": 70.47513580210367,
+          "adj_close": 6661.2099609375
         }
       ],
       "topics": [
@@ -60,29 +56,77 @@
       ]
     },
     {
-      "name": "MACD Divergence",
+      "name": "RSI 14 (Nasdaq 100)",
       "category": "Technical",
       "markets": [
-        "US Market",
-        "S&P 500",
+        "Nasdaq 100"
+      ],
+      "threshold": "> 80",
+      "status": "normal",
+      "notes": "14-day RSI for Nasdaq 100",
+      "raw_value": "73.53",
+      "pure_value": [
+        {
+          "market": "Nasdaq 100",
+          "indicator_value": 73.53362047909258,
+          "rsi": 73.53362047909258,
+          "adj_close": 24611.349609375
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Momentum"
+      ]
+    },
+    {
+      "name": "MACD Divergence (S&P 500)",
+      "category": "Technical",
+      "markets": [
+        "S&P 500"
+      ],
+      "threshold": "Bearish divergence",
+      "status": "normal",
+      "notes": "MACD divergence check for S&P 500; no bearish divergence detected",
+      "raw_value": "price_new_high=False; macd_new_high=False; macd=59.67",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "indicator_value": 59.67046447801022,
+          "macd": 59.67046447801022,
+          "signal": 61.69225536950693,
+          "hist": -2.021790891496714,
+          "price": 6661.2099609375,
+          "price_new_high": false,
+          "macd_new_high": false,
+          "divergence": false
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Trend"
+      ]
+    },
+    {
+      "name": "MACD Divergence (Nasdaq 100)",
+      "category": "Technical",
+      "markets": [
         "Nasdaq 100"
       ],
       "threshold": "Bearish divergence",
       "status": "normal",
-      "notes": "Bearish divergence if price makes new high but MACD does not",
-      "raw_value": "Nasdaq 100: price_new_high=True; macd_new_high=True; macd=564.98; S&P 500: price_new_high=False; macd_new_high=False; macd=62.20",
+      "notes": "MACD divergence check for Nasdaq 100; no bearish divergence detected",
+      "raw_value": "price_new_high=False; macd_new_high=False; macd=294.39",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "price_new_high": true,
-          "macd_new_high": true,
-          "macd": 564.9822009872005
-        },
-        {
-          "market": "S&P 500",
+          "indicator_value": 294.38903197243053,
+          "macd": 294.38903197243053,
+          "signal": 283.1820578582316,
+          "hist": 11.206974114198943,
+          "price": 24611.349609375,
           "price_new_high": false,
           "macd_new_high": false,
-          "macd": 62.20127098489411
+          "divergence": false
         }
       ],
       "topics": [
@@ -91,21 +135,46 @@
       ]
     },
     {
-      "name": "Price vs 200DMA",
+      "name": "Price vs 200DMA (S&P 500)",
       "category": "Technical",
       "markets": [
-        "US Market",
-        "S&P 500",
+        "S&P 500"
+      ],
+      "threshold": "> 25%",
+      "status": "normal",
+      "notes": "200DMA deviation for S&P 500",
+      "raw_value": "10.69%",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "indicator_value": 10.688932313241342,
+          "deviation_pct": 10.688932313241342,
+          "adj_close": 6661.2099609375,
+          "moving_average": 6017.954841308594
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Trend"
+      ]
+    },
+    {
+      "name": "Price vs 200DMA (Nasdaq 100)",
+      "category": "Technical",
+      "markets": [
         "Nasdaq 100"
       ],
       "threshold": "> 25%",
       "status": "normal",
-      "notes": "Deviation from 200-day moving average; missing: Nasdaq 100 (Insufficient data for 200DMA)",
-      "raw_value": "S&P 500: 9.86%",
+      "notes": "200DMA deviation for Nasdaq 100",
+      "raw_value": "13.83%",
       "pure_value": [
         {
-          "market": "S&P 500",
-          "deviation_pct": 9.856286498409315
+          "market": "Nasdaq 100",
+          "indicator_value": 13.833557316839675,
+          "deviation_pct": 13.833557316839675,
+          "adj_close": 24611.349609375,
+          "moving_average": 21620.469560546873
         }
       ],
       "topics": [
@@ -114,22 +183,46 @@
       ]
     },
     {
-      "name": "12M Annualized Return",
+      "name": "12M Annualized Return (S&P 500)",
       "category": "Technical",
       "markets": [
-        "US Market",
+        "S&P 500"
+      ],
+      "threshold": "> 40%",
+      "status": "normal",
+      "notes": "Trailing 252-trading-day return for S&P 500",
+      "raw_value": "15.94%",
+      "pure_value": [
+        {
+          "market": "S&P 500",
+          "indicator_value": 15.940484687143641,
+          "annualized_return_pct": 15.940484687143641,
+          "current_price": 6661.2099609375,
+          "price_252d_ago": 5745.3701171875
+        }
+      ],
+      "topics": [
+        "Technical",
+        "Momentum"
+      ]
+    },
+    {
+      "name": "12M Annualized Return (Nasdaq 100)",
+      "category": "Technical",
+      "markets": [
         "Nasdaq 100"
       ],
       "threshold": "> 40%",
       "status": "normal",
-      "notes": "Trailing 252-trading-day return computed from adjusted close.",
-      "raw_value": "22.69%",
+      "notes": "Trailing 252-trading-day return for Nasdaq 100",
+      "raw_value": "22.35%",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "annualized_return_pct": 22.68726232097553,
-          "current_price": 24503.84765625,
-          "price_252d_ago": 19972.609375
+          "indicator_value": 22.349938189109864,
+          "annualized_return_pct": 22.349938189109864,
+          "current_price": 24611.349609375,
+          "price_252d_ago": 20115.5390625
         }
       ],
       "topics": [
@@ -146,11 +239,11 @@
       "threshold": "< 10",
       "status": "normal",
       "notes": "Low VIX signals complacency",
-      "raw_value": "15.29",
+      "raw_value": "16.12",
       "pure_value": [
         {
           "market": "US Market",
-          "vix": 15.289999961853027
+          "vix": 16.1200008392334
         }
       ],
       "topics": [
@@ -167,12 +260,12 @@
       "threshold": "> 35",
       "status": "normal",
       "notes": "Source: multpl.com monthly PE table.",
-      "raw_value": "30.76 (as of 2025-09-26)",
+      "raw_value": "30.85 (as of 2025-09-29)",
       "pure_value": [
         {
           "metric": "pe_ratio",
-          "value": 30.76,
-          "as_of": "2025-09-26"
+          "value": 30.85,
+          "as_of": "2025-09-29"
         }
       ],
       "topics": [
@@ -212,12 +305,12 @@
       "threshold": "> 35",
       "status": "high",
       "notes": "Source: multpl.com Shiller CAPE table.",
-      "raw_value": "39.84 (as of 2025-09-26)",
+      "raw_value": "39.95 (as of 2025-09-29)",
       "pure_value": [
         {
           "metric": "cape",
-          "value": 39.84,
-          "as_of": "2025-09-26"
+          "value": 39.95,
+          "as_of": "2025-09-29"
         }
       ],
       "topics": [
@@ -235,12 +328,12 @@
       "threshold": "> 6",
       "status": "normal",
       "notes": "Source: multpl.com price-to-book table.",
-      "raw_value": "5.57 (as of 2025-09-26)",
+      "raw_value": "5.58 (as of 2025-09-29)",
       "pure_value": [
         {
           "metric": "price_to_book",
-          "value": 5.57,
-          "as_of": "2025-09-26"
+          "value": 5.58,
+          "as_of": "2025-09-29"
         }
       ],
       "topics": [
@@ -257,12 +350,12 @@
       "threshold": "> 6",
       "status": "normal",
       "notes": "Source: multpl.com price-to-sales table.",
-      "raw_value": "3.35 (as of 2025-09-26)",
+      "raw_value": "3.36 (as of 2025-09-29)",
       "pure_value": [
         {
           "metric": "price_to_sales",
-          "value": 3.35,
-          "as_of": "2025-09-26"
+          "value": 3.36,
+          "as_of": "2025-09-29"
         }
       ],
       "topics": [
@@ -305,12 +398,12 @@
       "threshold": "> 12 months",
       "status": "normal",
       "notes": "Yield curve not inverted currently.",
-      "raw_value": "Spread 0.57% (as of 2025-09-26)",
+      "raw_value": "Spread 0.52% (as of 2025-09-29)",
       "pure_value": [
         {
           "metric": "spread_pct",
-          "value": 0.57,
-          "as_of": "2025-09-26"
+          "value": 0.52,
+          "as_of": "2025-09-29"
         },
         {
           "metric": "inversion_months",

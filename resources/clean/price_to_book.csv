@@ -24,5 +24,6 @@ data_start_date,data_end_date,value,source_url
 2021-12-31,2022-12-30,4.73,https://www.multpl.com/s-p-500-price-to-book
 2022-12-31,2023-12-30,3.75,https://www.multpl.com/s-p-500-price-to-book
 2023-12-31,2024-12-30,4.31,https://www.multpl.com/s-p-500-price-to-book
-2024-12-31,2025-09-25,4.99,https://www.multpl.com/s-p-500-price-to-book
+2024-12-31,2025-09-28,4.99,https://www.multpl.com/s-p-500-price-to-book
 2025-09-26,,5.57,https://www.multpl.com/s-p-500-price-to-book
+2025-09-29,,5.58,https://www.multpl.com/s-p-500-price-to-book

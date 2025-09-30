@@ -1,0 +1,634 @@
+{
+  "indicator": "price_vs_200dma_s_p_500",
+  "display_name": "Price vs 200DMA (S&P 500)",
+  "category": "Technical",
+  "markets": [
+    "S&P 500"
+  ],
+  "topics": [
+    "Technical",
+    "Trend"
+  ],
+  "threshold": "> 25%",
+  "updated_at": "2025-09-30T05:38:09+00:00",
+  "series": [
+    {
+      "date": "2025-07-18",
+      "status": null,
+      "summary_value": 7.250238613065507,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.250238613065507,
+        "deviation_pct": 7.250238613065507,
+        "adj_close": 6296.7900390625,
+        "moving_average": 5871.119841308594
+      }
+    },
+    {
+      "date": "2025-07-21",
+      "status": null,
+      "summary_value": 7.350642693906638,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.350642693906638,
+        "deviation_pct": 7.350642693906638,
+        "adj_close": 6305.60009765625,
+        "moving_average": 5873.835441894531
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "status": null,
+      "summary_value": 7.364167477574977,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.364167477574977,
+        "deviation_pct": 7.364167477574977,
+        "adj_close": 6309.6201171875,
+        "moving_average": 5876.8397924804685
+      }
+    },
+    {
+      "date": "2025-07-23",
+      "status": null,
+      "summary_value": 8.143137036053808,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.143137036053808,
+        "deviation_pct": 8.143137036053808,
+        "adj_close": 6358.91015625,
+        "moving_average": 5880.086643066406
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "status": null,
+      "summary_value": 8.157631683688118,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.157631683688118,
+        "deviation_pct": 8.157631683688118,
+        "adj_close": 6363.35009765625,
+        "moving_average": 5883.4036938476565
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "status": null,
+      "summary_value": 8.528680602955156,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.528680602955156,
+        "deviation_pct": 8.528680602955156,
+        "adj_close": 6388.64013671875,
+        "moving_average": 5886.591545410156
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "status": null,
+      "summary_value": 8.483941839287466,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.483941839287466,
+        "deviation_pct": 8.483941839287466,
+        "adj_close": 6389.77001953125,
+        "moving_average": 5890.060695800781
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "status": null,
+      "summary_value": 8.106017325433946,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.106017325433946,
+        "deviation_pct": 8.106017325433946,
+        "adj_close": 6370.85986328125,
+        "moving_average": 5893.159345703125
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "status": null,
+      "summary_value": 7.918676676038662,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.918676676038662,
+        "deviation_pct": 7.918676676038662,
+        "adj_close": 6362.89990234375,
+        "moving_average": 5896.013645019531
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "status": null,
+      "summary_value": 7.468960080858598,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.468960080858598,
+        "deviation_pct": 7.468960080858598,
+        "adj_close": 6339.39013671875,
+        "moving_average": 5898.810346679687
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 5.712401105881102,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 5.712401105881102,
+        "deviation_pct": 5.712401105881102,
+        "adj_close": 6238.009765625,
+        "moving_average": 5900.925246582031
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "status": null,
+      "summary_value": 7.227584608812541,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.227584608812541,
+        "deviation_pct": 7.227584608812541,
+        "adj_close": 6329.93994140625,
+        "moving_average": 5903.275695800781
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "status": null,
+      "summary_value": 6.662968060954816,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 6.662968060954816,
+        "deviation_pct": 6.662968060954816,
+        "adj_close": 6299.18994140625,
+        "moving_average": 5905.695346679688
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "status": null,
+      "summary_value": 7.393980388243612,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.393980388243612,
+        "deviation_pct": 7.393980388243612,
+        "adj_close": 6345.06005859375,
+        "moving_average": 5908.208295898437
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "status": null,
+      "summary_value": 7.263081979332798,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.263081979332798,
+        "deviation_pct": 7.263081979332798,
+        "adj_close": 6340.0,
+        "moving_average": 5910.700944824219
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "status": null,
+      "summary_value": 8.05173673872748,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.05173673872748,
+        "deviation_pct": 8.05173673872748,
+        "adj_close": 6389.4501953125,
+        "moving_average": 5913.324846191406
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "status": null,
+      "summary_value": 7.733840689425346,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.733840689425346,
+        "deviation_pct": 7.733840689425346,
+        "adj_close": 6373.4501953125,
+        "moving_average": 5915.922197265625
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "status": null,
+      "summary_value": 8.901404247624797,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.901404247624797,
+        "deviation_pct": 8.901404247624797,
+        "adj_close": 6445.759765625,
+        "moving_average": 5918.894995117187
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "status": null,
+      "summary_value": 9.191441229535195,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 9.191441229535195,
+        "deviation_pct": 9.191441229535195,
+        "adj_close": 6466.580078125,
+        "moving_average": 5922.240795898438
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "status": null,
+      "summary_value": 9.163829357030373,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 9.163829357030373,
+        "deviation_pct": 9.163829357030373,
+        "adj_close": 6468.5400390625,
+        "moving_average": 5925.534196777344
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "status": null,
+      "summary_value": 8.788663044558673,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.788663044558673,
+        "deviation_pct": 8.788663044558673,
+        "adj_close": 6449.7998046875,
+        "moving_average": 5928.742595214844
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "status": null,
+      "summary_value": 8.720337646993087,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.720337646993087,
+        "deviation_pct": 8.720337646993087,
+        "adj_close": 6449.14990234375,
+        "moving_average": 5931.870744628906
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "status": null,
+      "summary_value": 8.03076924781909,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.03076924781909,
+        "deviation_pct": 8.03076924781909,
+        "adj_close": 6411.3701171875,
+        "moving_average": 5934.762995605469
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "status": null,
+      "summary_value": 7.715248013696627,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.715248013696627,
+        "deviation_pct": 7.715248013696627,
+        "adj_close": 6395.77978515625,
+        "moving_average": 5937.673544921875
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "status": null,
+      "summary_value": 7.223918274155651,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.223918274155651,
+        "deviation_pct": 7.223918274155651,
+        "adj_close": 6370.169921875,
+        "moving_average": 5940.997143554688
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "status": null,
+      "summary_value": 8.784691268967455,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.784691268967455,
+        "deviation_pct": 8.784691268967455,
+        "adj_close": 6466.91015625,
+        "moving_average": 5944.6876953125
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "status": null,
+      "summary_value": 8.254413174895884,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.254413174895884,
+        "deviation_pct": 8.254413174895884,
+        "adj_close": 6439.31982421875,
+        "moving_average": 5948.320844726562
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "status": null,
+      "summary_value": 8.639548719631268,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.639548719631268,
+        "deviation_pct": 8.639548719631268,
+        "adj_close": 6465.93994140625,
+        "moving_average": 5951.736745605469
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "status": null,
+      "summary_value": 8.848794796855364,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.848794796855364,
+        "deviation_pct": 8.848794796855364,
+        "adj_close": 6481.39990234375,
+        "moving_average": 5954.498544921875
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "status": null,
+      "summary_value": 9.143939964817973,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 9.143939964817973,
+        "deviation_pct": 9.143939964817973,
+        "adj_close": 6501.85986328125,
+        "moving_average": 5957.14234375
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "status": null,
+      "summary_value": 8.403333924280334,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.403333924280334,
+        "deviation_pct": 8.403333924280334,
+        "adj_close": 6460.259765625,
+        "moving_average": 5959.4659423828125
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "status": null,
+      "summary_value": 7.615538663780767,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.615538663780767,
+        "deviation_pct": 7.615538663780767,
+        "adj_close": 6415.5400390625,
+        "moving_average": 5961.536892089844
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "status": null,
+      "summary_value": 8.122284373740058,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.122284373740058,
+        "deviation_pct": 8.122284373740058,
+        "adj_close": 6448.259765625,
+        "moving_average": 5963.858239746094
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "status": null,
+      "summary_value": 8.977517265382145,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.977517265382145,
+        "deviation_pct": 8.977517265382145,
+        "adj_close": 6502.080078125,
+        "moving_average": 5966.4417407226565
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "status": null,
+      "summary_value": 8.584146986791486,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.584146986791486,
+        "deviation_pct": 8.584146986791486,
+        "adj_close": 6481.5,
+        "moving_average": 5969.103391113281
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "status": null,
+      "summary_value": 8.75592884125443,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.75592884125443,
+        "deviation_pct": 8.75592884125443,
+        "adj_close": 6495.14990234375,
+        "moving_average": 5972.226040039062
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "status": null,
+      "summary_value": 8.991799361432466,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.991799361432466,
+        "deviation_pct": 8.991799361432466,
+        "adj_close": 6512.60986328125,
+        "moving_average": 5975.320988769531
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "status": null,
+      "summary_value": 9.260740225817644,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 9.260740225817644,
+        "deviation_pct": 9.260740225817644,
+        "adj_close": 6532.0400390625,
+        "moving_average": 5978.3962890625
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "status": null,
+      "summary_value": 10.12617239687824,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.12617239687824,
+        "deviation_pct": 10.12617239687824,
+        "adj_close": 6587.47021484375,
+        "moving_average": 5981.748090820312
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "status": null,
+      "summary_value": 10.014560726928764,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.014560726928764,
+        "deviation_pct": 10.014560726928764,
+        "adj_close": 6584.2900390625,
+        "moving_average": 5984.925991210937
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "status": null,
+      "summary_value": 10.472741969441755,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.472741969441755,
+        "deviation_pct": 10.472741969441755,
+        "adj_close": 6615.27978515625,
+        "moving_average": 5988.155690917969
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "status": null,
+      "summary_value": 10.273429673817342,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.273429673817342,
+        "deviation_pct": 10.273429673817342,
+        "adj_close": 6606.759765625,
+        "moving_average": 5991.252639160156
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "status": null,
+      "summary_value": 10.113264393732443,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.113264393732443,
+        "deviation_pct": 10.113264393732443,
+        "adj_close": 6600.35009765625,
+        "moving_average": 5994.146240234375
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "status": null,
+      "summary_value": 10.582200596045478,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.582200596045478,
+        "deviation_pct": 10.582200596045478,
+        "adj_close": 6631.9599609375,
+        "moving_average": 5997.3123388671875
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "status": null,
+      "summary_value": 11.063922939636116,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 11.063922939636116,
+        "deviation_pct": 11.063922939636116,
+        "adj_close": 6664.35986328125,
+        "moving_average": 6000.472238769531
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "status": null,
+      "summary_value": 11.493648226265883,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 11.493648226265883,
+        "deviation_pct": 11.493648226265883,
+        "adj_close": 6693.75,
+        "moving_average": 6003.7052392578125
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "status": null,
+      "summary_value": 10.824164769155061,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.824164769155061,
+        "deviation_pct": 10.824164769155061,
+        "adj_close": 6656.919921875,
+        "moving_average": 6006.740439453125
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "status": null,
+      "summary_value": 10.457984881407107,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.457984881407107,
+        "deviation_pct": 10.457984881407107,
+        "adj_close": 6637.97021484375,
+        "moving_average": 6009.497839355468
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "status": null,
+      "summary_value": 9.856286498409315,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 9.856286498409315,
+        "deviation_pct": 9.856286498409315,
+        "adj_close": 6604.72021484375,
+        "moving_average": 6012.145891113281
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": null,
+      "summary_value": 10.453802888429674,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.453802888429674,
+        "deviation_pct": 10.453802888429674,
+        "adj_close": 6643.7001953125,
+        "moving_average": 6014.913041992188
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "status": null,
+      "summary_value": 10.688932313241342,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 10.688932313241342,
+        "deviation_pct": 10.688932313241342,
+        "adj_close": 6661.2099609375,
+        "moving_average": 6017.954841308594
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    }
+  ]
+}

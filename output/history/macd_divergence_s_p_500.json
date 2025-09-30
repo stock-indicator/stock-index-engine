@@ -1,0 +1,4022 @@
+{
+  "indicator": "macd_divergence_s_p_500",
+  "display_name": "MACD Divergence (S&P 500)",
+  "category": "Technical",
+  "markets": [
+    "S&P 500"
+  ],
+  "topics": [
+    "Technical",
+    "Trend"
+  ],
+  "threshold": "Bearish divergence",
+  "updated_at": "2025-09-30T05:38:09+00:00",
+  "series": [
+    {
+      "date": "2024-09-30",
+      "status": null,
+      "summary_value": 0.0,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 0.0,
+        "macd": 0.0,
+        "signal": 0.0,
+        "hist": 0.0,
+        "price": 5762.47998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-01",
+      "status": null,
+      "summary_value": -4.286152288105768,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -4.286152288105768,
+        "macd": -4.286152288105768,
+        "signal": -0.8572304576211537,
+        "hist": -3.4289218304846143,
+        "price": 5708.75,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-02",
+      "status": null,
+      "summary_value": -7.532380710687903,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -7.532380710687903,
+        "macd": -7.532380710687903,
+        "signal": -2.1922605082345035,
+        "hist": -5.3401202024534,
+        "price": 5709.5400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-03",
+      "status": null,
+      "summary_value": -10.755702727048629,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -10.755702727048629,
+        "macd": -10.755702727048629,
+        "signal": -3.9049489519973286,
+        "hist": -6.850753775051301,
+        "price": 5699.93994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-04",
+      "status": null,
+      "summary_value": -9.079788267907134,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -9.079788267907134,
+        "macd": -9.079788267907134,
+        "signal": -4.93991681517929,
+        "hist": -4.139871452727844,
+        "price": 5751.06982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-07",
+      "status": null,
+      "summary_value": -12.061101912961021,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -12.061101912961021,
+        "macd": -12.061101912961021,
+        "signal": -6.364153834735637,
+        "hist": -5.696948078225384,
+        "price": 5695.93994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-08",
+      "status": null,
+      "summary_value": -9.856824093481919,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -9.856824093481919,
+        "macd": -9.856824093481919,
+        "signal": -7.062687886484894,
+        "hist": -2.794136206997025,
+        "price": 5751.1298828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-09",
+      "status": null,
+      "summary_value": -4.75400907430685,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -4.75400907430685,
+        "macd": -4.75400907430685,
+        "signal": -6.600952124049286,
+        "hist": 1.8469430497424355,
+        "price": 5792.0400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-10",
+      "status": null,
+      "summary_value": -1.6583862706875152,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -1.6583862706875152,
+        "macd": -1.6583862706875152,
+        "signal": -5.612438953376932,
+        "hist": 3.954052682689417,
+        "price": 5780.0498046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-11",
+      "status": null,
+      "summary_value": 3.5762840119423345,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 3.5762840119423345,
+        "macd": 3.5762840119423345,
+        "signal": -3.774694360313079,
+        "hist": 7.350978372255414,
+        "price": 5815.02978515625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-14",
+      "status": null,
+      "summary_value": 11.212175583666976,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 11.212175583666976,
+        "macd": 11.212175583666976,
+        "signal": -0.7773203715170682,
+        "hist": 11.989495955184044,
+        "price": 5859.85009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-15",
+      "status": null,
+      "summary_value": 13.509874110774945,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 13.509874110774945,
+        "macd": 13.509874110774945,
+        "signal": 2.0801185249413345,
+        "hist": 11.429755585833611,
+        "price": 5815.259765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-16",
+      "status": null,
+      "summary_value": 17.326740710877857,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 17.326740710877857,
+        "macd": 17.326740710877857,
+        "signal": 5.129442962128639,
+        "hist": 12.197297748749218,
+        "price": 5842.47021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "status": null,
+      "summary_value": 20.039935446448,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 20.039935446448,
+        "macd": 20.039935446448,
+        "signal": 8.111541458992512,
+        "hist": 11.928393987455486,
+        "price": 5841.47021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-18",
+      "status": null,
+      "summary_value": 23.78797136488447,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 23.78797136488447,
+        "macd": 23.78797136488447,
+        "signal": 11.246827440170904,
+        "hist": 12.541143924713566,
+        "price": 5864.669921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-21",
+      "status": null,
+      "summary_value": 25.600619891196402,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 25.600619891196402,
+        "macd": 25.600619891196402,
+        "signal": 14.117585930376004,
+        "hist": 11.483033960820398,
+        "price": 5853.97998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "status": null,
+      "summary_value": 26.50729191625487,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 26.50729191625487,
+        "macd": 26.50729191625487,
+        "signal": 16.595527127551776,
+        "hist": 9.911764788703096,
+        "price": 5851.2001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-23",
+      "status": null,
+      "summary_value": 22.625405827867326,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 22.625405827867326,
+        "macd": 22.625405827867326,
+        "signal": 17.801502867614886,
+        "hist": 4.82390296025244,
+        "price": 5797.419921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-24",
+      "status": null,
+      "summary_value": 20.31856269897071,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 20.31856269897071,
+        "macd": 20.31856269897071,
+        "signal": 18.304914833886052,
+        "hist": 2.013647865084657,
+        "price": 5809.85986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-25",
+      "status": null,
+      "summary_value": 18.140873234960964,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 18.140873234960964,
+        "macd": 18.140873234960964,
+        "signal": 18.272106514101033,
+        "hist": -0.13123327914006921,
+        "price": 5808.1201171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "status": null,
+      "summary_value": 17.45645491610685,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 17.45645491610685,
+        "macd": 17.45645491610685,
+        "signal": 18.108976194502198,
+        "hist": -0.6525212783953478,
+        "price": 5823.52001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-29",
+      "status": null,
+      "summary_value": 17.471145537975644,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 17.471145537975644,
+        "macd": 17.471145537975644,
+        "signal": 17.981410063196886,
+        "hist": -0.5102645252212419,
+        "price": 5832.919921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-30",
+      "status": null,
+      "summary_value": 15.74794137518984,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 15.74794137518984,
+        "macd": 15.74794137518984,
+        "signal": 17.53471632559548,
+        "hist": -1.7867749504056398,
+        "price": 5813.669921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "status": null,
+      "summary_value": 5.585476264030149,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 5.585476264030149,
+        "macd": 5.585476264030149,
+        "signal": 15.144868313282414,
+        "hist": -9.559392049252265,
+        "price": 5705.4501953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": -0.5775743004287506,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -0.5775743004287506,
+        "macd": -0.5775743004287506,
+        "signal": 12.000379790540183,
+        "hist": -12.577954090968934,
+        "price": 5728.7998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-04",
+      "status": null,
+      "summary_value": -6.6847104254984515,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -6.6847104254984515,
+        "macd": -6.6847104254984515,
+        "signal": 8.263361747332457,
+        "hist": -14.948072172830908,
+        "price": 5712.68994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-05",
+      "status": null,
+      "summary_value": -5.803709042499577,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -5.803709042499577,
+        "macd": -5.803709042499577,
+        "signal": 5.44994758936605,
+        "hist": -11.253656631865628,
+        "price": 5782.759765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-06",
+      "status": null,
+      "summary_value": 6.6217549824141315,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 6.6217549824141315,
+        "macd": 6.6217549824141315,
+        "signal": 5.684309067975667,
+        "hist": 0.9374459144384648,
+        "price": 5929.0400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "status": null,
+      "summary_value": 19.796106058045552,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 19.796106058045552,
+        "macd": 19.796106058045552,
+        "signal": 8.506668465989645,
+        "hist": 11.289437592055908,
+        "price": 5973.10009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-08",
+      "status": null,
+      "summary_value": 31.682375234518076,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 31.682375234518076,
+        "macd": 31.682375234518076,
+        "signal": 13.141809819695332,
+        "hist": 18.540565414822744,
+        "price": 5995.5400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-11",
+      "status": null,
+      "summary_value": 41.09740703855459,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.09740703855459,
+        "macd": 41.09740703855459,
+        "signal": 18.732929263467184,
+        "hist": 22.36447777508741,
+        "price": 6001.35009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "status": null,
+      "summary_value": 46.620677540209726,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.620677540209726,
+        "macd": 46.620677540209726,
+        "signal": 24.310478918815697,
+        "hist": 22.31019862139403,
+        "price": 5983.990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-13",
+      "status": null,
+      "summary_value": 50.52759159731522,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.52759159731522,
+        "macd": 50.52759159731522,
+        "signal": 29.553901454515604,
+        "hist": 20.97369014279962,
+        "price": 5985.3798828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-14",
+      "status": null,
+      "summary_value": 50.12420724707226,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.12420724707226,
+        "macd": 50.12420724707226,
+        "signal": 33.66796261302694,
+        "hist": 16.456244634045326,
+        "price": 5949.169921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-15",
+      "status": null,
+      "summary_value": 42.97086805460822,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 42.97086805460822,
+        "macd": 42.97086805460822,
+        "signal": 35.528543701343196,
+        "hist": 7.442324353265022,
+        "price": 5870.6201171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-18",
+      "status": null,
+      "summary_value": 38.71146135903473,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 38.71146135903473,
+        "macd": 38.71146135903473,
+        "signal": 36.1651272328815,
+        "hist": 2.5463341261532264,
+        "price": 5893.6201171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-19",
+      "status": null,
+      "summary_value": 36.79662798341087,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 36.79662798341087,
+        "macd": 36.79662798341087,
+        "signal": 36.29142738298738,
+        "hist": 0.5052006004234926,
+        "price": 5916.97998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-20",
+      "status": null,
+      "summary_value": 34.88742863446532,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 34.88742863446532,
+        "macd": 34.88742863446532,
+        "signal": 36.010627633282965,
+        "hist": -1.1231989988176423,
+        "price": 5917.10986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "status": null,
+      "summary_value": 35.51484515548145,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 35.51484515548145,
+        "macd": 35.51484515548145,
+        "signal": 35.911471137722664,
+        "hist": -0.39662598224121126,
+        "price": 5948.7099609375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-22",
+      "status": null,
+      "summary_value": 37.24737188313884,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 37.24737188313884,
+        "macd": 37.24737188313884,
+        "signal": 36.1786512868059,
+        "hist": 1.0687205963329376,
+        "price": 5969.33984375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-25",
+      "status": null,
+      "summary_value": 39.61860555500061,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 39.61860555500061,
+        "macd": 39.61860555500061,
+        "signal": 36.866642140444846,
+        "hist": 2.7519634145557674,
+        "price": 5987.3701171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-26",
+      "status": null,
+      "summary_value": 43.757888389877735,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.757888389877735,
+        "macd": 43.757888389877735,
+        "signal": 38.244891390331425,
+        "hist": 5.51299699954631,
+        "price": 6021.6298828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-27",
+      "status": null,
+      "summary_value": 44.67629599609336,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 44.67629599609336,
+        "macd": 44.67629599609336,
+        "signal": 39.531172311483814,
+        "hist": 5.145123684609544,
+        "price": 5998.740234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-11-29",
+      "status": null,
+      "summary_value": 47.5702192552817,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.5702192552817,
+        "macd": 47.5702192552817,
+        "signal": 41.13898170024339,
+        "hist": 6.431237555038308,
+        "price": 6032.3798828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-02",
+      "status": null,
+      "summary_value": 50.47366246362981,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.47366246362981,
+        "macd": 50.47366246362981,
+        "signal": 43.005917852920675,
+        "hist": 7.467744610709133,
+        "price": 6047.14990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "status": null,
+      "summary_value": 52.39101769316403,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.39101769316403,
+        "macd": 52.39101769316403,
+        "signal": 44.882937820969346,
+        "hist": 7.508079872194685,
+        "price": 6049.8798828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-04",
+      "status": null,
+      "summary_value": 56.21665433447379,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.21665433447379,
+        "macd": 56.21665433447379,
+        "signal": 47.149681123670234,
+        "hist": 9.066973210803553,
+        "price": 6086.490234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "status": null,
+      "summary_value": 57.665466495148394,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.665466495148394,
+        "macd": 57.665466495148394,
+        "signal": 49.25283819796587,
+        "hist": 8.412628297182522,
+        "price": 6075.10986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-06",
+      "status": null,
+      "summary_value": 59.35277661823966,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 59.35277661823966,
+        "macd": 59.35277661823966,
+        "signal": 51.27282588202063,
+        "hist": 8.079950736219025,
+        "price": 6090.27001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-09",
+      "status": null,
+      "summary_value": 57.01329332729074,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.01329332729074,
+        "macd": 57.01329332729074,
+        "signal": 52.42091937107466,
+        "hist": 4.592373956216079,
+        "price": 6052.85009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-10",
+      "status": null,
+      "summary_value": 53.09953424553896,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 53.09953424553896,
+        "macd": 53.09953424553896,
+        "signal": 52.556642345967525,
+        "hist": 0.5428918995714369,
+        "price": 6034.91015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-11",
+      "status": null,
+      "summary_value": 53.35922683787794,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 53.35922683787794,
+        "macd": 53.35922683787794,
+        "signal": 52.71715924434962,
+        "hist": 0.6420675935283242,
+        "price": 6084.18994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-12",
+      "status": null,
+      "summary_value": 50.32691970445012,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.32691970445012,
+        "macd": 50.32691970445012,
+        "signal": 52.23911133636972,
+        "hist": -1.9121916319195975,
+        "price": 6051.25,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-13",
+      "status": null,
+      "summary_value": 47.36487834972013,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.36487834972013,
+        "macd": 47.36487834972013,
+        "signal": 51.2642647390398,
+        "hist": -3.899386389319673,
+        "price": 6051.08984375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "status": null,
+      "summary_value": 46.338398795732246,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.338398795732246,
+        "macd": 46.338398795732246,
+        "signal": 50.2790915503783,
+        "hist": -3.940692754646051,
+        "price": 6074.080078125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-17",
+      "status": null,
+      "summary_value": 43.1338361514172,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.1338361514172,
+        "macd": 43.1338361514172,
+        "signal": 48.85004047058608,
+        "hist": -5.716204319168881,
+        "price": 6050.60986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-18",
+      "status": null,
+      "summary_value": 25.896280970028783,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 25.896280970028783,
+        "macd": 25.896280970028783,
+        "signal": 44.259288570474624,
+        "hist": -18.36300760044584,
+        "price": 5872.16015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "status": null,
+      "summary_value": 11.690711208598259,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 11.690711208598259,
+        "macd": 11.690711208598259,
+        "signal": 37.74557309809935,
+        "hist": -26.05486188950109,
+        "price": 5867.080078125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-20",
+      "status": null,
+      "summary_value": 5.514830916995379,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 5.514830916995379,
+        "macd": 5.514830916995379,
+        "signal": 31.299424661878557,
+        "hist": -25.78459374488318,
+        "price": 5930.85009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-23",
+      "status": null,
+      "summary_value": 4.0610586659722685,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 4.0610586659722685,
+        "macd": 4.0610586659722685,
+        "signal": 25.8517514626973,
+        "hist": -21.790692796725033,
+        "price": 5974.06982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "status": null,
+      "summary_value": 8.138364682866268,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.138364682866268,
+        "macd": 8.138364682866268,
+        "signal": 22.309074106731096,
+        "hist": -14.170709423864828,
+        "price": 6040.0400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "status": null,
+      "summary_value": 11.04463313632641,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 11.04463313632641,
+        "macd": 11.04463313632641,
+        "signal": 20.056185912650157,
+        "hist": -9.011552776323747,
+        "price": 6037.58984375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-27",
+      "status": null,
+      "summary_value": 7.8709730000191485,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 7.8709730000191485,
+        "macd": 7.8709730000191485,
+        "signal": 17.619143330123954,
+        "hist": -9.748170330104806,
+        "price": 5970.83984375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-30",
+      "status": null,
+      "summary_value": 0.19736133304104442,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 0.19736133304104442,
+        "macd": 0.19736133304104442,
+        "signal": 14.134786930707373,
+        "hist": -13.937425597666328,
+        "price": 5906.93994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2024-12-31",
+      "status": null,
+      "summary_value": -7.8360127250107325,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -7.8360127250107325,
+        "macd": -7.8360127250107325,
+        "signal": 9.740626999563752,
+        "hist": -17.576639724574484,
+        "price": 5881.6298828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "status": null,
+      "summary_value": -15.084092504395812,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -15.084092504395812,
+        "macd": -15.084092504395812,
+        "signal": 4.775683098771839,
+        "hist": -19.859775603167652,
+        "price": 5868.5498046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "status": null,
+      "summary_value": -14.694104142397919,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -14.694104142397919,
+        "macd": -14.694104142397919,
+        "signal": 0.8817256505378874,
+        "hist": -15.575829792935806,
+        "price": 5942.47021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "status": null,
+      "summary_value": -11.595830868197481,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -11.595830868197481,
+        "macd": -11.595830868197481,
+        "signal": -1.6137856532091863,
+        "hist": -9.982045214988295,
+        "price": 5975.3798828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "status": null,
+      "summary_value": -14.329147849670335,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -14.329147849670335,
+        "macd": -14.329147849670335,
+        "signal": -4.156858092501416,
+        "hist": -10.172289757168919,
+        "price": 5909.02978515625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-08",
+      "status": null,
+      "summary_value": -15.57182466699669,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -15.57182466699669,
+        "macd": -15.57182466699669,
+        "signal": -6.439851407400472,
+        "hist": -9.131973259596219,
+        "price": 5918.25,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "status": null,
+      "summary_value": -23.643983448611834,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -23.643983448611834,
+        "macd": -23.643983448611834,
+        "signal": -9.880677815642745,
+        "hist": -13.76330563296909,
+        "price": 5827.0400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "status": null,
+      "summary_value": -28.9665555548072,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -28.9665555548072,
+        "macd": -28.9665555548072,
+        "signal": -13.697853363475637,
+        "hist": -15.268702191331563,
+        "price": 5836.22021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "status": null,
+      "summary_value": -32.27288816908003,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -32.27288816908003,
+        "macd": -32.27288816908003,
+        "signal": -17.41286032459652,
+        "hist": -14.860027844483515,
+        "price": 5842.91015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "status": null,
+      "summary_value": -25.959924967508414,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -25.959924967508414,
+        "macd": -25.959924967508414,
+        "signal": -19.1222732531789,
+        "hist": -6.837651714329514,
+        "price": 5949.91015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "status": null,
+      "summary_value": -21.720791547843874,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -21.720791547843874,
+        "macd": -21.720791547843874,
+        "signal": -19.641976912111897,
+        "hist": -2.078814635731977,
+        "price": 5937.33984375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "status": null,
+      "summary_value": -13.419898081750034,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -13.419898081750034,
+        "macd": -13.419898081750034,
+        "signal": -18.397561146039525,
+        "hist": 4.977663064289491,
+        "price": 5996.66015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "status": null,
+      "summary_value": -2.568993571770079,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -2.568993571770079,
+        "macd": -2.568993571770079,
+        "signal": -15.231847631185635,
+        "hist": 12.662854059415556,
+        "price": 6049.240234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-22",
+      "status": null,
+      "summary_value": 8.923631594274411,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 8.923631594274411,
+        "macd": 8.923631594274411,
+        "signal": -10.400751786093625,
+        "hist": 19.324383380368037,
+        "price": 6086.3701171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "status": null,
+      "summary_value": 20.405947888533774,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 20.405947888533774,
+        "macd": 20.405947888533774,
+        "signal": -4.239411851168145,
+        "hist": 24.64535973970192,
+        "price": 6118.7099609375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-24",
+      "status": null,
+      "summary_value": 27.775921807670784,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 27.775921807670784,
+        "macd": 27.775921807670784,
+        "signal": 2.1636548805996405,
+        "hist": 25.612266927071143,
+        "price": 6101.240234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "status": null,
+      "summary_value": 26.13702312506939,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 26.13702312506939,
+        "macd": 26.13702312506939,
+        "signal": 6.958328529493591,
+        "hist": 19.1786945955758,
+        "price": 6012.27978515625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "status": null,
+      "summary_value": 28.976129262275208,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 28.976129262275208,
+        "macd": 28.976129262275208,
+        "signal": 11.361888676049915,
+        "hist": 17.614240586225293,
+        "price": 6067.7001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-29",
+      "status": null,
+      "summary_value": 28.605547617141383,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 28.605547617141383,
+        "macd": 28.605547617141383,
+        "signal": 14.81062046426821,
+        "hist": 13.794927152873173,
+        "price": 6039.31005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "status": null,
+      "summary_value": 30.5307442809426,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 30.5307442809426,
+        "macd": 30.5307442809426,
+        "signal": 17.954645227603088,
+        "hist": 12.576099053339512,
+        "price": 6071.169921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "status": null,
+      "summary_value": 29.246933105149765,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 29.246933105149765,
+        "macd": 29.246933105149765,
+        "signal": 20.213102803112424,
+        "hist": 9.033830302037341,
+        "price": 6040.52978515625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "status": null,
+      "summary_value": 24.241478085168637,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 24.241478085168637,
+        "macd": 24.241478085168637,
+        "signal": 21.018777859523667,
+        "hist": 3.222700225644971,
+        "price": 5994.56982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-04",
+      "status": null,
+      "summary_value": 23.49850258029437,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 23.49850258029437,
+        "macd": 23.49850258029437,
+        "signal": 21.51472280367781,
+        "hist": 1.9837797766165615,
+        "price": 6037.8798828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-05",
+      "status": null,
+      "summary_value": 24.531238934178873,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 24.531238934178873,
+        "macd": 24.531238934178873,
+        "signal": 22.118026029778022,
+        "hist": 2.413212904400851,
+        "price": 6061.47998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-06",
+      "status": null,
+      "summary_value": 26.82295735748812,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 26.82295735748812,
+        "macd": 26.82295735748812,
+        "signal": 23.059012295320045,
+        "hist": 3.7639450621680766,
+        "price": 6083.56982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "status": null,
+      "summary_value": 23.719544882716036,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 23.719544882716036,
+        "macd": 23.719544882716036,
+        "signal": 23.191118812799242,
+        "hist": 0.5284260699167938,
+        "price": 6025.990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-10",
+      "status": null,
+      "summary_value": 24.244545414858294,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 24.244545414858294,
+        "macd": 24.244545414858294,
+        "signal": 23.401804133211055,
+        "hist": 0.842741281647239,
+        "price": 6066.43994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-11",
+      "status": null,
+      "summary_value": 24.543914660740484,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 24.543914660740484,
+        "macd": 24.543914660740484,
+        "signal": 23.63022623871694,
+        "hist": 0.9136884220235437,
+        "price": 6068.5,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-12",
+      "status": null,
+      "summary_value": 23.18014514392962,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 23.18014514392962,
+        "macd": 23.18014514392962,
+        "signal": 23.540210019759478,
+        "hist": -0.36006487582985613,
+        "price": 6051.97021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-13",
+      "status": null,
+      "summary_value": 26.881090627694903,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 26.881090627694903,
+        "macd": 26.881090627694903,
+        "signal": 24.208386141346562,
+        "hist": 2.6727044863483407,
+        "price": 6115.06982421875,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-02-14",
+      "status": null,
+      "summary_value": 29.439259534104167,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 29.439259534104167,
+        "macd": 29.439259534104167,
+        "signal": 25.254560819898085,
+        "hist": 4.184698714206082,
+        "price": 6114.6298828125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-02-18",
+      "status": null,
+      "summary_value": 32.3006409582531,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 32.3006409582531,
+        "macd": 32.3006409582531,
+        "signal": 26.66377684756909,
+        "hist": 5.636864110684009,
+        "price": 6129.580078125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-02-19",
+      "status": null,
+      "summary_value": 35.336630718745255,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 35.336630718745255,
+        "macd": 35.336630718745255,
+        "signal": 28.398347621804326,
+        "hist": 6.938283096940928,
+        "price": 6144.14990234375,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "status": null,
+      "summary_value": 35.18823739256368,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 35.18823739256368,
+        "macd": 35.18823739256368,
+        "signal": 29.756325575956197,
+        "hist": 5.431911816607482,
+        "price": 6117.52001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "status": null,
+      "summary_value": 26.343550946993673,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 26.343550946993673,
+        "macd": 26.343550946993673,
+        "signal": 29.073770650163695,
+        "hist": -2.7302197031700217,
+        "price": 6013.1298828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-24",
+      "status": null,
+      "summary_value": 16.73016150235071,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 16.73016150235071,
+        "macd": 16.73016150235071,
+        "signal": 26.605048820601098,
+        "hist": -9.874887318250387,
+        "price": 5983.25,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "status": null,
+      "summary_value": 6.774028330594774,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 6.774028330594774,
+        "macd": 6.774028330594774,
+        "signal": 22.638844722599835,
+        "hist": -15.86481639200506,
+        "price": 5955.25,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-26",
+      "status": null,
+      "summary_value": -1.0389377518276888,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -1.0389377518276888,
+        "macd": -1.0389377518276888,
+        "signal": 17.90328822771433,
+        "hist": -18.94222597954202,
+        "price": 5956.06005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "status": null,
+      "summary_value": -14.686050242308738,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -14.686050242308738,
+        "macd": -14.686050242308738,
+        "signal": 11.385420533709716,
+        "hist": -26.071470776018455,
+        "price": 5861.56982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-02-28",
+      "status": null,
+      "summary_value": -17.797636601391787,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -17.797636601391787,
+        "macd": -17.797636601391787,
+        "signal": 5.548809106689415,
+        "hist": -23.346445708081202,
+        "price": 5954.5,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-03",
+      "status": null,
+      "summary_value": -28.39116847238074,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -28.39116847238074,
+        "macd": -28.39116847238074,
+        "signal": -1.239186409124616,
+        "hist": -27.151982063256124,
+        "price": 5849.72021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "status": null,
+      "summary_value": -42.07671075338476,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -42.07671075338476,
+        "macd": -42.07671075338476,
+        "signal": -9.406691277976645,
+        "hist": -32.67001947540811,
+        "price": 5778.14990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-05",
+      "status": null,
+      "summary_value": -47.17579289337846,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -47.17579289337846,
+        "macd": -47.17579289337846,
+        "signal": -16.960511601057007,
+        "hist": -30.21528129232145,
+        "price": 5842.6298828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "status": null,
+      "summary_value": -58.938244713319364,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -58.938244713319364,
+        "macd": -58.938244713319364,
+        "signal": -25.35605822350948,
+        "hist": -33.582186489809885,
+        "price": 5738.52001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-07",
+      "status": null,
+      "summary_value": -64.95498645051521,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -64.95498645051521,
+        "macd": -64.95498645051521,
+        "signal": -33.27584386891063,
+        "hist": -31.67914258160458,
+        "price": 5770.2001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-10",
+      "status": null,
+      "summary_value": -81.34446753328393,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -81.34446753328393,
+        "macd": -81.34446753328393,
+        "signal": -42.88956860178529,
+        "hist": -38.45489893149864,
+        "price": 5614.56005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "status": null,
+      "summary_value": -96.6477609524527,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -96.6477609524527,
+        "macd": -96.6477609524527,
+        "signal": -53.64120707191877,
+        "hist": -43.00655388053393,
+        "price": 5572.06982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-12",
+      "status": null,
+      "summary_value": -105.36392959443765,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -105.36392959443765,
+        "macd": -105.36392959443765,
+        "signal": -63.98575157642255,
+        "hist": -41.3781780180151,
+        "price": 5599.2998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "status": null,
+      "summary_value": -117.19676333387724,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -117.19676333387724,
+        "macd": -117.19676333387724,
+        "signal": -74.6279539279135,
+        "hist": -42.56880940596375,
+        "price": 5521.52001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-14",
+      "status": null,
+      "summary_value": -115.76509499345048,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -115.76509499345048,
+        "macd": -115.76509499345048,
+        "signal": -82.8553821410209,
+        "hist": -32.90971285242958,
+        "price": 5638.93994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-17",
+      "status": null,
+      "summary_value": -110.43798930836238,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -110.43798930836238,
+        "macd": -110.43798930836238,
+        "signal": -88.3719035744892,
+        "hist": -22.06608573387318,
+        "price": 5675.1201171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-18",
+      "status": null,
+      "summary_value": -109.82879525029148,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -109.82879525029148,
+        "macd": -109.82879525029148,
+        "signal": -92.66328190964965,
+        "hist": -17.165513340641823,
+        "price": 5614.66015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-19",
+      "status": null,
+      "summary_value": -103.26332440778242,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -103.26332440778242,
+        "macd": -103.26332440778242,
+        "signal": -94.78329040927622,
+        "hist": -8.480033998506201,
+        "price": 5675.2900390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-20",
+      "status": null,
+      "summary_value": -97.93181297275078,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -97.93181297275078,
+        "macd": -97.93181297275078,
+        "signal": -95.41299492197113,
+        "hist": -2.518818050779643,
+        "price": 5662.89013671875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-21",
+      "status": null,
+      "summary_value": -92.26614143706774,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -92.26614143706774,
+        "macd": -92.26614143706774,
+        "signal": -94.78362422499046,
+        "hist": 2.5174827879227166,
+        "price": 5667.56005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "status": null,
+      "summary_value": -78.797771991025,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -78.797771991025,
+        "macd": -78.797771991025,
+        "signal": -91.58645377819737,
+        "hist": 12.788681787172365,
+        "price": 5767.56982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-25",
+      "status": null,
+      "summary_value": -66.62331366302988,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -66.62331366302988,
+        "macd": -66.62331366302988,
+        "signal": -86.59382575516386,
+        "hist": 19.970512092133987,
+        "price": 5776.64990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-26",
+      "status": null,
+      "summary_value": -61.46696751495165,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -61.46696751495165,
+        "macd": -61.46696751495165,
+        "signal": -81.56845410712143,
+        "hist": 20.101486592169778,
+        "price": 5712.2001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "status": null,
+      "summary_value": -58.233522407667806,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -58.233522407667806,
+        "macd": -58.233522407667806,
+        "signal": -76.9014677672307,
+        "hist": 18.667945359562893,
+        "price": 5693.31005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-28",
+      "status": null,
+      "summary_value": -64.00056453620527,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -64.00056453620527,
+        "macd": -64.00056453620527,
+        "signal": -74.32128712102562,
+        "hist": 10.320722584820345,
+        "price": 5580.93994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "status": null,
+      "summary_value": -65.3237837732504,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -65.3237837732504,
+        "macd": -65.3237837732504,
+        "signal": -72.52178645147058,
+        "hist": 7.198002678220178,
+        "price": 5611.85009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": -63.92332169730889,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -63.92332169730889,
+        "macd": -63.92332169730889,
+        "signal": -70.80209350063825,
+        "hist": 6.878771803329357,
+        "price": 5633.06982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-02",
+      "status": null,
+      "summary_value": -59.07422968826813,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -59.07422968826813,
+        "macd": -59.07422968826813,
+        "signal": -68.45652073816423,
+        "hist": 9.382291049896097,
+        "price": 5670.97021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-03",
+      "status": null,
+      "summary_value": -76.49533580653224,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -76.49533580653224,
+        "macd": -76.49533580653224,
+        "signal": -70.06428375183783,
+        "hist": -6.431052054694405,
+        "price": 5396.52001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-04",
+      "status": null,
+      "summary_value": -114.99431358052516,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -114.99431358052516,
+        "macd": -114.99431358052516,
+        "signal": -79.05028971757531,
+        "hist": -35.94402386294985,
+        "price": 5074.080078125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-07",
+      "status": null,
+      "summary_value": -144.79056378287896,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -144.79056378287896,
+        "macd": -144.79056378287896,
+        "signal": -92.19834453063604,
+        "hist": -52.59221925224293,
+        "price": 5062.25,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "status": null,
+      "summary_value": -172.82545268213926,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -172.82545268213926,
+        "macd": -172.82545268213926,
+        "signal": -108.32376616093669,
+        "hist": -64.50168652120257,
+        "price": 4982.77001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-09",
+      "status": null,
+      "summary_value": -154.9982615648123,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -154.9982615648123,
+        "macd": -154.9982615648123,
+        "signal": -117.65866524171182,
+        "hist": -37.339596323100494,
+        "price": 5456.89990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "status": null,
+      "summary_value": -154.32969213703655,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -154.32969213703655,
+        "macd": -154.32969213703655,
+        "signal": -124.99287062077677,
+        "hist": -29.336821516259775,
+        "price": 5268.0498046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-11",
+      "status": null,
+      "summary_value": -144.44405965324313,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -144.44405965324313,
+        "macd": -144.44405965324313,
+        "signal": -128.88310842727003,
+        "hist": -15.560951225973099,
+        "price": 5363.35986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-14",
+      "status": null,
+      "summary_value": -131.65370348399483,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -131.65370348399483,
+        "macd": -131.65370348399483,
+        "signal": -129.437227438615,
+        "hist": -2.216476045379835,
+        "price": 5405.97021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-15",
+      "status": null,
+      "summary_value": -120.87753977002376,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -120.87753977002376,
+        "macd": -120.87753977002376,
+        "signal": -127.72528990489675,
+        "hist": 6.847750134872996,
+        "price": 5396.6298828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-16",
+      "status": null,
+      "summary_value": -120.70396731867822,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -120.70396731867822,
+        "macd": -120.70396731867822,
+        "signal": -126.32102538765305,
+        "hist": 5.617058068974828,
+        "price": 5275.7001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-17",
+      "status": null,
+      "summary_value": -118.63402916085761,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -118.63402916085761,
+        "macd": -118.63402916085761,
+        "signal": -124.78362614229397,
+        "hist": 6.1495969814363605,
+        "price": 5282.7001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-21",
+      "status": null,
+      "summary_value": -125.59195192426614,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -125.59195192426614,
+        "macd": -125.59195192426614,
+        "signal": -124.9452912986884,
+        "hist": -0.6466606255777378,
+        "price": 5158.2001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "status": null,
+      "summary_value": -119.27683221910956,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -119.27683221910956,
+        "macd": -119.27683221910956,
+        "signal": -123.81159948277264,
+        "hist": 4.5347672636630705,
+        "price": 5287.759765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-23",
+      "status": null,
+      "summary_value": -105.94188070295695,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -105.94188070295695,
+        "macd": -105.94188070295695,
+        "signal": -120.2376557268095,
+        "hist": 14.295775023852556,
+        "price": 5375.85986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-24",
+      "status": null,
+      "summary_value": -85.59896456405659,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -85.59896456405659,
+        "macd": -85.59896456405659,
+        "signal": -113.30991749425893,
+        "hist": 27.71095293020234,
+        "price": 5484.77001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-25",
+      "status": null,
+      "summary_value": -65.45931739645403,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -65.45931739645403,
+        "macd": -65.45931739645403,
+        "signal": -103.73979747469795,
+        "hist": 38.280480078243926,
+        "price": 5525.2099609375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-28",
+      "status": null,
+      "summary_value": -48.65202014737588,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -48.65202014737588,
+        "macd": -48.65202014737588,
+        "signal": -92.72224200923355,
+        "hist": 44.070221861857675,
+        "price": 5528.75,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-29",
+      "status": null,
+      "summary_value": -32.370376239723555,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -32.370376239723555,
+        "macd": -32.370376239723555,
+        "signal": -80.65186885533156,
+        "hist": 48.281492615608,
+        "price": 5560.830078125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-04-30",
+      "status": null,
+      "summary_value": -18.588686687905465,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -18.588686687905465,
+        "macd": -18.588686687905465,
+        "signal": -68.23923242184635,
+        "hist": 49.65054573394089,
+        "price": 5569.06005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": -4.780818992744571,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": -4.780818992744571,
+        "macd": -4.780818992744571,
+        "signal": -55.547549736026,
+        "hist": 50.76673074328143,
+        "price": 5604.14013671875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "status": null,
+      "summary_value": 12.675365840634186,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 12.675365840634186,
+        "macd": 12.675365840634186,
+        "signal": -41.90296662069397,
+        "hist": 54.57833246132815,
+        "price": 5686.669921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-05",
+      "status": null,
+      "summary_value": 23.312483424868333,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 23.312483424868333,
+        "macd": 23.312483424868333,
+        "signal": -28.859876611581505,
+        "hist": 52.17236003644984,
+        "price": 5650.3798828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-06",
+      "status": null,
+      "summary_value": 27.91306763630655,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 27.91306763630655,
+        "macd": 27.91306763630655,
+        "signal": -17.505287762003896,
+        "hist": 45.418355398310446,
+        "price": 5606.91015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "status": null,
+      "summary_value": 33.14343230005397,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 33.14343230005397,
+        "macd": 33.14343230005397,
+        "signal": -7.375543749592322,
+        "hist": 40.5189760496463,
+        "price": 5631.27978515625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "status": null,
+      "summary_value": 39.46896201039726,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 39.46896201039726,
+        "macd": 39.46896201039726,
+        "signal": 1.9933574024055947,
+        "hist": 37.47560460799167,
+        "price": 5663.93994140625,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "status": null,
+      "summary_value": 43.65360827229961,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.65360827229961,
+        "macd": 43.65360827229961,
+        "signal": 10.325407576384398,
+        "hist": 33.32820069591521,
+        "price": 5659.91015625,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-12",
+      "status": null,
+      "summary_value": 61.13508198542968,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.13508198542968,
+        "macd": 61.13508198542968,
+        "signal": 20.487342458193453,
+        "hist": 40.647739527236226,
+        "price": 5844.18994140625,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "status": null,
+      "summary_value": 77.51383160094156,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 77.51383160094156,
+        "macd": 77.51383160094156,
+        "signal": 31.892640286743074,
+        "hist": 45.621191314198484,
+        "price": 5886.5498046875,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-14",
+      "status": null,
+      "summary_value": 89.94388423373766,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 89.94388423373766,
+        "macd": 89.94388423373766,
+        "signal": 43.502889076142,
+        "hist": 46.440995157595665,
+        "price": 5892.580078125,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "status": null,
+      "summary_value": 100.59998586182701,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 100.59998586182701,
+        "macd": 100.59998586182701,
+        "signal": 54.922308433279,
+        "hist": 45.67767742854801,
+        "price": 5916.93017578125,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-16",
+      "status": null,
+      "summary_value": 111.1088741841977,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 111.1088741841977,
+        "macd": 111.1088741841977,
+        "signal": 66.15962158346275,
+        "hist": 44.94925260073495,
+        "price": 5958.3798828125,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-19",
+      "status": null,
+      "summary_value": 118.49256309456905,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 118.49256309456905,
+        "macd": 118.49256309456905,
+        "signal": 76.626209885684,
+        "hist": 41.866353208885045,
+        "price": 5963.60009765625,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "status": null,
+      "summary_value": 121.08122511692909,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 121.08122511692909,
+        "macd": 121.08122511692909,
+        "signal": 85.51721293193303,
+        "hist": 35.56401218499606,
+        "price": 5940.4599609375,
+        "price_new_high": false,
+        "macd_new_high": true,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "status": null,
+      "summary_value": 114.08337446538098,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 114.08337446538098,
+        "macd": 114.08337446538098,
+        "signal": 91.23044523862262,
+        "hist": 22.852929226758363,
+        "price": 5844.60986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "status": null,
+      "summary_value": 107.09321731036016,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 107.09321731036016,
+        "macd": 107.09321731036016,
+        "signal": 94.40299965297012,
+        "hist": 12.690217657390036,
+        "price": 5842.009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-23",
+      "status": null,
+      "summary_value": 97.26989979968494,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 97.26989979968494,
+        "macd": 97.26989979968494,
+        "signal": 94.9763796823131,
+        "hist": 2.293520117371841,
+        "price": 5802.81982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "status": null,
+      "summary_value": 97.93563797914521,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 97.93563797914521,
+        "macd": 97.93563797914521,
+        "signal": 95.56823134167952,
+        "hist": 2.3674066374656917,
+        "price": 5921.5400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "status": null,
+      "summary_value": 94.70945246613883,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 94.70945246613883,
+        "macd": 94.70945246613883,
+        "signal": 95.39647556657138,
+        "hist": -0.6870231004325547,
+        "price": 5888.5498046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "status": null,
+      "summary_value": 92.98673011659139,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 92.98673011659139,
+        "macd": 92.98673011659139,
+        "signal": 94.91452647657539,
+        "hist": -1.9277963599840007,
+        "price": 5912.169921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-05-30",
+      "status": null,
+      "summary_value": 90.53905199773999,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 90.53905199773999,
+        "macd": 90.53905199773999,
+        "signal": 94.03943158080831,
+        "hist": -3.500379583068323,
+        "price": 5911.68994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-02",
+      "status": null,
+      "summary_value": 89.52404433199808,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 89.52404433199808,
+        "macd": 89.52404433199808,
+        "signal": 93.13635413104628,
+        "hist": -3.612309799048191,
+        "price": 5935.93994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-03",
+      "status": null,
+      "summary_value": 90.45516010541087,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 90.45516010541087,
+        "macd": 90.45516010541087,
+        "signal": 92.60011532591919,
+        "hist": -2.144955220508322,
+        "price": 5970.3701171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-04",
+      "status": null,
+      "summary_value": 90.18893377105815,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 90.18893377105815,
+        "macd": 90.18893377105815,
+        "signal": 92.117879014947,
+        "hist": -1.9289452438888475,
+        "price": 5970.81005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "status": null,
+      "summary_value": 86.4389192798717,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 86.4389192798717,
+        "macd": 86.4389192798717,
+        "signal": 90.98208706793194,
+        "hist": -4.543167788060245,
+        "price": 5939.2998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-06",
+      "status": null,
+      "summary_value": 87.38670269420072,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 87.38670269420072,
+        "macd": 87.38670269420072,
+        "signal": 90.26301019318569,
+        "hist": -2.8763074989849713,
+        "price": 6000.35986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-09",
+      "status": null,
+      "summary_value": 87.57375162593507,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 87.57375162593507,
+        "macd": 87.57375162593507,
+        "signal": 89.72515847973557,
+        "hist": -2.151406853800495,
+        "price": 6005.8798828125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-10",
+      "status": null,
+      "summary_value": 89.34921707208287,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 89.34921707208287,
+        "macd": 89.34921707208287,
+        "signal": 89.64997019820504,
+        "hist": -0.3007531261221743,
+        "price": 6038.81005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-11",
+      "status": null,
+      "summary_value": 88.40021721817266,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 88.40021721817266,
+        "macd": 88.40021721817266,
+        "signal": 89.40001960219857,
+        "hist": -0.9998023840259123,
+        "price": 6022.240234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "status": null,
+      "summary_value": 88.48560481447385,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 88.48560481447385,
+        "macd": 88.48560481447385,
+        "signal": 89.21713664465364,
+        "hist": -0.7315318301797902,
+        "price": 6045.259765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-13",
+      "status": null,
+      "summary_value": 82.09652147501492,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 82.09652147501492,
+        "macd": 82.09652147501492,
+        "signal": 87.7930136107259,
+        "hist": -5.696492135710969,
+        "price": 5976.97021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-16",
+      "status": null,
+      "summary_value": 80.6336330191707,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 80.6336330191707,
+        "macd": 80.6336330191707,
+        "signal": 86.36113749241485,
+        "hist": -5.727504473244153,
+        "price": 6033.10986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "status": null,
+      "summary_value": 74.54890648445871,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 74.54890648445871,
+        "macd": 74.54890648445871,
+        "signal": 83.99869129082364,
+        "hist": -9.449784806364931,
+        "price": 5982.72021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-18",
+      "status": null,
+      "summary_value": 68.78452426976219,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 68.78452426976219,
+        "macd": 68.78452426976219,
+        "signal": 80.95585788661135,
+        "hist": -12.171333616849168,
+        "price": 5980.8701171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-20",
+      "status": null,
+      "summary_value": 62.44494916329404,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 62.44494916329404,
+        "macd": 62.44494916329404,
+        "signal": 77.25367614194789,
+        "hist": -14.808726978653851,
+        "price": 5967.83984375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-23",
+      "status": null,
+      "summary_value": 61.33976180308855,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.33976180308855,
+        "macd": 61.33976180308855,
+        "signal": 74.07089327417603,
+        "hist": -12.73113147108748,
+        "price": 6025.169921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-24",
+      "status": null,
+      "summary_value": 65.12039296578405,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 65.12039296578405,
+        "macd": 65.12039296578405,
+        "signal": 72.28079321249764,
+        "hist": -7.160400246713593,
+        "price": 6092.18017578125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "status": null,
+      "summary_value": 67.3387161880155,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 67.3387161880155,
+        "macd": 67.3387161880155,
+        "signal": 71.29237780760121,
+        "hist": -3.9536616195857164,
+        "price": 6092.16015625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "status": null,
+      "summary_value": 72.20697884680885,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 72.20697884680885,
+        "macd": 72.20697884680885,
+        "signal": 71.47529801544275,
+        "hist": 0.7316808313661056,
+        "price": 6141.02001953125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "status": null,
+      "summary_value": 77.7549527699739,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 77.7549527699739,
+        "macd": 77.7549527699739,
+        "signal": 72.73122896634898,
+        "hist": 5.023723803624918,
+        "price": 6173.06982421875,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "status": null,
+      "summary_value": 83.75872316432105,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 83.75872316432105,
+        "macd": 83.75872316432105,
+        "signal": 74.9367278059434,
+        "hist": 8.821995358377649,
+        "price": 6204.9501953125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 86.95436400345989,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 86.95436400345989,
+        "macd": 86.95436400345989,
+        "signal": 77.34025504544671,
+        "hist": 9.614108958013176,
+        "price": 6198.009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "status": null,
+      "summary_value": 90.81324762098029,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 90.81324762098029,
+        "macd": 90.81324762098029,
+        "signal": 80.03485356055343,
+        "hist": 10.778394060426862,
+        "price": 6227.419921875,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "status": null,
+      "summary_value": 96.94425880676135,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 96.94425880676135,
+        "macd": 96.94425880676135,
+        "signal": 83.41673460979501,
+        "hist": 13.52752419696634,
+        "price": 6279.35009765625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "status": null,
+      "summary_value": 96.70462279426192,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 96.70462279426192,
+        "macd": 96.70462279426192,
+        "signal": 86.07431224668841,
+        "hist": 10.630310547573515,
+        "price": 6229.97998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-08",
+      "status": null,
+      "summary_value": 95.05904643852318,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 95.05904643852318,
+        "macd": 95.05904643852318,
+        "signal": 87.87125908505537,
+        "hist": 7.187787353467812,
+        "price": 6225.52001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-09",
+      "status": null,
+      "summary_value": 95.69706127340305,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 95.69706127340305,
+        "macd": 95.69706127340305,
+        "signal": 89.4364195227249,
+        "hist": 6.260641750678147,
+        "price": 6263.259765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-10",
+      "status": null,
+      "summary_value": 96.47846099775688,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 96.47846099775688,
+        "macd": 96.47846099775688,
+        "signal": 90.84482781773131,
+        "hist": 5.633633180025569,
+        "price": 6280.4599609375,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-11",
+      "status": null,
+      "summary_value": 94.33912246201999,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 94.33912246201999,
+        "macd": 94.33912246201999,
+        "signal": 91.54368674658905,
+        "hist": 2.7954357154309406,
+        "price": 6259.75,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-14",
+      "status": null,
+      "summary_value": 92.29070950888399,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 92.29070950888399,
+        "macd": 92.29070950888399,
+        "signal": 91.69309129904804,
+        "hist": 0.5976182098359573,
+        "price": 6268.56005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "status": null,
+      "summary_value": 87.65571063916013,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 87.65571063916013,
+        "macd": 87.65571063916013,
+        "signal": 90.88561516707045,
+        "hist": -3.229904527910321,
+        "price": 6243.759765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-16",
+      "status": null,
+      "summary_value": 84.61606533864506,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 84.61606533864506,
+        "macd": 84.61606533864506,
+        "signal": 89.63170520138537,
+        "hist": -5.015639862740315,
+        "price": 6263.7001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "status": null,
+      "summary_value": 83.95539292875583,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 83.95539292875583,
+        "macd": 83.95539292875583,
+        "signal": 88.49644274685947,
+        "hist": -4.5410498181036445,
+        "price": 6297.35986328125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-18",
+      "status": null,
+      "summary_value": 82.43555941719023,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 82.43555941719023,
+        "macd": 82.43555941719023,
+        "signal": 87.28426608092563,
+        "hist": -4.848706663735399,
+        "price": 6296.7900390625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-21",
+      "status": null,
+      "summary_value": 81.00816678834599,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 81.00816678834599,
+        "macd": 81.00816678834599,
+        "signal": 86.0290462224097,
+        "hist": -5.0208794340637155,
+        "price": 6305.60009765625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "status": null,
+      "summary_value": 79.28735455697642,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 79.28735455697642,
+        "macd": 79.28735455697642,
+        "signal": 84.68070788932305,
+        "hist": -5.393353332346621,
+        "price": 6309.6201171875,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-23",
+      "status": null,
+      "summary_value": 80.96754917776161,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 80.96754917776161,
+        "macd": 80.96754917776161,
+        "signal": 83.93807614701076,
+        "hist": -2.97052696924915,
+        "price": 6358.91015625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "status": null,
+      "summary_value": 81.71541722157963,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 81.71541722157963,
+        "macd": 81.71541722157963,
+        "signal": 83.49354436192453,
+        "hist": -1.7781271403449068,
+        "price": 6363.35009765625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "status": null,
+      "summary_value": 83.38756291079153,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 83.38756291079153,
+        "macd": 83.38756291079153,
+        "signal": 83.47234807169795,
+        "hist": -0.08478516090642074,
+        "price": 6388.64013671875,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "status": null,
+      "summary_value": 83.83749604936656,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 83.83749604936656,
+        "macd": 83.83749604936656,
+        "signal": 83.54537766723169,
+        "hist": 0.2921183821348734,
+        "price": 6389.77001953125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "status": null,
+      "summary_value": 81.72609221435505,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 81.72609221435505,
+        "macd": 81.72609221435505,
+        "signal": 83.18152057665637,
+        "hist": -1.4554283623013191,
+        "price": 6370.85986328125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "status": null,
+      "summary_value": 78.50552432337008,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 78.50552432337008,
+        "macd": 78.50552432337008,
+        "signal": 82.24632132599912,
+        "hist": -3.740797002629037,
+        "price": 6362.89990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "status": null,
+      "summary_value": 73.21221462304402,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 73.21221462304402,
+        "macd": 73.21221462304402,
+        "signal": 80.4394999854081,
+        "hist": -7.227285362364086,
+        "price": 6339.39013671875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 60.14338437601782,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 60.14338437601782,
+        "macd": 60.14338437601782,
+        "signal": 76.38027686353004,
+        "hist": -16.236892487512222,
+        "price": 6238.009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "status": null,
+      "summary_value": 56.55233898125516,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.55233898125516,
+        "macd": 56.55233898125516,
+        "signal": 72.41468928707508,
+        "hist": -15.862350305819916,
+        "price": 6329.93994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "status": null,
+      "summary_value": 50.641379324602894,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.641379324602894,
+        "macd": 50.641379324602894,
+        "signal": 68.06002729458065,
+        "hist": -17.418647969977755,
+        "price": 6299.18994140625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "status": null,
+      "summary_value": 49.09233048805709,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 49.09233048805709,
+        "macd": 49.09233048805709,
+        "signal": 64.26648793327594,
+        "hist": -15.174157445218853,
+        "price": 6345.06005859375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "status": null,
+      "summary_value": 46.91558008171069,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.91558008171069,
+        "macd": 46.91558008171069,
+        "signal": 60.79630636296289,
+        "hist": -13.880726281252201,
+        "price": 6340.0,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "status": null,
+      "summary_value": 48.62024329161977,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.62024329161977,
+        "macd": 48.62024329161977,
+        "signal": 58.36109374869427,
+        "hist": -9.740850457074501,
+        "price": 6389.4501953125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "status": null,
+      "summary_value": 48.12537551258447,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.12537551258447,
+        "macd": 48.12537551258447,
+        "signal": 56.313950101472315,
+        "hist": -8.188574588887846,
+        "price": 6373.4501953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "status": null,
+      "summary_value": 52.9575060751622,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.9575060751622,
+        "macd": 52.9575060751622,
+        "signal": 55.64266129621029,
+        "hist": -2.685155221048092,
+        "price": 6445.759765625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "status": null,
+      "summary_value": 57.80073864042788,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.80073864042788,
+        "macd": 57.80073864042788,
+        "signal": 56.07427676505381,
+        "hist": 1.7264618753740706,
+        "price": 6466.580078125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "status": null,
+      "summary_value": 61.09294635306742,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.09294635306742,
+        "macd": 61.09294635306742,
+        "signal": 57.07801068265653,
+        "hist": 4.014935670410885,
+        "price": 6468.5400390625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "status": null,
+      "summary_value": 61.48114798572715,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.48114798572715,
+        "macd": 61.48114798572715,
+        "signal": 57.95863814327066,
+        "hist": 3.5225098424564862,
+        "price": 6449.7998046875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "status": null,
+      "summary_value": 61.03281063932718,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.03281063932718,
+        "macd": 61.03281063932718,
+        "signal": 58.573472642481974,
+        "hist": 2.459337996845207,
+        "price": 6449.14990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "status": null,
+      "summary_value": 56.97224654476213,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.97224654476213,
+        "macd": 56.97224654476213,
+        "signal": 58.253227422938004,
+        "hist": -1.2809808781758747,
+        "price": 6411.3701171875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "status": null,
+      "summary_value": 51.89796332806873,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 51.89796332806873,
+        "macd": 51.89796332806873,
+        "signal": 56.982174603964154,
+        "hist": -5.084211275895427,
+        "price": 6395.77978515625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "status": null,
+      "summary_value": 45.28800347114975,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.28800347114975,
+        "macd": 45.28800347114975,
+        "signal": 54.64334037740127,
+        "hist": -9.355336906251523,
+        "price": 6370.169921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "status": null,
+      "summary_value": 47.31032708357998,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.31032708357998,
+        "macd": 47.31032708357998,
+        "signal": 53.176737718637014,
+        "hist": -5.866410635057036,
+        "price": 6466.91015625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "status": null,
+      "summary_value": 46.154681465941394,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.154681465941394,
+        "macd": 46.154681465941394,
+        "signal": 51.772326468097894,
+        "hist": -5.6176450021565,
+        "price": 6439.31982421875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "status": null,
+      "summary_value": 46.84682394610081,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.84682394610081,
+        "macd": 46.84682394610081,
+        "signal": 50.78722596369848,
+        "hist": -3.9404020175976697,
+        "price": 6465.93994140625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "status": null,
+      "summary_value": 48.08850711564355,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.08850711564355,
+        "macd": 48.08850711564355,
+        "signal": 50.247482194087496,
+        "hist": -2.1589750784439445,
+        "price": 6481.39990234375,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "status": null,
+      "summary_value": 50.145452270662645,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.145452270662645,
+        "macd": 50.145452270662645,
+        "signal": 50.227076209402526,
+        "hist": -0.08162393873988094,
+        "price": 6501.85986328125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "status": null,
+      "summary_value": 47.867034533262085,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.867034533262085,
+        "macd": 47.867034533262085,
+        "signal": 49.755067874174436,
+        "hist": -1.8880333409123509,
+        "price": 6460.259765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "status": null,
+      "summary_value": 41.969070545604154,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.969070545604154,
+        "macd": 41.969070545604154,
+        "signal": 48.19786840846039,
+        "hist": -6.228797862856233,
+        "price": 6415.5400390625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "status": null,
+      "summary_value": 39.47999922070812,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 39.47999922070812,
+        "macd": 39.47999922070812,
+        "signal": 46.45429457090994,
+        "hist": -6.974295350201814,
+        "price": 6448.259765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "status": null,
+      "summary_value": 41.373315855382316,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.373315855382316,
+        "macd": 41.373315855382316,
+        "signal": 45.43809882780441,
+        "hist": -4.064782972422094,
+        "price": 6502.080078125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "status": null,
+      "summary_value": 40.74347717622004,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 40.74347717622004,
+        "macd": 40.74347717622004,
+        "signal": 44.49917449748754,
+        "hist": -3.7556973212674976,
+        "price": 6481.5,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "status": null,
+      "summary_value": 40.874581792032586,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 40.874581792032586,
+        "macd": 40.874581792032586,
+        "signal": 43.77425595639655,
+        "hist": -2.899674164363965,
+        "price": 6495.14990234375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "status": null,
+      "summary_value": 41.90430928043861,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.90430928043861,
+        "macd": 41.90430928043861,
+        "signal": 43.40026662120496,
+        "hist": -1.4959573407663527,
+        "price": 6512.60986328125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "status": null,
+      "summary_value": 43.78351937748903,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.78351937748903,
+        "macd": 43.78351937748903,
+        "signal": 43.476917172461775,
+        "hist": 0.30660220502725366,
+        "price": 6532.0400390625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "status": null,
+      "summary_value": 49.17865789901043,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 49.17865789901043,
+        "macd": 49.17865789901043,
+        "signal": 44.617265317771505,
+        "hist": 4.561392581238927,
+        "price": 6587.47021484375,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "status": null,
+      "summary_value": 52.59148849715075,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.59148849715075,
+        "macd": 52.59148849715075,
+        "signal": 46.21210995364736,
+        "hist": 6.3793785435033925,
+        "price": 6584.2900390625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "status": null,
+      "summary_value": 57.13814191916026,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.13814191916026,
+        "macd": 57.13814191916026,
+        "signal": 48.39731634674994,
+        "hist": 8.740825572410323,
+        "price": 6615.27978515625,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "status": null,
+      "summary_value": 59.36952817699694,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 59.36952817699694,
+        "macd": 59.36952817699694,
+        "signal": 50.59175871279934,
+        "hist": 8.777769464197597,
+        "price": 6606.759765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "status": null,
+      "summary_value": 59.929876909395716,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 59.929876909395716,
+        "macd": 59.929876909395716,
+        "signal": 52.45938235211862,
+        "hist": 7.4704945572770995,
+        "price": 6600.35009765625,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "status": null,
+      "summary_value": 62.20751954656771,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 62.20751954656771,
+        "macd": 62.20751954656771,
+        "signal": 54.409009791008444,
+        "hist": 7.798509755559266,
+        "price": 6631.9599609375,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "status": null,
+      "summary_value": 65.86768738890623,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 65.86768738890623,
+        "macd": 65.86768738890623,
+        "signal": 56.700745310588005,
+        "hist": 9.166942078318229,
+        "price": 6664.35986328125,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "status": null,
+      "summary_value": 70.32922367156334,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 70.32922367156334,
+        "macd": 70.32922367156334,
+        "signal": 59.42644098278308,
+        "hist": 10.902782688780263,
+        "price": 6693.75,
+        "price_new_high": true,
+        "macd_new_high": false,
+        "divergence": true
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "status": null,
+      "summary_value": 70.0852447414909,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 70.0852447414909,
+        "macd": 70.0852447414909,
+        "signal": 61.558201734524644,
+        "hist": 8.527043006966252,
+        "price": 6656.919921875,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "status": null,
+      "summary_value": 67.58374336937959,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 67.58374336937959,
+        "macd": 67.58374336937959,
+        "signal": 62.76331006149564,
+        "hist": 4.8204333078839525,
+        "price": 6637.97021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "status": null,
+      "summary_value": 62.201270859955,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 62.201270859955,
+        "macd": 62.201270859955,
+        "signal": 62.650902221187515,
+        "hist": -0.44963136123251246,
+        "price": 6604.72021484375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": null,
+      "summary_value": 60.38490171349713,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 60.38490171349713,
+        "macd": 60.38490171349713,
+        "signal": 62.19770211964944,
+        "hist": -1.8128004061523129,
+        "price": 6643.7001953125,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "status": null,
+      "summary_value": 59.67046386554921,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 59.67046386554921,
+        "macd": 59.67046386554921,
+        "signal": 61.692254468829404,
+        "hist": -2.021790603280195,
+        "price": 6661.2099609375,
+        "price_new_high": false,
+        "macd_new_high": false,
+        "divergence": false
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    }
+  ]
+}

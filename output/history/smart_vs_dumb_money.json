@@ -9,7 +9,7 @@
     "Sentiment"
   ],
   "threshold": "> 70",
-  "updated_at": "2025-09-29T06:27:15+00:00",
+  "updated_at": "2025-09-30T05:38:09+00:00",
   "series": [
     {
       "date": "2024-09-30",
@@ -2281,6 +2281,15 @@
     },
     {
       "date": "2025-09-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "index_value": 52.8,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-30",
       "status": "normal",
       "summary_value": null,
       "details": {

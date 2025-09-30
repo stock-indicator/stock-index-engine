@@ -1,0 +1,2618 @@
+{
+  "indicator": "rsi_14_nasdaq_100",
+  "display_name": "RSI 14 (Nasdaq 100)",
+  "category": "Technical",
+  "markets": [
+    "Nasdaq 100"
+  ],
+  "topics": [
+    "Technical",
+    "Momentum"
+  ],
+  "threshold": "> 80",
+  "updated_at": "2025-09-30T05:38:09+00:00",
+  "series": [
+    {
+      "date": "2024-10-18",
+      "status": null,
+      "summary_value": 56.79497503948428,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 56.79497503948428,
+        "rsi": 56.79497503948428,
+        "adj_close": 20324.0390625
+      }
+    },
+    {
+      "date": "2024-10-21",
+      "status": null,
+      "summary_value": 67.42344556572695,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.42344556572695,
+        "rsi": 67.42344556572695,
+        "adj_close": 20361.470703125
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "status": null,
+      "summary_value": 67.41767704123438,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.41767704123438,
+        "rsi": 67.41767704123438,
+        "adj_close": 20390.4609375
+      }
+    },
+    {
+      "date": "2024-10-23",
+      "status": null,
+      "summary_value": 56.83430705646814,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 56.83430705646814,
+        "rsi": 56.83430705646814,
+        "adj_close": 20066.9609375
+      }
+    },
+    {
+      "date": "2024-10-24",
+      "status": null,
+      "summary_value": 55.136152481855966,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.136152481855966,
+        "rsi": 55.136152481855966,
+        "adj_close": 20232.869140625
+      }
+    },
+    {
+      "date": "2024-10-25",
+      "status": null,
+      "summary_value": 65.22097388779659,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.22097388779659,
+        "rsi": 65.22097388779659,
+        "adj_close": 20352.01953125
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "status": null,
+      "summary_value": 58.08367068021851,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.08367068021851,
+        "rsi": 58.08367068021851,
+        "adj_close": 20351.0703125
+      }
+    },
+    {
+      "date": "2024-10-29",
+      "status": null,
+      "summary_value": 59.129317817979334,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 59.129317817979334,
+        "rsi": 59.129317817979334,
+        "adj_close": 20550.650390625
+      }
+    },
+    {
+      "date": "2024-10-30",
+      "status": null,
+      "summary_value": 54.34555290488647,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.34555290488647,
+        "rsi": 54.34555290488647,
+        "adj_close": 20387.69921875
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "status": null,
+      "summary_value": 41.111222335468845,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 41.111222335468845,
+        "rsi": 41.111222335468845,
+        "adj_close": 19890.419921875
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "status": null,
+      "summary_value": 40.435177207826165,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 40.435177207826165,
+        "rsi": 40.435177207826165,
+        "adj_close": 20033.140625
+      }
+    },
+    {
+      "date": "2024-11-04",
+      "status": null,
+      "summary_value": 44.86901615031683,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 44.86901615031683,
+        "rsi": 44.86901615031683,
+        "adj_close": 19963.599609375
+      }
+    },
+    {
+      "date": "2024-11-05",
+      "status": null,
+      "summary_value": 51.23528731519927,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 51.23528731519927,
+        "rsi": 51.23528731519927,
+        "adj_close": 20227.4609375
+      }
+    },
+    {
+      "date": "2024-11-06",
+      "status": null,
+      "summary_value": 60.94540934310034,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 60.94540934310034,
+        "rsi": 60.94540934310034,
+        "adj_close": 20781.330078125
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "status": null,
+      "summary_value": 63.47087000835128,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 63.47087000835128,
+        "rsi": 63.47087000835128,
+        "adj_close": 21101.5703125
+      }
+    },
+    {
+      "date": "2024-11-08",
+      "status": null,
+      "summary_value": 63.192550692320545,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 63.192550692320545,
+        "rsi": 63.192550692320545,
+        "adj_close": 21117.1796875
+      }
+    },
+    {
+      "date": "2024-11-11",
+      "status": null,
+      "summary_value": 62.58242829219011,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 62.58242829219011,
+        "rsi": 62.58242829219011,
+        "adj_close": 21106.58984375
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "status": null,
+      "summary_value": 69.62095772996102,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 69.62095772996102,
+        "rsi": 69.62095772996102,
+        "adj_close": 21070.7890625
+      }
+    },
+    {
+      "date": "2024-11-13",
+      "status": null,
+      "summary_value": 66.55061098247333,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 66.55061098247333,
+        "rsi": 66.55061098247333,
+        "adj_close": 21036.16015625
+      }
+    },
+    {
+      "date": "2024-11-14",
+      "status": null,
+      "summary_value": 61.12843507292159,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.12843507292159,
+        "rsi": 61.12843507292159,
+        "adj_close": 20896.669921875
+      }
+    },
+    {
+      "date": "2024-11-15",
+      "status": null,
+      "summary_value": 50.73016125346501,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 50.73016125346501,
+        "rsi": 50.73016125346501,
+        "adj_close": 20394.130859375
+      }
+    },
+    {
+      "date": "2024-11-18",
+      "status": null,
+      "summary_value": 49.80200024294449,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 49.80200024294449,
+        "rsi": 49.80200024294449,
+        "adj_close": 20539.189453125
+      }
+    },
+    {
+      "date": "2024-11-19",
+      "status": null,
+      "summary_value": 55.16039146298904,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.16039146298904,
+        "rsi": 55.16039146298904,
+        "adj_close": 20684.58984375
+      }
+    },
+    {
+      "date": "2024-11-20",
+      "status": null,
+      "summary_value": 66.20216072269639,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 66.20216072269639,
+        "rsi": 66.20216072269639,
+        "adj_close": 20667.099609375
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "status": null,
+      "summary_value": 65.19973855397527,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.19973855397527,
+        "rsi": 65.19973855397527,
+        "adj_close": 20740.779296875
+      }
+    },
+    {
+      "date": "2024-11-22",
+      "status": null,
+      "summary_value": 67.71434094104202,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.71434094104202,
+        "rsi": 67.71434094104202,
+        "adj_close": 20776.23046875
+      }
+    },
+    {
+      "date": "2024-11-25",
+      "status": null,
+      "summary_value": 64.02544318738164,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 64.02544318738164,
+        "rsi": 64.02544318738164,
+        "adj_close": 20804.890625
+      }
+    },
+    {
+      "date": "2024-11-26",
+      "status": null,
+      "summary_value": 54.362322399241215,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.362322399241215,
+        "rsi": 54.362322399241215,
+        "adj_close": 20922.900390625
+      }
+    },
+    {
+      "date": "2024-11-27",
+      "status": null,
+      "summary_value": 37.94315062801792,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 37.94315062801792,
+        "rsi": 37.94315062801792,
+        "adj_close": 20744.490234375
+      }
+    },
+    {
+      "date": "2024-11-29",
+      "status": null,
+      "summary_value": 44.34280428268766,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 44.34280428268766,
+        "rsi": 44.34280428268766,
+        "adj_close": 20930.369140625
+      }
+    },
+    {
+      "date": "2024-12-02",
+      "status": null,
+      "summary_value": 51.54715109791939,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 51.54715109791939,
+        "rsi": 51.54715109791939,
+        "adj_close": 21164.599609375
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "status": null,
+      "summary_value": 54.163879392777844,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.163879392777844,
+        "rsi": 54.163879392777844,
+        "adj_close": 21229.3203125
+      }
+    },
+    {
+      "date": "2024-12-04",
+      "status": null,
+      "summary_value": 60.698561945889296,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 60.698561945889296,
+        "rsi": 60.698561945889296,
+        "adj_close": 21492.359375
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "status": null,
+      "summary_value": 62.83072721583205,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 62.83072721583205,
+        "rsi": 62.83072721583205,
+        "adj_close": 21425.220703125
+      }
+    },
+    {
+      "date": "2024-12-06",
+      "status": null,
+      "summary_value": 85.0051606136621,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 85.0051606136621,
+        "rsi": 85.0051606136621,
+        "adj_close": 21622.25
+      }
+    },
+    {
+      "date": "2024-12-09",
+      "status": null,
+      "summary_value": 75.17722528308596,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 75.17722528308596,
+        "rsi": 75.17722528308596,
+        "adj_close": 21440.8203125
+      }
+    },
+    {
+      "date": "2024-12-10",
+      "status": null,
+      "summary_value": 69.89714821072451,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 69.89714821072451,
+        "rsi": 69.89714821072451,
+        "adj_close": 21368.1796875
+      }
+    },
+    {
+      "date": "2024-12-11",
+      "status": null,
+      "summary_value": 76.16456379115796,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 76.16456379115796,
+        "rsi": 76.16456379115796,
+        "adj_close": 21763.98046875
+      }
+    },
+    {
+      "date": "2024-12-12",
+      "status": null,
+      "summary_value": 70.13886827349772,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.13886827349772,
+        "rsi": 70.13886827349772,
+        "adj_close": 21615.26953125
+      }
+    },
+    {
+      "date": "2024-12-13",
+      "status": null,
+      "summary_value": 71.82006336442696,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.82006336442696,
+        "rsi": 71.82006336442696,
+        "adj_close": 21780.25
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "status": null,
+      "summary_value": 74.9527645562132,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 74.9527645562132,
+        "rsi": 74.9527645562132,
+        "adj_close": 22096.66015625
+      }
+    },
+    {
+      "date": "2024-12-17",
+      "status": null,
+      "summary_value": 71.00895727786438,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.00895727786438,
+        "rsi": 71.00895727786438,
+        "adj_close": 22001.080078125
+      }
+    },
+    {
+      "date": "2024-12-18",
+      "status": null,
+      "summary_value": 57.310144136938376,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 57.310144136938376,
+        "rsi": 57.310144136938376,
+        "adj_close": 21209.3203125
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "status": null,
+      "summary_value": 52.91274645538791,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 52.91274645538791,
+        "rsi": 52.91274645538791,
+        "adj_close": 21110.509765625
+      }
+    },
+    {
+      "date": "2024-12-20",
+      "status": null,
+      "summary_value": 52.050764542515815,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 52.050764542515815,
+        "rsi": 52.050764542515815,
+        "adj_close": 21289.150390625
+      }
+    },
+    {
+      "date": "2024-12-23",
+      "status": null,
+      "summary_value": 54.2977157685595,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.2977157685595,
+        "rsi": 54.2977157685595,
+        "adj_close": 21503.169921875
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "status": null,
+      "summary_value": 54.74432792557631,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.74432792557631,
+        "rsi": 54.74432792557631,
+        "adj_close": 21797.650390625
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "status": null,
+      "summary_value": 55.395117360740855,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.395117360740855,
+        "rsi": 55.395117360740855,
+        "adj_close": 21768.310546875
+      }
+    },
+    {
+      "date": "2024-12-27",
+      "status": null,
+      "summary_value": 47.72368410076494,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 47.72368410076494,
+        "rsi": 47.72368410076494,
+        "adj_close": 21473.01953125
+      }
+    },
+    {
+      "date": "2024-12-30",
+      "status": null,
+      "summary_value": 46.386388566173196,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 46.386388566173196,
+        "rsi": 46.386388566173196,
+        "adj_close": 21197.08984375
+      }
+    },
+    {
+      "date": "2024-12-31",
+      "status": null,
+      "summary_value": 44.891777779147866,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 44.891777779147866,
+        "rsi": 44.891777779147866,
+        "adj_close": 21012.169921875
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "status": null,
+      "summary_value": 37.38792926209382,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 37.38792926209382,
+        "rsi": 37.38792926209382,
+        "adj_close": 20975.619140625
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "status": null,
+      "summary_value": 45.65543563632265,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 45.65543563632265,
+        "rsi": 45.65543563632265,
+        "adj_close": 21326.16015625
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "status": null,
+      "summary_value": 46.74948261601308,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 46.74948261601308,
+        "rsi": 46.74948261601308,
+        "adj_close": 21559.5
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "status": null,
+      "summary_value": 36.674688067086706,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 36.674688067086706,
+        "rsi": 36.674688067086706,
+        "adj_close": 21173.0390625
+      }
+    },
+    {
+      "date": "2025-01-08",
+      "status": null,
+      "summary_value": 37.86107783323234,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 37.86107783323234,
+        "rsi": 37.86107783323234,
+        "adj_close": 21180.970703125
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "status": null,
+      "summary_value": 43.80506790272527,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 43.80506790272527,
+        "rsi": 43.80506790272527,
+        "adj_close": 20847.580078125
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "status": null,
+      "summary_value": 44.3511878476239,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 44.3511878476239,
+        "rsi": 44.3511878476239,
+        "adj_close": 20784.720703125
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "status": null,
+      "summary_value": 40.26959815464367,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 40.26959815464367,
+        "rsi": 40.26959815464367,
+        "adj_close": 20757.41015625
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "status": null,
+      "summary_value": 45.57620338444344,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 45.57620338444344,
+        "rsi": 45.57620338444344,
+        "adj_close": 21237.849609375
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "status": null,
+      "summary_value": 37.610941703667216,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 37.610941703667216,
+        "rsi": 37.610941703667216,
+        "adj_close": 21091.25
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "status": null,
+      "summary_value": 44.84229844284531,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 44.84229844284531,
+        "rsi": 44.84229844284531,
+        "adj_close": 21441.16015625
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "status": null,
+      "summary_value": 51.55737464902377,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 51.55737464902377,
+        "rsi": 51.55737464902377,
+        "adj_close": 21566.509765625
+      }
+    },
+    {
+      "date": "2025-01-22",
+      "status": null,
+      "summary_value": 60.887943913598306,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 60.887943913598306,
+        "rsi": 60.887943913598306,
+        "adj_close": 21853.0
+      }
+    },
+    {
+      "date": "2025-01-23",
+      "status": null,
+      "summary_value": 65.45613507122366,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.45613507122366,
+        "rsi": 65.45613507122366,
+        "adj_close": 21900.9296875
+      }
+    },
+    {
+      "date": "2025-01-24",
+      "status": null,
+      "summary_value": 63.46143966826536,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 63.46143966826536,
+        "rsi": 63.46143966826536,
+        "adj_close": 21774.009765625
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "status": null,
+      "summary_value": 46.95123448251497,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 46.95123448251497,
+        "rsi": 46.95123448251497,
+        "adj_close": 21127.279296875
+      }
+    },
+    {
+      "date": "2025-01-28",
+      "status": null,
+      "summary_value": 48.56631115704159,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 48.56631115704159,
+        "rsi": 48.56631115704159,
+        "adj_close": 21463.0390625
+      }
+    },
+    {
+      "date": "2025-01-29",
+      "status": null,
+      "summary_value": 53.93539443566846,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 53.93539443566846,
+        "rsi": 53.93539443566846,
+        "adj_close": 21411.4609375
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "status": null,
+      "summary_value": 55.24625120115661,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.24625120115661,
+        "rsi": 55.24625120115661,
+        "adj_close": 21508.119140625
+      }
+    },
+    {
+      "date": "2025-01-31",
+      "status": null,
+      "summary_value": 61.199991395324474,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.199991395324474,
+        "rsi": 61.199991395324474,
+        "adj_close": 21478.05078125
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "status": null,
+      "summary_value": 58.74525575936492,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.74525575936492,
+        "rsi": 58.74525575936492,
+        "adj_close": 21297.580078125
+      }
+    },
+    {
+      "date": "2025-02-04",
+      "status": null,
+      "summary_value": 62.75122091688905,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 62.75122091688905,
+        "rsi": 62.75122091688905,
+        "adj_close": 21566.919921875
+      }
+    },
+    {
+      "date": "2025-02-05",
+      "status": null,
+      "summary_value": 57.54584860685174,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 57.54584860685174,
+        "rsi": 57.54584860685174,
+        "adj_close": 21658.16015625
+      }
+    },
+    {
+      "date": "2025-02-06",
+      "status": null,
+      "summary_value": 62.39528303893691,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 62.39528303893691,
+        "rsi": 62.39528303893691,
+        "adj_close": 21774.0703125
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "status": null,
+      "summary_value": 50.933132923743806,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 50.933132923743806,
+        "rsi": 50.933132923743806,
+        "adj_close": 21491.310546875
+      }
+    },
+    {
+      "date": "2025-02-10",
+      "status": null,
+      "summary_value": 53.364028558303076,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 53.364028558303076,
+        "rsi": 53.364028558303076,
+        "adj_close": 21756.73046875
+      }
+    },
+    {
+      "date": "2025-02-11",
+      "status": null,
+      "summary_value": 46.93777442422479,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 46.93777442422479,
+        "rsi": 46.93777442422479,
+        "adj_close": 21693.51953125
+      }
+    },
+    {
+      "date": "2025-02-12",
+      "status": null,
+      "summary_value": 46.48172874342322,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 46.48172874342322,
+        "rsi": 46.48172874342322,
+        "adj_close": 21719.259765625
+      }
+    },
+    {
+      "date": "2025-02-13",
+      "status": null,
+      "summary_value": 54.639729165857666,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.639729165857666,
+        "rsi": 54.639729165857666,
+        "adj_close": 22030.7109375
+      }
+    },
+    {
+      "date": "2025-02-14",
+      "status": null,
+      "summary_value": 72.40462101900665,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 72.40462101900665,
+        "rsi": 72.40462101900665,
+        "adj_close": 22114.689453125
+      }
+    },
+    {
+      "date": "2025-02-18",
+      "status": null,
+      "summary_value": 68.29153282560297,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 68.29153282560297,
+        "rsi": 68.29153282560297,
+        "adj_close": 22164.609375
+      }
+    },
+    {
+      "date": "2025-02-19",
+      "status": null,
+      "summary_value": 70.35360340441471,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.35360340441471,
+        "rsi": 70.35360340441471,
+        "adj_close": 22175.599609375
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "status": null,
+      "summary_value": 64.82864993027653,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 64.82864993027653,
+        "rsi": 64.82864993027653,
+        "adj_close": 22068.060546875
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "status": null,
+      "summary_value": 52.94187218419236,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 52.94187218419236,
+        "rsi": 52.94187218419236,
+        "adj_close": 21614.080078125
+      }
+    },
+    {
+      "date": "2025-02-24",
+      "status": null,
+      "summary_value": 51.13850939482415,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 51.13850939482415,
+        "rsi": 51.13850939482415,
+        "adj_close": 21352.080078125
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "status": null,
+      "summary_value": 39.96074080675108,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 39.96074080675108,
+        "rsi": 39.96074080675108,
+        "adj_close": 21087.25
+      }
+    },
+    {
+      "date": "2025-02-26",
+      "status": null,
+      "summary_value": 38.79320331949516,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 38.79320331949516,
+        "rsi": 38.79320331949516,
+        "adj_close": 21132.919921875
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "status": null,
+      "summary_value": 28.232103578589076,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 28.232103578589076,
+        "rsi": 28.232103578589076,
+        "adj_close": 20550.94921875
+      }
+    },
+    {
+      "date": "2025-02-28",
+      "status": null,
+      "summary_value": 39.39045467675223,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 39.39045467675223,
+        "rsi": 39.39045467675223,
+        "adj_close": 20884.41015625
+      }
+    },
+    {
+      "date": "2025-03-03",
+      "status": null,
+      "summary_value": 28.203391391614204,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 28.203391391614204,
+        "rsi": 28.203391391614204,
+        "adj_close": 20425.580078125
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "status": null,
+      "summary_value": 28.112800588090153,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 28.112800588090153,
+        "rsi": 28.112800588090153,
+        "adj_close": 20352.529296875
+      }
+    },
+    {
+      "date": "2025-03-05",
+      "status": null,
+      "summary_value": 33.54059526160212,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 33.54059526160212,
+        "rsi": 33.54059526160212,
+        "adj_close": 20628.4609375
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "status": null,
+      "summary_value": 22.357604860892394,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 22.357604860892394,
+        "rsi": 22.357604860892394,
+        "adj_close": 20052.630859375
+      }
+    },
+    {
+      "date": "2025-03-07",
+      "status": null,
+      "summary_value": 23.737912072592977,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 23.737912072592977,
+        "rsi": 23.737912072592977,
+        "adj_close": 20201.369140625
+      }
+    },
+    {
+      "date": "2025-03-10",
+      "status": null,
+      "summary_value": 18.67398096670516,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 18.67398096670516,
+        "rsi": 18.67398096670516,
+        "adj_close": 19430.94921875
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "status": null,
+      "summary_value": 18.242327664733295,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 18.242327664733295,
+        "rsi": 18.242327664733295,
+        "adj_close": 19376.9609375
+      }
+    },
+    {
+      "date": "2025-03-12",
+      "status": null,
+      "summary_value": 22.640853610295835,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 22.640853610295835,
+        "rsi": 22.640853610295835,
+        "adj_close": 19596.01953125
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "status": null,
+      "summary_value": 23.066890829736636,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 23.066890829736636,
+        "rsi": 23.066890829736636,
+        "adj_close": 19225.48046875
+      }
+    },
+    {
+      "date": "2025-03-14",
+      "status": null,
+      "summary_value": 32.291227965570414,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 32.291227965570414,
+        "rsi": 32.291227965570414,
+        "adj_close": 19704.640625
+      }
+    },
+    {
+      "date": "2025-03-17",
+      "status": null,
+      "summary_value": 35.815093511454535,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 35.815093511454535,
+        "rsi": 35.815093511454535,
+        "adj_close": 19812.240234375
+      }
+    },
+    {
+      "date": "2025-03-18",
+      "status": null,
+      "summary_value": 32.73600514133143,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 32.73600514133143,
+        "rsi": 32.73600514133143,
+        "adj_close": 19483.359375
+      }
+    },
+    {
+      "date": "2025-03-19",
+      "status": null,
+      "summary_value": 40.84819429444459,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 40.84819429444459,
+        "rsi": 40.84819429444459,
+        "adj_close": 19736.66015625
+      }
+    },
+    {
+      "date": "2025-03-20",
+      "status": null,
+      "summary_value": 35.54514565696057,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 35.54514565696057,
+        "rsi": 35.54514565696057,
+        "adj_close": 19677.609375
+      }
+    },
+    {
+      "date": "2025-03-21",
+      "status": null,
+      "summary_value": 41.144181331762006,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 41.144181331762006,
+        "rsi": 41.144181331762006,
+        "adj_close": 19753.970703125
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "status": null,
+      "summary_value": 47.92441433406222,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 47.92441433406222,
+        "rsi": 47.92441433406222,
+        "adj_close": 20180.44921875
+      }
+    },
+    {
+      "date": "2025-03-25",
+      "status": null,
+      "summary_value": 45.71726056730587,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 45.71726056730587,
+        "rsi": 45.71726056730587,
+        "adj_close": 20287.830078125
+      }
+    },
+    {
+      "date": "2025-03-26",
+      "status": null,
+      "summary_value": 48.20190973301022,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 48.20190973301022,
+        "rsi": 48.20190973301022,
+        "adj_close": 19916.990234375
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "status": null,
+      "summary_value": 44.61769920004677,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 44.61769920004677,
+        "rsi": 44.61769920004677,
+        "adj_close": 19798.619140625
+      }
+    },
+    {
+      "date": "2025-03-28",
+      "status": null,
+      "summary_value": 47.85637856787309,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 47.85637856787309,
+        "rsi": 47.85637856787309,
+        "adj_close": 19281.400390625
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "status": null,
+      "summary_value": 48.566973626041424,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 48.566973626041424,
+        "rsi": 48.566973626041424,
+        "adj_close": 19278.44921875
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "status": null,
+      "summary_value": 47.63633418471391,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 47.63633418471391,
+        "rsi": 47.63633418471391,
+        "adj_close": 19436.419921875
+      }
+    },
+    {
+      "date": "2025-04-02",
+      "status": null,
+      "summary_value": 55.65387879174821,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.65387879174821,
+        "rsi": 55.65387879174821,
+        "adj_close": 19581.779296875
+      }
+    },
+    {
+      "date": "2025-04-03",
+      "status": null,
+      "summary_value": 34.14861988642578,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 34.14861988642578,
+        "rsi": 34.14861988642578,
+        "adj_close": 18521.470703125
+      }
+    },
+    {
+      "date": "2025-04-04",
+      "status": null,
+      "summary_value": 24.57438008540163,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 24.57438008540163,
+        "rsi": 24.57438008540163,
+        "adj_close": 17397.69921875
+      }
+    },
+    {
+      "date": "2025-04-07",
+      "status": null,
+      "summary_value": 26.948324267415344,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 26.948324267415344,
+        "rsi": 26.948324267415344,
+        "adj_close": 17430.6796875
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "status": null,
+      "summary_value": 20.851818721217768,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 20.851818721217768,
+        "rsi": 20.851818721217768,
+        "adj_close": 17090.400390625
+      }
+    },
+    {
+      "date": "2025-04-09",
+      "status": null,
+      "summary_value": 45.92536802669548,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 45.92536802669548,
+        "rsi": 45.92536802669548,
+        "adj_close": 19145.060546875
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "status": null,
+      "summary_value": 40.28657969504064,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 40.28657969504064,
+        "rsi": 40.28657969504064,
+        "adj_close": 18343.5703125
+      }
+    },
+    {
+      "date": "2025-04-11",
+      "status": null,
+      "summary_value": 39.62127114144201,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 39.62127114144201,
+        "rsi": 39.62127114144201,
+        "adj_close": 18690.05078125
+      }
+    },
+    {
+      "date": "2025-04-14",
+      "status": null,
+      "summary_value": 39.60939406644431,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 39.60939406644431,
+        "rsi": 39.60939406644431,
+        "adj_close": 18796.01953125
+      }
+    },
+    {
+      "date": "2025-04-15",
+      "status": null,
+      "summary_value": 42.05819677629766,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 42.05819677629766,
+        "rsi": 42.05819677629766,
+        "adj_close": 18830.23046875
+      }
+    },
+    {
+      "date": "2025-04-16",
+      "status": null,
+      "summary_value": 39.43991380406487,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 39.43991380406487,
+        "rsi": 39.43991380406487,
+        "adj_close": 18257.640625
+      }
+    },
+    {
+      "date": "2025-04-17",
+      "status": null,
+      "summary_value": 42.452872859209315,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 42.452872859209315,
+        "rsi": 42.452872859209315,
+        "adj_close": 18258.08984375
+      }
+    },
+    {
+      "date": "2025-04-21",
+      "status": null,
+      "summary_value": 39.82780476070781,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 39.82780476070781,
+        "rsi": 39.82780476070781,
+        "adj_close": 17808.30078125
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "status": null,
+      "summary_value": 42.30400131029909,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 42.30400131029909,
+        "rsi": 42.30400131029909,
+        "adj_close": 18276.41015625
+      }
+    },
+    {
+      "date": "2025-04-23",
+      "status": null,
+      "summary_value": 44.31015212884324,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 44.31015212884324,
+        "rsi": 44.31015212884324,
+        "adj_close": 18693.259765625
+      }
+    },
+    {
+      "date": "2025-04-24",
+      "status": null,
+      "summary_value": 54.766485472685204,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.766485472685204,
+        "rsi": 54.766485472685204,
+        "adj_close": 19214.400390625
+      }
+    },
+    {
+      "date": "2025-04-25",
+      "status": null,
+      "summary_value": 65.98939758503617,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.98939758503617,
+        "rsi": 65.98939758503617,
+        "adj_close": 19432.560546875
+      }
+    },
+    {
+      "date": "2025-04-28",
+      "status": null,
+      "summary_value": 65.75744123314065,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.75744123314065,
+        "rsi": 65.75744123314065,
+        "adj_close": 19427.2890625
+      }
+    },
+    {
+      "date": "2025-04-29",
+      "status": null,
+      "summary_value": 70.07702485391094,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.07702485391094,
+        "rsi": 70.07702485391094,
+        "adj_close": 19544.94921875
+      }
+    },
+    {
+      "date": "2025-04-30",
+      "status": null,
+      "summary_value": 55.21466613043373,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.21466613043373,
+        "rsi": 55.21466613043373,
+        "adj_close": 19571.01953125
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "status": null,
+      "summary_value": 70.62547942666433,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.62547942666433,
+        "rsi": 70.62547942666433,
+        "adj_close": 19786.7109375
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "status": null,
+      "summary_value": 70.3664341745403,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.3664341745403,
+        "rsi": 70.3664341745403,
+        "adj_close": 20102.609375
+      }
+    },
+    {
+      "date": "2025-05-05",
+      "status": null,
+      "summary_value": 66.75818144951596,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 66.75818144951596,
+        "rsi": 66.75818144951596,
+        "adj_close": 19967.939453125
+      }
+    },
+    {
+      "date": "2025-05-06",
+      "status": null,
+      "summary_value": 63.20603369478465,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 63.20603369478465,
+        "rsi": 63.20603369478465,
+        "adj_close": 19791.349609375
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "status": null,
+      "summary_value": 75.61796195751805,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 75.61796195751805,
+        "rsi": 75.61796195751805,
+        "adj_close": 19867.970703125
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "status": null,
+      "summary_value": 77.04329672760082,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 77.04329672760082,
+        "rsi": 77.04329672760082,
+        "adj_close": 20063.560546875
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "status": null,
+      "summary_value": 88.97595921892125,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 88.97595921892125,
+        "rsi": 88.97595921892125,
+        "adj_close": 20061.44921875
+      }
+    },
+    {
+      "date": "2025-05-12",
+      "status": null,
+      "summary_value": 90.13192714278024,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 90.13192714278024,
+        "rsi": 90.13192714278024,
+        "adj_close": 20868.150390625
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "status": null,
+      "summary_value": 89.85771772694014,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 89.85771772694014,
+        "rsi": 89.85771772694014,
+        "adj_close": 21197.69921875
+      }
+    },
+    {
+      "date": "2025-05-14",
+      "status": null,
+      "summary_value": 88.37959675288275,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 88.37959675288275,
+        "rsi": 88.37959675288275,
+        "adj_close": 21319.2109375
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "status": null,
+      "summary_value": 87.45770738468848,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 87.45770738468848,
+        "rsi": 87.45770738468848,
+        "adj_close": 21335.8203125
+      }
+    },
+    {
+      "date": "2025-05-16",
+      "status": null,
+      "summary_value": 88.07292460369084,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 88.07292460369084,
+        "rsi": 88.07292460369084,
+        "adj_close": 21427.939453125
+      }
+    },
+    {
+      "date": "2025-05-19",
+      "status": null,
+      "summary_value": 87.60812747920863,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 87.60812747920863,
+        "rsi": 87.60812747920863,
+        "adj_close": 21447.05078125
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "status": null,
+      "summary_value": 84.77988106339579,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 84.77988106339579,
+        "rsi": 84.77988106339579,
+        "adj_close": 21367.369140625
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "status": null,
+      "summary_value": 74.37375435332353,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 74.37375435332353,
+        "rsi": 74.37375435332353,
+        "adj_close": 21080.359375
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "status": null,
+      "summary_value": 71.30521421454667,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.30521421454667,
+        "rsi": 71.30521421454667,
+        "adj_close": 21112.470703125
+      }
+    },
+    {
+      "date": "2025-05-23",
+      "status": null,
+      "summary_value": 69.48337240182485,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 69.48337240182485,
+        "rsi": 69.48337240182485,
+        "adj_close": 20915.66015625
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "status": null,
+      "summary_value": 79.46858259387504,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 79.46858259387504,
+        "rsi": 79.46858259387504,
+        "adj_close": 21414.990234375
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "status": null,
+      "summary_value": 76.12909037931243,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 76.12909037931243,
+        "rsi": 76.12909037931243,
+        "adj_close": 21318.169921875
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "status": null,
+      "summary_value": 74.76689400065916,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 74.76689400065916,
+        "rsi": 74.76689400065916,
+        "adj_close": 21363.94921875
+      }
+    },
+    {
+      "date": "2025-05-30",
+      "status": null,
+      "summary_value": 74.17783371038637,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 74.17783371038637,
+        "rsi": 74.17783371038637,
+        "adj_close": 21340.990234375
+      }
+    },
+    {
+      "date": "2025-06-02",
+      "status": null,
+      "summary_value": 65.66705562419833,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.66705562419833,
+        "rsi": 65.66705562419833,
+        "adj_close": 21491.75
+      }
+    },
+    {
+      "date": "2025-06-03",
+      "status": null,
+      "summary_value": 62.69165265186377,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 62.69165265186377,
+        "rsi": 62.69165265186377,
+        "adj_close": 21662.580078125
+      }
+    },
+    {
+      "date": "2025-06-04",
+      "status": null,
+      "summary_value": 61.380644178450034,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.380644178450034,
+        "rsi": 61.380644178450034,
+        "adj_close": 21721.919921875
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "status": null,
+      "summary_value": 55.49020879657687,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.49020879657687,
+        "rsi": 55.49020879657687,
+        "adj_close": 21547.4296875
+      }
+    },
+    {
+      "date": "2025-06-06",
+      "status": null,
+      "summary_value": 58.14508681592964,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.14508681592964,
+        "rsi": 58.14508681592964,
+        "adj_close": 21761.7890625
+      }
+    },
+    {
+      "date": "2025-06-09",
+      "status": null,
+      "summary_value": 58.48879512503579,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.48879512503579,
+        "rsi": 58.48879512503579,
+        "adj_close": 21797.869140625
+      }
+    },
+    {
+      "date": "2025-06-10",
+      "status": null,
+      "summary_value": 63.48248381661952,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 63.48248381661952,
+        "rsi": 63.48248381661952,
+        "adj_close": 21941.919921875
+      }
+    },
+    {
+      "date": "2025-06-11",
+      "status": null,
+      "summary_value": 70.27289202226646,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.27289202226646,
+        "rsi": 70.27289202226646,
+        "adj_close": 21860.80078125
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "status": null,
+      "summary_value": 70.5847683708396,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.5847683708396,
+        "rsi": 70.5847683708396,
+        "adj_close": 21913.3203125
+      }
+    },
+    {
+      "date": "2025-06-13",
+      "status": null,
+      "summary_value": 67.61393364418386,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.61393364418386,
+        "rsi": 67.61393364418386,
+        "adj_close": 21631.0390625
+      }
+    },
+    {
+      "date": "2025-06-16",
+      "status": null,
+      "summary_value": 64.2166171633821,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 64.2166171633821,
+        "rsi": 64.2166171633821,
+        "adj_close": 21937.5703125
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "status": null,
+      "summary_value": 60.22944055177363,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 60.22944055177363,
+        "rsi": 60.22944055177363,
+        "adj_close": 21719.080078125
+      }
+    },
+    {
+      "date": "2025-06-18",
+      "status": null,
+      "summary_value": 59.29107115712066,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 59.29107115712066,
+        "rsi": 59.29107115712066,
+        "adj_close": 21719.689453125
+      }
+    },
+    {
+      "date": "2025-06-20",
+      "status": null,
+      "summary_value": 57.18979686025446,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 57.18979686025446,
+        "rsi": 57.18979686025446,
+        "adj_close": 21626.390625
+      }
+    },
+    {
+      "date": "2025-06-23",
+      "status": null,
+      "summary_value": 58.832140825957644,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.832140825957644,
+        "rsi": 58.832140825957644,
+        "adj_close": 21856.330078125
+      }
+    },
+    {
+      "date": "2025-06-24",
+      "status": null,
+      "summary_value": 61.85156312342322,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.85156312342322,
+        "rsi": 61.85156312342322,
+        "adj_close": 22190.51953125
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "status": null,
+      "summary_value": 61.64285487562733,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.64285487562733,
+        "rsi": 61.64285487562733,
+        "adj_close": 22237.740234375
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "status": null,
+      "summary_value": 69.9947574996398,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 69.9947574996398,
+        "rsi": 69.9947574996398,
+        "adj_close": 22447.2890625
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "status": null,
+      "summary_value": 68.19328566118425,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 68.19328566118425,
+        "rsi": 68.19328566118425,
+        "adj_close": 22534.19921875
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "status": null,
+      "summary_value": 69.74306325041267,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 69.74306325041267,
+        "rsi": 69.74306325041267,
+        "adj_close": 22679.009765625
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "status": null,
+      "summary_value": 61.71611612500149,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.71611612500149,
+        "rsi": 61.71611612500149,
+        "adj_close": 22478.130859375
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "status": null,
+      "summary_value": 66.47181999858313,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 66.47181999858313,
+        "rsi": 66.47181999858313,
+        "adj_close": 22641.890625
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "status": null,
+      "summary_value": 68.74645338198583,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 68.74645338198583,
+        "rsi": 68.74645338198583,
+        "adj_close": 22866.970703125
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "status": null,
+      "summary_value": 71.5856445389023,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.5856445389023,
+        "rsi": 71.5856445389023,
+        "adj_close": 22685.5703125
+      }
+    },
+    {
+      "date": "2025-07-08",
+      "status": null,
+      "summary_value": 67.7599837422272,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.7599837422272,
+        "rsi": 67.7599837422272,
+        "adj_close": 22702.25
+      }
+    },
+    {
+      "date": "2025-07-09",
+      "status": null,
+      "summary_value": 77.32087622024538,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 77.32087622024538,
+        "rsi": 77.32087622024538,
+        "adj_close": 22864.91015625
+      }
+    },
+    {
+      "date": "2025-07-10",
+      "status": null,
+      "summary_value": 76.02148409945787,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 76.02148409945787,
+        "rsi": 76.02148409945787,
+        "adj_close": 22829.259765625
+      }
+    },
+    {
+      "date": "2025-07-11",
+      "status": null,
+      "summary_value": 77.64719862492666,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 77.64719862492666,
+        "rsi": 77.64719862492666,
+        "adj_close": 22780.599609375
+      }
+    },
+    {
+      "date": "2025-07-14",
+      "status": null,
+      "summary_value": 75.85539148802846,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 75.85539148802846,
+        "rsi": 75.85539148802846,
+        "adj_close": 22855.630859375
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "status": null,
+      "summary_value": 71.32648064218773,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.32648064218773,
+        "rsi": 71.32648064218773,
+        "adj_close": 22884.58984375
+      }
+    },
+    {
+      "date": "2025-07-16",
+      "status": null,
+      "summary_value": 70.90015664854936,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.90015664854936,
+        "rsi": 70.90015664854936,
+        "adj_close": 22907.970703125
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "status": null,
+      "summary_value": 70.22289143110709,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.22289143110709,
+        "rsi": 70.22289143110709,
+        "adj_close": 23081.05078125
+      }
+    },
+    {
+      "date": "2025-07-18",
+      "status": null,
+      "summary_value": 67.76101432185052,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.76101432185052,
+        "rsi": 67.76101432185052,
+        "adj_close": 23065.470703125
+      }
+    },
+    {
+      "date": "2025-07-21",
+      "status": null,
+      "summary_value": 67.09615077037907,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.09615077037907,
+        "rsi": 67.09615077037907,
+        "adj_close": 23180.060546875
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "status": null,
+      "summary_value": 71.19668829589233,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.19668829589233,
+        "rsi": 71.19668829589233,
+        "adj_close": 23063.580078125
+      }
+    },
+    {
+      "date": "2025-07-23",
+      "status": null,
+      "summary_value": 69.77563874246093,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 69.77563874246093,
+        "rsi": 69.77563874246093,
+        "adj_close": 23162.41015625
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "status": null,
+      "summary_value": 65.36423345498824,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.36423345498824,
+        "rsi": 65.36423345498824,
+        "adj_close": 23219.869140625
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "status": null,
+      "summary_value": 78.77511763714115,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 78.77511763714115,
+        "rsi": 78.77511763714115,
+        "adj_close": 23272.25
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "status": null,
+      "summary_value": 80.09029118187274,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 80.09029118187274,
+        "rsi": 80.09029118187274,
+        "adj_close": 23356.26953125
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "status": null,
+      "summary_value": 72.80650994575046,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 72.80650994575046,
+        "rsi": 72.80650994575046,
+        "adj_close": 23308.30078125
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "status": null,
+      "summary_value": 76.5092376922722,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 76.5092376922722,
+        "rsi": 76.5092376922722,
+        "adj_close": 23345.41015625
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "status": null,
+      "summary_value": 70.79148923531574,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.79148923531574,
+        "rsi": 70.79148923531574,
+        "adj_close": 23218.119140625
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "status": null,
+      "summary_value": 46.7763847060364,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 46.7763847060364,
+        "rsi": 46.7763847060364,
+        "adj_close": 22763.310546875
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "status": null,
+      "summary_value": 58.31437123829424,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.31437123829424,
+        "rsi": 58.31437123829424,
+        "adj_close": 23188.609375
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "status": null,
+      "summary_value": 52.799820406419485,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 52.799820406419485,
+        "rsi": 52.799820406419485,
+        "adj_close": 23018.560546875
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "status": null,
+      "summary_value": 55.57554693433809,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.57554693433809,
+        "rsi": 55.57554693433809,
+        "adj_close": 23315.0390625
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "status": null,
+      "summary_value": 57.510905248824365,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 57.510905248824365,
+        "rsi": 57.510905248824365,
+        "adj_close": 23389.529296875
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "status": null,
+      "summary_value": 59.52146630727762,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 59.52146630727762,
+        "rsi": 59.52146630727762,
+        "adj_close": 23611.26953125
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "status": null,
+      "summary_value": 60.37038786708099,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 60.37038786708099,
+        "rsi": 60.37038786708099,
+        "adj_close": 23526.630859375
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "status": null,
+      "summary_value": 63.83290778646969,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 63.83290778646969,
+        "rsi": 63.83290778646969,
+        "adj_close": 23839.19921875
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "status": null,
+      "summary_value": 63.11491094147583,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 63.11491094147583,
+        "rsi": 63.11491094147583,
+        "adj_close": 23849.0390625
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "status": null,
+      "summary_value": 61.853852480358405,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.853852480358405,
+        "rsi": 61.853852480358405,
+        "adj_close": 23832.439453125
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "status": null,
+      "summary_value": 57.41483341148275,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 57.41483341148275,
+        "rsi": 57.41483341148275,
+        "adj_close": 23712.0703125
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "status": null,
+      "summary_value": 58.6158952985795,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.6158952985795,
+        "rsi": 58.6158952985795,
+        "adj_close": 23713.759765625
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "status": null,
+      "summary_value": 50.74407531140984,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 50.74407531140984,
+        "rsi": 50.74407531140984,
+        "adj_close": 23384.76953125
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "status": null,
+      "summary_value": 50.59280098187839,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 50.59280098187839,
+        "rsi": 50.59280098187839,
+        "adj_close": 23249.5703125
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "status": null,
+      "summary_value": 58.227313939989656,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 58.227313939989656,
+        "rsi": 58.227313939989656,
+        "adj_close": 23142.580078125
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "status": null,
+      "summary_value": 56.92359314338443,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 56.92359314338443,
+        "rsi": 56.92359314338443,
+        "adj_close": 23498.119140625
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "status": null,
+      "summary_value": 59.5209749349687,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 59.5209749349687,
+        "rsi": 59.5209749349687,
+        "adj_close": 23425.609375
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "status": null,
+      "summary_value": 55.41645869225692,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 55.41645869225692,
+        "rsi": 55.41645869225692,
+        "adj_close": 23525.2890625
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "status": null,
+      "summary_value": 54.62318454636705,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 54.62318454636705,
+        "rsi": 54.62318454636705,
+        "adj_close": 23565.849609375
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "status": null,
+      "summary_value": 52.52855581509976,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 52.52855581509976,
+        "rsi": 52.52855581509976,
+        "adj_close": 23703.44921875
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "status": null,
+      "summary_value": 47.2556285160151,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 47.2556285160151,
+        "rsi": 47.2556285160151,
+        "adj_close": 23415.419921875
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "status": null,
+      "summary_value": 33.979982052590856,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 33.979982052590856,
+        "rsi": 33.979982052590856,
+        "adj_close": 23231.109375
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "status": null,
+      "summary_value": 39.52119235265281,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 39.52119235265281,
+        "rsi": 39.52119235265281,
+        "adj_close": 23414.83984375
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "status": null,
+      "summary_value": 45.61378186954236,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 45.61378186954236,
+        "rsi": 45.61378186954236,
+        "adj_close": 23633.009765625
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "status": null,
+      "summary_value": 48.62755252035678,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 48.62755252035678,
+        "rsi": 48.62755252035678,
+        "adj_close": 23652.439453125
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "status": null,
+      "summary_value": 51.06421608215356,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 51.06421608215356,
+        "rsi": 51.06421608215356,
+        "adj_close": 23762.30078125
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "status": null,
+      "summary_value": 61.212585570947844,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 61.212585570947844,
+        "rsi": 61.212585570947844,
+        "adj_close": 23839.80078125
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "status": null,
+      "summary_value": 65.7535427334202,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 65.7535427334202,
+        "rsi": 65.7535427334202,
+        "adj_close": 23849.26953125
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "status": null,
+      "summary_value": 71.91033071665345,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.91033071665345,
+        "rsi": 71.91033071665345,
+        "adj_close": 23992.560546875
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "status": null,
+      "summary_value": 67.64108155761,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 67.64108155761,
+        "rsi": 67.64108155761,
+        "adj_close": 24092.189453125
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "status": null,
+      "summary_value": 73.94489640468056,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 73.94489640468056,
+        "rsi": 73.94489640468056,
+        "adj_close": 24293.779296875
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "status": null,
+      "summary_value": 71.61254906204418,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 71.61254906204418,
+        "rsi": 71.61254906204418,
+        "adj_close": 24274.25
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "status": null,
+      "summary_value": 68.8741647632646,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 68.8741647632646,
+        "rsi": 68.8741647632646,
+        "adj_close": 24223.689453125
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "status": null,
+      "summary_value": 70.46073861980501,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 70.46073861980501,
+        "rsi": 70.46073861980501,
+        "adj_close": 24454.890625
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "status": null,
+      "summary_value": 85.20610459866592,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 85.20610459866592,
+        "rsi": 85.20610459866592,
+        "adj_close": 24626.25
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "status": null,
+      "summary_value": 95.80335675326741,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 95.80335675326741,
+        "rsi": 95.80335675326741,
+        "adj_close": 24761.0703125
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "status": null,
+      "summary_value": 84.94640156595753,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 84.94640156595753,
+        "rsi": 84.94640156595753,
+        "adj_close": 24580.169921875
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "status": null,
+      "summary_value": 78.52912072649163,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 78.52912072649163,
+        "rsi": 78.52912072649163,
+        "adj_close": 24503.5703125
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "status": null,
+      "summary_value": 73.09577101773662,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 73.09577101773662,
+        "rsi": 73.09577101773662,
+        "adj_close": 24397.310546875
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "status": null,
+      "summary_value": 73.04022768786373,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 73.04022768786373,
+        "rsi": 73.04022768786373,
+        "adj_close": 24503.849609375
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "status": null,
+      "summary_value": 73.53362047909258,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 73.53362047909258,
+        "rsi": 73.53362047909258,
+        "adj_close": 24611.349609375
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    }
+  ]
+}

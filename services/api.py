@@ -21,6 +21,8 @@ logger = get_logger("services.api")
 app = FastAPI(title="Market Indicator Service", version="1.0.0")
 _scheduler: AsyncIOScheduler | None = None
 REFRESH_CRON = os.getenv("REFRESH_CRON", settings.get("refresh.cron", "0 6 * * *"))
+API_HOST = settings.get_api_host()
+API_PORT = settings.get_api_port()
 
 
 class RefreshRequest(BaseModel):
@@ -142,3 +144,14 @@ def trigger_refresh(request: RefreshRequest, background_tasks: BackgroundTasks) 
     return {"status": "accepted", "mode": mode, "lookback_days": lookback_days, "indicator_slug": indicator_slug}
 
 
+
+
+if __name__ == "__main__":
+    from uvicorn import run
+
+    run(
+        app,
+        host=API_HOST,
+        port=API_PORT,
+        log_level=os.getenv('UVICORN_LOG_LEVEL', 'info'),
+    )

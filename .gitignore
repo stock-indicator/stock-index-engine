@@ -209,3 +209,5 @@ __marimo__/
 # My project
 vault.key
 api.key
+resources/raw/
+resources/files/

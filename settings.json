@@ -8,6 +8,7 @@
             "user": "ljyou001",
             "password": "@vault:psql.Financial1.password"
         }
-    ]
+    ],
+    "api.host": "0.0.0.0",
+    "api.port": 8000
 }
-

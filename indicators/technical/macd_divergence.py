@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from typing import Dict, Tuple
+from datetime import datetime, timedelta
+from typing import Dict, List, Optional
 
 import pandas as pd
 
@@ -11,9 +12,9 @@ from common.config import (
     MACD_SIGNAL,
     MACD_SLOW,
 )
+from common.models import IndicatorResult
 from indicators.base import IndicatorMetadata
 from indicators.technical.base_price import PriceSeriesIndicator
-from common.models import IndicatorResult
 
 
 def _compute_macd(prices: pd.Series) -> pd.DataFrame:
@@ -25,75 +26,151 @@ def _compute_macd(prices: pd.Series) -> pd.DataFrame:
     return pd.DataFrame({"macd": macd_line, "signal": signal_line, "hist": histogram})
 
 
-class MACDDivergenceIndicator(PriceSeriesIndicator):
-    metadata = IndicatorMetadata(
-        name="MACD Divergence",
-        category="Technical",
-        threshold="Bearish divergence",
-        markets=["US Market", "S&P 500", "Nasdaq 100"],
-        topics=["Technical", "Trend"],
-    )
-    tickers: Dict[str, str] = INDEX_TICKERS
+class BaseMACDDivergenceIndicator(PriceSeriesIndicator):
+    market_label: str
+    tickers: Dict[str, str]
 
     def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:
-        series_by_market = self.prepare_price_series(clean_df)
-        values: Dict[str, Tuple[bool, bool, float]] = {}
-        missing: Dict[str, str] = {}
-        for market, series in series_by_market.items():
-            try:
-                macd_df = _compute_macd(series)
-                if macd_df.empty:
-                    raise ValueError("Insufficient data")
-                price_window = series.iloc[-MACD_LOOKBACK:]
-                macd_window = macd_df["macd"].iloc[-MACD_LOOKBACK:]
-                if price_window.empty or macd_window.empty:
-                    raise ValueError("Not enough lookback data")
-                price_new_high = series.iloc[-1] >= price_window.max() * 0.999
-                macd_new_high = macd_df["macd"].iloc[-1] >= macd_window.max() * 0.999
-                values[market] = (
-                    bool(price_new_high),
-                    bool(macd_new_high),
-                    float(macd_df["macd"].iloc[-1]),
-                )
-            except Exception as exc:  # pylint: disable=broad-except
-                missing[market] = str(exc)
-
-        if not values:
-            note = "MACD evaluation failed for all indices: " + "; ".join(
-                f"{k} ({v})" for k, v in missing.items()
-            )
+        series_map = self.prepare_price_series(clean_df)
+        del fetcher
+        series = series_map.get(self.market_label)
+        if series is None or series.empty:
             return self.build_result(
                 raw_value=None,
                 pure_value=None,
                 status="unavailable",
-                notes=note,
+                notes=f"No price history available for {self.market_label}.",
             )
 
-        divergence_detected = any(
-            price_new and not macd_new for price_new, macd_new, _ in values.values()
-        )
+        macd_df = _compute_macd(series).dropna()
+        if macd_df.empty or len(macd_df) < MACD_LOOKBACK:
+            return self.build_result(
+                raw_value=None,
+                pure_value=None,
+                status="unavailable",
+                notes=f"Insufficient data to compute MACD divergence for {self.market_label}.",
+            )
 
-        raw_value = "; ".join(
-            f"{market}: price_new_high={vals[0]}; macd_new_high={vals[1]}; macd={vals[2]:.2f}"
-            for market, vals in values.items()
-        )
-        note_suffix = ""
-        if missing:
-            note_suffix = "; missing: " + "; ".join(f"{k} ({v})" for k, v in missing.items())
+        price_window = series.iloc[-MACD_LOOKBACK:]
+        macd_window = macd_df["macd"].iloc[-MACD_LOOKBACK:]
+        price_new_high = bool(series.iloc[-1] >= price_window.max() * 0.999)
+        macd_new_high = bool(macd_df["macd"].iloc[-1] >= macd_window.max() * 0.999)
+        divergence = price_new_high and not macd_new_high
 
-        pure_value = [
-            {
-                "market": market,
-                "price_new_high": bool(vals[0]),
-                "macd_new_high": bool(vals[1]),
-                "macd": float(vals[2]),
-            }
-            for market, vals in values.items()
-        ]
+        latest_macd = float(macd_df["macd"].iloc[-1])
+        latest_signal = float(macd_df["signal"].iloc[-1])
+        latest_hist = float(macd_df["hist"].iloc[-1])
+        latest_price = float(series.iloc[-1])
+
+        status = "high" if divergence else "normal"
+        note = f"MACD divergence check for {self.market_label}"
+        if divergence:
+            note += "; price made new high without MACD confirmation"
+        else:
+            note += "; no bearish divergence detected"
+
+        details_entry = {
+            "market": self.market_label,
+            "indicator_value": latest_macd,
+            "macd": latest_macd,
+            "signal": latest_signal,
+            "hist": latest_hist,
+            "price": latest_price,
+            "price_new_high": price_new_high,
+            "macd_new_high": macd_new_high,
+            "divergence": divergence,
+        }
+
+        raw_value = (
+            f"price_new_high={price_new_high}; macd_new_high={macd_new_high}; macd={latest_macd:.2f}"
+        )
 
         return self.build_result(
             raw_value=raw_value,
-            pure_value=pure_value,
-            status="high" if divergence_detected else "normal",
-            notes="Bearish divergence if price makes new high but MACD does not" + note_suffix,
+            pure_value=[details_entry],
+            status=status,
+            notes=note,
         )
+
+    def build_history_series(
+        self,
+        clean_df: pd.DataFrame,
+        *,
+        status_map: Dict[str, str],
+        as_of: datetime,
+        lookback_days: int,
+    ) -> Optional[List[Dict[str, object]]]:
+        series_map = self.prepare_price_series(clean_df)
+        series = series_map.get(self.market_label)
+        if series is None or series.empty:
+            return None
+
+        cutoff_date = as_of.date() - timedelta(days=lookback_days)
+        upper_date = as_of.date()
+        series = series[(series.index.date >= cutoff_date) & (series.index.date <= upper_date)]
+        if series.empty:
+            return None
+
+        macd_df = _compute_macd(series).dropna()
+        macd_df = macd_df[(macd_df.index.date >= cutoff_date) & (macd_df.index.date <= upper_date)]
+        if macd_df.empty:
+            return None
+
+        aligned_prices = series.reindex(macd_df.index)
+        price_roll_max = aligned_prices.rolling(window=MACD_LOOKBACK).max()
+        macd_roll_max = macd_df["macd"].rolling(window=MACD_LOOKBACK).max()
+        price_new_high_series = aligned_prices >= (price_roll_max * 0.999)
+        macd_new_high_series = macd_df["macd"] >= (macd_roll_max * 0.999)
+        divergence_series = price_new_high_series & (~macd_new_high_series)
+
+        history: List[Dict[str, object]] = []
+        for ts, row in macd_df.iterrows():
+            date_key = ts.date().isoformat()
+            details = {
+                "market": self.market_label,
+                "indicator_value": float(row["macd"]),
+                "macd": float(row["macd"]),
+                "signal": float(row["signal"]),
+                "hist": float(row["hist"]),
+                "price": float(aligned_prices.loc[ts]),
+                "price_new_high": bool(price_new_high_series.loc[ts]),
+                "macd_new_high": bool(macd_new_high_series.loc[ts]),
+                "divergence": bool(divergence_series.loc[ts]),
+            }
+            history.append(
+                {
+                    "date": date_key,
+                    "status": status_map.get(date_key),
+                    "summary_value": float(row["macd"]),
+                    "details": details,
+                }
+            )
+
+        history.sort(key=lambda item: item["date"])
+        return history
+
+
+class MACDSP500Indicator(BaseMACDDivergenceIndicator):
+    market_label = "S&P 500"
+    slug_override = "macd_divergence_s_p_500"
+    metadata = IndicatorMetadata(
+        name="MACD Divergence (S&P 500)",
+        category="Technical",
+        threshold="Bearish divergence",
+        markets=[market_label],
+        topics=["Technical", "Trend"],
+    )
+    tickers = {market_label: INDEX_TICKERS["S&P 500"]}
+
+
+class MACDNasdaqIndicator(BaseMACDDivergenceIndicator):
+    market_label = "Nasdaq 100"
+    slug_override = "macd_divergence_nasdaq_100"
+    metadata = IndicatorMetadata(
+        name="MACD Divergence (Nasdaq 100)",
+        category="Technical",
+        threshold="Bearish divergence",
+        markets=[market_label],
+        topics=["Technical", "Trend"],
+    )
+    tickers = {market_label: INDEX_TICKERS["Nasdaq 100"]}

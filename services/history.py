@@ -63,13 +63,24 @@ def generate_indicator_histories(
         if clean_df is None or clean_df.empty:
             logger.debug("No clean data available for %s; skipping history export", slug)
             continue
-        series = _build_series(
-            indicator_slug=slug,
+        status_map = status_lookup.get(slug, {})
+        custom_series = indicator.build_history_series(
             clean_df=clean_df,
-            status_map=status_lookup.get(slug, {}),
+            status_map=status_map,
             as_of=as_of,
             lookback_days=lookback_days,
         )
+        if custom_series is not None:
+            series = _append_status_only_entries(custom_series, status_map)
+            series.sort(key=lambda item: item["date"])
+        else:
+            series = _build_series(
+                indicator_slug=slug,
+                clean_df=clean_df,
+                status_map=status_map,
+                as_of=as_of,
+                lookback_days=lookback_days,
+            )
         payload = {
             "indicator": slug,
             "display_name": indicator.metadata.name,
@@ -154,13 +165,15 @@ def _build_series(
         df["data_start_date"] = pd.to_datetime(df["data_start_date"], errors="coerce")
         df = df.dropna(subset=["data_start_date"])
         cutoff_ts = pd.Timestamp(as_of.date() - timedelta(days=lookback_days))
-        df = df[df["data_start_date"] >= cutoff_ts]
+        upper_ts = pd.Timestamp(as_of.date())
+        df = df[(df["data_start_date"] >= cutoff_ts) & (df["data_start_date"] <= upper_ts)]
         df = df.sort_values("data_start_date")
     elif "date" in df.columns:
         df["date"] = pd.to_datetime(df["date"], errors="coerce")
         df = df.dropna(subset=["date"])
         cutoff_ts = pd.Timestamp(as_of.date() - timedelta(days=lookback_days))
-        df = df[df["date"] >= cutoff_ts]
+        upper_ts = pd.Timestamp(as_of.date())
+        df = df[(df["date"] >= cutoff_ts) & (df["date"] <= upper_ts)]
         df = df.sort_values("date")
     else:
         df = df.reset_index(drop=True)
@@ -169,7 +182,10 @@ def _build_series(
         date_value = row.get("data_start_date") or row.get("date")
         if pd.isna(date_value):
             continue
-        date_key = pd.Timestamp(date_value).date().isoformat()
+        date_ts = pd.Timestamp(date_value)
+        if date_ts.date() > as_of.date():
+            continue
+        date_key = date_ts.date().isoformat()
         details = _row_to_details(row)
         summary_value = _extract_summary_value(details)
         series.append(
@@ -180,22 +196,26 @@ def _build_series(
                 "details": details,
             }
         )
-    existing_dates = {item["date"] for item in series}
-    if status_map:
-        details_template = series[-1]["details"].copy() if series else {}
-        for status_date, status_value in status_map.items():
-            if status_date not in existing_dates:
-                series.append(
-                    {
-                        "date": status_date,
-                        "status": status_value,
-                        "summary_value": None,
-                        "details": details_template.copy(),
-                    }
-                )
-                existing_dates.add(status_date)
+    details_template = series[-1]["details"].copy() if series else None
+    series = _append_status_only_entries(series, status_map, details_template=details_template)
     series.sort(key=lambda item: item["date"])
     return series
+
+
+def _append_status_only_entries(series: List[Dict[str, object]], status_map: Dict[str, str], *, details_template: Optional[Dict[str, object]] = None) -> List[Dict[str, object]]:
+    if not status_map:
+        return series
+    existing_dates = {item.get("date") for item in series}
+    template = details_template or {}
+    for status_date, status_value in status_map.items():
+        if status_date in existing_dates:
+            continue
+        details = template.copy() if isinstance(template, dict) else {}
+        series.append(
+            {"date": status_date, "status": status_value, "summary_value": None, "details": details}
+        )
+    return series
+
 
 
 def _row_to_details(row: pd.Series) -> Dict[str, object]:
@@ -219,10 +239,14 @@ def _row_to_details(row: pd.Series) -> Dict[str, object]:
 
 def _extract_summary_value(details: Dict[str, object]) -> Optional[float]:
     preferred_keys = [
+        "indicator_value",
         "value",
         "score",
         "ratio",
         "deviation_pct",
+        "annualized_return_pct",
+        "macd",
+        "rsi",
         "reading",
     ]
     for key in preferred_keys:
