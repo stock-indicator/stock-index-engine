@@ -14,6 +14,7 @@ class CorporateProfitsToGDPIndicator(FREDIndicator):
         threshold="> 12%",
         markets=["US Market", "US Economy"],
         topics=["Macro", "Profits"],
+        description="Measures corporate profits as a percentage of GDP. Historically high levels can indicate unsustainable profit margins and potential reversions.",
     )
     required_series = {
         "gdp": "GDP",

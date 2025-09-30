@@ -12,6 +12,7 @@ class SP500PriceToBookIndicator(MultplIndicator):
         threshold="> 6",
         markets=["US Market", "S&P 500"],
         topics=["Valuation"],
+        description="Compares the S&P 500\'s market value to its book value. A high Price-to-Book (P/B) ratio can suggest the market is trading at a significant premium to its net asset value.",
     )
     table_slug = "s-p-500-price-to-book"
 

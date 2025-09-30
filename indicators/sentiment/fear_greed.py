@@ -20,6 +20,7 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
         threshold="> 70",
         markets=["US Market"],
         topics=["Sentiment"],
+        description="Uses the CNN Fear & Greed Index as a proxy for \'dumb money\' sentiment. Extreme greed (a high index value) can be a contrarian signal, suggesting retail investors are over-exposed.",
     )
     default_history_days = 365
 

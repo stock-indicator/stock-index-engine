@@ -29,6 +29,7 @@ class IndicatorMetadata:
     threshold: str
     markets: List[str]
     topics: List[str] = field(default_factory=list)
+    description: str = ""
 
 
 class BaseIndicator(ABC):
@@ -138,6 +139,7 @@ class BaseIndicator(ABC):
         markets: Optional[List[str]] = None,
         threshold: Optional[str] = None,
         topics: Optional[List[str]] = None,
+        description: Optional[str] = None,
     ) -> IndicatorResult:
         meta = self.metadata
         return IndicatorResult(
@@ -150,6 +152,7 @@ class BaseIndicator(ABC):
             raw_value=raw_value,
             pure_value=pure_value,
             topics=topics if topics is not None else meta.topics,
+            description=description if description is not None else meta.description,
         )
 
     def ingest_dataframe(self, df: Optional[pd.DataFrame]) -> None:

@@ -12,6 +12,7 @@ class VIXLevelIndicator(PriceSeriesIndicator):
         threshold="< 10",
         markets=["US Market"],
         topics=["Volatility"],
+        description="The CBOE Volatility Index (VIX) is a real-time index representing the market's expectation of 30-day forward-looking volatility. It is a widely used measure of market risk, often referred to as the 'fear gauge'.",
     )
     tickers = {"US Market": "^VIX"}
 

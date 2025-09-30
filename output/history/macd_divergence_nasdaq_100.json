@@ -10,7 +10,7 @@
     "Trend"
   ],
   "threshold": "Bearish divergence",
-  "updated_at": "2025-09-30T05:38:09+00:00",
+  "updated_at": "2025-09-30T08:24:13+00:00",
   "series": [
     {
       "date": "2024-09-30",
@@ -3999,14 +3999,14 @@
     {
       "date": "2025-09-29",
       "status": null,
-      "summary_value": 294.38902923701244,
+      "summary_value": 294.3891850418513,
       "details": {
         "market": "Nasdaq 100",
-        "indicator_value": 294.38902923701244,
-        "macd": 294.38902923701244,
-        "signal": 283.1820538355607,
-        "hist": 11.206975401451757,
-        "price": 24611.349609375,
+        "indicator_value": 294.3891850418513,
+        "macd": 294.3891850418513,
+        "signal": 283.1820849965285,
+        "hist": 11.207100045322818,
+        "price": 24611.3515625,
         "price_new_high": false,
         "macd_new_high": false,
         "divergence": false

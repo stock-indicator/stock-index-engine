@@ -12,6 +12,7 @@ class SP500PriceToSalesIndicator(MultplIndicator):
         threshold="> 6",
         markets=["US Market", "S&P 500"],
         topics=["Valuation"],
+        description="Compares the S&P 500\'s market value to its total revenue. A high Price-to-Sales (P/S) ratio can suggest a rich valuation, especially in the absence of earnings.",
     )
     table_slug = "s-p-500-price-to-sales"
 

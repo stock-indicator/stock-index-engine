@@ -14,6 +14,7 @@ class CreditToGDPIndicator(BaseIndicator):
         threshold="> 350%",
         markets=["US Market", "US Economy"],
         topics=["Macro", "Leverage"],
+        description="Tracks the ratio of total credit to the private non-financial sector relative to Gross Domestic Product (GDP). It is a key measure of economy-wide leverage.",
     )
     default_history_days = 365 * 5  # BIS 数据按季度
 

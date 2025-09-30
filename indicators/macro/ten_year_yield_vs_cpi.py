@@ -12,6 +12,7 @@ class TenYearYieldVsCPIIndicator(FREDIndicator):
         threshold="10Y < CPI",
         markets=["US Market"],
         topics=["Macro", "Rates"],
+        description="Compares the 10-year Treasury yield to the year-over-year Consumer Price Index (CPI). When the yield is below CPI, it indicates negative real rates, which can influence investor behavior.",
     )
     required_series = {
         "ten_year_yield_pct": "GS10",

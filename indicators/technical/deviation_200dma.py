@@ -122,6 +122,7 @@ class Price200DMASP500Indicator(BasePrice200DMADeviationIndicator):
         threshold="> 25%",
         markets=[market_label],
         topics=["Technical", "Trend"],
+        description="Measures the percentage deviation of the index price from its 200-day moving average (200DMA). A large deviation suggests the market is overbought or extended.",
     )
     tickers = {market_label: INDEX_TICKERS["S&P 500"]}
 

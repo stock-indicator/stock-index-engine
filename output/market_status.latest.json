@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-30T05:38:09+00:00",
+  "generated_at": "2025-09-30T08:24:13+00:00",
   "mode": "manual",
   "summary": {
     "triggered_total": 3,
@@ -53,7 +53,8 @@
       "topics": [
         "Technical",
         "Momentum"
-      ]
+      ],
+      "description": "The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. A reading above 80 is often considered an overbought signal."
     },
     {
       "name": "RSI 14 (Nasdaq 100)",
@@ -68,15 +69,16 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 73.53362047909258,
-          "rsi": 73.53362047909258,
-          "adj_close": 24611.349609375
+          "indicator_value": 73.53365201311576,
+          "rsi": 73.53365201311576,
+          "adj_close": 24611.3515625
         }
       ],
       "topics": [
         "Technical",
         "Momentum"
-      ]
+      ],
+      "description": ""
     },
     {
       "name": "MACD Divergence (S&P 500)",
@@ -104,7 +106,8 @@
       "topics": [
         "Technical",
         "Trend"
-      ]
+      ],
+      "description": "Identifies a bearish divergence where the index price reaches a new high but the MACD indicator fails to confirm with a new high of its own, signaling weakening momentum."
     },
     {
       "name": "MACD Divergence (Nasdaq 100)",
@@ -119,11 +122,11 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 294.38903197243053,
-          "macd": 294.38903197243053,
-          "signal": 283.1820578582316,
-          "hist": 11.206974114198943,
-          "price": 24611.349609375,
+          "indicator_value": 294.3891877772694,
+          "macd": 294.3891877772694,
+          "signal": 283.18208901919934,
+          "hist": 11.20709875807006,
+          "price": 24611.3515625,
           "price_new_high": false,
           "macd_new_high": false,
           "divergence": false
@@ -132,7 +135,8 @@
       "topics": [
         "Technical",
         "Trend"
-      ]
+      ],
+      "description": ""
     },
     {
       "name": "Price vs 200DMA (S&P 500)",
@@ -156,7 +160,8 @@
       "topics": [
         "Technical",
         "Trend"
-      ]
+      ],
+      "description": "Measures the percentage deviation of the index price from its 200-day moving average (200DMA). A large deviation suggests the market is overbought or extended."
     },
     {
       "name": "Price vs 200DMA (Nasdaq 100)",
@@ -171,16 +176,17 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 13.833557316839675,
-          "deviation_pct": 13.833557316839675,
-          "adj_close": 24611.349609375,
-          "moving_average": 21620.469560546873
+          "indicator_value": 13.833566299107305,
+          "deviation_pct": 13.833566299107305,
+          "adj_close": 24611.3515625,
+          "moving_average": 21620.4695703125
         }
       ],
       "topics": [
         "Technical",
         "Trend"
-      ]
+      ],
+      "description": ""
     },
     {
       "name": "12M Annualized Return (S&P 500)",
@@ -204,7 +210,8 @@
       "topics": [
         "Technical",
         "Momentum"
-      ]
+      ],
+      "description": "Measures the 12-month (252 trading day) rolling return of the index. Extremely high returns can indicate an over-extended market prone to consolidation or correction."
     },
     {
       "name": "12M Annualized Return (Nasdaq 100)",
@@ -219,16 +226,17 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 22.349938189109864,
-          "annualized_return_pct": 22.349938189109864,
-          "current_price": 24611.349609375,
+          "indicator_value": 22.34994789864335,
+          "annualized_return_pct": 22.34994789864335,
+          "current_price": 24611.3515625,
           "price_252d_ago": 20115.5390625
         }
       ],
       "topics": [
         "Technical",
         "Momentum"
-      ]
+      ],
+      "description": ""
     },
     {
       "name": "VIX Level",
@@ -239,16 +247,17 @@
       "threshold": "< 10",
       "status": "normal",
       "notes": "Low VIX signals complacency",
-      "raw_value": "16.12",
+      "raw_value": "16.57",
       "pure_value": [
         {
           "market": "US Market",
-          "vix": 16.1200008392334
+          "vix": 16.56999969482422
         }
       ],
       "topics": [
         "Volatility"
-      ]
+      ],
+      "description": "The CBOE Volatility Index (VIX) is a real-time index representing the market's expectation of 30-day forward-looking volatility. It is a widely used measure of market risk, often referred to as the 'fear gauge'."
     },
     {
       "name": "Index PE",
@@ -270,7 +279,8 @@
       ],
       "topics": [
         "Valuation"
-      ]
+      ],
+      "description": "Measures the Price-to-Earnings (PE) ratio for the S&P 500. A high PE ratio can indicate that the market is overvalued compared to corporate earnings."
     },
     {
       "name": "Dividend Yield",
@@ -293,7 +303,8 @@
       "topics": [
         "Valuation",
         "Income"
-      ]
+      ],
+      "description": "Shows the S&P 500's dividend per share as a percentage of the index's price. A very low yield can suggest that market valuations are expensive relative to corporate payouts."
     },
     {
       "name": "CAPE Ratio",
@@ -316,7 +327,8 @@
       "topics": [
         "Valuation",
         "Cycles"
-      ]
+      ],
+      "description": "The Cyclically-Adjusted PE (CAPE) Ratio, also known as the Shiller PE, divides the S&P 500's price by the average of ten years of inflation-adjusted earnings. It is a key metric for assessing long-term market valuation."
     },
     {
       "name": "Price-to-Book",
@@ -338,7 +350,8 @@
       ],
       "topics": [
         "Valuation"
-      ]
+      ],
+      "description": "Compares the S&P 500's market value to its book value. A high Price-to-Book (P/B) ratio can suggest the market is trading at a significant premium to its net asset value."
     },
     {
       "name": "Price-to-Sales",
@@ -360,7 +373,8 @@
       ],
       "topics": [
         "Valuation"
-      ]
+      ],
+      "description": "Compares the S&P 500's market value to its total revenue. A high Price-to-Sales (P/S) ratio can suggest a rich valuation, especially in the absence of earnings."
     },
     {
       "name": "10Y Yield vs CPI",
@@ -387,7 +401,8 @@
       "topics": [
         "Macro",
         "Rates"
-      ]
+      ],
+      "description": "Compares the 10-year Treasury yield to the year-over-year Consumer Price Index (CPI). When the yield is below CPI, it indicates negative real rates, which can influence investor behavior."
     },
     {
       "name": "Yield Curve Duration",
@@ -413,7 +428,8 @@
       "topics": [
         "Macro",
         "Yield Curve"
-      ]
+      ],
+      "description": "Tracks the consecutive duration of a yield curve inversion (10-year vs 2-year Treasury). Prolonged inversions have historically been a leading indicator of recessions."
     },
     {
       "name": "Post-Hike Window",
@@ -434,7 +450,8 @@
       "topics": [
         "Macro",
         "Policy"
-      ]
+      ],
+      "description": "Tracks the time elapsed since the last Federal Reserve rate hike. The period immediately following a rate hike can be a vulnerable time for markets."
     },
     {
       "name": "Corporate Profits vs GDP",
@@ -467,7 +484,8 @@
       "topics": [
         "Macro",
         "Profits"
-      ]
+      ],
+      "description": "Measures corporate profits as a percentage of GDP. Historically high levels can indicate unsustainable profit margins and potential reversions."
     },
     {
       "name": "Credit-to-GDP",
@@ -490,7 +508,8 @@
       "topics": [
         "Macro",
         "Leverage"
-      ]
+      ],
+      "description": "Tracks the ratio of total credit to the private non-financial sector relative to Gross Domestic Product (GDP). It is a key measure of economy-wide leverage."
     },
     {
       "name": "Margin Debt",
@@ -517,7 +536,8 @@
       "topics": [
         "Sentiment",
         "Leverage"
-      ]
+      ],
+      "description": "Tracks the total dollar amount of debt that investors are carrying to purchase securities. Record-high levels of margin debt suggest heightened speculation and market risk."
     },
     {
       "name": "Retail Positioning",
@@ -549,7 +569,8 @@
       "topics": [
         "Sentiment",
         "AAII"
-      ]
+      ],
+      "description": "Gauges the sentiment of individual investors via the AAII Sentiment Survey. Extreme bullishness is often viewed as a contrarian indicator, suggesting market over-optimism."
     },
     {
       "name": "ETF Net Inflows Streak",
@@ -576,7 +597,8 @@
       "topics": [
         "Sentiment",
         "ETF"
-      ]
+      ],
+      "description": "Tracks the number of consecutive days of net inflows into major index ETFs (e.g., SPY, QQQ). A long streak can indicate strong market conviction or potential overheating."
     },
     {
       "name": "IPO Activity",
@@ -586,15 +608,15 @@
       ],
       "threshold": "Frothy",
       "status": "high",
-      "notes": "IPO market running hot; 12M IPO count 201 >= 200",
-      "raw_value": "Trailing 12M IPOs (2024-10-01 to 2025-09-01): 201; 2023 IPOs: 109 ($19.5B)",
+      "notes": "IPO market running hot; 12M IPO count 202 >= 200",
+      "raw_value": "Trailing 12M IPOs (2024-10-01 to 2025-09-01): 202; 2023 IPOs: 109 ($19.5B)",
       "pure_value": [
         {
           "metric": "trailing_12m_ipo_count",
-          "value": 201,
+          "value": 202,
           "window_start": "2024-10-01",
           "window_end": "2025-09-01",
-          "as_of": "2025-09-29"
+          "as_of": "2025-09-30"
         },
         {
           "metric": "last_full_year_ipo_count",
@@ -606,7 +628,8 @@
       "topics": [
         "Sentiment",
         "IPO"
-      ]
+      ],
+      "description": "Tracks the volume and proceeds from Initial Public Offerings (IPOs). A surge in IPO activity can signal a frothy, speculative market environment."
     },
     {
       "name": "Smart vs Dumb Money",
@@ -617,12 +640,12 @@
       "threshold": "> 70",
       "status": "normal",
       "notes": "Fear & Greed index below exuberance threshold",
-      "raw_value": "Fear & Greed index: 52.8 (as of 2025-09-26T23:59:55)",
+      "raw_value": "Fear & Greed index: 52.3 (as of 2025-09-30T07:19:01)",
       "pure_value": [
         {
           "metric": "fear_greed_index",
-          "value": 52.8,
-          "as_of": "2025-09-26T23:59:55"
+          "value": 52.3142857142857,
+          "as_of": "2025-09-30T07:19:01"
         },
         {
           "metric": "rating",
@@ -631,7 +654,8 @@
       ],
       "topics": [
         "Sentiment"
-      ]
+      ],
+      "description": "Uses the CNN Fear & Greed Index as a proxy for 'dumb money' sentiment. Extreme greed (a high index value) can be a contrarian signal, suggesting retail investors are over-exposed."
     }
   ]
 }

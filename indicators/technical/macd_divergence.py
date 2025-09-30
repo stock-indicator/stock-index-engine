@@ -159,6 +159,7 @@ class MACDSP500Indicator(BaseMACDDivergenceIndicator):
         threshold="Bearish divergence",
         markets=[market_label],
         topics=["Technical", "Trend"],
+        description="Identifies a bearish divergence where the index price reaches a new high but the MACD indicator fails to confirm with a new high of its own, signaling weakening momentum.",
     )
     tickers = {market_label: INDEX_TICKERS["S&P 500"]}
 

@@ -14,6 +14,7 @@ class YieldCurveDurationIndicator(FREDIndicator):
         threshold="> 12 months",
         markets=["US Market"],
         topics=["Macro", "Yield Curve"],
+        description="Tracks the consecutive duration of a yield curve inversion (10-year vs 2-year Treasury). Prolonged inversions have historically been a leading indicator of recessions.",
     )
     required_series = {
         "spread_pct": "T10Y2Y",

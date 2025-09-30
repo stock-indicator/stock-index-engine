@@ -16,6 +16,7 @@ class IPOActivityIndicator(BaseIndicator):
         threshold="Frothy",
         markets=["US Market"],
         topics=["Sentiment", "IPO"],
+        description="Tracks the volume and proceeds from Initial Public Offerings (IPOs). A surge in IPO activity can signal a frothy, speculative market environment.",
     )
     default_history_days = 365 * 10
 

@@ -14,6 +14,7 @@ class MarginDebtIndicator(BaseIndicator):
         threshold="New high",
         markets=["US Market"],
         topics=["Sentiment", "Leverage"],
+        description="Tracks the total dollar amount of debt that investors are carrying to purchase securities. Record-high levels of margin debt suggest heightened speculation and market risk.",
     )
     default_history_days = 365 * 5
 

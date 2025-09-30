@@ -125,6 +125,7 @@ class RSISP500Indicator(BaseRSIIndicator):
         threshold="> 80",
         markets=[market_label],
         topics=["Technical", "Momentum"],
+        description="The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. A reading above 80 is often considered an overbought signal.",
     )
     tickers = {market_label: INDEX_TICKERS["S&P 500"]}
 

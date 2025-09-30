@@ -12,6 +12,7 @@ class SP500DividendYieldIndicator(MultplIndicator):
         threshold="< 1.2%",
         markets=["US Market", "S&P 500"],
         topics=["Valuation", "Income"],
+        description="Shows the S&P 500\'s dividend per share as a percentage of the index\'s price. A very low yield can suggest that market valuations are expensive relative to corporate payouts.",
     )
     table_slug = "s-p-500-dividend-yield"
 

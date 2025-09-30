@@ -8,6 +8,7 @@ from indicators.valuation.base_multpl import MultplIndicator
 class ShillerCAPEIndicator(MultplIndicator):
     metadata = IndicatorMetadata(
         name="CAPE Ratio",
+        description="The Cyclically-Adjusted PE (CAPE) Ratio, also known as the Shiller PE, divides the S&P 500's price by the average of ten years of inflation-adjusted earnings. It is a key metric for assessing long-term market valuation.",
         category="Valuation",
         threshold="> 35",
         markets=["US Market", "S&P 500"],

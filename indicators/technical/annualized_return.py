@@ -133,6 +133,7 @@ class AnnualizedReturnSP500Indicator(BaseAnnualizedReturnIndicator):
         threshold="> 40%",
         markets=[market_label],
         topics=["Technical", "Momentum"],
+        description="Measures the 12-month (252 trading day) rolling return of the index. Extremely high returns can indicate an over-extended market prone to consolidation or correction.",
     )
     tickers = {market_label: INDEX_TICKERS["S&P 500"]}
 

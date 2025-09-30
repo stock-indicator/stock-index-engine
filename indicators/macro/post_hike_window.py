@@ -14,6 +14,7 @@ class PostHikeWindowIndicator(FREDIndicator):
         threshold="0-6 months",
         markets=["US Market"],
         topics=["Macro", "Policy"],
+        description="Tracks the time elapsed since the last Federal Reserve rate hike. The period immediately following a rate hike can be a vulnerable time for markets.",
     )
     required_series = {
         "fed_funds": "FEDFUNDS",

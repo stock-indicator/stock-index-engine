@@ -12,6 +12,7 @@ class SP500PEIndicator(MultplIndicator):
         threshold="> 35",
         markets=["US Market", "S&P 500"],
         topics=["Valuation"],
+        description="Measures the Price-to-Earnings (PE) ratio for the S&P 500. A high PE ratio can indicate that the market is overvalued compared to corporate earnings.",
     )
     table_slug = "s-p-500-pe-ratio"
 

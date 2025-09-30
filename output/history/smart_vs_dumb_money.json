@@ -9,7 +9,7 @@
     "Sentiment"
   ],
   "threshold": "> 70",
-  "updated_at": "2025-09-30T05:38:09+00:00",
+  "updated_at": "2025-09-30T08:24:13+00:00",
   "series": [
     {
       "date": "2024-09-30",
@@ -2246,18 +2246,9 @@
     {
       "date": "2025-09-26",
       "status": "unavailable",
-      "summary_value": 52.8,
+      "summary_value": 53.6,
       "details": {
-        "index_value": 52.8,
-        "rating": "neutral"
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": "unavailable",
-      "summary_value": 52.8,
-      "details": {
-        "index_value": 52.8,
+        "index_value": 53.6,
         "rating": "neutral"
       }
     },
@@ -2266,7 +2257,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "index_value": 52.8,
+        "index_value": 52.3142857142857,
         "rating": "neutral"
       }
     },
@@ -2275,25 +2266,34 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "index_value": 52.8,
+        "index_value": 52.3142857142857,
         "rating": "neutral"
       }
     },
     {
       "date": "2025-09-29",
       "status": "normal",
-      "summary_value": null,
+      "summary_value": 52.3142857142857,
       "details": {
-        "index_value": 52.8,
+        "index_value": 52.3142857142857,
         "rating": "neutral"
       }
     },
     {
       "date": "2025-09-30",
       "status": "normal",
-      "summary_value": null,
+      "summary_value": 52.3142857142857,
       "details": {
-        "index_value": 52.8,
+        "index_value": 52.3142857142857,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "status": "normal",
+      "summary_value": 52.3142857142857,
+      "details": {
+        "index_value": 52.3142857142857,
         "rating": "neutral"
       }
     }

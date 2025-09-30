@@ -17,6 +17,7 @@ class ETFFundFlowIndicator(BaseIndicator):
         threshold="> 20",
         markets=["US Market"],
         topics=["Sentiment", "ETF"],
+        description="Tracks the number of consecutive days of net inflows into major index ETFs (e.g., SPY, QQQ). A long streak can indicate strong market conviction or potential overheating.",
     )
     tickers: List[str] = ["QQQ", "SPY"]
     default_history_days = 365

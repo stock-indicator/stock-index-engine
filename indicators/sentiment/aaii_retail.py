@@ -14,6 +14,7 @@ class RetailPositioningIndicator(BaseIndicator):
         threshold="> 70%",
         markets=["US Market"],
         topics=["Sentiment", "AAII"],
+        description="Gauges the sentiment of individual investors via the AAII Sentiment Survey. Extreme bullishness is often viewed as a contrarian indicator, suggesting market over-optimism.",
     )
     default_history_days = 365 * 3
 
