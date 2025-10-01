@@ -17,7 +17,7 @@ class MultplIndicator(BaseIndicator):
     table_slug: str = ""
 
     def collect_full(self, fetcher=None) -> pd.DataFrame:
-        url = f"{MULTPL_BASE_URL}/{self.table_slug}/table/by-month"
+        url = f"{MULTPL_BASE_URL}/{self.table_slug}/table/by-quarter"
         response = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
@@ -47,7 +47,7 @@ class MultplIndicator(BaseIndicator):
         end_dates = compute_end_date(df["data_start_date"].tolist())
         df["data_end_date"] = end_dates
         df["source_url"] = f"{MULTPL_BASE_URL}/{self.table_slug}"
-        return df[["data_start_date", "data_end_date", "value", "source_url"]]
+        return df[["data_start_date", "data_end_date", "value"]]
 
     def collect_incremental(self, existing_clean: pd.DataFrame, fetcher=None):
         # Multpl 不提供增量接口，直接重新抓取全集后由 merge 去重

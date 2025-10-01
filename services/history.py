@@ -105,6 +105,26 @@ def load_indicator_history(slug: str) -> Optional[Dict[str, object]]:
         logger.warning("Failed to parse history file %s: %s", path, exc)
         return None
 
+def load_and_filter_history(slug: str, lookback_days: Optional[int] = None) -> Optional[Dict[str, object]]:
+    history = load_indicator_history(slug)
+    if history is None:
+        return None
+    if lookback_days is None:
+        return history
+
+    series = history.get("series")
+    if not isinstance(series, list):
+        return history
+
+    cutoff = datetime.utcnow().date() - timedelta(days=lookback_days)
+    filtered_series = [
+        item for item in series
+        if datetime.fromisoformat(item.get("date", "1970-01-01")).date() >= cutoff
+    ]
+    history["series"] = filtered_series
+    return history
+
+
 
 def _write_history_file(slug: str, payload: Dict[str, object]) -> None:
     path = HISTORY_DIR / f"{slug}.json"

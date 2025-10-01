@@ -133,7 +133,7 @@ class BaseIndicator(ABC):
         self,
         *,
         status: str,
-        notes: str,
+        notes: Optional[str] = None,
         raw_value: Optional[str] = None,
         pure_value: Optional[List[Any]] = None,
         markets: Optional[List[str]] = None,
@@ -167,6 +167,8 @@ class BaseIndicator(ABC):
         combined = pd.concat([existing, new], ignore_index=True)
         combined = combined.drop_duplicates(subset="data_start_date", keep="last")
         combined = combined.sort_values("data_start_date")
+        end_dates = compute_end_date(combined["data_start_date"].tolist())
+        combined["data_end_date"] = end_dates
         return combined.reset_index(drop=True)
 
     @abstractmethod

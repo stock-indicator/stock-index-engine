@@ -10,7 +10,7 @@
     "Trend"
   ],
   "threshold": "> 25%",
-  "updated_at": "2025-10-01T02:13:02+00:00",
+  "updated_at": "2025-10-01T04:28:55+00:00",
   "series": [
     {
       "date": "2025-07-21",
@@ -615,13 +615,13 @@
     {
       "date": "2025-09-30",
       "status": "normal",
-      "summary_value": 14.063676045087304,
+      "summary_value": 14.063667069797736,
       "details": {
         "market": "Nasdaq 100",
-        "indicator_value": 14.063676045087304,
-        "deviation_pct": 14.063676045087304,
-        "adj_close": 24679.990234375,
-        "moving_average": 21637.028623046874
+        "indicator_value": 14.063667069797736,
+        "deviation_pct": 14.063667069797736,
+        "adj_close": 24679.98828125,
+        "moving_average": 21637.02861328125
       }
     },
     {

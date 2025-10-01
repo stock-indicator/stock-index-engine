@@ -9,7 +9,7 @@
     "Sentiment"
   ],
   "threshold": "> 70",
-  "updated_at": "2025-10-01T02:13:02+00:00",
+  "updated_at": "2025-10-01T04:28:55+00:00",
   "series": [
     {
       "date": "2024-10-01",
@@ -2248,7 +2248,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "index_value": 52.3142857142857,
+        "index_value": 52.6571428571429,
         "rating": "neutral"
       }
     },
@@ -2257,43 +2257,34 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "index_value": 52.3142857142857,
+        "index_value": 52.6571428571429,
         "rating": "neutral"
       }
     },
     {
       "date": "2025-09-29",
       "status": "normal",
-      "summary_value": 52.3142857142857,
+      "summary_value": 51.3142857142857,
       "details": {
-        "index_value": 52.3142857142857,
+        "index_value": 51.3142857142857,
         "rating": "neutral"
       }
     },
     {
       "date": "2025-09-30",
       "status": "normal",
-      "summary_value": 52.3142857142857,
+      "summary_value": 52.6571428571429,
       "details": {
-        "index_value": 52.3142857142857,
-        "rating": "neutral"
-      }
-    },
-    {
-      "date": "2025-09-30",
-      "status": "normal",
-      "summary_value": 52.3142857142857,
-      "details": {
-        "index_value": 52.3142857142857,
+        "index_value": 52.6571428571429,
         "rating": "neutral"
       }
     },
     {
       "date": "2025-10-01",
       "status": "normal",
-      "summary_value": null,
+      "summary_value": 52.6571428571429,
       "details": {
-        "index_value": 52.3142857142857,
+        "index_value": 52.6571428571429,
         "rating": "neutral"
       }
     }

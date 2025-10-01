@@ -10,24 +10,38 @@
     "Valuation"
   ],
   "threshold": "> 6",
-  "updated_at": "2025-10-01T02:13:02+00:00",
+  "updated_at": "2025-10-01T04:28:55+00:00",
   "series": [
     {
       "date": "2024-12-31",
       "status": null,
       "summary_value": 4.99,
       "details": {
-        "value": 4.99,
-        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+        "value": 4.99
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "status": null,
+      "summary_value": 4.69,
+      "details": {
+        "value": 4.69
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "status": null,
+      "summary_value": 5.18,
+      "details": {
+        "value": 5.18
       }
     },
     {
       "date": "2025-09-26",
       "status": "unavailable",
-      "summary_value": 5.57,
+      "summary_value": null,
       "details": {
-        "value": 5.57,
-        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+        "value": 5.61
       }
     },
     {
@@ -35,8 +49,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 5.61,
-        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+        "value": 5.61
       }
     },
     {
@@ -44,17 +57,15 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 5.61,
-        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+        "value": 5.61
       }
     },
     {
       "date": "2025-09-29",
       "status": "normal",
-      "summary_value": 5.58,
+      "summary_value": null,
       "details": {
-        "value": 5.58,
-        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+        "value": 5.61
       }
     },
     {
@@ -62,8 +73,7 @@
       "status": "normal",
       "summary_value": 5.61,
       "details": {
-        "value": 5.61,
-        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+        "value": 5.61
       }
     },
     {
@@ -71,8 +81,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 5.61,
-        "source_url": "https://www.multpl.com/s-p-500-price-to-book"
+        "value": 5.61
       }
     }
   ]

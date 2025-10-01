@@ -35,5 +35,5 @@ class SP500PriceToBookIndicator(MultplIndicator):
             raw_value=f"{latest_value:.2f} (as of {latest_date})",
             pure_value=pure_value,
             status=status,
-            notes="Source: multpl.com price-to-book table.",
+            notes="",
         )

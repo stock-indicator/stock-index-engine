@@ -1,13 +1,13 @@
 {
-  "generated_at": "2025-10-01T02:13:02+00:00",
+  "generated_at": "2025-10-01T04:28:55+00:00",
   "mode": "manual",
   "summary": {
-    "triggered_total": 5,
+    "triggered_total": 4,
     "total_total": 24,
-    "triggered_available": 5,
+    "triggered_available": 4,
     "total_available": 24,
-    "ratio_total": "5/24",
-    "ratio_available": "5/24",
+    "ratio_total": "4/24",
+    "ratio_available": "4/24",
     "by_category": {
       "Technical": {
         "high": 1,
@@ -25,8 +25,8 @@
         "unavailable": 0
       },
       "Sentiment": {
-        "high": 2,
-        "normal": 3,
+        "high": 1,
+        "normal": 4,
         "unavailable": 0
       }
     }
@@ -69,9 +69,9 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 74.45569238872068,
-          "rsi": 74.45569238872068,
-          "adj_close": 24679.990234375
+          "indicator_value": 74.45566301360411,
+          "rsi": 74.45566301360411,
+          "adj_close": 24679.98828125
         }
       ],
       "topics": [
@@ -122,11 +122,11 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 295.65900269069607,
-          "macd": 295.65900269069607,
-          "signal": 285.6774717534987,
-          "hist": 9.981530937197363,
-          "price": 24679.990234375,
+          "indicator_value": 295.65884688585356,
+          "macd": 295.65884688585356,
+          "signal": 285.67744059253016,
+          "hist": 9.981406293323403,
+          "price": 24679.98828125,
           "price_new_high": false,
           "macd_new_high": false,
           "divergence": false
@@ -176,10 +176,10 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 14.063676045087304,
-          "deviation_pct": 14.063676045087304,
-          "adj_close": 24679.990234375,
-          "moving_average": 21637.028623046874
+          "indicator_value": 14.063667069797736,
+          "deviation_pct": 14.063667069797736,
+          "adj_close": 24679.98828125,
+          "moving_average": 21637.02861328125
         }
       ],
       "topics": [
@@ -226,9 +226,9 @@
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 23.34679400371695,
-          "annualized_return_pct": 23.34679400371695,
-          "current_price": 24679.990234375,
+          "indicator_value": 23.346784242298703,
+          "annualized_return_pct": 23.346784242298703,
+          "current_price": 24679.98828125,
           "price_252d_ago": 20008.619140625
         }
       ],
@@ -339,7 +339,7 @@
       ],
       "threshold": "> 6",
       "status": "normal",
-      "notes": "Source: multpl.com price-to-book table.",
+      "notes": "",
       "raw_value": "5.61 (as of 2025-09-30)",
       "pure_value": [
         {
@@ -362,7 +362,7 @@
       ],
       "threshold": "> 6",
       "status": "normal",
-      "notes": "Source: multpl.com price-to-sales table.",
+      "notes": "",
       "raw_value": "3.38 (as of 2025-09-30)",
       "pure_value": [
         {
@@ -602,16 +602,16 @@
         "US Market"
       ],
       "threshold": "Frothy",
-      "status": "high",
-      "notes": "IPO market running hot; 12M IPO count 202 >= 200",
-      "raw_value": "Trailing 12M IPOs (2024-10-01 to 2025-09-01): 202; 2023 IPOs: 109 ($19.5B)",
+      "status": "normal",
+      "notes": "IPO activity below mania threshold",
+      "raw_value": "Trailing 12M IPOs (2024-11-01 to 2025-10-01): 182; 2023 IPOs: 109 ($19.5B)",
       "pure_value": [
         {
           "metric": "trailing_12m_ipo_count",
-          "value": 202,
-          "window_start": "2024-10-01",
-          "window_end": "2025-09-01",
-          "as_of": "2025-09-30"
+          "value": 182,
+          "window_start": "2024-11-01",
+          "window_end": "2025-10-01",
+          "as_of": "2025-10-01"
         },
         {
           "metric": "last_full_year_ipo_count",
@@ -635,12 +635,12 @@
       "threshold": "> 70",
       "status": "normal",
       "notes": "Fear & Greed index below exuberance threshold",
-      "raw_value": "Fear & Greed index: 52.3 (as of 2025-09-30T07:19:01)",
+      "raw_value": "Fear & Greed index: 52.7 (as of 2025-10-01T00:00:00)",
       "pure_value": [
         {
           "metric": "fear_greed_index",
-          "value": 52.3142857142857,
-          "as_of": "2025-09-30T07:19:01"
+          "value": 52.6571428571429,
+          "as_of": "2025-10-01T00:00:00"
         },
         {
           "metric": "rating",

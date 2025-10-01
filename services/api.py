@@ -12,7 +12,7 @@ from common.logger import get_logger
 from common.settings import settings
 from common.utils import sanitize_column_name
 from services import get_indicator_by_slug
-from services.history import load_indicator_history
+from services.history import load_indicator_history, load_and_filter_history
 from services.output import read_latest_payload
 from services.refresh import full_refresh, manual_refresh
 
@@ -121,8 +121,8 @@ def get_indicator(slug: str) -> Dict[str, object]:
 
 
 @app.get("/indicators/{slug}/history")
-def get_indicator_history(slug: str) -> Dict[str, object]:
-    history = load_indicator_history(slug.lower())
+def get_indicator_history(slug: str, lookback_days: Optional[int] = None) -> Dict[str, object]:
+    history = load_and_filter_history(slug.lower(), lookback_days)
     if history is None:
         raise HTTPException(status_code=404, detail=f"History for '{slug}' not available")
     return history

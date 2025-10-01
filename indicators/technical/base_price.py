@@ -18,7 +18,7 @@ class PriceSeriesIndicator(BaseIndicator):
     def collect_full(self, fetcher=None) -> pd.DataFrame:
         history_days = self.get_history_window_days()
         start_date = datetime.utcnow().date() - timedelta(days=history_days + 30)
-        end_date = datetime.utcnow().date() + timedelta(days=1)
+        end_date = datetime.utcnow().date()
         frames = []
         for market, ticker in self.tickers.items():
             df = yf.download(
@@ -58,7 +58,7 @@ class PriceSeriesIndicator(BaseIndicator):
                 start_date = datetime.utcnow().date() - timedelta(days=self.get_history_window_days())
             else:
                 start_date = (pd.to_datetime(last_date).date() + timedelta(days=1))
-            end_date = datetime.utcnow().date() + timedelta(days=1)
+            end_date = datetime.utcnow().date()
             if start_date >= end_date:
                 continue
             df = yf.download(

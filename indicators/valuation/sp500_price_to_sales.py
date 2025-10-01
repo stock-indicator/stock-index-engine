@@ -35,5 +35,5 @@ class SP500PriceToSalesIndicator(MultplIndicator):
             raw_value=f"{latest_value:.2f} (as of {latest_date})",
             pure_value=pure_value,
             status=status,
-            notes="Source: multpl.com price-to-sales table.",
+            notes="",
         )
