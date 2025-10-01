@@ -6,6 +6,7 @@ from typing import Any, Dict, Literal, Optional
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 from fastapi import BackgroundTasks, FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, model_validator
 
 from common.logger import get_logger
@@ -19,6 +20,15 @@ from services.refresh import full_refresh, manual_refresh
 
 logger = get_logger("services.api")
 app = FastAPI(title="Market Indicator Service", version="1.0.0")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 _scheduler: AsyncIOScheduler | None = None
 REFRESH_CRON = os.getenv("REFRESH_CRON", settings.get("refresh.cron", "0 6 * * *"))
 API_HOST = settings.get_api_host()
