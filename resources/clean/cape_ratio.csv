@@ -1854,6 +1854,7 @@ data_start_date,data_end_date,value,source_url
 2025-06-01,2025-06-30,36.31,https://www.multpl.com/shiller-pe
 2025-07-01,2025-07-31,37.79,https://www.multpl.com/shiller-pe
 2025-08-01,2025-08-31,38.38,https://www.multpl.com/shiller-pe
-2025-09-01,2025-09-28,38.34,https://www.multpl.com/shiller-pe
+2025-09-01,2025-09-29,38.34,https://www.multpl.com/shiller-pe
 2025-09-26,,39.84,https://www.multpl.com/shiller-pe
 2025-09-29,,39.95,https://www.multpl.com/shiller-pe
+2025-09-30,,40.11,https://www.multpl.com/shiller-pe

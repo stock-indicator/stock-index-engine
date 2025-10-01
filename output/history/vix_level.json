@@ -9,23 +9,8 @@
     "Volatility"
   ],
   "threshold": "< 10",
-  "updated_at": "2025-09-30T08:24:13+00:00",
+  "updated_at": "2025-10-01T02:13:02+00:00",
   "series": [
-    {
-      "date": "2024-09-30",
-      "status": null,
-      "summary_value": 17.010000228881836,
-      "details": {
-        "market": "US Market",
-        "ticker": "^VIX",
-        "open": 17.010000228881836,
-        "high": 17.790000915527344,
-        "low": 16.469999313354492,
-        "close": 16.729999542236328,
-        "adj_close": 16.729999542236328,
-        "volume": 0
-      }
-    },
     {
       "date": "2024-10-01",
       "status": null,
@@ -3795,6 +3780,21 @@
       "date": "2025-09-30",
       "status": "normal",
       "summary_value": 16.489999771118164,
+      "details": {
+        "market": "US Market",
+        "ticker": "^VIX",
+        "open": 16.489999771118164,
+        "high": 16.700000762939453,
+        "low": 16.43000030517578,
+        "close": 16.56999969482422,
+        "adj_close": 16.56999969482422,
+        "volume": 0
+      }
+    },
+    {
+      "date": "2025-10-01",
+      "status": "normal",
+      "summary_value": null,
       "details": {
         "market": "US Market",
         "ticker": "^VIX",

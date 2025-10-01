@@ -23,6 +23,7 @@ data_start_date,data_end_date,value,source_url
 2021-12-31,2022-12-30,3.04,https://www.multpl.com/s-p-500-price-to-sales
 2022-12-31,2023-12-30,2.19,https://www.multpl.com/s-p-500-price-to-sales
 2023-12-31,2024-12-30,2.55,https://www.multpl.com/s-p-500-price-to-sales
-2024-12-31,2025-09-28,2.98,https://www.multpl.com/s-p-500-price-to-sales
+2024-12-31,2025-09-29,2.98,https://www.multpl.com/s-p-500-price-to-sales
 2025-09-26,,3.35,https://www.multpl.com/s-p-500-price-to-sales
 2025-09-29,,3.36,https://www.multpl.com/s-p-500-price-to-sales
+2025-09-30,,3.38,https://www.multpl.com/s-p-500-price-to-sales

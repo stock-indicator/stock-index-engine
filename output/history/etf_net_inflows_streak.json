@@ -10,38 +10,8 @@
     "ETF"
   ],
   "threshold": "> 20",
-  "updated_at": "2025-09-30T08:24:13+00:00",
+  "updated_at": "2025-10-01T02:13:02+00:00",
   "series": [
-    {
-      "date": "2024-09-30",
-      "status": null,
-      "summary_value": -1606.61,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1606.61,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-09-30",
-      "status": null,
-      "summary_value": -543.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -543.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-01",
-      "status": null,
-      "summary_value": -341.69,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -341.69,
-        "aggregated_flows": 21018.37
-      }
-    },
     {
       "date": "2024-10-01",
       "status": null,
@@ -50,16 +20,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1836.95,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-02",
-      "status": null,
-      "summary_value": -1972.65,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1972.65,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -75,31 +35,11 @@
     {
       "date": "2024-10-03",
       "status": null,
-      "summary_value": 433.74,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 433.74,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-10-03",
-      "status": null,
       "summary_value": -2445.93,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -2445.93,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-04",
-      "status": null,
-      "summary_value": -553.96,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -553.96,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -123,16 +63,6 @@
       }
     },
     {
-      "date": "2024-10-07",
-      "status": null,
-      "summary_value": -1048.31,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1048.31,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-08",
       "status": null,
       "summary_value": 113.52,
@@ -140,16 +70,6 @@
         "ticker": "SPY",
         "net_flow_musd": 113.52,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-08",
-      "status": null,
-      "summary_value": 554.16,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 554.16,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -163,16 +83,6 @@
       }
     },
     {
-      "date": "2024-10-09",
-      "status": null,
-      "summary_value": 685.09,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 685.09,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-10",
       "status": null,
       "summary_value": 1038.92,
@@ -183,16 +93,6 @@
       }
     },
     {
-      "date": "2024-10-10",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-11",
       "status": null,
       "summary_value": -1641.8,
@@ -200,26 +100,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1641.8,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-11",
-      "status": null,
-      "summary_value": 73.89,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 73.89,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-10-14",
-      "status": null,
-      "summary_value": 912.69,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 912.69,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -243,16 +123,6 @@
       }
     },
     {
-      "date": "2024-10-15",
-      "status": null,
-      "summary_value": 248.7,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 248.7,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-16",
       "status": null,
       "summary_value": 7332.22,
@@ -260,16 +130,6 @@
         "ticker": "SPY",
         "net_flow_musd": 7332.22,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-16",
-      "status": null,
-      "summary_value": 1275.58,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1275.58,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -283,26 +143,6 @@
       }
     },
     {
-      "date": "2024-10-17",
-      "status": null,
-      "summary_value": 1129.19,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1129.19,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-10-18",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-18",
       "status": null,
       "summary_value": 291.12,
@@ -310,16 +150,6 @@
         "ticker": "SPY",
         "net_flow_musd": 291.12,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-21",
-      "status": null,
-      "summary_value": 247.3,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 247.3,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -343,16 +173,6 @@
       }
     },
     {
-      "date": "2024-10-22",
-      "status": null,
-      "summary_value": -842.35,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -842.35,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-23",
       "status": null,
       "summary_value": 379.12,
@@ -360,16 +180,6 @@
         "ticker": "SPY",
         "net_flow_musd": 379.12,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-23",
-      "status": null,
-      "summary_value": 892.86,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 892.86,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -383,16 +193,6 @@
       }
     },
     {
-      "date": "2024-10-24",
-      "status": null,
-      "summary_value": -952.24,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -952.24,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-25",
       "status": null,
       "summary_value": -955.6,
@@ -400,16 +200,6 @@
         "ticker": "SPY",
         "net_flow_musd": -955.6,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-25",
-      "status": null,
-      "summary_value": -1058.58,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1058.58,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -423,16 +213,6 @@
       }
     },
     {
-      "date": "2024-10-28",
-      "status": null,
-      "summary_value": 1337.22,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1337.22,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-10-29",
       "status": null,
       "summary_value": -261.23,
@@ -440,26 +220,6 @@
         "ticker": "SPY",
         "net_flow_musd": -261.23,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-29",
-      "status": null,
-      "summary_value": 99.05,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 99.05,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-10-30",
-      "status": null,
-      "summary_value": -150.03,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -150.03,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -483,26 +243,6 @@
       }
     },
     {
-      "date": "2024-10-31",
-      "status": null,
-      "summary_value": -1389.14,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1389.14,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-01",
-      "status": null,
-      "summary_value": 701.89,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 701.89,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-11-01",
       "status": null,
       "summary_value": 2872.46,
@@ -510,16 +250,6 @@
         "ticker": "SPY",
         "net_flow_musd": 2872.46,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-04",
-      "status": null,
-      "summary_value": -2242.73,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2242.73,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -543,26 +273,6 @@
       }
     },
     {
-      "date": "2024-11-05",
-      "status": null,
-      "summary_value": 1603.32,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1603.32,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-06",
-      "status": null,
-      "summary_value": -639.95,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -639.95,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-11-06",
       "status": null,
       "summary_value": 2363.88,
@@ -575,31 +285,11 @@
     {
       "date": "2024-11-07",
       "status": null,
-      "summary_value": 1744.81,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1744.81,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-07",
-      "status": null,
       "summary_value": 4640.34,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 4640.34,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-08",
-      "status": null,
-      "summary_value": 1720.37,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1720.37,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -623,26 +313,6 @@
       }
     },
     {
-      "date": "2024-11-11",
-      "status": null,
-      "summary_value": 1284.99,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1284.99,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-12",
-      "status": null,
-      "summary_value": -488.04,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -488.04,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-11-12",
       "status": null,
       "summary_value": 1675.69,
@@ -663,26 +333,6 @@
       }
     },
     {
-      "date": "2024-11-13",
-      "status": null,
-      "summary_value": 3846.41,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 3846.41,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-14",
-      "status": null,
-      "summary_value": 2048.06,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2048.06,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-11-14",
       "status": null,
       "summary_value": 3223.42,
@@ -690,16 +340,6 @@
         "ticker": "SPY",
         "net_flow_musd": 3223.42,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-15",
-      "status": null,
-      "summary_value": 1678.47,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1678.47,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -715,31 +355,11 @@
     {
       "date": "2024-11-18",
       "status": null,
-      "summary_value": -4170.37,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -4170.37,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-18",
-      "status": null,
       "summary_value": 5475.75,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 5475.75,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-19",
-      "status": null,
-      "summary_value": 775.06,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 775.06,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -763,16 +383,6 @@
       }
     },
     {
-      "date": "2024-11-20",
-      "status": null,
-      "summary_value": -1762.53,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1762.53,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-11-21",
       "status": null,
       "summary_value": -236.15,
@@ -780,16 +390,6 @@
         "ticker": "SPY",
         "net_flow_musd": -236.15,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-21",
-      "status": null,
-      "summary_value": -1534.61,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1534.61,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -803,16 +403,6 @@
       }
     },
     {
-      "date": "2024-11-22",
-      "status": null,
-      "summary_value": 1414.09,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1414.09,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-11-25",
       "status": null,
       "summary_value": 1399.88,
@@ -823,26 +413,6 @@
       }
     },
     {
-      "date": "2024-11-25",
-      "status": null,
-      "summary_value": 986.51,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 986.51,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-26",
-      "status": null,
-      "summary_value": 1469.12,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1469.12,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-11-26",
       "status": null,
       "summary_value": 985.87,
@@ -850,16 +420,6 @@
         "ticker": "SPY",
         "net_flow_musd": 985.87,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-27",
-      "status": null,
-      "summary_value": 738.72,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 738.72,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -877,29 +437,9 @@
       "status": null,
       "summary_value": 0.0,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-11-28",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
         "ticker": "SPY",
         "net_flow_musd": 0.0,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-29",
-      "status": null,
-      "summary_value": 277.83,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 277.83,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -915,31 +455,11 @@
     {
       "date": "2024-12-02",
       "status": null,
-      "summary_value": 356.78,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 356.78,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-12-02",
-      "status": null,
       "summary_value": 3733.05,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 3733.05,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-03",
-      "status": null,
-      "summary_value": -489.61,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -489.61,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -963,26 +483,6 @@
       }
     },
     {
-      "date": "2024-12-04",
-      "status": null,
-      "summary_value": -1318.28,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1318.28,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-12-05",
-      "status": null,
-      "summary_value": -78.51,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -78.51,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-12-05",
       "status": null,
       "summary_value": -5802.39,
@@ -1000,26 +500,6 @@
         "ticker": "SPY",
         "net_flow_musd": 6944.22,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-06",
-      "status": null,
-      "summary_value": 521.77,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 521.77,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-12-09",
-      "status": null,
-      "summary_value": -263.32,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -263.32,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1043,16 +523,6 @@
       }
     },
     {
-      "date": "2024-12-10",
-      "status": null,
-      "summary_value": 52.23,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 52.23,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-12-11",
       "status": null,
       "summary_value": 873.82,
@@ -1060,16 +530,6 @@
         "ticker": "SPY",
         "net_flow_musd": 873.82,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-11",
-      "status": null,
-      "summary_value": 1457.37,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1457.37,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1083,16 +543,6 @@
       }
     },
     {
-      "date": "2024-12-12",
-      "status": null,
-      "summary_value": -1590.38,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1590.38,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-12-13",
       "status": null,
       "summary_value": 241.71,
@@ -1100,16 +550,6 @@
         "ticker": "SPY",
         "net_flow_musd": 241.71,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-13",
-      "status": null,
-      "summary_value": -658.13,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -658.13,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1123,16 +563,6 @@
       }
     },
     {
-      "date": "2024-12-16",
-      "status": null,
-      "summary_value": -530.57,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -530.57,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-12-17",
       "status": null,
       "summary_value": 3185.13,
@@ -1140,26 +570,6 @@
         "ticker": "SPY",
         "net_flow_musd": 3185.13,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-17",
-      "status": null,
-      "summary_value": 1426.43,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1426.43,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-12-18",
-      "status": null,
-      "summary_value": -1286.28,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1286.28,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1183,16 +593,6 @@
       }
     },
     {
-      "date": "2024-12-19",
-      "status": null,
-      "summary_value": 2221.75,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2221.75,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-12-20",
       "status": null,
       "summary_value": -14125.03,
@@ -1203,16 +603,6 @@
       }
     },
     {
-      "date": "2024-12-20",
-      "status": null,
-      "summary_value": -462.85,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -462.85,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-12-23",
       "status": null,
       "summary_value": 22882.26,
@@ -1220,26 +610,6 @@
         "ticker": "SPY",
         "net_flow_musd": 22882.26,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-23",
-      "status": null,
-      "summary_value": 25.93,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 25.93,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-12-24",
-      "status": null,
-      "summary_value": -3818.29,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -3818.29,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1257,29 +627,9 @@
       "status": null,
       "summary_value": 0.0,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-12-25",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
         "ticker": "SPY",
         "net_flow_musd": 0.0,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-26",
-      "status": null,
-      "summary_value": 106.04,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 106.04,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1303,26 +653,6 @@
       }
     },
     {
-      "date": "2024-12-27",
-      "status": null,
-      "summary_value": 185.32,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 185.32,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2024-12-30",
-      "status": null,
-      "summary_value": 1984.76,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1984.76,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2024-12-30",
       "status": null,
       "summary_value": -2200.08,
@@ -1330,16 +660,6 @@
         "ticker": "SPY",
         "net_flow_musd": -2200.08,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-31",
-      "status": null,
-      "summary_value": 3506.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 3506.0,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1363,16 +683,6 @@
       }
     },
     {
-      "date": "2025-01-01",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-01-02",
       "status": null,
       "summary_value": 2548.18,
@@ -1380,26 +690,6 @@
         "ticker": "SPY",
         "net_flow_musd": 2548.18,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-02",
-      "status": null,
-      "summary_value": -102.22,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -102.22,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-01-03",
-      "status": null,
-      "summary_value": 1122.47,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1122.47,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1423,16 +713,6 @@
       }
     },
     {
-      "date": "2025-01-06",
-      "status": null,
-      "summary_value": -1686.11,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1686.11,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-01-07",
       "status": null,
       "summary_value": -1845.2,
@@ -1440,26 +720,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1845.2,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-07",
-      "status": null,
-      "summary_value": -1416.09,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1416.09,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-01-08",
-      "status": null,
-      "summary_value": 1210.43,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1210.43,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1483,16 +743,6 @@
       }
     },
     {
-      "date": "2025-01-09",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-01-10",
       "status": null,
       "summary_value": -4716.42,
@@ -1500,16 +750,6 @@
         "ticker": "SPY",
         "net_flow_musd": -4716.42,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-10",
-      "status": null,
-      "summary_value": -283.42,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -283.42,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1523,16 +763,6 @@
       }
     },
     {
-      "date": "2025-01-13",
-      "status": null,
-      "summary_value": -659.36,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -659.36,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-01-14",
       "status": null,
       "summary_value": -1482.81,
@@ -1540,16 +770,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1482.81,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-14",
-      "status": null,
-      "summary_value": 3337.38,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 3337.38,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1563,16 +783,6 @@
       }
     },
     {
-      "date": "2025-01-15",
-      "status": null,
-      "summary_value": -2928.98,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2928.98,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-01-16",
       "status": null,
       "summary_value": 652.16,
@@ -1580,16 +790,6 @@
         "ticker": "SPY",
         "net_flow_musd": 652.16,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-16",
-      "status": null,
-      "summary_value": 1395.04,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1395.04,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1603,16 +803,6 @@
       }
     },
     {
-      "date": "2025-01-17",
-      "status": null,
-      "summary_value": -1000.57,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1000.57,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-01-20",
       "status": null,
       "summary_value": 0.0,
@@ -1620,26 +810,6 @@
         "ticker": "SPY",
         "net_flow_musd": 0.0,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-20",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-01-21",
-      "status": null,
-      "summary_value": 339.05,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 339.05,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1655,31 +825,11 @@
     {
       "date": "2025-01-22",
       "status": null,
-      "summary_value": 314.79,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 314.79,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-01-22",
-      "status": null,
       "summary_value": -6932.11,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -6932.11,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-23",
-      "status": null,
-      "summary_value": 1594.87,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1594.87,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1703,26 +853,6 @@
       }
     },
     {
-      "date": "2025-01-24",
-      "status": null,
-      "summary_value": 479.51,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 479.51,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-01-27",
-      "status": null,
-      "summary_value": -397.27,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -397.27,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-01-27",
       "status": null,
       "summary_value": -1732.91,
@@ -1730,16 +860,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1732.91,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-28",
-      "status": null,
-      "summary_value": 4342.93,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 4342.93,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1755,16 +875,6 @@
     {
       "date": "2025-01-29",
       "status": null,
-      "summary_value": -2427.86,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2427.86,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-01-29",
-      "status": null,
       "summary_value": -3295.63,
       "details": {
         "ticker": "SPY",
@@ -1775,31 +885,11 @@
     {
       "date": "2025-01-30",
       "status": null,
-      "summary_value": -1458.42,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1458.42,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-01-30",
-      "status": null,
       "summary_value": -30.09,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -30.09,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-31",
-      "status": null,
-      "summary_value": 444.73,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 444.73,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1823,26 +913,6 @@
       }
     },
     {
-      "date": "2025-02-03",
-      "status": null,
-      "summary_value": -1619.83,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1619.83,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-04",
-      "status": null,
-      "summary_value": 1398.94,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1398.94,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-02-04",
       "status": null,
       "summary_value": 4003.24,
@@ -1850,16 +920,6 @@
         "ticker": "SPY",
         "net_flow_musd": 4003.24,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-05",
-      "status": null,
-      "summary_value": -341.04,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -341.04,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1875,31 +935,11 @@
     {
       "date": "2025-02-06",
       "status": null,
-      "summary_value": 184.41,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 184.41,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-06",
-      "status": null,
       "summary_value": 543.77,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 543.77,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-07",
-      "status": null,
-      "summary_value": 768.08,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 768.08,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1915,31 +955,11 @@
     {
       "date": "2025-02-10",
       "status": null,
-      "summary_value": -967.28,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -967.28,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-10",
-      "status": null,
       "summary_value": 390.43,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 390.43,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-11",
-      "status": null,
-      "summary_value": 1032.27,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1032.27,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -1963,26 +983,6 @@
       }
     },
     {
-      "date": "2025-02-12",
-      "status": null,
-      "summary_value": -950.11,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -950.11,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-13",
-      "status": null,
-      "summary_value": -898.4,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -898.4,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-02-13",
       "status": null,
       "summary_value": -693.93,
@@ -1995,31 +995,11 @@
     {
       "date": "2025-02-14",
       "status": null,
-      "summary_value": 1286.5,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1286.5,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-14",
-      "status": null,
       "summary_value": -2377.84,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -2377.84,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-17",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2043,26 +1023,6 @@
       }
     },
     {
-      "date": "2025-02-18",
-      "status": null,
-      "summary_value": 591.97,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 591.97,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-19",
-      "status": null,
-      "summary_value": 2642.86,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2642.86,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-02-19",
       "status": null,
       "summary_value": 4035.07,
@@ -2083,16 +1043,6 @@
       }
     },
     {
-      "date": "2025-02-20",
-      "status": null,
-      "summary_value": 998.3,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 998.3,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-02-21",
       "status": null,
       "summary_value": 1556.17,
@@ -2103,16 +1053,6 @@
       }
     },
     {
-      "date": "2025-02-21",
-      "status": null,
-      "summary_value": 80.56,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 80.56,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-02-24",
       "status": null,
       "summary_value": 3869.25,
@@ -2120,26 +1060,6 @@
         "ticker": "SPY",
         "net_flow_musd": 3869.25,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-24",
-      "status": null,
-      "summary_value": -1630.83,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1630.83,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-25",
-      "status": null,
-      "summary_value": -545.71,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -545.71,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2163,16 +1083,6 @@
       }
     },
     {
-      "date": "2025-02-26",
-      "status": null,
-      "summary_value": 4362.85,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 4362.85,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-02-27",
       "status": null,
       "summary_value": -326.83,
@@ -2180,26 +1090,6 @@
         "ticker": "SPY",
         "net_flow_musd": -326.83,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-27",
-      "status": null,
-      "summary_value": -1800.35,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1800.35,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-02-28",
-      "status": null,
-      "summary_value": -25.01,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -25.01,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2215,31 +1105,11 @@
     {
       "date": "2025-03-03",
       "status": null,
-      "summary_value": -2313.25,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2313.25,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-03-03",
-      "status": null,
       "summary_value": -9239.27,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -9239.27,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-04",
-      "status": null,
-      "summary_value": -1491.71,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1491.71,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2263,16 +1133,6 @@
       }
     },
     {
-      "date": "2025-03-05",
-      "status": null,
-      "summary_value": 1684.61,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1684.61,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-03-06",
       "status": null,
       "summary_value": -174.93,
@@ -2280,26 +1140,6 @@
         "ticker": "SPY",
         "net_flow_musd": -174.93,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-06",
-      "status": null,
-      "summary_value": -326.43,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -326.43,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-03-07",
-      "status": null,
-      "summary_value": -219.7,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -219.7,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2323,26 +1163,6 @@
       }
     },
     {
-      "date": "2025-03-10",
-      "status": null,
-      "summary_value": -565.72,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -565.72,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-03-11",
-      "status": null,
-      "summary_value": 1585.26,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1585.26,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-03-11",
       "status": null,
       "summary_value": 8941.41,
@@ -2363,16 +1183,6 @@
       }
     },
     {
-      "date": "2025-03-12",
-      "status": null,
-      "summary_value": 613.46,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 613.46,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-03-13",
       "status": null,
       "summary_value": -503.18,
@@ -2380,16 +1190,6 @@
         "ticker": "SPY",
         "net_flow_musd": -503.18,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-13",
-      "status": null,
-      "summary_value": -2028.21,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2028.21,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2403,26 +1203,6 @@
       }
     },
     {
-      "date": "2025-03-14",
-      "status": null,
-      "summary_value": -210.7,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -210.7,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-03-17",
-      "status": null,
-      "summary_value": -575.96,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -575.96,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-03-17",
       "status": null,
       "summary_value": -2140.1,
@@ -2430,16 +1210,6 @@
         "ticker": "SPY",
         "net_flow_musd": -2140.1,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-18",
-      "status": null,
-      "summary_value": -313.67,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -313.67,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2463,26 +1233,6 @@
       }
     },
     {
-      "date": "2025-03-19",
-      "status": null,
-      "summary_value": 498.31,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 498.31,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-03-20",
-      "status": null,
-      "summary_value": -168.26,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -168.26,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-03-20",
       "status": null,
       "summary_value": -11167.24,
@@ -2495,31 +1245,11 @@
     {
       "date": "2025-03-21",
       "status": null,
-      "summary_value": 335.55,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 335.55,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-03-21",
-      "status": null,
       "summary_value": -1187.96,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -1187.96,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-24",
-      "status": null,
-      "summary_value": -745.89,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -745.89,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2543,16 +1273,6 @@
       }
     },
     {
-      "date": "2025-03-25",
-      "status": null,
-      "summary_value": 1006.29,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1006.29,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-03-26",
       "status": null,
       "summary_value": 1380.88,
@@ -2560,16 +1280,6 @@
         "ticker": "SPY",
         "net_flow_musd": 1380.88,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-26",
-      "status": null,
-      "summary_value": -1357.08,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1357.08,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2583,16 +1293,6 @@
       }
     },
     {
-      "date": "2025-03-27",
-      "status": null,
-      "summary_value": 96.89,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 96.89,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-03-28",
       "status": null,
       "summary_value": -453.65,
@@ -2600,16 +1300,6 @@
         "ticker": "SPY",
         "net_flow_musd": -453.65,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-28",
-      "status": null,
-      "summary_value": 3106.18,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 3106.18,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2623,16 +1313,6 @@
       }
     },
     {
-      "date": "2025-03-31",
-      "status": null,
-      "summary_value": -257.95,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -257.95,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-04-01",
       "status": null,
       "summary_value": -6540.59,
@@ -2640,16 +1320,6 @@
         "ticker": "SPY",
         "net_flow_musd": -6540.59,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-01",
-      "status": null,
-      "summary_value": -46.89,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -46.89,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2663,16 +1333,6 @@
       }
     },
     {
-      "date": "2025-04-02",
-      "status": null,
-      "summary_value": -2056.63,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2056.63,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-04-03",
       "status": null,
       "summary_value": 28.25,
@@ -2680,26 +1340,6 @@
         "ticker": "SPY",
         "net_flow_musd": 28.25,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-03",
-      "status": null,
-      "summary_value": -976.54,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -976.54,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-04",
-      "status": null,
-      "summary_value": 1306.8,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1306.8,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2715,31 +1355,11 @@
     {
       "date": "2025-04-07",
       "status": null,
-      "summary_value": 1925.95,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1925.95,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-07",
-      "status": null,
       "summary_value": 9403.98,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 9403.98,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-08",
-      "status": null,
-      "summary_value": -4177.19,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -4177.19,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2763,26 +1383,6 @@
       }
     },
     {
-      "date": "2025-04-09",
-      "status": null,
-      "summary_value": 1891.89,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1891.89,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-10",
-      "status": null,
-      "summary_value": 4448.18,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 4448.18,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-04-10",
       "status": null,
       "summary_value": 7122.79,
@@ -2790,16 +1390,6 @@
         "ticker": "SPY",
         "net_flow_musd": 7122.79,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-11",
-      "status": null,
-      "summary_value": 959.52,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 959.52,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2823,26 +1413,6 @@
       }
     },
     {
-      "date": "2025-04-14",
-      "status": null,
-      "summary_value": 613.87,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 613.87,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-15",
-      "status": null,
-      "summary_value": -1188.94,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1188.94,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-04-15",
       "status": null,
       "summary_value": -2155.01,
@@ -2850,16 +1420,6 @@
         "ticker": "SPY",
         "net_flow_musd": -2155.01,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-16",
-      "status": null,
-      "summary_value": -572.64,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -572.64,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2875,31 +1435,11 @@
     {
       "date": "2025-04-17",
       "status": null,
-      "summary_value": 444.19,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 444.19,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-17",
-      "status": null,
       "summary_value": 1130.56,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 1130.56,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-18",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2923,16 +1463,6 @@
       }
     },
     {
-      "date": "2025-04-21",
-      "status": null,
-      "summary_value": -2576.32,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2576.32,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-04-22",
       "status": null,
       "summary_value": -925.53,
@@ -2943,16 +1473,6 @@
       }
     },
     {
-      "date": "2025-04-22",
-      "status": null,
-      "summary_value": -86.65,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -86.65,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-04-23",
       "status": null,
       "summary_value": -1976.63,
@@ -2960,26 +1480,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1976.63,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-23",
-      "status": null,
-      "summary_value": -689.17,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -689.17,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-24",
-      "status": null,
-      "summary_value": -613.93,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -613.93,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -2995,16 +1495,6 @@
     {
       "date": "2025-04-25",
       "status": null,
-      "summary_value": -654.41,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -654.41,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-25",
-      "status": null,
       "summary_value": -4537.84,
       "details": {
         "ticker": "SPY",
@@ -3015,31 +1505,11 @@
     {
       "date": "2025-04-28",
       "status": null,
-      "summary_value": -1276.43,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1276.43,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-04-28",
-      "status": null,
       "summary_value": -2423.31,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -2423.31,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-29",
-      "status": null,
-      "summary_value": 1063.4,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1063.4,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3063,16 +1533,6 @@
       }
     },
     {
-      "date": "2025-04-30",
-      "status": null,
-      "summary_value": -309.06,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -309.06,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-01",
       "status": null,
       "summary_value": -3886.2,
@@ -3083,16 +1543,6 @@
       }
     },
     {
-      "date": "2025-05-01",
-      "status": null,
-      "summary_value": -404.73,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -404.73,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-02",
       "status": null,
       "summary_value": 865.94,
@@ -3100,26 +1550,6 @@
         "ticker": "SPY",
         "net_flow_musd": 865.94,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-02",
-      "status": null,
-      "summary_value": -529.54,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -529.54,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-05-05",
-      "status": null,
-      "summary_value": -1100.47,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1100.47,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3135,31 +1565,11 @@
     {
       "date": "2025-05-06",
       "status": null,
-      "summary_value": -194.33,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -194.33,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-05-06",
-      "status": null,
       "summary_value": 169.0,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 169.0,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-07",
-      "status": null,
-      "summary_value": 1661.25,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1661.25,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3183,16 +1593,6 @@
       }
     },
     {
-      "date": "2025-05-08",
-      "status": null,
-      "summary_value": -797.58,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -797.58,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-09",
       "status": null,
       "summary_value": 677.61,
@@ -3200,16 +1600,6 @@
         "ticker": "SPY",
         "net_flow_musd": 677.61,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-09",
-      "status": null,
-      "summary_value": -122.03,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -122.03,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3223,16 +1613,6 @@
       }
     },
     {
-      "date": "2025-05-12",
-      "status": null,
-      "summary_value": 683.34,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 683.34,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-13",
       "status": null,
       "summary_value": 2127.18,
@@ -3240,16 +1620,6 @@
         "ticker": "SPY",
         "net_flow_musd": 2127.18,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-13",
-      "status": null,
-      "summary_value": 1294.87,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1294.87,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3263,26 +1633,6 @@
       }
     },
     {
-      "date": "2025-05-14",
-      "status": null,
-      "summary_value": -206.32,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -206.32,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-05-15",
-      "status": null,
-      "summary_value": 1867.56,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1867.56,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-15",
       "status": null,
       "summary_value": -3614.03,
@@ -3290,16 +1640,6 @@
         "ticker": "SPY",
         "net_flow_musd": -3614.03,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-16",
-      "status": null,
-      "summary_value": 986.6,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 986.6,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3323,26 +1663,6 @@
       }
     },
     {
-      "date": "2025-05-19",
-      "status": null,
-      "summary_value": -1747.38,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1747.38,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-05-20",
-      "status": null,
-      "summary_value": 1748.95,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1748.95,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-20",
       "status": null,
       "summary_value": 6099.01,
@@ -3363,16 +1683,6 @@
       }
     },
     {
-      "date": "2025-05-21",
-      "status": null,
-      "summary_value": 650.17,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 650.17,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-22",
       "status": null,
       "summary_value": 787.34,
@@ -3383,16 +1693,6 @@
       }
     },
     {
-      "date": "2025-05-22",
-      "status": null,
-      "summary_value": 1488.14,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1488.14,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-23",
       "status": null,
       "summary_value": -1748.9,
@@ -3400,26 +1700,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1748.9,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-23",
-      "status": null,
-      "summary_value": -1079.3,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1079.3,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-05-26",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3443,26 +1723,6 @@
       }
     },
     {
-      "date": "2025-05-27",
-      "status": null,
-      "summary_value": -407.34,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -407.34,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-05-28",
-      "status": null,
-      "summary_value": 1954.89,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1954.89,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-05-28",
       "status": null,
       "summary_value": 1713.79,
@@ -3470,16 +1730,6 @@
         "ticker": "SPY",
         "net_flow_musd": 1713.79,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-29",
-      "status": null,
-      "summary_value": 2179.58,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2179.58,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3503,16 +1753,6 @@
       }
     },
     {
-      "date": "2025-05-30",
-      "status": null,
-      "summary_value": -754.09,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -754.09,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-06-02",
       "status": null,
       "summary_value": -2684.7,
@@ -3520,26 +1760,6 @@
         "ticker": "SPY",
         "net_flow_musd": -2684.7,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-02",
-      "status": null,
-      "summary_value": 571.51,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 571.51,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-03",
-      "status": null,
-      "summary_value": -654.01,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -654.01,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3563,26 +1783,6 @@
       }
     },
     {
-      "date": "2025-06-04",
-      "status": null,
-      "summary_value": -79.1,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -79.1,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-05",
-      "status": null,
-      "summary_value": -978.37,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -978.37,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-06-05",
       "status": null,
       "summary_value": 715.24,
@@ -3590,16 +1790,6 @@
         "ticker": "SPY",
         "net_flow_musd": 715.24,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-06",
-      "status": null,
-      "summary_value": 2413.3,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2413.3,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3615,31 +1805,11 @@
     {
       "date": "2025-06-09",
       "status": null,
-      "summary_value": -1377.78,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1377.78,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "status": null,
       "summary_value": -868.68,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -868.68,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-10",
-      "status": null,
-      "summary_value": -1884.39,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1884.39,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3655,31 +1825,11 @@
     {
       "date": "2025-06-11",
       "status": null,
-      "summary_value": -427.46,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -427.46,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-11",
-      "status": null,
       "summary_value": 3889.25,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 3889.25,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "status": null,
-      "summary_value": 585.58,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 585.58,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3703,16 +1853,6 @@
       }
     },
     {
-      "date": "2025-06-13",
-      "status": null,
-      "summary_value": 773.75,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 773.75,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-06-16",
       "status": null,
       "summary_value": -5103.75,
@@ -3720,26 +1860,6 @@
         "ticker": "SPY",
         "net_flow_musd": -5103.75,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-16",
-      "status": null,
-      "summary_value": -948.27,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -948.27,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-17",
-      "status": null,
-      "summary_value": 106.86,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 106.86,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3763,26 +1883,6 @@
       }
     },
     {
-      "date": "2025-06-18",
-      "status": null,
-      "summary_value": -290.93,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -290.93,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-19",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-06-19",
       "status": null,
       "summary_value": 0.0,
@@ -3795,31 +1895,11 @@
     {
       "date": "2025-06-20",
       "status": null,
-      "summary_value": 793.48,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 793.48,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-20",
-      "status": null,
       "summary_value": 0.0,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 0.0,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "status": null,
-      "summary_value": -1395.94,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1395.94,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3835,31 +1915,11 @@
     {
       "date": "2025-06-24",
       "status": null,
-      "summary_value": -1223.05,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1223.05,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-24",
-      "status": null,
       "summary_value": 2880.67,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 2880.67,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-25",
-      "status": null,
-      "summary_value": 1484.69,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1484.69,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3883,26 +1943,6 @@
       }
     },
     {
-      "date": "2025-06-26",
-      "status": null,
-      "summary_value": 2272.38,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2272.38,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-06-27",
-      "status": null,
-      "summary_value": 464.22,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 464.22,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-06-27",
       "status": null,
       "summary_value": -886.96,
@@ -3923,16 +1963,6 @@
       }
     },
     {
-      "date": "2025-06-30",
-      "status": null,
-      "summary_value": -1699.6,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1699.6,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-07-01",
       "status": null,
       "summary_value": -3245.33,
@@ -3943,16 +1973,6 @@
       }
     },
     {
-      "date": "2025-07-01",
-      "status": null,
-      "summary_value": 469.02,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 469.02,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-07-02",
       "status": null,
       "summary_value": 4538.48,
@@ -3960,26 +1980,6 @@
         "ticker": "SPY",
         "net_flow_musd": 4538.48,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-02",
-      "status": null,
-      "summary_value": 273.45,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 273.45,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-03",
-      "status": null,
-      "summary_value": 27.55,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 27.55,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -3997,29 +1997,9 @@
       "status": null,
       "summary_value": 0.0,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-04",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
         "ticker": "SPY",
         "net_flow_musd": 0.0,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-07",
-      "status": null,
-      "summary_value": -2253.61,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2253.61,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4043,16 +2023,6 @@
       }
     },
     {
-      "date": "2025-07-08",
-      "status": null,
-      "summary_value": 1380.06,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1380.06,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-07-09",
       "status": null,
       "summary_value": 2078.14,
@@ -4060,26 +2030,6 @@
         "ticker": "SPY",
         "net_flow_musd": 2078.14,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-09",
-      "status": null,
-      "summary_value": 801.02,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 801.02,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-10",
-      "status": null,
-      "summary_value": -139.1,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -139.1,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4103,26 +2053,6 @@
       }
     },
     {
-      "date": "2025-07-11",
-      "status": null,
-      "summary_value": -1527.69,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1527.69,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "status": null,
-      "summary_value": -1524.43,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1524.43,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-07-14",
       "status": null,
       "summary_value": 1777.93,
@@ -4130,16 +2060,6 @@
         "ticker": "SPY",
         "net_flow_musd": 1777.93,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "status": null,
-      "summary_value": -583.96,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -583.96,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4155,31 +2075,11 @@
     {
       "date": "2025-07-16",
       "status": null,
-      "summary_value": 501.17,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 501.17,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-16",
-      "status": null,
       "summary_value": 1151.25,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 1151.25,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-17",
-      "status": null,
-      "summary_value": 1728.01,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1728.01,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4203,16 +2103,6 @@
       }
     },
     {
-      "date": "2025-07-18",
-      "status": null,
-      "summary_value": -28.08,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -28.08,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-07-21",
       "status": null,
       "summary_value": 2259.42,
@@ -4220,26 +2110,6 @@
         "ticker": "SPY",
         "net_flow_musd": 2259.42,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "status": null,
-      "summary_value": -757.68,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -757.68,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "status": null,
-      "summary_value": -2961.2,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2961.2,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4263,26 +2133,6 @@
       }
     },
     {
-      "date": "2025-07-23",
-      "status": null,
-      "summary_value": 1431.06,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1431.06,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-24",
-      "status": null,
-      "summary_value": 1070.84,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1070.84,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-07-24",
       "status": null,
       "summary_value": -3232.57,
@@ -4295,31 +2145,11 @@
     {
       "date": "2025-07-25",
       "status": null,
-      "summary_value": 904.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 904.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-07-25",
-      "status": null,
       "summary_value": 6850.24,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": 6850.24,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-28",
-      "status": null,
-      "summary_value": 368.07,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 368.07,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4343,16 +2173,6 @@
       }
     },
     {
-      "date": "2025-07-29",
-      "status": null,
-      "summary_value": -511.47,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -511.47,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-07-30",
       "status": null,
       "summary_value": 1333.62,
@@ -4360,16 +2180,6 @@
         "ticker": "SPY",
         "net_flow_musd": 1333.62,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-30",
-      "status": null,
-      "summary_value": 1077.58,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1077.58,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4383,26 +2193,6 @@
       }
     },
     {
-      "date": "2025-07-31",
-      "status": null,
-      "summary_value": -227.22,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -227.22,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-01",
-      "status": null,
-      "summary_value": 395.49,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 395.49,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-08-01",
       "status": null,
       "summary_value": 5529.79,
@@ -4410,16 +2200,6 @@
         "ticker": "SPY",
         "net_flow_musd": 5529.79,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-04",
-      "status": null,
-      "summary_value": 110.79,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 110.79,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4443,26 +2223,6 @@
       }
     },
     {
-      "date": "2025-08-05",
-      "status": null,
-      "summary_value": -2539.23,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2539.23,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-06",
-      "status": null,
-      "summary_value": 28.01,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 28.01,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-08-06",
       "status": null,
       "summary_value": 1538.66,
@@ -4475,31 +2235,11 @@
     {
       "date": "2025-08-07",
       "status": null,
-      "summary_value": 1645.32,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1645.32,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-07",
-      "status": null,
       "summary_value": -506.07,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -506.07,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-08",
-      "status": null,
-      "summary_value": -2788.88,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2788.88,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4523,26 +2263,6 @@
       }
     },
     {
-      "date": "2025-08-11",
-      "status": null,
-      "summary_value": 1407.71,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1407.71,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-12",
-      "status": null,
-      "summary_value": 1288.28,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1288.28,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-08-12",
       "status": null,
       "summary_value": 2891.7,
@@ -4563,16 +2283,6 @@
       }
     },
     {
-      "date": "2025-08-13",
-      "status": null,
-      "summary_value": 1595.47,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1595.47,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-08-14",
       "status": null,
       "summary_value": 128.97,
@@ -4583,16 +2293,6 @@
       }
     },
     {
-      "date": "2025-08-14",
-      "status": null,
-      "summary_value": 1567.1,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1567.1,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-08-15",
       "status": null,
       "summary_value": -3773.66,
@@ -4600,26 +2300,6 @@
         "ticker": "SPY",
         "net_flow_musd": -3773.66,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-15",
-      "status": null,
-      "summary_value": 725.02,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 725.02,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-18",
-      "status": null,
-      "summary_value": -86.57,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -86.57,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4635,31 +2315,11 @@
     {
       "date": "2025-08-19",
       "status": null,
-      "summary_value": 1125.51,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1125.51,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-19",
-      "status": null,
       "summary_value": -1865.65,
       "details": {
         "ticker": "SPY",
         "net_flow_musd": -1865.65,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-20",
-      "status": null,
-      "summary_value": 853.78,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 853.78,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4683,26 +2343,6 @@
       }
     },
     {
-      "date": "2025-08-21",
-      "status": null,
-      "summary_value": -1018.61,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1018.61,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-22",
-      "status": null,
-      "summary_value": -281.69,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -281.69,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-08-22",
       "status": null,
       "summary_value": -4067.88,
@@ -4720,26 +2360,6 @@
         "ticker": "SPY",
         "net_flow_musd": -548.48,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-25",
-      "status": null,
-      "summary_value": -3232.27,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -3232.27,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-26",
-      "status": null,
-      "summary_value": 598.83,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 598.83,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4763,26 +2383,6 @@
       }
     },
     {
-      "date": "2025-08-27",
-      "status": null,
-      "summary_value": -887.74,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -887.74,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-08-28",
-      "status": null,
-      "summary_value": -1290.87,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1290.87,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-08-28",
       "status": null,
       "summary_value": 388.05,
@@ -4803,16 +2403,6 @@
       }
     },
     {
-      "date": "2025-08-29",
-      "status": null,
-      "summary_value": 2567.93,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2567.93,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-01",
       "status": null,
       "summary_value": 0.0,
@@ -4820,16 +2410,6 @@
         "ticker": "SPY",
         "net_flow_musd": 0.0,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-01",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4840,26 +2420,6 @@
         "ticker": "SPY",
         "net_flow_musd": 8155.7,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-02",
-      "status": null,
-      "summary_value": -2536.99,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2536.99,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "status": null,
-      "summary_value": -480.79,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -480.79,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4883,16 +2443,6 @@
       }
     },
     {
-      "date": "2025-09-04",
-      "status": null,
-      "summary_value": -513.09,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -513.09,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-05",
       "status": null,
       "summary_value": -4121.63,
@@ -4903,16 +2453,6 @@
       }
     },
     {
-      "date": "2025-09-05",
-      "status": null,
-      "summary_value": -1352.32,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1352.32,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-08",
       "status": null,
       "summary_value": -1844.27,
@@ -4920,26 +2460,6 @@
         "ticker": "SPY",
         "net_flow_musd": -1844.27,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-08",
-      "status": null,
-      "summary_value": -720.0,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -720.0,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-09-09",
-      "status": null,
-      "summary_value": 1273.12,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1273.12,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -4963,16 +2483,6 @@
       }
     },
     {
-      "date": "2025-09-10",
-      "status": null,
-      "summary_value": -725.72,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -725.72,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-11",
       "status": null,
       "summary_value": -3880.66,
@@ -4980,16 +2490,6 @@
         "ticker": "SPY",
         "net_flow_musd": -3880.66,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-11",
-      "status": null,
-      "summary_value": 726.01,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 726.01,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -5003,16 +2503,6 @@
       }
     },
     {
-      "date": "2025-09-12",
-      "status": null,
-      "summary_value": 29.21,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 29.21,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-15",
       "status": null,
       "summary_value": 3681.68,
@@ -5020,16 +2510,6 @@
         "ticker": "SPY",
         "net_flow_musd": 3681.68,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-15",
-      "status": null,
-      "summary_value": -557.39,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -557.39,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -5043,16 +2523,6 @@
       }
     },
     {
-      "date": "2025-09-16",
-      "status": null,
-      "summary_value": -532.5,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -532.5,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-17",
       "status": null,
       "summary_value": -2408.44,
@@ -5063,16 +2533,6 @@
       }
     },
     {
-      "date": "2025-09-17",
-      "status": null,
-      "summary_value": -147.8,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -147.8,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-18",
       "status": null,
       "summary_value": -11437.42,
@@ -5080,26 +2540,6 @@
         "ticker": "SPY",
         "net_flow_musd": -11437.42,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-18",
-      "status": null,
-      "summary_value": 1268.42,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1268.42,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-09-19",
-      "status": null,
-      "summary_value": 982.72,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 982.72,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -5123,16 +2563,6 @@
       }
     },
     {
-      "date": "2025-09-22",
-      "status": null,
-      "summary_value": 3328.61,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 3328.61,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-23",
       "status": null,
       "summary_value": -766.76,
@@ -5140,16 +2570,6 @@
         "ticker": "SPY",
         "net_flow_musd": -766.76,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-23",
-      "status": null,
-      "summary_value": -4728.85,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -4728.85,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -5163,16 +2583,6 @@
       }
     },
     {
-      "date": "2025-09-24",
-      "status": null,
-      "summary_value": 4574.68,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 4574.68,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
       "date": "2025-09-25",
       "status": null,
       "summary_value": 5025.05,
@@ -5180,26 +2590,6 @@
         "ticker": "SPY",
         "net_flow_musd": 5025.05,
         "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-25",
-      "status": null,
-      "summary_value": 1222.09,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1222.09,
-        "aggregated_flows": 21018.37
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": "unavailable",
-      "summary_value": -29.68,
-      "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -29.68,
-        "aggregated_flows": 21018.37
       }
     },
     {
@@ -5218,8 +2608,8 @@
       "summary_value": null,
       "details": {
         "ticker": "SPY",
-        "net_flow_musd": 1052.61,
-        "aggregated_flows": -11099.63
+        "net_flow_musd": -2448.58,
+        "aggregated_flows": -2448.58
       }
     },
     {
@@ -5228,18 +2618,18 @@
       "summary_value": null,
       "details": {
         "ticker": "SPY",
-        "net_flow_musd": 1052.61,
-        "aggregated_flows": -11099.63
+        "net_flow_musd": -2448.58,
+        "aggregated_flows": -2448.58
       }
     },
     {
       "date": "2025-09-29",
       "status": "normal",
-      "summary_value": null,
+      "summary_value": -2448.58,
       "details": {
         "ticker": "SPY",
-        "net_flow_musd": 1052.61,
-        "aggregated_flows": -11099.63
+        "net_flow_musd": -2448.58,
+        "aggregated_flows": -2448.58
       }
     },
     {
@@ -5248,8 +2638,18 @@
       "summary_value": null,
       "details": {
         "ticker": "SPY",
-        "net_flow_musd": 1052.61,
-        "aggregated_flows": -11099.63
+        "net_flow_musd": -2448.58,
+        "aggregated_flows": -2448.58
+      }
+    },
+    {
+      "date": "2025-10-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2448.58,
+        "aggregated_flows": -2448.58
       }
     }
   ]

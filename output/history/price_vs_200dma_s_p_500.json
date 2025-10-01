@@ -10,20 +10,8 @@
     "Trend"
   ],
   "threshold": "> 25%",
-  "updated_at": "2025-09-30T08:24:13+00:00",
+  "updated_at": "2025-10-01T02:13:02+00:00",
   "series": [
-    {
-      "date": "2025-07-18",
-      "status": null,
-      "summary_value": 7.250238613065507,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 7.250238613065507,
-        "deviation_pct": 7.250238613065507,
-        "adj_close": 6296.7900390625,
-        "moving_average": 5871.119841308594
-      }
-    },
     {
       "date": "2025-07-21",
       "status": null,
@@ -626,6 +614,18 @@
     },
     {
       "date": "2025-09-30",
+      "status": "normal",
+      "summary_value": 11.081426746734417,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 11.081426746734417,
+        "deviation_pct": 11.081426746734417,
+        "adj_close": 6688.4599609375,
+        "moving_average": 6021.222590332031
+      }
+    },
+    {
+      "date": "2025-10-01",
       "status": "normal",
       "summary_value": null,
       "details": {}

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2025-09-30T08:24:13+00:00",
+  "generated_at": "2025-10-01T02:13:02+00:00",
   "mode": "manual",
   "summary": {
-    "triggered_total": 3,
+    "triggered_total": 5,
     "total_total": 24,
-    "triggered_available": 3,
+    "triggered_available": 5,
     "total_available": 24,
-    "ratio_total": "3/24",
-    "ratio_available": "3/24",
+    "ratio_total": "5/24",
+    "ratio_available": "5/24",
     "by_category": {
       "Technical": {
-        "high": 0,
-        "normal": 9,
+        "high": 1,
+        "normal": 8,
         "unavailable": 0
       },
       "Valuation": {
-        "high": 1,
-        "normal": 4,
+        "high": 2,
+        "normal": 3,
         "unavailable": 0
       },
       "Macro": {
@@ -41,13 +41,13 @@
       "threshold": "> 80",
       "status": "normal",
       "notes": "14-day RSI for S&P 500",
-      "raw_value": "70.48",
+      "raw_value": "71.10",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 70.47513580210367,
-          "rsi": 70.47513580210367,
-          "adj_close": 6661.2099609375
+          "indicator_value": 71.09795677509774,
+          "rsi": 71.09795677509774,
+          "adj_close": 6688.4599609375
         }
       ],
       "topics": [
@@ -65,13 +65,13 @@
       "threshold": "> 80",
       "status": "normal",
       "notes": "14-day RSI for Nasdaq 100",
-      "raw_value": "73.53",
+      "raw_value": "74.46",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 73.53365201311576,
-          "rsi": 73.53365201311576,
-          "adj_close": 24611.3515625
+          "indicator_value": 74.45569238872068,
+          "rsi": 74.45569238872068,
+          "adj_close": 24679.990234375
         }
       ],
       "topics": [
@@ -87,20 +87,20 @@
         "S&P 500"
       ],
       "threshold": "Bearish divergence",
-      "status": "normal",
-      "notes": "MACD divergence check for S&P 500; no bearish divergence detected",
-      "raw_value": "price_new_high=False; macd_new_high=False; macd=59.67",
+      "status": "high",
+      "notes": "MACD divergence check for S&P 500; price made new high without MACD confirmation",
+      "raw_value": "price_new_high=True; macd_new_high=False; macd=60.60",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 59.67046447801022,
-          "macd": 59.67046447801022,
-          "signal": 61.69225536950693,
-          "hist": -2.021790891496714,
-          "price": 6661.2099609375,
-          "price_new_high": false,
+          "indicator_value": 60.60450356754882,
+          "macd": 60.60450356754882,
+          "signal": 61.47470500911531,
+          "hist": -0.8702014415664934,
+          "price": 6688.4599609375,
+          "price_new_high": true,
           "macd_new_high": false,
-          "divergence": false
+          "divergence": true
         }
       ],
       "topics": [
@@ -118,15 +118,15 @@
       "threshold": "Bearish divergence",
       "status": "normal",
       "notes": "MACD divergence check for Nasdaq 100; no bearish divergence detected",
-      "raw_value": "price_new_high=False; macd_new_high=False; macd=294.39",
+      "raw_value": "price_new_high=False; macd_new_high=False; macd=295.66",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 294.3891877772694,
-          "macd": 294.3891877772694,
-          "signal": 283.18208901919934,
-          "hist": 11.20709875807006,
-          "price": 24611.3515625,
+          "indicator_value": 295.65900269069607,
+          "macd": 295.65900269069607,
+          "signal": 285.6774717534987,
+          "hist": 9.981530937197363,
+          "price": 24679.990234375,
           "price_new_high": false,
           "macd_new_high": false,
           "divergence": false
@@ -147,14 +147,14 @@
       "threshold": "> 25%",
       "status": "normal",
       "notes": "200DMA deviation for S&P 500",
-      "raw_value": "10.69%",
+      "raw_value": "11.08%",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 10.688932313241342,
-          "deviation_pct": 10.688932313241342,
-          "adj_close": 6661.2099609375,
-          "moving_average": 6017.954841308594
+          "indicator_value": 11.081426746734417,
+          "deviation_pct": 11.081426746734417,
+          "adj_close": 6688.4599609375,
+          "moving_average": 6021.222590332031
         }
       ],
       "topics": [
@@ -172,14 +172,14 @@
       "threshold": "> 25%",
       "status": "normal",
       "notes": "200DMA deviation for Nasdaq 100",
-      "raw_value": "13.83%",
+      "raw_value": "14.06%",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 13.833566299107305,
-          "deviation_pct": 13.833566299107305,
-          "adj_close": 24611.3515625,
-          "moving_average": 21620.4695703125
+          "indicator_value": 14.063676045087304,
+          "deviation_pct": 14.063676045087304,
+          "adj_close": 24679.990234375,
+          "moving_average": 21637.028623046874
         }
       ],
       "topics": [
@@ -197,14 +197,14 @@
       "threshold": "> 40%",
       "status": "normal",
       "notes": "Trailing 252-trading-day return for S&P 500",
-      "raw_value": "15.94%",
+      "raw_value": "16.56%",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 15.940484687143641,
-          "annualized_return_pct": 15.940484687143641,
-          "current_price": 6661.2099609375,
-          "price_252d_ago": 5745.3701171875
+          "indicator_value": 16.560855673510332,
+          "annualized_return_pct": 16.560855673510332,
+          "current_price": 6688.4599609375,
+          "price_252d_ago": 5738.169921875
         }
       ],
       "topics": [
@@ -222,14 +222,14 @@
       "threshold": "> 40%",
       "status": "normal",
       "notes": "Trailing 252-trading-day return for Nasdaq 100",
-      "raw_value": "22.35%",
+      "raw_value": "23.35%",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 22.34994789864335,
-          "annualized_return_pct": 22.34994789864335,
-          "current_price": 24611.3515625,
-          "price_252d_ago": 20115.5390625
+          "indicator_value": 23.34679400371695,
+          "annualized_return_pct": 23.34679400371695,
+          "current_price": 24679.990234375,
+          "price_252d_ago": 20008.619140625
         }
       ],
       "topics": [
@@ -269,12 +269,12 @@
       "threshold": "> 35",
       "status": "normal",
       "notes": "Source: multpl.com monthly PE table.",
-      "raw_value": "30.85 (as of 2025-09-29)",
+      "raw_value": "30.97 (as of 2025-09-30)",
       "pure_value": [
         {
           "metric": "pe_ratio",
-          "value": 30.85,
-          "as_of": "2025-09-29"
+          "value": 30.97,
+          "as_of": "2025-09-30"
         }
       ],
       "topics": [
@@ -290,13 +290,13 @@
         "S&P 500"
       ],
       "threshold": "< 1.2%",
-      "status": "normal",
+      "status": "high",
       "notes": "Source: multpl.com dividend yield table.",
-      "raw_value": "1.21% (as of 2025-09-30)",
+      "raw_value": "1.15% (as of 2025-09-30)",
       "pure_value": [
         {
           "metric": "dividend_yield_pct",
-          "value": 1.21,
+          "value": 1.15,
           "as_of": "2025-09-30"
         }
       ],
@@ -316,12 +316,12 @@
       "threshold": "> 35",
       "status": "high",
       "notes": "Source: multpl.com Shiller CAPE table.",
-      "raw_value": "39.95 (as of 2025-09-29)",
+      "raw_value": "40.11 (as of 2025-09-30)",
       "pure_value": [
         {
           "metric": "cape",
-          "value": 39.95,
-          "as_of": "2025-09-29"
+          "value": 40.11,
+          "as_of": "2025-09-30"
         }
       ],
       "topics": [
@@ -340,12 +340,12 @@
       "threshold": "> 6",
       "status": "normal",
       "notes": "Source: multpl.com price-to-book table.",
-      "raw_value": "5.58 (as of 2025-09-29)",
+      "raw_value": "5.61 (as of 2025-09-30)",
       "pure_value": [
         {
           "metric": "price_to_book",
-          "value": 5.58,
-          "as_of": "2025-09-29"
+          "value": 5.61,
+          "as_of": "2025-09-30"
         }
       ],
       "topics": [
@@ -363,12 +363,12 @@
       "threshold": "> 6",
       "status": "normal",
       "notes": "Source: multpl.com price-to-sales table.",
-      "raw_value": "3.36 (as of 2025-09-29)",
+      "raw_value": "3.38 (as of 2025-09-30)",
       "pure_value": [
         {
           "metric": "price_to_sales",
-          "value": 3.36,
-          "as_of": "2025-09-29"
+          "value": 3.38,
+          "as_of": "2025-09-30"
         }
       ],
       "topics": [
@@ -413,12 +413,12 @@
       "threshold": "> 12 months",
       "status": "normal",
       "notes": "Yield curve not inverted currently.",
-      "raw_value": "Spread 0.52% (as of 2025-09-29)",
+      "raw_value": "Spread 0.56% (as of 2025-09-30)",
       "pure_value": [
         {
           "metric": "spread_pct",
-          "value": 0.52,
-          "as_of": "2025-09-29"
+          "value": 0.56,
+          "as_of": "2025-09-30"
         },
         {
           "metric": "inversion_months",
@@ -581,17 +581,12 @@
       "threshold": "> 20",
       "status": "normal",
       "notes": "ETF inflow streak below 20-day threshold",
-      "raw_value": "QQQ: streak=0 days; SPY: streak=3 days",
+      "raw_value": "SPY: streak=0 days",
       "pure_value": [
         {
-          "ticker": "QQQ",
-          "consecutive_inflow_days": 0,
-          "latest_flow_musd": -29.68
-        },
-        {
           "ticker": "SPY",
-          "consecutive_inflow_days": 3,
-          "latest_flow_musd": 1052.61
+          "consecutive_inflow_days": 0,
+          "latest_flow_musd": -2448.58
         }
       ],
       "topics": [

@@ -10,7 +10,7 @@
     "Valuation"
   ],
   "threshold": "> 35",
-  "updated_at": "2025-09-30T08:24:13+00:00",
+  "updated_at": "2025-10-01T02:13:02+00:00",
   "series": [
     {
       "date": "2024-10-01",
@@ -134,7 +134,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 30.85,
+        "value": 30.97,
         "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
       }
     },
@@ -143,7 +143,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 30.85,
+        "value": 30.97,
         "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
       }
     },
@@ -159,9 +159,18 @@
     {
       "date": "2025-09-30",
       "status": "normal",
+      "summary_value": 30.97,
+      "details": {
+        "value": 30.97,
+        "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
+      }
+    },
+    {
+      "date": "2025-10-01",
+      "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 30.85,
+        "value": 30.97,
         "source_url": "https://www.multpl.com/s-p-500-pe-ratio"
       }
     }

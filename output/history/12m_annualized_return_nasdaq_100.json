@@ -10,23 +10,8 @@
     "Momentum"
   ],
   "threshold": "> 40%",
-  "updated_at": "2025-09-30T08:24:13+00:00",
+  "updated_at": "2025-10-01T02:13:02+00:00",
   "series": [
-    {
-      "date": "2024-09-30",
-      "status": null,
-      "summary_value": 19959.259765625,
-      "details": {
-        "market": "Nasdaq 100",
-        "ticker": "^NDX",
-        "open": 19959.259765625,
-        "high": 20072.4296875,
-        "low": 19852.849609375,
-        "close": 20060.689453125,
-        "adj_close": 20060.689453125,
-        "volume": 5846150000
-      }
-    },
     {
       "date": "2024-10-01",
       "status": null,
@@ -3765,16 +3750,31 @@
     {
       "date": "2025-09-30",
       "status": "normal",
+      "summary_value": 24597.400390625,
+      "details": {
+        "market": "Nasdaq 100",
+        "ticker": "^NDX",
+        "open": 24597.400390625,
+        "high": 24691.23046875,
+        "low": 24505.140625,
+        "close": 24679.990234375,
+        "adj_close": 24679.990234375,
+        "volume": 8928070000
+      }
+    },
+    {
+      "date": "2025-10-01",
+      "status": "normal",
       "summary_value": null,
       "details": {
         "market": "Nasdaq 100",
         "ticker": "^NDX",
-        "open": 24629.021484375,
-        "high": 24741.771484375,
-        "low": 24560.21875,
-        "close": 24611.3515625,
-        "adj_close": 24611.3515625,
-        "volume": 1281864000
+        "open": 24597.400390625,
+        "high": 24691.23046875,
+        "low": 24505.140625,
+        "close": 24679.990234375,
+        "adj_close": 24679.990234375,
+        "volume": 8928070000
       }
     }
   ]

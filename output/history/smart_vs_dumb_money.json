@@ -9,17 +9,8 @@
     "Sentiment"
   ],
   "threshold": "> 70",
-  "updated_at": "2025-09-30T08:24:13+00:00",
+  "updated_at": "2025-10-01T02:13:02+00:00",
   "series": [
-    {
-      "date": "2024-09-30",
-      "status": null,
-      "summary_value": 73.6857142857143,
-      "details": {
-        "index_value": 73.6857142857143,
-        "rating": "greed"
-      }
-    },
     {
       "date": "2024-10-01",
       "status": null,
@@ -2292,6 +2283,15 @@
       "date": "2025-09-30",
       "status": "normal",
       "summary_value": 52.3142857142857,
+      "details": {
+        "index_value": 52.3142857142857,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-10-01",
+      "status": "normal",
+      "summary_value": null,
       "details": {
         "index_value": 52.3142857142857,
         "rating": "neutral"
