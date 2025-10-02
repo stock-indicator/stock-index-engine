@@ -10,19 +10,8 @@
     "Momentum"
   ],
   "threshold": "> 80",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-21",
-      "status": null,
-      "summary_value": 67.42344556572695,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 67.42344556572695,
-        "rsi": 67.42344556572695,
-        "adj_close": 20361.470703125
-      }
-    },
     {
       "date": "2024-10-22",
       "status": null,
@@ -2610,6 +2599,17 @@
     },
     {
       "date": "2025-10-01",
+      "status": "normal",
+      "summary_value": 74.1139549545455,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 74.1139549545455,
+        "rsi": 74.1139549545455,
+        "adj_close": 24800.859375
+      }
+    },
+    {
+      "date": "2025-10-02",
       "status": "normal",
       "summary_value": null,
       "details": {}

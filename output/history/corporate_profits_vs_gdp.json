@@ -11,17 +11,8 @@
     "Profits"
   ],
   "threshold": "> 12%",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-01",
-      "status": null,
-      "summary_value": 29825.182,
-      "details": {
-        "gdp": 29825.182,
-        "corporate_profits": 3270.619
-      }
-    },
     {
       "date": "2025-01-01",
       "status": null,
@@ -87,6 +78,15 @@
     },
     {
       "date": "2025-10-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "gdp": 30485.729,
+        "corporate_profits": 3259.405
+      }
+    },
+    {
+      "date": "2025-10-02",
       "status": "normal",
       "summary_value": null,
       "details": {

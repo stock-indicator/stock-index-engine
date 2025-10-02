@@ -10,16 +10,8 @@
     "Policy"
   ],
   "threshold": "0-6 months",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-01",
-      "status": null,
-      "summary_value": 4.83,
-      "details": {
-        "fed_funds": 4.83
-      }
-    },
     {
       "date": "2024-11-01",
       "status": null,
@@ -101,11 +93,19 @@
       }
     },
     {
+      "date": "2025-09-01",
+      "status": null,
+      "summary_value": 4.22,
+      "details": {
+        "fed_funds": 4.22
+      }
+    },
+    {
       "date": "2025-09-26",
       "status": "unavailable",
       "summary_value": null,
       "details": {
-        "fed_funds": 4.33
+        "fed_funds": 4.22
       }
     },
     {
@@ -113,7 +113,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "fed_funds": 4.33
+        "fed_funds": 4.22
       }
     },
     {
@@ -121,7 +121,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "fed_funds": 4.33
+        "fed_funds": 4.22
       }
     },
     {
@@ -129,7 +129,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "fed_funds": 4.33
+        "fed_funds": 4.22
       }
     },
     {
@@ -137,7 +137,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "fed_funds": 4.33
+        "fed_funds": 4.22
       }
     },
     {
@@ -145,7 +145,15 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "fed_funds": 4.33
+        "fed_funds": 4.22
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "fed_funds": 4.22
       }
     }
   ]

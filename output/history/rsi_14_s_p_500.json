@@ -10,19 +10,8 @@
     "Momentum"
   ],
   "threshold": "> 80",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-21",
-      "status": null,
-      "summary_value": 67.65795813588443,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 67.65795813588443,
-        "rsi": 67.65795813588443,
-        "adj_close": 5853.97998046875
-      }
-    },
     {
       "date": "2024-10-22",
       "status": null,
@@ -2610,6 +2599,17 @@
     },
     {
       "date": "2025-10-01",
+      "status": "normal",
+      "summary_value": 68.30274917911774,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 68.30274917911774,
+        "rsi": 68.30274917911774,
+        "adj_close": 6711.2001953125
+      }
+    },
+    {
+      "date": "2025-10-02",
       "status": "normal",
       "summary_value": null,
       "details": {}

@@ -11,17 +11,8 @@
     "Cycles"
   ],
   "threshold": "> 35",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-01",
-      "status": null,
-      "summary_value": 36.59,
-      "details": {
-        "value": 36.59,
-        "source_url": "https://www.multpl.com/shiller-pe"
-      }
-    },
     {
       "date": "2024-11-01",
       "status": null,
@@ -134,7 +125,7 @@
       "status": "high",
       "summary_value": null,
       "details": {
-        "value": 40.11
+        "value": 40.04
       }
     },
     {
@@ -142,7 +133,7 @@
       "status": "high",
       "summary_value": null,
       "details": {
-        "value": 40.11
+        "value": 40.04
       }
     },
     {
@@ -165,9 +156,17 @@
     {
       "date": "2025-10-01",
       "status": "high",
+      "summary_value": 40.04,
+      "details": {
+        "value": 40.04
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "status": "high",
       "summary_value": null,
       "details": {
-        "value": 40.11
+        "value": 40.04
       }
     }
   ]

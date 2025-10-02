@@ -9,17 +9,8 @@
     "Sentiment"
   ],
   "threshold": "> 70",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-01",
-      "status": null,
-      "summary_value": 70.31428571428572,
-      "details": {
-        "index_value": 70.31428571428572,
-        "rating": "greed"
-      }
-    },
     {
       "date": "2024-10-02",
       "status": null,
@@ -2248,7 +2239,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "index_value": 52.6571428571429,
+        "index_value": 52.3142857142857,
         "rating": "neutral"
       }
     },
@@ -2257,7 +2248,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "index_value": 52.6571428571429,
+        "index_value": 52.3142857142857,
         "rating": "neutral"
       }
     },
@@ -2273,18 +2264,27 @@
     {
       "date": "2025-09-30",
       "status": "normal",
-      "summary_value": 52.6571428571429,
+      "summary_value": 50.1714285714286,
       "details": {
-        "index_value": 52.6571428571429,
+        "index_value": 50.1714285714286,
         "rating": "neutral"
       }
     },
     {
       "date": "2025-10-01",
       "status": "normal",
-      "summary_value": 52.6571428571429,
+      "summary_value": 52.3142857142857,
       "details": {
-        "index_value": 52.6571428571429,
+        "index_value": 52.3142857142857,
+        "rating": "neutral"
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "status": "normal",
+      "summary_value": 52.3142857142857,
+      "details": {
+        "index_value": 52.3142857142857,
         "rating": "neutral"
       }
     }

@@ -10,17 +10,8 @@
     "Rates"
   ],
   "threshold": "10Y < CPI",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-01",
-      "status": null,
-      "summary_value": 4.1,
-      "details": {
-        "ten_year_yield_pct": 4.1,
-        "cpi": 315.564
-      }
-    },
     {
       "date": "2024-11-01",
       "status": null,
@@ -112,12 +103,19 @@
       }
     },
     {
+      "date": "2025-09-01",
+      "status": null,
+      "summary_value": 4.12,
+      "details": {
+        "ten_year_yield_pct": 4.12
+      }
+    },
+    {
       "date": "2025-09-26",
       "status": "unavailable",
       "summary_value": null,
       "details": {
-        "ten_year_yield_pct": 4.26,
-        "cpi": 323.364
+        "ten_year_yield_pct": 4.12
       }
     },
     {
@@ -125,8 +123,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "ten_year_yield_pct": 4.26,
-        "cpi": 323.364
+        "ten_year_yield_pct": 4.12
       }
     },
     {
@@ -134,8 +131,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "ten_year_yield_pct": 4.26,
-        "cpi": 323.364
+        "ten_year_yield_pct": 4.12
       }
     },
     {
@@ -143,8 +139,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "ten_year_yield_pct": 4.26,
-        "cpi": 323.364
+        "ten_year_yield_pct": 4.12
       }
     },
     {
@@ -152,8 +147,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "ten_year_yield_pct": 4.26,
-        "cpi": 323.364
+        "ten_year_yield_pct": 4.12
       }
     },
     {
@@ -161,8 +155,15 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "ten_year_yield_pct": 4.26,
-        "cpi": 323.364
+        "ten_year_yield_pct": 4.12
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {
+        "ten_year_yield_pct": 4.12
       }
     }
   ]

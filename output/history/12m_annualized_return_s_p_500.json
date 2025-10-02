@@ -10,23 +10,8 @@
     "Momentum"
   ],
   "threshold": "> 40%",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
-    {
-      "date": "2024-10-01",
-      "status": null,
-      "summary_value": 5757.72998046875,
-      "details": {
-        "market": "S&P 500",
-        "ticker": "^GSPC",
-        "open": 5757.72998046875,
-        "high": 5757.72998046875,
-        "low": 5681.27978515625,
-        "close": 5708.75,
-        "adj_close": 5708.75,
-        "volume": 4025180000
-      }
-    },
     {
       "date": "2024-10-02",
       "status": null,
@@ -3765,16 +3750,31 @@
     {
       "date": "2025-10-01",
       "status": "normal",
+      "summary_value": 6664.919921875,
+      "details": {
+        "market": "S&P 500",
+        "ticker": "^GSPC",
+        "open": 6664.919921875,
+        "high": 6718.47998046875,
+        "low": 6656.2001953125,
+        "close": 6711.2001953125,
+        "adj_close": 6711.2001953125,
+        "volume": 6037950000
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "status": "normal",
       "summary_value": null,
       "details": {
         "market": "S&P 500",
         "ticker": "^GSPC",
-        "open": 6656.18994140625,
-        "high": 6691.25,
-        "low": 6641.0,
-        "close": 6688.4599609375,
-        "adj_close": 6688.4599609375,
-        "volume": 3519970000
+        "open": 6664.919921875,
+        "high": 6718.47998046875,
+        "low": 6656.2001953125,
+        "close": 6711.2001953125,
+        "adj_close": 6711.2001953125,
+        "volume": 6037950000
       }
     }
   ]

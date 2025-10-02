@@ -208,14 +208,15 @@ def _build_series(
         date_key = date_ts.date().isoformat()
         details = _row_to_details(row)
         summary_value = _extract_summary_value(details)
-        series.append(
-            {
-                "date": date_key,
-                "status": status_map.get(date_key),
-                "summary_value": summary_value,
-                "details": details,
-            }
-        )
+        if summary_value is not None:
+            series.append(
+                {
+                    "date": date_key,
+                    "status": status_map.get(date_key),
+                    "summary_value": summary_value,
+                    "details": details,
+                }
+            )
     details_template = series[-1]["details"].copy() if series else None
     series = _append_status_only_entries(series, status_map, details_template=details_template)
     series.sort(key=lambda item: item["date"])
@@ -231,9 +232,9 @@ def _append_status_only_entries(series: List[Dict[str, object]], status_map: Dic
         if status_date in existing_dates:
             continue
         details = template.copy() if isinstance(template, dict) else {}
-        series.append(
-            {"date": status_date, "status": status_value, "summary_value": None, "details": details}
-        )
+        # series.append(
+        #     {"date": status_date, "status": status_value, "summary_value": None, "details": details}
+        # )
     return series
 
 

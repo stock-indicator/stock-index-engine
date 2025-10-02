@@ -11,7 +11,7 @@
     "Income"
   ],
   "threshold": "< 1.2%",
-  "updated_at": "2025-10-01T13:00:06+00:00",
+  "updated_at": "2025-10-02T05:55:25+00:00",
   "series": [
     {
       "date": "2024-10-31",
@@ -125,7 +125,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 1.15
+        "value": 1.17
       }
     },
     {
@@ -133,7 +133,7 @@
       "status": "normal",
       "summary_value": null,
       "details": {
-        "value": 1.15
+        "value": 1.17
       }
     },
     {
@@ -156,9 +156,17 @@
     {
       "date": "2025-10-01",
       "status": "high",
+      "summary_value": 1.17,
+      "details": {
+        "value": 1.17
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "status": "high",
       "summary_value": null,
       "details": {
-        "value": 1.15
+        "value": 1.17
       }
     }
   ]
