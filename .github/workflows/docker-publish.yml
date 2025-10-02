@@ -6,6 +6,13 @@ on:
 
 jobs:
   build_and_publish:
+    strategy:
+      matrix:
+        include:
+          - platform: linux/amd64
+            tag: latest
+          - platform: linux/arm64
+            tag: latest-arm
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -14,6 +21,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
 
     - name: Log in to the Container registry
       uses: docker/login-action@v2
@@ -28,4 +41,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/stock-indicator/stock-indicator-engine:latest
+        tags: ghcr.io/stock-indicator/stock-indicator-engine:${{ matrix.tag }}
+        platforms: ${{ matrix.platform }}
