@@ -1,94 +1,94 @@
-# Stock Index Indicators
+[中文](README.zh-CN.md)
 
-Service toolkit for evaluating market indicators, persisting results, and exposing them via a FastAPI application.
+# Stock Index Engine
 
-## Requirements
-- Python 3.12+
-- pip / virtualenv (recommended)
-- PostgreSQL endpoint if you want to persist clean & history datasets (`settings.json` controls credentials)
-- Docker (optional) for containerised deployment
+## Overview
 
-## Setup
-1. Clone the repository and enter the project directory.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Provide API keys or other secrets via environment variables or `vault.key` as required by the indicator fetchers.
+The Stock Index Engine is a Python-based tool for fetching, calculating, and evaluating a wide range of financial market indicators. It gathers data from various sources to create a comprehensive view of market health, covering valuation, sentiment, momentum, and macroeconomic factors. The engine's primary goal is to produce a consolidated "market status" report, which can be used for analysis and decision-making.
 
-## Running Indicator Refreshes
-Use the CLI wrapper to trigger manual or full refresh cycles.
+## Features
+
+*   **Comprehensive Indicator Library:** Tracks over 20 key market indicators.
+*   **Categorization:** Organizes indicators into four main categories: Valuation, Sentiment, Macroeconomic, and Technical.
+*   **Data Fetching & Caching:** Downloads and caches data from various sources (e.g., FRED for economic data) to the `resources/` directory.
+*   **Data Output:** Generates detailed historical data and a real-time summary in JSON and CSV formats in the `output/` directory.
+*   **API Server:** Includes a FastAPI server to expose the data and trigger refreshes.
+*   **Containerized:** Provides a Dockerfile for easy, self-contained deployment.
+
+## How to Use
+
+### 1. Configuration (API Keys)
+
+Before running the engine, you must provide the necessary API keys.
+
+1.  Create a file named `api.key` in the `stock-index-engine` directory.
+2.  Add your keys in a `KEY=VALUE` format. For example:
+    ```
+    FRED_API_KEY=your_fred_api_key_here
+    ANOTHER_API_KEY=your_other_key_here
+    ```
+
+The engine can also read keys from environment variables. If an environment variable and an `api.key` entry both exist for the same key, the environment variable will be used.
+
+### 2. Running the Engine (Locally)
+
+You can run the engine directly using Python.
 
 ```bash
-# Incremental refresh, regenerating 365 days of history
-python market_indicators.py --mode manual --lookback-days 365
+# Install dependencies
+pip install -r requirements.txt
 
-# Cache-busting refresh, deleting raw/clean caches first
+# Run a full refresh, regenerating 365 days of history
 python market_indicators.py --mode full --lookback-days 365
 
-# Skip history exports (useful for quick CLI checks)
-python market_indicators.py --mode manual --skip-history
+# Run an incremental refresh
+python market_indicators.py --mode manual --lookback-days 365
 ```
 
-- `--keep-resource-cache` prevents `full` mode from clearing `resources/files` (shared downloads).
-- Each run writes to `output/market_status.latest.json`, updates `output/market_indicator_log.csv`, regenerates `output/history/*.json`, and upserts to PostgreSQL (`indicator_timeseries`, `indicator_history_series`). Source-related fields are stripped before DB insertion.
+### 3. Running the API Server
 
-## Running the API Server
-The FastAPI service wraps refresh hooks and history files. Host/port are read from `settings.json` (`"api.host"`, `"api.port"`).
+The included FastAPI server can be used to view data and trigger refreshes.
 
 ```bash
+# Start the server
 python services/api.py
 ```
 
-> Prefer the helper above so that configuration changes propagate automatically. You can still run `uvicorn services.api:app --host ... --port ...` if you need to override settings on the fly.
+*   Interactive docs will be available at `http://localhost:8000/docs`.
+*   A Postman collection is available at `docs/postman_collection.json`.
 
-- Interactive docs: `http://localhost:8000/docs` (swap in your configured host/port)
-- ReDoc: `http://localhost:8000/redoc`
-- Postman collection: import `docs/postman_collection.json` and update the `baseUrl` variable if you deploy elsewhere.
-- Automatic scheduler: set `REFRESH_CRON` (default `0 6 * * *`) to control the background manual refresh cadence.
-- POST `/refresh` triggers manual/full refreshes asynchronously.
+## Docker Deployment
 
-Detailed endpoint descriptions live in [`docs/api.md`](docs/api.md).
-
-## Docker
-Build and run the containerised service if you prefer a self-contained deployment.
+For a self-contained deployment, you can use Docker.
 
 ```bash
-# Build image
-docker build -t stock-index-service .
+# 1. Build the image
+docker build -t stock-index-engine .
 
-# Run container with persistent output folder and custom cron
-docker run \\
-  -p 8000:8000 \\
-  -e REFRESH_CRON="0 */6 * * *" \\
-  -v /path/to/output:/app/output \\
-  stock-index-service
+# 2. Run the container
+docker run \
+  -p 8000:8000 \
+  -e FRED_API_KEY="your_fred_api_key_here" \
+  -v /local/path/to/output:/app/output \
+  stock-index-engine
 ```
 
-Mount `output/` to retain JSON/CSV history outside the container. Provide API keys through `-e` env vars or Docker secrets as needed.
+*   Use the `-e` flag to pass API keys as environment variables.
+*   Mount a local directory to `/app/output` to persist the generated reports.
 
-## Database Notes
-- `indicator_timeseries` stores clean indicator datasets (handled inside each indicator via `upsert_indicator_dataframe`).
-- `indicator_history_series` stores per-day status snapshots taken from history files. Fields containing "source" are dropped before insert to avoid persisting provenance URLs if you do not want them in the database.
-- Remove or adjust `_upsert_history_to_db` in `services/history.py` if you want to disable database writes entirely.
+## Output Files
 
-## Tests
-Automated tests are not included yet. Once tests are added, run them with:
-```bash
-pytest
-```
-Consider adding integration tests that exercise `manual_refresh` and the API endpoints.
+The engine generates the following files in the `output/` directory:
 
-## Logs & Outputs
-- Structured logs live under `logs/` (see `market_indicators.log`).
-- Latest run snapshot: `output/market_status.latest.json`.
-- Daily log: `output/market_indicator_log.csv`.
-- History JSON: `output/history/{slug}.json` (one file per indicator).
+*   `market_status.latest.json`: A snapshot of the latest evaluation for all indicators.
+*   `history/{indicator_slug}.json`: A series of historical data points for each individual indicator.
+*   `market_indicator_log.csv`: A log of indicator values over time.
 
 ## Project Structure
-- `common/` – shared utilities, config, DB helpers.
-- `indicators/` – indicator implementations.
-- `services/` – orchestration layer (refresh, evaluation, API, history, exports).
-- `resources/` – cached raw & clean datasets.
-- `output/` – generated reports and history series.
-- `docs/api.md` – REST API reference.
+
+- `common/` – Shared utilities and configuration helpers.
+- `indicators/` – Implementations for all market indicators.
+- `services/` – Orchestration layer (refresh, evaluation, API, history, exports).
+- `resources/` – Cached raw & clean datasets.
+- `output/` – Generated reports and history series.
+- `docs/` – API documentation and Postman collections.
