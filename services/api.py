@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 import os
+import time
 from typing import Any, Dict, Literal, Optional
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
-from fastapi import BackgroundTasks, FastAPI, HTTPException
+from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, model_validator
 
@@ -29,6 +30,34 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    access_logger = get_logger("api.access")
+    start_time = time.time()
+    
+    response = await call_next(request)
+    
+    process_time = (time.time() - start_time) * 1000
+
+    log_dict = {
+        "log_type": "access",
+        "request": {
+            "method": request.method,
+            "url": str(request.url),
+            "client": f"{request.client.host}:{request.client.port}",
+            "user_agent": request.headers.get("user-agent", "unknown")
+        },
+        "response": {
+            "status_code": response.status_code
+        },
+        "duration_ms": process_time
+    }
+    
+    access_logger.info(log_dict)
+    
+    return response
+
+
 _scheduler: AsyncIOScheduler | None = None
 REFRESH_CRON = os.getenv("REFRESH_CRON", settings.get("refresh.cron", "0 6 * * *"))
 API_HOST = settings.get_api_host()
@@ -51,7 +80,6 @@ class RefreshRequest(BaseModel):
         if data.get('mode') == 'full' and not data.get('indicator_slug'):
             raise ValueError("indicator_slug is required when mode='full'")
         return data
-
 
 def _enrich_indicator(item: Dict[str, object]) -> Dict[str, object]:
     enriched = dict(item)
@@ -154,8 +182,6 @@ def trigger_refresh(request: RefreshRequest, background_tasks: BackgroundTasks) 
     return {"status": "accepted", "mode": mode, "lookback_days": lookback_days, "indicator_slug": indicator_slug}
 
 
-
-
 if __name__ == "__main__":
     from uvicorn import run
 
@@ -164,4 +190,5 @@ if __name__ == "__main__":
         host=API_HOST,
         port=API_PORT,
         log_level=os.getenv('UVICORN_LOG_LEVEL', 'info'),
+        access_log=False,  # Disable default access logger
     )

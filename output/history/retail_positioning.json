@@ -10,7 +10,7 @@
     "AAII"
   ],
   "threshold": "> 70%",
-  "updated_at": "2025-10-02T05:55:25+00:00",
+  "updated_at": "2025-10-03T06:07:08+00:00",
   "series": [
     {
       "date": "2024-10-03",
@@ -526,76 +526,6 @@
       "date": "2025-09-25",
       "status": null,
       "summary_value": 41.726600000000005,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": "unavailable",
-      "summary_value": null,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
-    },
-    {
-      "date": "2025-09-27",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
-    },
-    {
-      "date": "2025-09-28",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
-    },
-    {
-      "date": "2025-09-29",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
-    },
-    {
-      "date": "2025-09-30",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
-    },
-    {
-      "date": "2025-10-01",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
-    },
-    {
-      "date": "2025-10-02",
-      "status": "normal",
-      "summary_value": null,
       "details": {
         "Bullish": 41.726600000000005,
         "Neutral": 19.0647,

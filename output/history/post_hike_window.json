@@ -10,7 +10,7 @@
     "Policy"
   ],
   "threshold": "0-6 months",
-  "updated_at": "2025-10-02T05:55:25+00:00",
+  "updated_at": "2025-10-03T06:07:08+00:00",
   "series": [
     {
       "date": "2024-11-01",
@@ -96,62 +96,6 @@
       "date": "2025-09-01",
       "status": null,
       "summary_value": 4.22,
-      "details": {
-        "fed_funds": 4.22
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": "unavailable",
-      "summary_value": null,
-      "details": {
-        "fed_funds": 4.22
-      }
-    },
-    {
-      "date": "2025-09-27",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "fed_funds": 4.22
-      }
-    },
-    {
-      "date": "2025-09-28",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "fed_funds": 4.22
-      }
-    },
-    {
-      "date": "2025-09-29",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "fed_funds": 4.22
-      }
-    },
-    {
-      "date": "2025-09-30",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "fed_funds": 4.22
-      }
-    },
-    {
-      "date": "2025-10-01",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "fed_funds": 4.22
-      }
-    },
-    {
-      "date": "2025-10-02",
-      "status": "normal",
-      "summary_value": null,
       "details": {
         "fed_funds": 4.22
       }

@@ -10,7 +10,7 @@
     "Valuation"
   ],
   "threshold": "> 6",
-  "updated_at": "2025-10-02T05:55:25+00:00",
+  "updated_at": "2025-10-03T06:07:08+00:00",
   "series": [
     {
       "date": "2024-12-31",
@@ -37,38 +37,6 @@
       }
     },
     {
-      "date": "2025-09-26",
-      "status": "unavailable",
-      "summary_value": null,
-      "details": {
-        "value": 5.63
-      }
-    },
-    {
-      "date": "2025-09-27",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "value": 5.63
-      }
-    },
-    {
-      "date": "2025-09-28",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "value": 5.63
-      }
-    },
-    {
-      "date": "2025-09-29",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "value": 5.63
-      }
-    },
-    {
       "date": "2025-09-30",
       "status": "normal",
       "summary_value": 5.59,
@@ -87,7 +55,7 @@
     {
       "date": "2025-10-02",
       "status": "normal",
-      "summary_value": null,
+      "summary_value": 5.63,
       "details": {
         "value": 5.63
       }

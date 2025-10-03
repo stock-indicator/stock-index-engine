@@ -11,7 +11,7 @@
     "Cycles"
   ],
   "threshold": "> 35",
-  "updated_at": "2025-10-02T05:55:25+00:00",
+  "updated_at": "2025-10-03T06:07:08+00:00",
   "series": [
     {
       "date": "2024-11-01",
@@ -121,22 +121,6 @@
       }
     },
     {
-      "date": "2025-09-27",
-      "status": "high",
-      "summary_value": null,
-      "details": {
-        "value": 40.04
-      }
-    },
-    {
-      "date": "2025-09-28",
-      "status": "high",
-      "summary_value": null,
-      "details": {
-        "value": 40.04
-      }
-    },
-    {
       "date": "2025-09-29",
       "status": "high",
       "summary_value": 39.95,
@@ -164,9 +148,9 @@
     {
       "date": "2025-10-02",
       "status": "high",
-      "summary_value": null,
+      "summary_value": 40.08,
       "details": {
-        "value": 40.04
+        "value": 40.08
       }
     }
   ]

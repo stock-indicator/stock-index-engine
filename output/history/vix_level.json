@@ -9,23 +9,8 @@
     "Volatility"
   ],
   "threshold": "< 10",
-  "updated_at": "2025-10-02T05:55:25+00:00",
+  "updated_at": "2025-10-03T06:07:08+00:00",
   "series": [
-    {
-      "date": "2024-10-02",
-      "status": null,
-      "summary_value": 19.64999961853028,
-      "details": {
-        "market": "US Market",
-        "ticker": "^VIX",
-        "open": 19.64999961853028,
-        "high": 20.36000061035156,
-        "low": 18.57999992370605,
-        "close": 18.89999961853028,
-        "adj_close": 18.89999961853028,
-        "volume": 0
-      }
-    },
     {
       "date": "2024-10-03",
       "status": null,
@@ -3717,36 +3702,6 @@
       }
     },
     {
-      "date": "2025-09-27",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "market": "US Market",
-        "ticker": "^VIX",
-        "open": 17.280000686645508,
-        "high": 17.280000686645508,
-        "low": 15.979999542236328,
-        "close": 16.290000915527344,
-        "adj_close": 16.290000915527344,
-        "volume": 0
-      }
-    },
-    {
-      "date": "2025-09-28",
-      "status": "normal",
-      "summary_value": null,
-      "details": {
-        "market": "US Market",
-        "ticker": "^VIX",
-        "open": 17.280000686645508,
-        "high": 17.280000686645508,
-        "low": 15.979999542236328,
-        "close": 16.290000915527344,
-        "adj_close": 16.290000915527344,
-        "volume": 0
-      }
-    },
-    {
       "date": "2025-09-29",
       "status": "normal",
       "summary_value": 0.0,
@@ -3794,15 +3749,15 @@
     {
       "date": "2025-10-02",
       "status": "normal",
-      "summary_value": null,
+      "summary_value": 16.1200008392334,
       "details": {
         "market": "US Market",
         "ticker": "^VIX",
-        "open": 17.280000686645508,
-        "high": 17.280000686645508,
-        "low": 15.979999542236328,
-        "close": 16.290000915527344,
-        "adj_close": 16.290000915527344,
+        "open": 16.1200008392334,
+        "high": 16.920000076293945,
+        "low": 15.93000030517578,
+        "close": 16.6299991607666,
+        "adj_close": 16.6299991607666,
         "volume": 0
       }
     }

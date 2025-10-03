@@ -13,4 +13,4 @@ COPY . .
 EXPOSE 8000
 ENV REFRESH_CRON="0 6 * * *"     UVICORN_HOST=0.0.0.0     UVICORN_PORT=8000
 
-CMD ["uvicorn", "services.api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "services.api:app", "--host", "0.0.0.0", "--port", "8000", "--no-access-log"]

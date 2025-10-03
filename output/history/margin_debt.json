@@ -10,7 +10,7 @@
     "Leverage"
   ],
   "threshold": "New high",
-  "updated_at": "2025-10-02T05:55:25+00:00",
+  "updated_at": "2025-10-03T06:07:08+00:00",
   "series": [
     {
       "date": "2024-11-01",
@@ -106,76 +106,6 @@
       "date": "2025-08-01",
       "status": null,
       "summary_value": 1059723.0,
-      "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": "unavailable",
-      "summary_value": null,
-      "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
-      }
-    },
-    {
-      "date": "2025-09-27",
-      "status": "high",
-      "summary_value": null,
-      "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
-      }
-    },
-    {
-      "date": "2025-09-28",
-      "status": "high",
-      "summary_value": null,
-      "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
-      }
-    },
-    {
-      "date": "2025-09-29",
-      "status": "high",
-      "summary_value": null,
-      "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
-      }
-    },
-    {
-      "date": "2025-09-30",
-      "status": "high",
-      "summary_value": null,
-      "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
-      }
-    },
-    {
-      "date": "2025-10-01",
-      "status": "high",
-      "summary_value": null,
-      "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
-      }
-    },
-    {
-      "date": "2025-10-02",
-      "status": "high",
-      "summary_value": null,
       "details": {
         "margin_debt": 1059723,
         "cash_balances": 188221,
