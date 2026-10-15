@@ -84,7 +84,7 @@ buy share (%) = buy value / (buy value + sell value) × 100
 
 Each Form 4 accession is parsed once and saved as `resources/raw/sec_form4/filings/<accession>.json`. An accession number never changes once filed, so this cache cannot go stale. A full refresh of this indicator clears its own clean data but keeps the Form 4 cache. An interrupted run resumes from the files already on disk.
 
-The first build downloads every S&P 500 Form 4 in the window. That is tens of thousands of filings. SEC allows about 9 requests per second, so expect the first build to take roughly an hour. Later runs list each company's filings and download only the new accessions. To force a full re-download, delete `resources/raw/sec_form4/`.
+The first build downloads every S&P 500 Form 4 in the window. That is tens of thousands of filings. SEC allows about 9 requests per second, so expect the first build to take about an hour and a half. Later runs list each company's filings and download only the new accessions. To force a full re-download, delete `resources/raw/sec_form4/`.
 
 ```bash
 # Build the Form 4 cache and the indicator history (re-run to resume after an interruption)
