@@ -10,3 +10,5 @@ cloudscraper>=1.2
 fastapi>=0.112
 uvicorn[standard]>=0.30
 apscheduler>=3.10
+edgartools>=5.62
+lxml>=5.0

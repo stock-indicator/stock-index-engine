@@ -30,6 +30,14 @@ Before running the engine, you must provide the necessary API keys.
 
 The engine can also read keys from environment variables. If an environment variable and an `api.key` entry both exist for the same key, the environment variable will be used.
 
+The Insider Buy Share indicator reads SEC EDGAR, which requires a contact identity on every request. Add one line to `api.key`, or set the variable in your environment:
+
+```
+EDGAR_IDENTITY="Your Name your.email@example.com"
+```
+
+Without it, only that indicator reports `unavailable`. The rest of the engine runs as before.
+
 ### 2. Running the Engine (Locally)
 
 You can run the engine directly using Python.
@@ -57,6 +65,34 @@ python services/api.py
 *   Interactive docs will be available at `http://localhost:8000/docs`.
 *   A Postman collection is available at `docs/postman_collection.json`.
 
+## Insider Buy Share (SEC Form 4)
+
+Insider Buy Share is a Sentiment indicator built from insider trades. It is the share of insider trading dollars that go to purchases rather than sales:
+
+```
+buy share (%) = buy value / (buy value + sell value) × 100
+```
+
+*   **Source:** SEC Form 4 filings, read with [edgartools](https://edgartools.readthedocs.io/en/latest/insider-filings/).
+*   **Universe:** Current S&P 500 members, taken from the constituents table on Wikipedia and cached for 30 days. To track your own tickers instead, add `"insider_buy_share.universe": ["AAPL", "MSFT"]` to `settings.json`.
+*   **Counted trades:** Open-market purchases (code `P`) and open-market sales (code `S`). Grants, option exercises, tax withholding, gifts and equity swaps are excluded. Sell-to-cover sales are also excluded: sales that the filing footnotes describe as covering tax on vesting awards.
+*   **Windows:** Daily buy and sell values are rolled over 30 and 90 calendar days. The 90-day reading sets the status.
+*   **Status:** `high` when the 90-day buy share sits in the bottom 10% of its own trailing year, which means insiders are selling heavily relative to their recent norm. A fixed cutoff does not work here: insider buying is rare, the typical 90-day reading sits near 2–3%, and a fixed 10% line would read `high` almost every day. Heavy insider selling into a rally has historically come before market tops. The status is `unavailable` until 180 days of 90-day readings exist, or while the window holds fewer than 30 trades.
+*   **Caveats:** The measure is dollar-weighted, so one large purchase can move the reading. Prices are sanity-checked: a trade priced above $100,000 a share, or more than 100× away from the issuer's median price in the window, is dropped. Some filings report prices 1000× too large (1031414 instead of 1031.414). Left in, those few filings added about $83B of false sell volume in the first build. Rule 10b5-1 sales stay in by default. Set `EXCLUDE_10B5_1 = True` in `indicators/sentiment/insider_buy_share.py` to drop them. Each incremental run re-reads the last 30 days of trade dates, so late filings are picked up.
+
+### Cache and first-run cost
+
+Each Form 4 accession is parsed once and saved as `resources/raw/sec_form4/filings/<accession>.json`. An accession number never changes once filed, so this cache cannot go stale. A full refresh of this indicator clears its own clean data but keeps the Form 4 cache. An interrupted run resumes from the files already on disk.
+
+The first build downloads every S&P 500 Form 4 in the window. That is tens of thousands of filings. SEC allows about 9 requests per second, so expect the first build to take roughly an hour. Later runs list each company's filings and download only the new accessions. To force a full re-download, delete `resources/raw/sec_form4/`.
+
+```bash
+# Build the Form 4 cache and the indicator history (re-run to resume after an interruption)
+python market_indicators.py --mode full --indicator insider_buy_share --keep-resource-cache --lookback-days 365
+```
+
+`--mode full` requires `--indicator`. Use `--mode manual` to refresh every indicator together.
+
 ## Docker Deployment
 
 For a self-contained deployment, you can use Docker.
@@ -69,12 +105,15 @@ docker build -t stock-index-engine .
 docker run \
   -p 8000:8000 \
   -e FRED_API_KEY="your_fred_api_key_here" \
+  -e EDGAR_IDENTITY="Your Name your.email@example.com" \
   -v /local/path/to/output:/app/output \
+  -v /local/path/to/resources:/app/resources \
   stock-index-engine
 ```
 
 *   Use the `-e` flag to pass API keys as environment variables.
 *   Mount a local directory to `/app/output` to persist the generated reports.
+*   Mount `/app/resources` as well so the SEC Form 4 cache survives container restarts. Without that mount, every new container repeats the first build.
 
 ## Output Files
 
