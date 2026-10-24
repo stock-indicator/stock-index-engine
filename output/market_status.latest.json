@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:56:53+00:00",
+  "generated_at": "2026-10-24T19:11:50+00:00",
   "mode": "manual",
   "summary": {
     "triggered_total": 4,
@@ -266,7 +266,7 @@
         "Volatility"
       ],
       "description": "The CBOE Volatility Index (VIX) is a real-time index representing the market's expectation of 30-day forward-looking volatility. It is a widely used measure of market risk, often referred to as the 'fear gauge'.",
-      "updated_at": "2026-10-24T18:56:53+00:00"
+      "updated_at": "2026-10-24T19:11:50+00:00"
     },
     {
       "name": "Index PE",
