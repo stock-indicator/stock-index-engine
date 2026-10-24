@@ -1,32 +1,32 @@
 {
-  "generated_at": "2025-10-03T06:07:08+00:00",
+  "generated_at": "2026-10-24T09:49:14+00:00",
   "mode": "manual",
   "summary": {
-    "triggered_total": 5,
-    "total_total": 24,
-    "triggered_available": 5,
-    "total_available": 24,
-    "ratio_total": "5/24",
-    "ratio_available": "5/24",
+    "triggered_total": 4,
+    "total_total": 28,
+    "triggered_available": 4,
+    "total_available": 28,
+    "ratio_total": "4/28",
+    "ratio_available": "4/28",
     "by_category": {
       "Technical": {
-        "high": 2,
-        "normal": 7,
+        "high": 0,
+        "normal": 9,
         "unavailable": 0
       },
       "Valuation": {
-        "high": 2,
-        "normal": 3,
+        "high": 3,
+        "normal": 2,
         "unavailable": 0
       },
       "Macro": {
-        "high": 0,
-        "normal": 5,
+        "high": 1,
+        "normal": 4,
         "unavailable": 0
       },
       "Sentiment": {
-        "high": 1,
-        "normal": 4,
+        "high": 0,
+        "normal": 9,
         "unavailable": 0
       }
     }
@@ -41,20 +41,21 @@
       "threshold": "> 80",
       "status": "normal",
       "notes": "14-day RSI for S&P 500",
-      "raw_value": "69.33",
+      "raw_value": "37.01",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 69.33158943230548,
-          "rsi": 69.33158943230548,
-          "adj_close": 6715.35009765625
+          "indicator_value": 37.00739399783339,
+          "rsi": 37.00739399783339,
+          "adj_close": 7623.68017578125
         }
       ],
       "topics": [
         "Technical",
         "Momentum"
       ],
-      "description": "The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. A reading above 80 is often considered an overbought signal."
+      "description": "The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. A reading above 80 is often considered an overbought signal.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "RSI 14 (Nasdaq 100)",
@@ -65,20 +66,21 @@
       "threshold": "> 80",
       "status": "normal",
       "notes": "14-day RSI for Nasdaq 100",
-      "raw_value": "73.99",
+      "raw_value": "24.02",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 73.99403386274606,
-          "rsi": 73.99403386274606,
-          "adj_close": 24892.759765625
+          "indicator_value": 24.01851136939493,
+          "rsi": 24.01851136939493,
+          "adj_close": 28957.529296875
         }
       ],
       "topics": [
         "Technical",
         "Momentum"
       ],
-      "description": ""
+      "description": "",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "MACD Divergence (S&P 500)",
@@ -87,27 +89,28 @@
         "S&P 500"
       ],
       "threshold": "Bearish divergence",
-      "status": "high",
-      "notes": "MACD divergence check for S&P 500; price made new high without MACD confirmation",
-      "raw_value": "price_new_high=True; macd_new_high=False; macd=63.53",
+      "status": "normal",
+      "notes": "MACD divergence check for S&P 500; no bearish divergence detected",
+      "raw_value": "price_new_high=False; macd_new_high=False; macd=-3.05",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 63.5324328902816,
-          "macd": 63.5324328902816,
-          "signal": 62.04384766426053,
-          "hist": 1.4885852260210655,
-          "price": 6715.35009765625,
-          "price_new_high": true,
+          "indicator_value": -3.0512572937204823,
+          "macd": -3.0512572937204823,
+          "signal": 12.601732677472617,
+          "hist": -15.652989971193099,
+          "price": 7623.68017578125,
+          "price_new_high": false,
           "macd_new_high": false,
-          "divergence": true
+          "divergence": false
         }
       ],
       "topics": [
         "Technical",
         "Trend"
       ],
-      "description": "Identifies a bearish divergence where the index price reaches a new high but the MACD indicator fails to confirm with a new high of its own, signaling weakening momentum."
+      "description": "Identifies a bearish divergence where the index price reaches a new high but the MACD indicator fails to confirm with a new high of its own, signaling weakening momentum.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "MACD Divergence (Nasdaq 100)",
@@ -116,27 +119,28 @@
         "Nasdaq 100"
       ],
       "threshold": "Bearish divergence",
-      "status": "high",
-      "notes": "MACD divergence check for Nasdaq 100; price made new high without MACD confirmation",
-      "raw_value": "price_new_high=True; macd_new_high=False; macd=312.50",
+      "status": "normal",
+      "notes": "MACD divergence check for Nasdaq 100; no bearish divergence detected",
+      "raw_value": "price_new_high=False; macd_new_high=False; macd=-204.93",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 312.4992862187755,
-          "macd": 312.4992862187755,
-          "signal": 293.8016433821771,
-          "hist": 18.697642836598448,
-          "price": 24892.759765625,
-          "price_new_high": true,
+          "indicator_value": -204.9308688577985,
+          "macd": -204.9308688577985,
+          "signal": 6.577301752447986,
+          "hist": -211.50817061024648,
+          "price": 28957.529296875,
+          "price_new_high": false,
           "macd_new_high": false,
-          "divergence": true
+          "divergence": false
         }
       ],
       "topics": [
         "Technical",
         "Trend"
       ],
-      "description": ""
+      "description": "",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Price vs 200DMA (S&P 500)",
@@ -147,21 +151,22 @@
       "threshold": "> 25%",
       "status": "normal",
       "notes": "200DMA deviation for S&P 500",
-      "raw_value": "11.41%",
+      "raw_value": "4.56%",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 11.408571250089748,
-          "deviation_pct": 11.408571250089748,
-          "adj_close": 6715.35009765625,
-          "moving_average": 6027.678142089844
+          "indicator_value": 4.558372786419876,
+          "deviation_pct": 4.558372786419876,
+          "adj_close": 7623.68017578125,
+          "moving_average": 7291.31486328125
         }
       ],
       "topics": [
         "Technical",
         "Trend"
       ],
-      "description": "Measures the percentage deviation of the index price from its 200-day moving average (200DMA). A large deviation suggests the market is overbought or extended."
+      "description": "Measures the percentage deviation of the index price from its 200-day moving average (200DMA). A large deviation suggests the market is overbought or extended.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Price vs 200DMA (Nasdaq 100)",
@@ -172,21 +177,22 @@
       "threshold": "> 25%",
       "status": "normal",
       "notes": "200DMA deviation for Nasdaq 100",
-      "raw_value": "14.88%",
+      "raw_value": "4.03%",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 14.879407245260282,
-          "deviation_pct": 14.879407245260282,
-          "adj_close": 24892.759765625,
-          "moving_average": 21668.600458984376
+          "indicator_value": 4.028992054459994,
+          "deviation_pct": 4.028992054459994,
+          "adj_close": 28957.529296875,
+          "moving_average": 27836.018330078125
         }
       ],
       "topics": [
         "Technical",
         "Trend"
       ],
-      "description": ""
+      "description": "",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "12M Annualized Return (S&P 500)",
@@ -197,21 +203,22 @@
       "threshold": "> 40%",
       "status": "normal",
       "notes": "Trailing 252-trading-day return for S&P 500",
-      "raw_value": "17.63%",
+      "raw_value": "13.14%",
       "pure_value": [
         {
           "market": "S&P 500",
-          "indicator_value": 17.6325832740311,
-          "annualized_return_pct": 17.6325832740311,
-          "current_price": 6715.35009765625,
-          "price_252d_ago": 5708.75
+          "indicator_value": 13.137168871022965,
+          "annualized_return_pct": 13.137168871022965,
+          "current_price": 7623.68017578125,
+          "price_252d_ago": 6738.43994140625
         }
       ],
       "topics": [
         "Technical",
         "Momentum"
       ],
-      "description": "Measures the 12-month (252 trading day) rolling return of the index. Extremely high returns can indicate an over-extended market prone to consolidation or correction."
+      "description": "Measures the 12-month (252 trading day) rolling return of the index. Extremely high returns can indicate an over-extended market prone to consolidation or correction.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "12M Annualized Return (Nasdaq 100)",
@@ -222,21 +229,22 @@
       "threshold": "> 40%",
       "status": "normal",
       "notes": "Trailing 252-trading-day return for Nasdaq 100",
-      "raw_value": "25.89%",
+      "raw_value": "15.38%",
       "pure_value": [
         {
           "market": "Nasdaq 100",
-          "indicator_value": 25.89076574018192,
-          "annualized_return_pct": 25.89076574018192,
-          "current_price": 24892.759765625,
-          "price_252d_ago": 19773.30078125
+          "indicator_value": 15.380547700312075,
+          "annualized_return_pct": 15.380547700312075,
+          "current_price": 28957.529296875,
+          "price_252d_ago": 25097.41015625
         }
       ],
       "topics": [
         "Technical",
         "Momentum"
       ],
-      "description": ""
+      "description": "",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "VIX Level",
@@ -247,17 +255,18 @@
       "threshold": "< 10",
       "status": "normal",
       "notes": "Low VIX signals complacency",
-      "raw_value": "16.63",
+      "raw_value": "19.45",
       "pure_value": [
         {
           "market": "US Market",
-          "vix": 16.6299991607666
+          "vix": 19.450000762939453
         }
       ],
       "topics": [
         "Volatility"
       ],
-      "description": "The CBOE Volatility Index (VIX) is a real-time index representing the market's expectation of 30-day forward-looking volatility. It is a widely used measure of market risk, often referred to as the 'fear gauge'."
+      "description": "The CBOE Volatility Index (VIX) is a real-time index representing the market's expectation of 30-day forward-looking volatility. It is a widely used measure of market risk, often referred to as the 'fear gauge'.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Index PE",
@@ -269,18 +278,19 @@
       "threshold": "> 35",
       "status": "normal",
       "notes": "Source: multpl.com monthly PE table.",
-      "raw_value": "31.12 (as of 2025-10-02)",
+      "raw_value": "26.01 (as of 2026-10-23)",
       "pure_value": [
         {
           "metric": "pe_ratio",
-          "value": 31.12,
-          "as_of": "2025-10-02"
+          "value": 26.01,
+          "as_of": "2026-10-23"
         }
       ],
       "topics": [
         "Valuation"
       ],
-      "description": "Measures the Price-to-Earnings (PE) ratio for the S&P 500. A high PE ratio can indicate that the market is overvalued compared to corporate earnings."
+      "description": "Measures the Price-to-Earnings (PE) ratio for the S&P 500. A high PE ratio can indicate that the market is overvalued compared to corporate earnings.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Dividend Yield",
@@ -292,19 +302,20 @@
       "threshold": "< 1.2%",
       "status": "high",
       "notes": "Source: multpl.com dividend yield table.",
-      "raw_value": "1.16% (as of 2025-10-02)",
+      "raw_value": "1.06% (as of 2026-10-23)",
       "pure_value": [
         {
           "metric": "dividend_yield_pct",
-          "value": 1.16,
-          "as_of": "2025-10-02"
+          "value": 1.06,
+          "as_of": "2026-10-23"
         }
       ],
       "topics": [
         "Valuation",
         "Income"
       ],
-      "description": "Shows the S&P 500's dividend per share as a percentage of the index's price. A very low yield can suggest that market valuations are expensive relative to corporate payouts."
+      "description": "Shows the S&P 500's dividend per share as a percentage of the index's price. A very low yield can suggest that market valuations are expensive relative to corporate payouts.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "CAPE Ratio",
@@ -316,19 +327,20 @@
       "threshold": "> 35",
       "status": "high",
       "notes": "Source: multpl.com Shiller CAPE table.",
-      "raw_value": "40.08 (as of 2025-10-02)",
+      "raw_value": "40.36 (as of 2026-10-23)",
       "pure_value": [
         {
           "metric": "cape",
-          "value": 40.08,
-          "as_of": "2025-10-02"
+          "value": 40.36,
+          "as_of": "2026-10-23"
         }
       ],
       "topics": [
         "Valuation",
         "Cycles"
       ],
-      "description": "The Cyclically-Adjusted PE (CAPE) Ratio, also known as the Shiller PE, divides the S&P 500's price by the average of ten years of inflation-adjusted earnings. It is a key metric for assessing long-term market valuation."
+      "description": "The Cyclically-Adjusted PE (CAPE) Ratio, also known as the Shiller PE, divides the S&P 500's price by the average of ten years of inflation-adjusted earnings. It is a key metric for assessing long-term market valuation.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Price-to-Book",
@@ -338,20 +350,21 @@
         "S&P 500"
       ],
       "threshold": "> 6",
-      "status": "normal",
+      "status": "high",
       "notes": "",
-      "raw_value": "5.63 (as of 2025-10-02)",
+      "raw_value": "6.05 (as of 2026-10-23)",
       "pure_value": [
         {
           "metric": "price_to_book",
-          "value": 5.63,
-          "as_of": "2025-10-02"
+          "value": 6.05,
+          "as_of": "2026-10-23"
         }
       ],
       "topics": [
         "Valuation"
       ],
-      "description": "Compares the S&P 500's market value to its book value. A high Price-to-Book (P/B) ratio can suggest the market is trading at a significant premium to its net asset value."
+      "description": "Compares the S&P 500's market value to its book value. A high Price-to-Book (P/B) ratio can suggest the market is trading at a significant premium to its net asset value.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Price-to-Sales",
@@ -363,18 +376,19 @@
       "threshold": "> 6",
       "status": "normal",
       "notes": "",
-      "raw_value": "3.39 (as of 2025-10-02)",
+      "raw_value": "3.76 (as of 2026-10-23)",
       "pure_value": [
         {
           "metric": "price_to_sales",
-          "value": 3.39,
-          "as_of": "2025-10-02"
+          "value": 3.76,
+          "as_of": "2026-10-23"
         }
       ],
       "topics": [
         "Valuation"
       ],
-      "description": "Compares the S&P 500's market value to its total revenue. A high Price-to-Sales (P/S) ratio can suggest a rich valuation, especially in the absence of earnings."
+      "description": "Compares the S&P 500's market value to its total revenue. A high Price-to-Sales (P/S) ratio can suggest a rich valuation, especially in the absence of earnings.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "10Y Yield vs CPI",
@@ -385,24 +399,25 @@
       "threshold": "10Y < CPI",
       "status": "normal",
       "notes": "10Y yield above CPI YoY",
-      "raw_value": "Yield: 4.26% (2025-08-01); CPI YoY: 2.94% (2025-08-01)",
+      "raw_value": "Yield: 4.99% (2026-09-01); CPI YoY: 4.02% (2026-09-01)",
       "pure_value": [
         {
           "metric": "10Y_yield_pct",
-          "value": 4.26,
-          "as_of": "2025-08-01"
+          "value": 4.99,
+          "as_of": "2026-09-01"
         },
         {
           "metric": "CPI_yoy_pct",
-          "value": 2.9392196249335534,
-          "as_of": "2025-08-01"
+          "value": 4.023310268457836,
+          "as_of": "2026-09-01"
         }
       ],
       "topics": [
         "Macro",
         "Rates"
       ],
-      "description": "Compares the 10-year Treasury yield to the year-over-year Consumer Price Index (CPI). When the yield is below CPI, it indicates negative real rates, which can influence investor behavior."
+      "description": "Compares the 10-year Treasury yield to the year-over-year Consumer Price Index (CPI). When the yield is below CPI, it indicates negative real rates, which can influence investor behavior.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Yield Curve Duration",
@@ -413,12 +428,12 @@
       "threshold": "> 12 months",
       "status": "normal",
       "notes": "Yield curve not inverted currently.",
-      "raw_value": "Spread 0.55% (as of 2025-10-02)",
+      "raw_value": "Spread 0.31% (as of 2026-10-23)",
       "pure_value": [
         {
           "metric": "spread_pct",
-          "value": 0.55,
-          "as_of": "2025-10-02"
+          "value": 0.31,
+          "as_of": "2026-10-23"
         },
         {
           "metric": "inversion_months",
@@ -429,7 +444,8 @@
         "Macro",
         "Yield Curve"
       ],
-      "description": "Tracks the consecutive duration of a yield curve inversion (10-year vs 2-year Treasury). Prolonged inversions have historically been a leading indicator of recessions."
+      "description": "Tracks the consecutive duration of a yield curve inversion (10-year vs 2-year Treasury). Prolonged inversions have historically been a leading indicator of recessions.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Post-Hike Window",
@@ -438,20 +454,25 @@
         "US Market"
       ],
       "threshold": "0-6 months",
-      "status": "normal",
-      "notes": "No rate hikes detected in observation window.",
-      "raw_value": "No hikes in sample",
+      "status": "high",
+      "notes": "Within 6 months of last rate hike",
+      "raw_value": "Months since last hike: 0 (hike on 2026-09-01)",
       "pure_value": [
         {
           "metric": "months_since_hike",
-          "value": null
+          "value": 0
+        },
+        {
+          "metric": "last_hike_date",
+          "value": "2026-09-01"
         }
       ],
       "topics": [
         "Macro",
         "Policy"
       ],
-      "description": "Tracks the time elapsed since the last Federal Reserve rate hike. The period immediately following a rate hike can be a vulnerable time for markets."
+      "description": "Tracks the time elapsed since the last Federal Reserve rate hike. The period immediately following a rate hike can be a vulnerable time for markets.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Corporate Profits vs GDP",
@@ -463,29 +484,30 @@
       "threshold": "> 12%",
       "status": "normal",
       "notes": "Corporate profit share below threshold",
-      "raw_value": "Corporate profits/GDP: 10.69% (profits=3,259, GDP=30,486)",
+      "raw_value": "Corporate profits/GDP: 11.91% (profits=3,877, GDP=32,563)",
       "pure_value": [
         {
           "metric": "corporate_profit_share_pct",
-          "value": 10.691576376605592,
-          "as_of": "2025-04-01"
+          "value": 11.907472983933006,
+          "as_of": "2026-04-01"
         },
         {
           "metric": "corporate_profits",
-          "value": 3259.405,
-          "as_of": "2025-04-01"
+          "value": 3877.434,
+          "as_of": "2026-04-01"
         },
         {
           "metric": "gdp",
-          "value": 30485.729,
-          "as_of": "2025-04-01"
+          "value": 32563.03,
+          "as_of": "2026-04-01"
         }
       ],
       "topics": [
         "Macro",
         "Profits"
       ],
-      "description": "Measures corporate profits as a percentage of GDP. Historically high levels can indicate unsustainable profit margins and potential reversions."
+      "description": "Measures corporate profits as a percentage of GDP. Historically high levels can indicate unsustainable profit margins and potential reversions.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Credit-to-GDP",
@@ -497,19 +519,20 @@
       "threshold": "> 350%",
       "status": "normal",
       "notes": "Credit-to-GDP below threshold",
-      "raw_value": "US credit-to-GDP ratio: 154.7% (as of 2025-01-01)",
+      "raw_value": "US credit-to-GDP ratio: 139.7% (as of 2026-01-01)",
       "pure_value": [
         {
           "metric": "credit_to_gdp_pct",
-          "value": 154.7,
-          "as_of": "2025-01-01"
+          "value": 139.67804445996,
+          "as_of": "2026-01-01"
         }
       ],
       "topics": [
         "Macro",
         "Leverage"
       ],
-      "description": "Tracks the ratio of total credit to the private non-financial sector relative to Gross Domestic Product (GDP). It is a key measure of economy-wide leverage."
+      "description": "Tracks the ratio of total credit to the private non-financial sector relative to Gross Domestic Product (GDP). It is a key measure of economy-wide leverage.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Margin Debt",
@@ -518,26 +541,27 @@
         "US Market"
       ],
       "threshold": "New high",
-      "status": "high",
-      "notes": "Latest margin debt at record high",
-      "raw_value": "1,059,723 (latest: 2025-08-01); peak: 1,059,723 (as of 2025-08-01)",
+      "status": "normal",
+      "notes": "Below historical peak",
+      "raw_value": "1,480,054 (latest: 2026-09-01); peak: 1,502,072 (as of 2026-06-01)",
       "pure_value": [
         {
           "metric": "latest_margin_debt",
-          "value": 1059723.0,
-          "as_of": "2025-08-01"
+          "value": 1480054.0,
+          "as_of": "2026-09-01"
         },
         {
           "metric": "peak_margin_debt",
-          "value": 1059723.0,
-          "as_of": "2025-08-01"
+          "value": 1502072.0,
+          "as_of": "2026-06-01"
         }
       ],
       "topics": [
         "Sentiment",
         "Leverage"
       ],
-      "description": "Tracks the total dollar amount of debt that investors are carrying to purchase securities. Record-high levels of margin debt suggest heightened speculation and market risk."
+      "description": "Tracks the total dollar amount of debt that investors are carrying to purchase securities. Record-high levels of margin debt suggest heightened speculation and market risk.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Retail Positioning",
@@ -548,29 +572,30 @@
       "threshold": "> 70%",
       "status": "normal",
       "notes": "Retail bullish sentiment below 70% threshold",
-      "raw_value": "AAII bullish: 41.7% (as of 2025-09-25)",
+      "raw_value": "AAII bullish: 36.9% (as of 2026-10-22)",
       "pure_value": [
         {
           "metric": "bullish_pct",
-          "value": 41.726600000000005,
-          "as_of": "2025-09-25"
+          "value": 36.871500000000005,
+          "as_of": "2026-10-22"
         },
         {
           "metric": "neutral_pct",
-          "value": 19.064700000000002,
-          "as_of": "2025-09-25"
+          "value": 17.3184,
+          "as_of": "2026-10-22"
         },
         {
           "metric": "bearish_pct",
-          "value": 39.2086,
-          "as_of": "2025-09-25"
+          "value": 45.8101,
+          "as_of": "2026-10-22"
         }
       ],
       "topics": [
         "Sentiment",
         "AAII"
       ],
-      "description": "Gauges the sentiment of individual investors via the AAII Sentiment Survey. Extreme bullishness is often viewed as a contrarian indicator, suggesting market over-optimism."
+      "description": "Gauges the sentiment of individual investors via the AAII Sentiment Survey. Extreme bullishness is often viewed as a contrarian indicator, suggesting market over-optimism.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "ETF Net Inflows Streak",
@@ -581,19 +606,20 @@
       "threshold": "> 20",
       "status": "normal",
       "notes": "ETF inflow streak below 20-day threshold",
-      "raw_value": "SPY: streak=2 days",
+      "raw_value": "SPY: streak=0 days",
       "pure_value": [
         {
           "ticker": "SPY",
-          "consecutive_inflow_days": 2,
-          "latest_flow_musd": 7562.6
+          "consecutive_inflow_days": 0,
+          "latest_flow_musd": -267.33
         }
       ],
       "topics": [
         "Sentiment",
         "ETF"
       ],
-      "description": "Tracks the number of consecutive days of net inflows into major index ETFs (e.g., SPY, QQQ). A long streak can indicate strong market conviction or potential overheating."
+      "description": "Tracks the number of consecutive days of net inflows into SPY, the largest S&P 500 ETF. Daily flows are the change in shares outstanding times NAV, from State Street's published NAV history. A long streak can indicate strong market conviction or potential overheating.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "IPO Activity",
@@ -604,27 +630,28 @@
       "threshold": "Frothy",
       "status": "normal",
       "notes": "IPO activity below mania threshold",
-      "raw_value": "Trailing 12M IPOs (2024-11-01 to 2025-10-01): 184; 2023 IPOs: 109 ($19.5B)",
+      "raw_value": "Trailing 12M IPOs (2025-11-01 to 2026-10-01): 137; 2024 IPOs: 150 ($29.6B)",
       "pure_value": [
         {
           "metric": "trailing_12m_ipo_count",
-          "value": 184,
-          "window_start": "2024-11-01",
-          "window_end": "2025-10-01",
-          "as_of": "2025-10-03"
+          "value": 137,
+          "window_start": "2025-11-01",
+          "window_end": "2026-10-01",
+          "as_of": "2026-10-24"
         },
         {
           "metric": "last_full_year_ipo_count",
-          "value": 109,
-          "year": "2023",
-          "proceeds_billion": 19.5
+          "value": 150,
+          "year": "2024",
+          "proceeds_billion": 29.6
         }
       ],
       "topics": [
         "Sentiment",
         "IPO"
       ],
-      "description": "Tracks the volume and proceeds from Initial Public Offerings (IPOs). A surge in IPO activity can signal a frothy, speculative market environment."
+      "description": "Tracks the volume and proceeds from Initial Public Offerings (IPOs). A surge in IPO activity can signal a frothy, speculative market environment.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     },
     {
       "name": "Smart vs Dumb Money",
@@ -635,22 +662,178 @@
       "threshold": "> 70",
       "status": "normal",
       "notes": "Fear & Greed index below exuberance threshold",
-      "raw_value": "Fear & Greed index: 50.9 (as of 2025-10-03T00:00:00)",
+      "raw_value": "Fear & Greed index: 21.0 (as of 2026-10-23T23:59:44)",
       "pure_value": [
         {
           "metric": "fear_greed_index",
-          "value": 50.9428571428571,
-          "as_of": "2025-10-03T00:00:00"
+          "value": 20.9809523809524,
+          "as_of": "2026-10-23T23:59:44"
         },
         {
           "metric": "rating",
-          "value": "neutral"
+          "value": "extreme fear"
         }
       ],
       "topics": [
         "Sentiment"
       ],
-      "description": "Uses the CNN Fear & Greed Index as a proxy for 'dumb money' sentiment. Extreme greed (a high index value) can be a contrarian signal, suggesting retail investors are over-exposed."
+      "description": "Uses the CNN Fear & Greed Index as a proxy for 'dumb money' sentiment. Extreme greed (a high index value) can be a contrarian signal, suggesting retail investors are over-exposed.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
+    },
+    {
+      "name": "Insider Buy Share",
+      "category": "Sentiment",
+      "markets": [
+        "S&P 500"
+      ],
+      "threshold": "Bottom 10% of past year",
+      "status": "normal",
+      "notes": "Insider buy share is above the bottom 10% of the past year",
+      "raw_value": "90d buy share: 12.8% vs 2.3% low-tail threshold (buy $2,090M, sell $14,232M, as of 2026-10-23); 30d: 19.0%",
+      "pure_value": [
+        {
+          "metric": "buy_share_90d_pct",
+          "value": 12.8,
+          "as_of": "2026-10-23"
+        },
+        {
+          "metric": "buy_share_30d_pct",
+          "value": 18.96,
+          "as_of": "2026-10-23"
+        },
+        {
+          "metric": "low_tail_threshold_pct",
+          "value": 2.25,
+          "as_of": "2026-10-23"
+        },
+        {
+          "metric": "buy_value_90d_usd",
+          "value": 2089718992.86,
+          "as_of": "2026-10-23"
+        },
+        {
+          "metric": "sell_value_90d_usd",
+          "value": 14231944636.33,
+          "as_of": "2026-10-23"
+        },
+        {
+          "metric": "trades_90d",
+          "value": 6776,
+          "as_of": "2026-10-23"
+        }
+      ],
+      "topics": [
+        "Sentiment",
+        "Insider"
+      ],
+      "description": "Share of insider trading dollars that are purchases rather than sales, across S&P 500 companies, from SEC Form 4 filings. Grants, option exercises, tax withholding and sell-to-cover sales are excluded. Heavy insider selling into a rally has historically preceded market tops.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
+    },
+    {
+      "name": "Retail Buzz Velocity",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": ">= 90th percentile",
+      "status": "normal",
+      "notes": "Building baseline: 2 of 30 readings needed before a percentile is meaningful.",
+      "raw_value": "2.3 posts/hour (as of 2026-10-24)",
+      "pure_value": [
+        {
+          "metric": "posts_per_hour",
+          "value": 2.32,
+          "as_of": "2026-10-24T00:00:00"
+        },
+        {
+          "metric": "percentile_rank",
+          "value": null
+        },
+        {
+          "metric": "observations",
+          "value": 2
+        }
+      ],
+      "topics": [
+        "Sentiment"
+      ],
+      "description": "Posting rate across r/wallstreetbets, r/stocks and r/investing, measured from the public Atom feed. Retail posting velocity spikes into euphoric tops and panic lows and goes quiet in between, so an extreme reading is a contrarian warning. Ranked against this indicator's own accumulated history rather than an absolute post count, because the baseline drifts with Reddit's own traffic.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
+    },
+    {
+      "name": "Social Bull-Bear Ratio",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": ">= 0.75",
+      "status": "normal",
+      "notes": "Retail bull/bear balance ordinary at 42.9% bullish across 21 labelled messages. Latest reading is 9 days old; source may be unreachable.",
+      "raw_value": "42.9% bullish (9B/12S of 21 labelled, as of 2026-10-15)",
+      "pure_value": [
+        {
+          "metric": "bull_ratio",
+          "value": 0.4286,
+          "as_of": "2026-10-15T00:00:00"
+        },
+        {
+          "metric": "bullish",
+          "value": 9
+        },
+        {
+          "metric": "bearish",
+          "value": 12
+        },
+        {
+          "metric": "labelled",
+          "value": 21
+        },
+        {
+          "metric": "percentile_rank",
+          "value": null
+        }
+      ],
+      "topics": [
+        "Sentiment"
+      ],
+      "description": "Share of self-labelled StockTwits messages on SPY and QQQ tagged Bullish. Posters label their own messages, so this is a directional sentiment read with no model in the loop to drift or tune. Retail skews structurally bullish, so the signal is in the extremes: crowded optimism above 0.75 is a contrarian warning, and capitulation below 0.30 has historically marked washout lows.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
+    },
+    {
+      "name": "Recession Odds",
+      "category": "Sentiment",
+      "markets": [
+        "US Market"
+      ],
+      "threshold": ">= 35%",
+      "status": "normal",
+      "notes": "Prediction market prices only a 8.5% chance of recession. Complacent, but not the overheating condition this threshold tracks.",
+      "raw_value": "8.5% \u2014 US recession by end of 2026? (as of 2026-10-24)",
+      "pure_value": [
+        {
+          "metric": "probability",
+          "value": 0.085,
+          "as_of": "2026-10-24T00:00:00"
+        },
+        {
+          "metric": "question",
+          "value": "US recession by end of 2026?"
+        },
+        {
+          "metric": "volume",
+          "value": 2342755.69
+        },
+        {
+          "metric": "resolves",
+          "value": "2027-01-31T00:00:00Z"
+        }
+      ],
+      "topics": [
+        "Sentiment",
+        "Macro"
+      ],
+      "description": "Implied probability of the most-traded open Polymarket contract on a US recession. Complements the macro indicators rather than repeating them: FRED series say where the economy is, this says what money is betting happens next. Live odds only \u2014 Polymarket serves no historical vintage, so this series accumulates forward from first run and cannot be backfilled.",
+      "updated_at": "2026-10-24T09:49:14+00:00"
     }
   ]
 }

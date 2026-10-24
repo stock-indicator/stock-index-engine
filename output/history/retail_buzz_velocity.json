@@ -1,0 +1,35 @@
+{
+  "indicator": "retail_buzz_velocity",
+  "display_name": "Retail Buzz Velocity",
+  "category": "Sentiment",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Sentiment"
+  ],
+  "threshold": ">= 90th percentile",
+  "updated_at": "2026-10-24T09:49:14+00:00",
+  "series": [
+    {
+      "date": "2026-10-15",
+      "status": null,
+      "summary_value": 4.1,
+      "details": {
+        "posts_per_hour": 4.1,
+        "sample_size": 100,
+        "span_hours": 24.161
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": 2.32,
+      "details": {
+        "posts_per_hour": 2.32,
+        "sample_size": 100,
+        "span_hours": 42.682
+      }
+    }
+  ]
+}

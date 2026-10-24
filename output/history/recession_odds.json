@@ -1,0 +1,38 @@
+{
+  "indicator": "recession_odds",
+  "display_name": "Recession Odds",
+  "category": "Sentiment",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Sentiment",
+    "Macro"
+  ],
+  "threshold": ">= 35%",
+  "updated_at": "2026-10-24T09:49:14+00:00",
+  "series": [
+    {
+      "date": "2026-10-15",
+      "status": null,
+      "summary_value": 0.075,
+      "details": {
+        "probability": 0.075,
+        "volume": 2300531.86,
+        "question": "US recession by end of 2026?",
+        "end_date": "2027-01-31T00:00:00Z"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": 0.085,
+      "details": {
+        "probability": 0.085,
+        "volume": 2342755.69,
+        "question": "US recession by end of 2026?",
+        "end_date": "2027-01-31T00:00:00Z"
+      }
+    }
+  ]
+}

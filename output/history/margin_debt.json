@@ -10,107 +10,2247 @@
     "Leverage"
   ],
   "threshold": "New high",
-  "updated_at": "2025-10-03T06:07:08+00:00",
+  "updated_at": "2026-10-24T09:49:14+00:00",
   "series": [
     {
-      "date": "2024-11-01",
-      "status": null,
-      "summary_value": 890852.0,
+      "date": "2025-10-24",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-25",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-26",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-27",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-29",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-30",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-31",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-01",
+      "status": "high",
+      "summary_value": 1214321.0,
       "details": {
-        "margin_debt": 890852,
-        "cash_balances": 170052,
-        "margin_credit": 167223.0
+        "margin_debt": 1214321,
+        "cash_balances": 202131,
+        "margin_credit": 194418.0
       }
     },
     {
-      "date": "2024-12-01",
-      "status": null,
-      "summary_value": 899168.0,
+      "date": "2025-11-02",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-03",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-04",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-05",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-06",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-07",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-08",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-09",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-10",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-11",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-12",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-13",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-14",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-15",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-16",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-17",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-18",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-19",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-20",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-21",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-22",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-23",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-24",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-25",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-26",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-27",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-29",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-30",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-01",
+      "status": "high",
+      "summary_value": 1225597.0,
       "details": {
-        "margin_debt": 899168,
-        "cash_balances": 181280,
-        "margin_credit": 175795.0
+        "margin_debt": 1225597,
+        "cash_balances": 211720,
+        "margin_credit": 199762.0
       }
     },
     {
-      "date": "2025-01-01",
-      "status": null,
-      "summary_value": 937253.0,
+      "date": "2025-12-02",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-03",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-04",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-05",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-06",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-07",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-08",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-09",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-10",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-11",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-12",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-13",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-14",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-15",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-16",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-17",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-18",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-19",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-20",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-21",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-22",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-23",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-24",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-25",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-26",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-27",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-29",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-30",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-31",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-01",
+      "status": "high",
+      "summary_value": 1279042.0,
       "details": {
-        "margin_debt": 937253,
-        "cash_balances": 178301,
-        "margin_credit": 166346.0
+        "margin_debt": 1279042,
+        "cash_balances": 203700,
+        "margin_credit": 196911.0
       }
     },
     {
-      "date": "2025-02-01",
-      "status": null,
-      "summary_value": 918144.0,
+      "date": "2026-01-02",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-03",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-04",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-05",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-06",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-07",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-08",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-09",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-10",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-11",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-12",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-13",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-14",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-15",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-16",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-17",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-18",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-19",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-20",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-21",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-22",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-23",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-24",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-25",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-26",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-27",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-29",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-30",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-31",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-01",
+      "status": "high",
+      "summary_value": 1253192.0,
       "details": {
-        "margin_debt": 918144,
-        "cash_balances": 183278,
-        "margin_credit": 176051.0
+        "margin_debt": 1253192,
+        "cash_balances": 205060,
+        "margin_credit": 200047.0
       }
     },
     {
-      "date": "2025-03-01",
-      "status": null,
-      "summary_value": 880316.0,
+      "date": "2026-02-02",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-03",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-04",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-05",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-06",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-07",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-08",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-09",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-10",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-11",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-12",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-13",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-14",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-15",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-16",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-17",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-18",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-19",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-20",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-21",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-22",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-23",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-24",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-25",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-26",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-27",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-01",
+      "status": "high",
+      "summary_value": 1220922.0,
       "details": {
-        "margin_debt": 880316,
-        "cash_balances": 189855,
-        "margin_credit": 176161.0
+        "margin_debt": 1220922,
+        "cash_balances": 221860,
+        "margin_credit": 205600.0
       }
     },
     {
-      "date": "2025-04-01",
-      "status": null,
-      "summary_value": 850558.0,
+      "date": "2026-03-02",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-03",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-04",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-05",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-06",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-07",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-08",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-09",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-10",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-11",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-12",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-13",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-14",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-15",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-16",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-17",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-18",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-19",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-20",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-21",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-22",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-23",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-24",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-25",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-26",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-27",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-28",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-29",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-30",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-31",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-01",
+      "status": "normal",
+      "summary_value": 1304281.0,
       "details": {
-        "margin_debt": 850558,
-        "cash_balances": 187958,
-        "margin_credit": 175824.0
+        "margin_debt": 1304281,
+        "cash_balances": 217836,
+        "margin_credit": 215445.0
       }
     },
     {
-      "date": "2025-05-01",
-      "status": null,
-      "summary_value": 920960.0,
+      "date": "2026-04-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-01",
+      "status": "normal",
+      "summary_value": 1415557.0,
       "details": {
-        "margin_debt": 920960,
-        "cash_balances": 187685,
-        "margin_credit": 176698.0
+        "margin_debt": 1415557,
+        "cash_balances": 206600,
+        "margin_credit": 217256.0
       }
     },
     {
-      "date": "2025-06-01",
-      "status": null,
-      "summary_value": 1007961.0,
+      "date": "2026-05-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-01",
+      "status": "normal",
+      "summary_value": 1502072.0,
       "details": {
-        "margin_debt": 1007961,
-        "cash_balances": 200573,
-        "margin_credit": 185584.0
+        "margin_debt": 1502072,
+        "cash_balances": 217441,
+        "margin_credit": 223412.0
       }
     },
     {
-      "date": "2025-07-01",
-      "status": null,
-      "summary_value": 1022548.0,
+      "date": "2026-06-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-01",
+      "status": "normal",
+      "summary_value": 1417225.0,
       "details": {
-        "margin_debt": 1022548,
-        "cash_balances": 194712,
-        "margin_credit": 186672.0
+        "margin_debt": 1417225,
+        "cash_balances": 205132,
+        "margin_credit": 217305.0
       }
     },
     {
-      "date": "2025-08-01",
-      "status": null,
-      "summary_value": 1059723.0,
+      "date": "2026-07-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-01",
+      "status": "normal",
+      "summary_value": 1453832.0,
       "details": {
-        "margin_debt": 1059723,
-        "cash_balances": 188221,
-        "margin_credit": 181563.0
+        "margin_debt": 1453832,
+        "cash_balances": 207641,
+        "margin_credit": 217499.0
       }
+    },
+    {
+      "date": "2026-08-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-01",
+      "status": "normal",
+      "summary_value": 1480054.0,
+      "details": {
+        "margin_debt": 1480054,
+        "cash_balances": 215328,
+        "margin_credit": 218581.0
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     }
   ]
 }

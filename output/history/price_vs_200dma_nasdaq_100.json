@@ -10,619 +10,2515 @@
     "Trend"
   ],
   "threshold": "> 25%",
-  "updated_at": "2025-10-03T06:07:08+00:00",
+  "updated_at": "2026-10-24T09:49:14+00:00",
   "series": [
     {
-      "date": "2025-07-23",
-      "status": null,
-      "summary_value": 10.922846470360028,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.922846470360028,
-        "deviation_pct": 10.922846470360028,
-        "adj_close": 23162.41015625,
-        "moving_average": 20881.550458984377
-      }
-    },
-    {
-      "date": "2025-07-24",
-      "status": null,
-      "summary_value": 11.10685311338514,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.10685311338514,
-        "deviation_pct": 11.10685311338514,
-        "adj_close": 23219.869140625,
-        "moving_average": 20898.68310546875
-      }
-    },
-    {
-      "date": "2025-07-25",
-      "status": null,
-      "summary_value": 11.271314743251036,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.271314743251036,
-        "deviation_pct": 11.271314743251036,
-        "adj_close": 23272.25,
-        "moving_average": 20914.8692578125
-      }
-    },
-    {
-      "date": "2025-07-28",
-      "status": null,
-      "summary_value": 11.578194759763633,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.578194759763633,
-        "deviation_pct": 11.578194759763633,
-        "adj_close": 23356.26953125,
-        "moving_average": 20932.646904296875
-      }
-    },
-    {
-      "date": "2025-07-29",
-      "status": null,
-      "summary_value": 11.263977986796958,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.263977986796958,
-        "deviation_pct": 11.263977986796958,
-        "adj_close": 23308.30078125,
-        "moving_average": 20948.64951171875
-      }
-    },
-    {
-      "date": "2025-07-30",
-      "status": null,
-      "summary_value": 11.359350436269732,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.359350436269732,
-        "deviation_pct": 11.359350436269732,
-        "adj_close": 23345.41015625,
-        "moving_average": 20964.032265625
-      }
-    },
-    {
-      "date": "2025-07-31",
-      "status": null,
-      "summary_value": 10.673598602167877,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.673598602167877,
-        "deviation_pct": 10.673598602167877,
-        "adj_close": 23218.119140625,
-        "moving_average": 20978.9140625
-      }
-    },
-    {
-      "date": "2025-08-01",
-      "status": null,
-      "summary_value": 8.441277157505485,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 8.441277157505485,
-        "deviation_pct": 8.441277157505485,
-        "adj_close": 22763.310546875,
-        "moving_average": 20991.37076171875
-      }
-    },
-    {
-      "date": "2025-08-04",
-      "status": null,
-      "summary_value": 10.395041640101736,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.395041640101736,
-        "deviation_pct": 10.395041640101736,
-        "adj_close": 23188.609375,
-        "moving_average": 21005.1185546875
-      }
-    },
-    {
-      "date": "2025-08-05",
-      "status": null,
-      "summary_value": 9.510962153237609,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 9.510962153237609,
-        "deviation_pct": 9.510962153237609,
-        "adj_close": 23018.560546875,
-        "moving_average": 21019.41220703125
-      }
-    },
-    {
-      "date": "2025-08-06",
-      "status": null,
-      "summary_value": 10.838646145747056,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.838646145747056,
-        "deviation_pct": 10.838646145747056,
-        "adj_close": 23315.0390625,
-        "moving_average": 21035.1171484375
-      }
-    },
-    {
-      "date": "2025-08-07",
-      "status": null,
-      "summary_value": 11.108280286215951,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.108280286215951,
-        "deviation_pct": 11.108280286215951,
-        "adj_close": 23389.529296875,
-        "moving_average": 21051.1126953125
-      }
-    },
-    {
-      "date": "2025-08-08",
-      "status": null,
-      "summary_value": 12.0741178861761,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.0741178861761,
-        "deviation_pct": 12.0741178861761,
-        "adj_close": 23611.26953125,
-        "moving_average": 21067.54884765625
-      }
-    },
-    {
-      "date": "2025-08-11",
-      "status": null,
-      "summary_value": 11.588544299375576,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.588544299375576,
-        "deviation_pct": 11.588544299375576,
-        "adj_close": 23526.630859375,
-        "moving_average": 21083.3746484375
-      }
-    },
-    {
-      "date": "2025-08-12",
-      "status": null,
-      "summary_value": 12.978675955363162,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.978675955363162,
-        "deviation_pct": 12.978675955363162,
-        "adj_close": 23839.19921875,
-        "moving_average": 21100.61833984375
-      }
-    },
-    {
-      "date": "2025-08-13",
-      "status": null,
-      "summary_value": 12.924106247188341,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.924106247188341,
-        "deviation_pct": 12.924106247188341,
-        "adj_close": 23849.0390625,
-        "moving_average": 21119.52873046875
-      }
-    },
-    {
-      "date": "2025-08-14",
-      "status": null,
-      "summary_value": 12.749423924484447,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.749423924484447,
-        "deviation_pct": 12.749423924484447,
-        "adj_close": 23832.439453125,
-        "moving_average": 21137.52658203125
-      }
-    },
-    {
-      "date": "2025-08-15",
-      "status": null,
-      "summary_value": 12.090876237278048,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.090876237278048,
-        "deviation_pct": 12.090876237278048,
-        "adj_close": 23712.0703125,
-        "moving_average": 21154.3268359375
-      }
-    },
-    {
-      "date": "2025-08-18",
-      "status": null,
-      "summary_value": 12.009837204844152,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.009837204844152,
-        "deviation_pct": 12.009837204844152,
-        "adj_close": 23713.759765625,
-        "moving_average": 21171.140283203124
-      }
-    },
-    {
-      "date": "2025-08-19",
-      "status": null,
-      "summary_value": 10.38199847486639,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.38199847486639,
-        "deviation_pct": 10.38199847486639,
-        "adj_close": 23384.76953125,
-        "moving_average": 21185.31087890625
-      }
-    },
-    {
-      "date": "2025-08-20",
-      "status": null,
-      "summary_value": 9.669749058999757,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 9.669749058999757,
-        "deviation_pct": 9.669749058999757,
-        "adj_close": 23249.5703125,
-        "moving_average": 21199.620234375
-      }
-    },
-    {
-      "date": "2025-08-21",
-      "status": null,
-      "summary_value": 9.081400106722274,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 9.081400106722274,
-        "deviation_pct": 9.081400106722274,
-        "adj_close": 23142.580078125,
-        "moving_average": 21215.88103515625
-      }
-    },
-    {
-      "date": "2025-08-22",
-      "status": null,
-      "summary_value": 10.66684522628889,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.66684522628889,
-        "deviation_pct": 10.66684522628889,
-        "adj_close": 23498.119140625,
-        "moving_average": 21233.205927734376
-      }
-    },
-    {
-      "date": "2025-08-25",
-      "status": null,
-      "summary_value": 10.235485109333075,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.235485109333075,
-        "deviation_pct": 10.235485109333075,
-        "adj_close": 23425.609375,
-        "moving_average": 21250.5159765625
-      }
-    },
-    {
-      "date": "2025-08-26",
-      "status": null,
-      "summary_value": 10.618721032268946,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.618721032268946,
-        "deviation_pct": 10.618721032268946,
-        "adj_close": 23525.2890625,
-        "moving_average": 21267.0051171875
-      }
-    },
-    {
-      "date": "2025-08-27",
-      "status": null,
-      "summary_value": 10.736946834030567,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.736946834030567,
-        "deviation_pct": 10.736946834030567,
-        "adj_close": 23565.849609375,
-        "moving_average": 21280.92771484375
-      }
-    },
-    {
-      "date": "2025-08-28",
-      "status": null,
-      "summary_value": 11.315484294889607,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.315484294889607,
-        "deviation_pct": 11.315484294889607,
-        "adj_close": 23703.44921875,
-        "moving_average": 21293.937109375
-      }
-    },
-    {
-      "date": "2025-08-29",
-      "status": null,
-      "summary_value": 9.903539983205176,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 9.903539983205176,
-        "deviation_pct": 9.903539983205176,
-        "adj_close": 23415.419921875,
-        "moving_average": 21305.428310546875
-      }
-    },
-    {
-      "date": "2025-09-02",
-      "status": null,
-      "summary_value": 8.984114717327392,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 8.984114717327392,
-        "deviation_pct": 8.984114717327392,
-        "adj_close": 23231.109375,
-        "moving_average": 21316.050908203124
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "status": null,
-      "summary_value": 9.785685835510465,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 9.785685835510465,
-        "deviation_pct": 9.785685835510465,
-        "adj_close": 23414.83984375,
-        "moving_average": 21327.771162109377
-      }
-    },
-    {
-      "date": "2025-09-04",
-      "status": null,
-      "summary_value": 10.74120532011649,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.74120532011649,
-        "deviation_pct": 10.74120532011649,
-        "adj_close": 23633.009765625,
-        "moving_average": 21340.75541015625
-      }
-    },
-    {
-      "date": "2025-09-05",
-      "status": null,
-      "summary_value": 10.76073665466068,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 10.76073665466068,
-        "deviation_pct": 10.76073665466068,
-        "adj_close": 23652.439453125,
-        "moving_average": 21354.5342578125
-      }
-    },
-    {
-      "date": "2025-09-08",
-      "status": null,
-      "summary_value": 11.18751442904487,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.18751442904487,
-        "deviation_pct": 11.18751442904487,
-        "adj_close": 23762.30078125,
-        "moving_average": 21371.375107421874
-      }
-    },
-    {
-      "date": "2025-09-09",
-      "status": null,
-      "summary_value": 11.464076045221747,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.464076045221747,
-        "deviation_pct": 11.464076045221747,
-        "adj_close": 23839.80078125,
-        "moving_average": 21387.8781640625
-      }
-    },
-    {
-      "date": "2025-09-10",
-      "status": null,
-      "summary_value": 11.425911362148303,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 11.425911362148303,
-        "deviation_pct": 11.425911362148303,
-        "adj_close": 23849.26953125,
-        "moving_average": 21403.7015625
-      }
-    },
-    {
-      "date": "2025-09-11",
-      "status": null,
-      "summary_value": 12.008366891265352,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.008366891265352,
-        "deviation_pct": 12.008366891265352,
-        "adj_close": 23992.560546875,
-        "moving_average": 21420.3288671875
-      }
-    },
-    {
-      "date": "2025-09-12",
-      "status": null,
-      "summary_value": 12.385561849760181,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.385561849760181,
-        "deviation_pct": 12.385561849760181,
-        "adj_close": 24092.189453125,
-        "moving_average": 21437.08591796875
-      }
-    },
-    {
-      "date": "2025-09-15",
-      "status": null,
-      "summary_value": 13.233040406388044,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 13.233040406388044,
-        "deviation_pct": 13.233040406388044,
-        "adj_close": 24293.779296875,
-        "moving_average": 21454.673662109373
-      }
-    },
-    {
-      "date": "2025-09-16",
-      "status": null,
-      "summary_value": 13.050609496057508,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 13.050609496057508,
-        "deviation_pct": 13.050609496057508,
-        "adj_close": 24274.25,
-        "moving_average": 21472.020458984374
-      }
-    },
-    {
-      "date": "2025-09-17",
-      "status": null,
-      "summary_value": 12.728491716635506,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 12.728491716635506,
-        "deviation_pct": 12.728491716635506,
-        "adj_close": 24223.689453125,
-        "moving_average": 21488.524404296873
-      }
-    },
-    {
-      "date": "2025-09-18",
-      "status": null,
-      "summary_value": 13.706252598299976,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 13.706252598299976,
-        "deviation_pct": 13.706252598299976,
-        "adj_close": 24454.890625,
-        "moving_average": 21507.07640625
-      }
-    },
-    {
-      "date": "2025-09-19",
-      "status": null,
-      "summary_value": 14.404711389305355,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 14.404711389305355,
-        "deviation_pct": 14.404711389305355,
-        "adj_close": 24626.25,
-        "moving_average": 21525.555810546874
-      }
-    },
-    {
-      "date": "2025-09-22",
-      "status": null,
-      "summary_value": 14.935021925993455,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 14.935021925993455,
-        "deviation_pct": 14.935021925993455,
-        "adj_close": 24761.0703125,
-        "moving_average": 21543.5381640625
-      }
-    },
-    {
-      "date": "2025-09-23",
-      "status": null,
-      "summary_value": 14.006663045393141,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 14.006663045393141,
-        "deviation_pct": 14.006663045393141,
-        "adj_close": 24580.169921875,
-        "moving_average": 21560.292412109375
-      }
-    },
-    {
-      "date": "2025-09-24",
-      "status": null,
-      "summary_value": 13.572072081289807,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 13.572072081289807,
-        "deviation_pct": 13.572072081289807,
-        "adj_close": 24503.5703125,
-        "moving_average": 21575.348466796873
-      }
-    },
-    {
-      "date": "2025-09-25",
-      "status": null,
-      "summary_value": 13.001734451847135,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 13.001734451847135,
-        "deviation_pct": 13.001734451847135,
-        "adj_close": 24397.310546875,
-        "moving_average": 21590.208916015625
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": null,
-      "summary_value": 13.419505223558875,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 13.419505223558875,
-        "deviation_pct": 13.419505223558875,
-        "adj_close": 24503.849609375,
-        "moving_average": 21604.6169140625
-      }
-    },
-    {
-      "date": "2025-09-29",
-      "status": null,
-      "summary_value": 13.833566299107305,
-      "details": {
-        "market": "Nasdaq 100",
-        "indicator_value": 13.833566299107305,
-        "deviation_pct": 13.833566299107305,
-        "adj_close": 24611.3515625,
-        "moving_average": 21620.4695703125
-      }
-    },
-    {
-      "date": "2025-09-30",
+      "date": "2025-10-24",
       "status": "normal",
-      "summary_value": 14.063667069797736,
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-12",
+      "status": "normal",
+      "summary_value": 11.422949587519609,
       "details": {
         "market": "Nasdaq 100",
-        "indicator_value": 14.063667069797736,
-        "deviation_pct": 14.063667069797736,
-        "adj_close": 24679.98828125,
-        "moving_average": 21637.02861328125
+        "indicator_value": 11.422949587519609,
+        "deviation_pct": 11.422949587519609,
+        "adj_close": 29742.599609375,
+        "moving_average": 26693.4233203125
       }
     },
     {
-      "date": "2025-10-01",
+      "date": "2026-08-13",
       "status": "normal",
-      "summary_value": 14.541914796660329,
+      "summary_value": 12.604102469390835,
       "details": {
         "market": "Nasdaq 100",
-        "indicator_value": 14.541914796660329,
-        "deviation_pct": 14.541914796660329,
-        "adj_close": 24800.859375,
-        "moving_average": 21652.2130078125
+        "indicator_value": 12.604102469390835,
+        "deviation_pct": 12.604102469390835,
+        "adj_close": 30084.5,
+        "moving_average": 26717.055009765623
       }
     },
     {
-      "date": "2025-10-02",
+      "date": "2026-08-14",
       "status": "normal",
-      "summary_value": 14.879407245260282,
+      "summary_value": 12.371683183087297,
       "details": {
         "market": "Nasdaq 100",
-        "indicator_value": 14.879407245260282,
-        "deviation_pct": 14.879407245260282,
-        "adj_close": 24892.759765625,
-        "moving_average": 21668.600458984376
+        "indicator_value": 12.371683183087297,
+        "deviation_pct": 12.371683183087297,
+        "adj_close": 30046.140625,
+        "moving_average": 26738.177958984375
       }
+    },
+    {
+      "date": "2026-08-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-17",
+      "status": "normal",
+      "summary_value": 12.09834577372369,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 12.09834577372369,
+        "deviation_pct": 12.09834577372369,
+        "adj_close": 29995.380859375,
+        "moving_average": 26758.094111328126
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "status": "normal",
+      "summary_value": 10.143852007985105,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 10.143852007985105,
+        "deviation_pct": 10.143852007985105,
+        "adj_close": 29490.9609375,
+        "moving_average": 26774.94966796875
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "status": "normal",
+      "summary_value": 9.82560353308424,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 9.82560353308424,
+        "deviation_pct": 9.82560353308424,
+        "adj_close": 29426.01953125,
+        "moving_average": 26793.405712890624
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "status": "normal",
+      "summary_value": 8.962935715343757,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.962935715343757,
+        "deviation_pct": 8.962935715343757,
+        "adj_close": 29213.16015625,
+        "moving_average": 26810.18087890625
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "status": "normal",
+      "summary_value": 9.25191711669762,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 9.25191711669762,
+        "deviation_pct": 9.25191711669762,
+        "adj_close": 29308.859375,
+        "moving_average": 26826.860478515624
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-24",
+      "status": "normal",
+      "summary_value": 8.114726128409371,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.114726128409371,
+        "deviation_pct": 8.114726128409371,
+        "adj_close": 29023.1796875,
+        "moving_average": 26844.797861328127
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "status": "normal",
+      "summary_value": 8.73509654777807,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.73509654777807,
+        "deviation_pct": 8.73509654777807,
+        "adj_close": 29209.23046875,
+        "moving_average": 26862.743857421876
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "status": "normal",
+      "summary_value": 8.709163589196656,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.709163589196656,
+        "deviation_pct": 8.709163589196656,
+        "adj_close": 29224.51953125,
+        "moving_average": 26883.21625
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "status": "normal",
+      "summary_value": 10.166590455208775,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 10.166590455208775,
+        "deviation_pct": 10.166590455208775,
+        "adj_close": 29641.560546875,
+        "moving_average": 26906.125009765627
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "status": "normal",
+      "summary_value": 9.315404050337369,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 9.315404050337369,
+        "deviation_pct": 9.315404050337369,
+        "adj_close": 29433.427734375,
+        "moving_average": 26925.233447265626
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-31",
+      "status": "normal",
+      "summary_value": 9.323190792692936,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 9.323190792692936,
+        "deviation_pct": 9.323190792692936,
+        "adj_close": 29456.970703125,
+        "moving_average": 26944.850849609375
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "status": "normal",
+      "summary_value": 7.84259105335865,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 7.84259105335865,
+        "deviation_pct": 7.84259105335865,
+        "adj_close": 29077.220703125,
+        "moving_average": 26962.650302734375
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "status": "normal",
+      "summary_value": 8.004663861397104,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.004663861397104,
+        "deviation_pct": 8.004663861397104,
+        "adj_close": 29143.330078125,
+        "moving_average": 26983.399638671875
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "status": "normal",
+      "summary_value": 9.170448687508145,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 9.170448687508145,
+        "deviation_pct": 9.170448687508145,
+        "adj_close": 29482.3203125,
+        "moving_average": 27005.770029296877
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "status": "normal",
+      "summary_value": 9.30340522130917,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 9.30340522130917,
+        "deviation_pct": 9.30340522130917,
+        "adj_close": 29544.154296875,
+        "moving_average": 27029.491201171873
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-08",
+      "status": "normal",
+      "summary_value": 9.067562631015903,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 9.067562631015903,
+        "deviation_pct": 9.067562631015903,
+        "adj_close": 29507.69921875,
+        "moving_average": 27054.51419921875
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "status": "normal",
+      "summary_value": 8.653132204734948,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.653132204734948,
+        "deviation_pct": 8.653132204734948,
+        "adj_close": 29421.55078125,
+        "moving_average": 27078.41935546875
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "status": "normal",
+      "summary_value": 7.378503112494192,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 7.378503112494192,
+        "deviation_pct": 7.378503112494192,
+        "adj_close": 29103.509765625,
+        "moving_average": 27103.665
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "status": "normal",
+      "summary_value": 8.253546376844238,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.253546376844238,
+        "deviation_pct": 8.253546376844238,
+        "adj_close": 29368.439453125,
+        "moving_average": 27129.309326171875
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-14",
+      "status": "normal",
+      "summary_value": 7.280082331069056,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 7.280082331069056,
+        "deviation_pct": 7.280082331069056,
+        "adj_close": 29127.16015625,
+        "moving_average": 27150.57587890625
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "status": "normal",
+      "summary_value": 6.505908314246403,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 6.505908314246403,
+        "deviation_pct": 6.505908314246403,
+        "adj_close": 28937.83984375,
+        "moving_average": 27170.17328125
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "status": "normal",
+      "summary_value": 6.459837223172949,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 6.459837223172949,
+        "deviation_pct": 6.459837223172949,
+        "adj_close": 28945.060546875,
+        "moving_average": 27188.71388671875
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "status": "normal",
+      "summary_value": 8.22604537275064,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.22604537275064,
+        "deviation_pct": 8.22604537275064,
+        "adj_close": 29446.98046875,
+        "moving_average": 27208.774345703125
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "status": "normal",
+      "summary_value": 8.86471585361329,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.86471585361329,
+        "deviation_pct": 8.86471585361329,
+        "adj_close": 29644.16796875,
+        "moving_average": 27230.2809375
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-21",
+      "status": "normal",
+      "summary_value": 11.84166749927947,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 11.84166749927947,
+        "deviation_pct": 11.84166749927947,
+        "adj_close": 30482.349609375,
+        "moving_average": 27254.913388671874
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "status": "normal",
+      "summary_value": 12.653171344931458,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 12.653171344931458,
+        "deviation_pct": 12.653171344931458,
+        "adj_close": 30732.396484375,
+        "moving_average": 27280.54267578125
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "status": "normal",
+      "summary_value": 11.592401039764322,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 11.592401039764322,
+        "deviation_pct": 11.592401039764322,
+        "adj_close": 30470.2890625,
+        "moving_average": 27304.985625
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "status": "normal",
+      "summary_value": 11.52603083217806,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 11.52603083217806,
+        "deviation_pct": 11.52603083217806,
+        "adj_close": 30478.859375,
+        "moving_average": 27328.91966796875
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "status": "normal",
+      "summary_value": 11.897110162494377,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 11.897110162494377,
+        "deviation_pct": 11.897110162494377,
+        "adj_close": 30608.134765625,
+        "moving_average": 27353.820595703124
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-28",
+      "status": "normal",
+      "summary_value": 10.592702079298231,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 10.592702079298231,
+        "deviation_pct": 10.592702079298231,
+        "adj_close": 30276.810546875,
+        "moving_average": 27376.861201171876
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "status": "normal",
+      "summary_value": 10.72879278177558,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 10.72879278177558,
+        "deviation_pct": 10.72879278177558,
+        "adj_close": 30339.330078125,
+        "moving_average": 27399.675654296876
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "status": "normal",
+      "summary_value": 10.885695586288941,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 10.885695586288941,
+        "deviation_pct": 10.885695586288941,
+        "adj_close": 30408.5,
+        "moving_average": 27423.28470703125
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "status": "normal",
+      "summary_value": 11.117569987488796,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 11.117569987488796,
+        "deviation_pct": 11.117569987488796,
+        "adj_close": 30501.560546875,
+        "moving_average": 27449.808837890625
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "status": "normal",
+      "summary_value": 12.11644747794985,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 12.11644747794985,
+        "deviation_pct": 12.11644747794985,
+        "adj_close": 30807.931640625,
+        "moving_average": 27478.5121484375
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-05",
+      "status": "normal",
+      "summary_value": 12.971426552308788,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 12.971426552308788,
+        "deviation_pct": 12.971426552308788,
+        "adj_close": 31076.439453125,
+        "moving_average": 27508.2296484375
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "status": "normal",
+      "summary_value": 13.374029656370249,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 13.374029656370249,
+        "deviation_pct": 13.374029656370249,
+        "adj_close": 31224.470703125,
+        "moving_average": 27541.113955078126
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "status": "normal",
+      "summary_value": 13.014240236750641,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 13.014240236750641,
+        "deviation_pct": 13.014240236750641,
+        "adj_close": 31160.080078125,
+        "moving_average": 27571.817509765624
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "status": "normal",
+      "summary_value": 11.330581140093772,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 11.330581140093772,
+        "deviation_pct": 11.330581140093772,
+        "adj_close": 30725.810546875,
+        "moving_average": 27598.715673828126
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "status": "normal",
+      "summary_value": 11.790872355259905,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 11.790872355259905,
+        "deviation_pct": 11.790872355259905,
+        "adj_close": 30883.1484375,
+        "moving_average": 27625.822919921877
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-12",
+      "status": "normal",
+      "summary_value": 10.898229231644683,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 10.898229231644683,
+        "deviation_pct": 10.898229231644683,
+        "adj_close": 30664.69921875,
+        "moving_average": 27651.207265625
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "status": "normal",
+      "summary_value": 10.45573843731407,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 10.45573843731407,
+        "deviation_pct": 10.45573843731407,
+        "adj_close": 30569.48046875,
+        "moving_average": 27675.773935546877
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "status": "normal",
+      "summary_value": 8.13622170214847,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 8.13622170214847,
+        "deviation_pct": 8.13622170214847,
+        "adj_close": 29950.8203125,
+        "moving_average": 27697.306083984375
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "status": "normal",
+      "summary_value": 7.995291477000864,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 7.995291477000864,
+        "deviation_pct": 7.995291477000864,
+        "adj_close": 29935.599609375,
+        "moving_average": 27719.356279296873
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "normal",
+      "summary_value": 5.225930452140997,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 5.225930452140997,
+        "deviation_pct": 5.225930452140997,
+        "adj_close": 29187.548828125,
+        "moving_average": 27737.981220703125
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-19",
+      "status": "normal",
+      "summary_value": 6.37611844884423,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 6.37611844884423,
+        "deviation_pct": 6.37611844884423,
+        "adj_close": 29529.349609375,
+        "moving_average": 27759.378740234373
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "status": "normal",
+      "summary_value": 6.1534586594572716,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 6.1534586594572716,
+        "deviation_pct": 6.1534586594572716,
+        "adj_close": 29490.279296875,
+        "moving_average": 27780.799296875
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "status": "normal",
+      "summary_value": 7.264040275647032,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 7.264040275647032,
+        "deviation_pct": 7.264040275647032,
+        "adj_close": 29822.51953125,
+        "moving_average": 27802.90529296875
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "status": "normal",
+      "summary_value": 4.094930749941975,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 4.094930749941975,
+        "deviation_pct": 4.094930749941975,
+        "adj_close": 28958.689453125,
+        "moving_average": 27819.500185546876
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "status": "normal",
+      "summary_value": 4.028992054459994,
+      "details": {
+        "market": "Nasdaq 100",
+        "indicator_value": 4.028992054459994,
+        "deviation_pct": 4.028992054459994,
+        "adj_close": 28957.529296875,
+        "moving_average": 27836.018330078125
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     }
   ]
 }

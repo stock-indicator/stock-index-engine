@@ -10,2603 +10,3388 @@
     "Momentum"
   ],
   "threshold": "> 80",
-  "updated_at": "2025-10-03T06:07:08+00:00",
+  "updated_at": "2026-10-24T09:49:14+00:00",
   "series": [
     {
-      "date": "2024-10-23",
-      "status": null,
-      "summary_value": 60.655858456355276,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 60.655858456355276,
-        "rsi": 60.655858456355276,
-        "adj_close": 5797.419921875
-      }
-    },
-    {
-      "date": "2024-10-24",
-      "status": null,
-      "summary_value": 57.0203610411419,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 57.0203610411419,
-        "rsi": 57.0203610411419,
-        "adj_close": 5809.85986328125
-      }
-    },
-    {
-      "date": "2024-10-25",
-      "status": null,
-      "summary_value": 65.35365294576016,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 65.35365294576016,
-        "rsi": 65.35365294576016,
-        "adj_close": 5808.1201171875
-      }
-    },
-    {
-      "date": "2024-10-28",
-      "status": null,
-      "summary_value": 61.118785877030746,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 61.118785877030746,
-        "rsi": 61.118785877030746,
-        "adj_close": 5823.52001953125
-      }
-    },
-    {
-      "date": "2024-10-29",
-      "status": null,
-      "summary_value": 56.95187609814101,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 56.95187609814101,
-        "rsi": 56.95187609814101,
-        "adj_close": 5832.919921875
-      }
-    },
-    {
-      "date": "2024-10-30",
-      "status": null,
-      "summary_value": 55.57954173433038,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.57954173433038,
-        "rsi": 55.57954173433038,
-        "adj_close": 5813.669921875
-      }
-    },
-    {
-      "date": "2024-10-31",
-      "status": null,
-      "summary_value": 35.370663231714545,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 35.370663231714545,
-        "rsi": 35.370663231714545,
-        "adj_close": 5705.4501953125
-      }
-    },
-    {
-      "date": "2024-11-01",
-      "status": null,
-      "summary_value": 31.440228478172173,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 31.440228478172173,
-        "rsi": 31.440228478172173,
-        "adj_close": 5728.7998046875
-      }
-    },
-    {
-      "date": "2024-11-04",
-      "status": null,
-      "summary_value": 34.1990651660782,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 34.1990651660782,
-        "rsi": 34.1990651660782,
-        "adj_close": 5712.68994140625
-      }
-    },
-    {
-      "date": "2024-11-05",
-      "status": null,
-      "summary_value": 41.87454235454682,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 41.87454235454682,
-        "rsi": 41.87454235454682,
-        "adj_close": 5782.759765625
-      }
-    },
-    {
-      "date": "2024-11-06",
-      "status": null,
-      "summary_value": 58.53992325911619,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.53992325911619,
-        "rsi": 58.53992325911619,
-        "adj_close": 5929.0400390625
-      }
-    },
-    {
-      "date": "2024-11-07",
-      "status": null,
-      "summary_value": 60.16084205979598,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 60.16084205979598,
-        "rsi": 60.16084205979598,
-        "adj_close": 5973.10009765625
-      }
-    },
-    {
-      "date": "2024-11-08",
-      "status": null,
-      "summary_value": 62.97956775216621,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.97956775216621,
-        "rsi": 62.97956775216621,
-        "adj_close": 5995.5400390625
-      }
-    },
-    {
-      "date": "2024-11-11",
-      "status": null,
-      "summary_value": 63.69108625944886,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.69108625944886,
-        "rsi": 63.69108625944886,
-        "adj_close": 6001.35009765625
-      }
-    },
-    {
-      "date": "2024-11-12",
-      "status": null,
-      "summary_value": 68.22229428764915,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.22229428764915,
-        "rsi": 68.22229428764915,
-        "adj_close": 5983.990234375
-      }
-    },
-    {
-      "date": "2024-11-13",
-      "status": null,
-      "summary_value": 67.52122004408271,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 67.52122004408271,
-        "rsi": 67.52122004408271,
-        "adj_close": 5985.3798828125
-      }
-    },
-    {
-      "date": "2024-11-14",
-      "status": null,
-      "summary_value": 63.17364013301788,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.17364013301788,
-        "rsi": 63.17364013301788,
-        "adj_close": 5949.169921875
-      }
-    },
-    {
-      "date": "2024-11-15",
-      "status": null,
-      "summary_value": 53.93485488180464,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 53.93485488180464,
-        "rsi": 53.93485488180464,
-        "adj_close": 5870.6201171875
-      }
-    },
-    {
-      "date": "2024-11-18",
-      "status": null,
-      "summary_value": 54.95836716981312,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 54.95836716981312,
-        "rsi": 54.95836716981312,
-        "adj_close": 5893.6201171875
-      }
-    },
-    {
-      "date": "2024-11-19",
-      "status": null,
-      "summary_value": 58.382719424403426,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.382719424403426,
-        "rsi": 58.382719424403426,
-        "adj_close": 5916.97998046875
-      }
-    },
-    {
-      "date": "2024-11-20",
-      "status": null,
-      "summary_value": 70.82777979045326,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 70.82777979045326,
-        "rsi": 70.82777979045326,
-        "adj_close": 5917.10986328125
-      }
-    },
-    {
-      "date": "2024-11-21",
-      "status": null,
-      "summary_value": 71.29389025686415,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 71.29389025686415,
-        "rsi": 71.29389025686415,
-        "adj_close": 5948.7099609375
-      }
-    },
-    {
-      "date": "2024-11-22",
-      "status": null,
-      "summary_value": 74.63574998054897,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 74.63574998054897,
-        "rsi": 74.63574998054897,
-        "adj_close": 5969.33984375
-      }
-    },
-    {
-      "date": "2024-11-25",
-      "status": null,
-      "summary_value": 71.82046731736173,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 71.82046731736173,
-        "rsi": 71.82046731736173,
-        "adj_close": 5987.3701171875
-      }
-    },
-    {
-      "date": "2024-11-26",
-      "status": null,
-      "summary_value": 62.97397596560416,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.97397596560416,
-        "rsi": 62.97397596560416,
-        "adj_close": 6021.6298828125
-      }
-    },
-    {
-      "date": "2024-11-27",
-      "status": null,
-      "summary_value": 53.81937625558421,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 53.81937625558421,
-        "rsi": 53.81937625558421,
-        "adj_close": 5998.740234375
-      }
-    },
-    {
-      "date": "2024-11-29",
-      "status": null,
-      "summary_value": 55.31050191028287,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.31050191028287,
-        "rsi": 55.31050191028287,
-        "adj_close": 6032.3798828125
-      }
-    },
-    {
-      "date": "2024-12-02",
-      "status": null,
-      "summary_value": 56.43584057438014,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 56.43584057438014,
-        "rsi": 56.43584057438014,
-        "adj_close": 6047.14990234375
-      }
-    },
-    {
-      "date": "2024-12-03",
-      "status": null,
-      "summary_value": 59.655901790902085,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 59.655901790902085,
-        "rsi": 59.655901790902085,
-        "adj_close": 6049.8798828125
-      }
-    },
-    {
-      "date": "2024-12-04",
-      "status": null,
-      "summary_value": 63.430909369219314,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.430909369219314,
-        "rsi": 63.430909369219314,
-        "adj_close": 6086.490234375
-      }
-    },
-    {
-      "date": "2024-12-05",
-      "status": null,
-      "summary_value": 67.91058767976557,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 67.91058767976557,
-        "rsi": 67.91058767976557,
-        "adj_close": 6075.10986328125
-      }
-    },
-    {
-      "date": "2024-12-06",
-      "status": null,
-      "summary_value": 88.10853031024394,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 88.10853031024394,
-        "rsi": 88.10853031024394,
-        "adj_close": 6090.27001953125
-      }
-    },
-    {
-      "date": "2024-12-09",
-      "status": null,
-      "summary_value": 76.30944985437559,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 76.30944985437559,
-        "rsi": 76.30944985437559,
-        "adj_close": 6052.85009765625
-      }
-    },
-    {
-      "date": "2024-12-10",
-      "status": null,
-      "summary_value": 69.84087604432797,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.84087604432797,
-        "rsi": 69.84087604432797,
-        "adj_close": 6034.91015625
-      }
-    },
-    {
-      "date": "2024-12-11",
-      "status": null,
-      "summary_value": 74.1208283049299,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 74.1208283049299,
-        "rsi": 74.1208283049299,
-        "adj_close": 6084.18994140625
-      }
-    },
-    {
-      "date": "2024-12-12",
-      "status": null,
-      "summary_value": 64.74633732557356,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.74633732557356,
-        "rsi": 64.74633732557356,
-        "adj_close": 6051.25
-      }
-    },
-    {
-      "date": "2024-12-13",
-      "status": null,
-      "summary_value": 62.49197912034453,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.49197912034453,
-        "rsi": 62.49197912034453,
-        "adj_close": 6051.08984375
-      }
-    },
-    {
-      "date": "2024-12-16",
-      "status": null,
-      "summary_value": 63.0520488501861,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.0520488501861,
-        "rsi": 63.0520488501861,
-        "adj_close": 6074.080078125
-      }
-    },
-    {
-      "date": "2024-12-17",
-      "status": null,
-      "summary_value": 54.50867306707668,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 54.50867306707668,
-        "rsi": 54.50867306707668,
-        "adj_close": 6050.60986328125
-      }
-    },
-    {
-      "date": "2024-12-18",
-      "status": null,
-      "summary_value": 36.72999076551997,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 36.72999076551997,
-        "rsi": 36.72999076551997,
-        "adj_close": 5872.16015625
-      }
-    },
-    {
-      "date": "2024-12-19",
-      "status": null,
-      "summary_value": 31.567031550152237,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 31.567031550152237,
-        "rsi": 31.567031550152237,
-        "adj_close": 5867.080078125
-      }
-    },
-    {
-      "date": "2024-12-20",
-      "status": null,
-      "summary_value": 38.30877762026867,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 38.30877762026867,
-        "rsi": 38.30877762026867,
-        "adj_close": 5930.85009765625
-      }
-    },
-    {
-      "date": "2024-12-23",
-      "status": null,
-      "summary_value": 42.95276058749463,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 42.95276058749463,
-        "rsi": 42.95276058749463,
-        "adj_close": 5974.06982421875
-      }
-    },
-    {
-      "date": "2024-12-24",
-      "status": null,
-      "summary_value": 45.90552712948744,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 45.90552712948744,
-        "rsi": 45.90552712948744,
-        "adj_close": 6040.0400390625
-      }
-    },
-    {
-      "date": "2024-12-26",
-      "status": null,
-      "summary_value": 46.63979940510705,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 46.63979940510705,
-        "rsi": 46.63979940510705,
-        "adj_close": 6037.58984375
-      }
-    },
-    {
-      "date": "2024-12-27",
-      "status": null,
-      "summary_value": 40.208877911701244,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 40.208877911701244,
-        "rsi": 40.208877911701244,
-        "adj_close": 5970.83984375
-      }
-    },
-    {
-      "date": "2024-12-30",
-      "status": null,
-      "summary_value": 38.5357473340464,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 38.5357473340464,
-        "rsi": 38.5357473340464,
-        "adj_close": 5906.93994140625
-      }
-    },
-    {
-      "date": "2024-12-31",
-      "status": null,
-      "summary_value": 38.094555439251195,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 38.094555439251195,
-        "rsi": 38.094555439251195,
-        "adj_close": 5881.6298828125
-      }
-    },
-    {
-      "date": "2025-01-02",
-      "status": null,
-      "summary_value": 32.25302452977432,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 32.25302452977432,
-        "rsi": 32.25302452977432,
-        "adj_close": 5868.5498046875
-      }
-    },
-    {
-      "date": "2025-01-03",
-      "status": null,
-      "summary_value": 41.613241066097665,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 41.613241066097665,
-        "rsi": 41.613241066097665,
-        "adj_close": 5942.47021484375
-      }
-    },
-    {
-      "date": "2025-01-06",
-      "status": null,
-      "summary_value": 44.44347288857417,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 44.44347288857417,
-        "rsi": 44.44347288857417,
-        "adj_close": 5975.3798828125
-      }
-    },
-    {
-      "date": "2025-01-07",
-      "status": null,
-      "summary_value": 38.61141489835537,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 38.61141489835537,
-        "rsi": 38.61141489835537,
-        "adj_close": 5909.02978515625
-      }
-    },
-    {
-      "date": "2025-01-08",
-      "status": null,
-      "summary_value": 40.683873832446984,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 40.683873832446984,
-        "rsi": 40.683873832446984,
-        "adj_close": 5918.25
-      }
-    },
-    {
-      "date": "2025-01-10",
-      "status": null,
-      "summary_value": 46.37961999448358,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 46.37961999448358,
-        "rsi": 46.37961999448358,
-        "adj_close": 5827.0400390625
-      }
-    },
-    {
-      "date": "2025-01-13",
-      "status": null,
-      "summary_value": 47.54003031319745,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 47.54003031319745,
-        "rsi": 47.54003031319745,
-        "adj_close": 5836.22021484375
-      }
-    },
-    {
-      "date": "2025-01-14",
-      "status": null,
-      "summary_value": 42.28814350396381,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 42.28814350396381,
-        "rsi": 42.28814350396381,
-        "adj_close": 5842.91015625
-      }
-    },
-    {
-      "date": "2025-01-15",
-      "status": null,
-      "summary_value": 48.09448583582824,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 48.09448583582824,
-        "rsi": 48.09448583582824,
-        "adj_close": 5949.91015625
-      }
-    },
-    {
-      "date": "2025-01-16",
-      "status": null,
-      "summary_value": 41.15478557514711,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 41.15478557514711,
-        "rsi": 41.15478557514711,
-        "adj_close": 5937.33984375
-      }
-    },
-    {
-      "date": "2025-01-17",
-      "status": null,
-      "summary_value": 46.789380872640024,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 46.789380872640024,
-        "rsi": 46.789380872640024,
-        "adj_close": 5996.66015625
-      }
-    },
-    {
-      "date": "2025-01-21",
-      "status": null,
-      "summary_value": 56.2897309459902,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 56.2897309459902,
-        "rsi": 56.2897309459902,
-        "adj_close": 6049.240234375
-      }
-    },
-    {
-      "date": "2025-01-22",
-      "status": null,
-      "summary_value": 65.04097585653906,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 65.04097585653906,
-        "rsi": 65.04097585653906,
-        "adj_close": 6086.3701171875
-      }
-    },
-    {
-      "date": "2025-01-23",
-      "status": null,
-      "summary_value": 69.64206250960784,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.64206250960784,
-        "rsi": 69.64206250960784,
-        "adj_close": 6118.7099609375
-      }
-    },
-    {
-      "date": "2025-01-24",
-      "status": null,
-      "summary_value": 69.13916912993189,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.13916912993189,
-        "rsi": 69.13916912993189,
-        "adj_close": 6101.240234375
-      }
-    },
-    {
-      "date": "2025-01-27",
-      "status": null,
-      "summary_value": 55.60331786022785,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.60331786022785,
-        "rsi": 55.60331786022785,
-        "adj_close": 6012.27978515625
-      }
-    },
-    {
-      "date": "2025-01-28",
-      "status": null,
-      "summary_value": 57.15171908759147,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 57.15171908759147,
-        "rsi": 57.15171908759147,
-        "adj_close": 6067.7001953125
-      }
-    },
-    {
-      "date": "2025-01-29",
-      "status": null,
-      "summary_value": 60.72298375882751,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 60.72298375882751,
-        "rsi": 60.72298375882751,
-        "adj_close": 6039.31005859375
-      }
-    },
-    {
-      "date": "2025-01-30",
-      "status": null,
-      "summary_value": 62.13416939948299,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.13416939948299,
-        "rsi": 62.13416939948299,
-        "adj_close": 6071.169921875
-      }
-    },
-    {
-      "date": "2025-01-31",
-      "status": null,
-      "summary_value": 68.74192522382187,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.74192522382187,
-        "rsi": 68.74192522382187,
-        "adj_close": 6040.52978515625
-      }
-    },
-    {
-      "date": "2025-02-03",
-      "status": null,
-      "summary_value": 63.05801576142365,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.05801576142365,
-        "rsi": 63.05801576142365,
-        "adj_close": 5994.56982421875
-      }
-    },
-    {
-      "date": "2025-02-04",
-      "status": null,
-      "summary_value": 65.16209434644324,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 65.16209434644324,
-        "rsi": 65.16209434644324,
-        "adj_close": 6037.8798828125
-      }
-    },
-    {
-      "date": "2025-02-05",
-      "status": null,
-      "summary_value": 59.96958011660082,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 59.96958011660082,
-        "rsi": 59.96958011660082,
-        "adj_close": 6061.47998046875
-      }
-    },
-    {
-      "date": "2025-02-06",
-      "status": null,
-      "summary_value": 62.84813596726434,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.84813596726434,
-        "rsi": 62.84813596726434,
-        "adj_close": 6083.56982421875
-      }
-    },
-    {
-      "date": "2025-02-07",
-      "status": null,
-      "summary_value": 52.58492183438736,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 52.58492183438736,
-        "rsi": 52.58492183438736,
-        "adj_close": 6025.990234375
-      }
-    },
-    {
-      "date": "2025-02-10",
-      "status": null,
-      "summary_value": 51.54896578775409,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 51.54896578775409,
-        "rsi": 51.54896578775409,
-        "adj_close": 6066.43994140625
-      }
-    },
-    {
-      "date": "2025-02-11",
-      "status": null,
-      "summary_value": 48.2821485769217,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 48.2821485769217,
-        "rsi": 48.2821485769217,
-        "adj_close": 6068.5
-      }
-    },
-    {
-      "date": "2025-02-12",
-      "status": null,
-      "summary_value": 43.38319228307775,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 43.38319228307775,
-        "rsi": 43.38319228307775,
-        "adj_close": 6051.97021484375
-      }
-    },
-    {
-      "date": "2025-02-13",
-      "status": null,
-      "summary_value": 51.257350414677475,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 51.257350414677475,
-        "rsi": 51.257350414677475,
-        "adj_close": 6115.06982421875
-      }
-    },
-    {
-      "date": "2025-02-14",
-      "status": null,
-      "summary_value": 61.09055276839219,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 61.09055276839219,
-        "rsi": 61.09055276839219,
-        "adj_close": 6114.6298828125
-      }
-    },
-    {
-      "date": "2025-02-18",
-      "status": null,
-      "summary_value": 57.349870784249134,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 57.349870784249134,
-        "rsi": 57.349870784249134,
-        "adj_close": 6129.580078125
-      }
-    },
-    {
-      "date": "2025-02-19",
-      "status": null,
-      "summary_value": 62.87520088268451,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.87520088268451,
-        "rsi": 62.87520088268451,
-        "adj_close": 6144.14990234375
-      }
-    },
-    {
-      "date": "2025-02-20",
-      "status": null,
-      "summary_value": 55.76624724064492,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.76624724064492,
-        "rsi": 55.76624724064492,
-        "adj_close": 6117.52001953125
-      }
-    },
-    {
-      "date": "2025-02-21",
-      "status": null,
-      "summary_value": 47.11979378924579,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 47.11979378924579,
-        "rsi": 47.11979378924579,
-        "adj_close": 6013.1298828125
-      }
-    },
-    {
-      "date": "2025-02-24",
-      "status": null,
-      "summary_value": 48.76845615835668,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 48.76845615835668,
-        "rsi": 48.76845615835668,
-        "adj_close": 5983.25
-      }
-    },
-    {
-      "date": "2025-02-25",
-      "status": null,
-      "summary_value": 40.700457871633276,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 40.700457871633276,
-        "rsi": 40.700457871633276,
-        "adj_close": 5955.25
-      }
-    },
-    {
-      "date": "2025-02-26",
-      "status": null,
-      "summary_value": 37.494033744676706,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 37.494033744676706,
-        "rsi": 37.494033744676706,
-        "adj_close": 5956.06005859375
-      }
-    },
-    {
-      "date": "2025-02-27",
-      "status": null,
-      "summary_value": 27.524855061574115,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 27.524855061574115,
-        "rsi": 27.524855061574115,
-        "adj_close": 5861.56982421875
-      }
-    },
-    {
-      "date": "2025-02-28",
-      "status": null,
-      "summary_value": 43.24581911719389,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 43.24581911719389,
-        "rsi": 43.24581911719389,
-        "adj_close": 5954.5
-      }
-    },
-    {
-      "date": "2025-03-03",
-      "status": null,
-      "summary_value": 31.74406265167282,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 31.74406265167282,
-        "rsi": 31.74406265167282,
-        "adj_close": 5849.72021484375
-      }
-    },
-    {
-      "date": "2025-03-04",
-      "status": null,
-      "summary_value": 28.105616704971467,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 28.105616704971467,
-        "rsi": 28.105616704971467,
-        "adj_close": 5778.14990234375
-      }
-    },
-    {
-      "date": "2025-03-05",
-      "status": null,
-      "summary_value": 35.278872163876585,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 35.278872163876585,
-        "rsi": 35.278872163876585,
-        "adj_close": 5842.6298828125
-      }
-    },
-    {
-      "date": "2025-03-06",
-      "status": null,
-      "summary_value": 24.964451699111393,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 24.964451699111393,
-        "rsi": 24.964451699111393,
-        "adj_close": 5738.52001953125
-      }
-    },
-    {
-      "date": "2025-03-07",
-      "status": null,
-      "summary_value": 28.013362940096172,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 28.013362940096172,
-        "rsi": 28.013362940096172,
-        "adj_close": 5770.2001953125
-      }
-    },
-    {
-      "date": "2025-03-10",
-      "status": null,
-      "summary_value": 22.129758369704973,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 22.129758369704973,
-        "rsi": 22.129758369704973,
-        "adj_close": 5614.56005859375
-      }
-    },
-    {
-      "date": "2025-03-11",
-      "status": null,
-      "summary_value": 19.950016722648215,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 19.950016722648215,
-        "rsi": 19.950016722648215,
-        "adj_close": 5572.06982421875
-      }
-    },
-    {
-      "date": "2025-03-12",
-      "status": null,
-      "summary_value": 22.796295242533247,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 22.796295242533247,
-        "rsi": 22.796295242533247,
-        "adj_close": 5599.2998046875
-      }
-    },
-    {
-      "date": "2025-03-13",
-      "status": null,
-      "summary_value": 23.451481212520108,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 23.451481212520108,
-        "rsi": 23.451481212520108,
-        "adj_close": 5521.52001953125
-      }
-    },
-    {
-      "date": "2025-03-14",
-      "status": null,
-      "summary_value": 33.012312903373456,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 33.012312903373456,
-        "rsi": 33.012312903373456,
-        "adj_close": 5638.93994140625
-      }
-    },
-    {
-      "date": "2025-03-17",
-      "status": null,
-      "summary_value": 36.28952623483786,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 36.28952623483786,
-        "rsi": 36.28952623483786,
-        "adj_close": 5675.1201171875
-      }
-    },
-    {
-      "date": "2025-03-18",
-      "status": null,
-      "summary_value": 34.212585819694084,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 34.212585819694084,
-        "rsi": 34.212585819694084,
-        "adj_close": 5614.66015625
-      }
-    },
-    {
-      "date": "2025-03-19",
-      "status": null,
-      "summary_value": 41.10734789875224,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 41.10734789875224,
-        "rsi": 41.10734789875224,
-        "adj_close": 5675.2900390625
-      }
-    },
-    {
-      "date": "2025-03-20",
-      "status": null,
-      "summary_value": 34.91959281029479,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 34.91959281029479,
-        "rsi": 34.91959281029479,
-        "adj_close": 5662.89013671875
-      }
-    },
-    {
-      "date": "2025-03-21",
-      "status": null,
-      "summary_value": 39.4916522260355,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 39.4916522260355,
-        "rsi": 39.4916522260355,
-        "adj_close": 5667.56005859375
-      }
-    },
-    {
-      "date": "2025-03-24",
-      "status": null,
-      "summary_value": 49.40905282633549,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 49.40905282633549,
-        "rsi": 49.40905282633549,
-        "adj_close": 5767.56982421875
-      }
-    },
-    {
-      "date": "2025-03-25",
-      "status": null,
-      "summary_value": 46.071590336240725,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 46.071590336240725,
-        "rsi": 46.071590336240725,
-        "adj_close": 5776.64990234375
-      }
-    },
-    {
-      "date": "2025-03-26",
-      "status": null,
-      "summary_value": 48.355256934845556,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 48.355256934845556,
-        "rsi": 48.355256934845556,
-        "adj_close": 5712.2001953125
-      }
-    },
-    {
-      "date": "2025-03-27",
-      "status": null,
-      "summary_value": 45.11702991284697,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 45.11702991284697,
-        "rsi": 45.11702991284697,
-        "adj_close": 5693.31005859375
-      }
-    },
-    {
-      "date": "2025-03-28",
-      "status": null,
-      "summary_value": 47.740764413971604,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 47.740764413971604,
-        "rsi": 47.740764413971604,
-        "adj_close": 5580.93994140625
-      }
-    },
-    {
-      "date": "2025-03-31",
-      "status": null,
-      "summary_value": 52.71545305102665,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 52.71545305102665,
-        "rsi": 52.71545305102665,
-        "adj_close": 5611.85009765625
-      }
-    },
-    {
-      "date": "2025-04-01",
-      "status": null,
-      "summary_value": 52.32425667542003,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 52.32425667542003,
-        "rsi": 52.32425667542003,
-        "adj_close": 5633.06982421875
-      }
-    },
-    {
-      "date": "2025-04-02",
-      "status": null,
-      "summary_value": 60.883513401264175,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 60.883513401264175,
-        "rsi": 60.883513401264175,
-        "adj_close": 5670.97021484375
-      }
-    },
-    {
-      "date": "2025-04-03",
-      "status": null,
-      "summary_value": 35.632163284394466,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 35.632163284394466,
-        "rsi": 35.632163284394466,
-        "adj_close": 5396.52001953125
-      }
-    },
-    {
-      "date": "2025-04-04",
-      "status": null,
-      "summary_value": 23.40248073244787,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 23.40248073244787,
-        "rsi": 23.40248073244787,
-        "adj_close": 5074.080078125
-      }
-    },
-    {
-      "date": "2025-04-07",
-      "status": null,
-      "summary_value": 24.455021676300575,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 24.455021676300575,
-        "rsi": 24.455021676300575,
-        "adj_close": 5062.25
-      }
-    },
-    {
-      "date": "2025-04-08",
-      "status": null,
-      "summary_value": 18.524681480955437,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 18.524681480955437,
-        "rsi": 18.524681480955437,
-        "adj_close": 4982.77001953125
-      }
-    },
-    {
-      "date": "2025-04-09",
-      "status": null,
-      "summary_value": 43.40548510173737,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 43.40548510173737,
-        "rsi": 43.40548510173737,
-        "adj_close": 5456.89990234375
-      }
-    },
-    {
-      "date": "2025-04-10",
-      "status": null,
-      "summary_value": 38.559338268133075,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 38.559338268133075,
-        "rsi": 38.559338268133075,
-        "adj_close": 5268.0498046875
-      }
-    },
-    {
-      "date": "2025-04-11",
-      "status": null,
-      "summary_value": 38.3935131024473,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 38.3935131024473,
-        "rsi": 38.3935131024473,
-        "adj_close": 5363.35986328125
-      }
-    },
-    {
-      "date": "2025-04-14",
-      "status": null,
-      "summary_value": 39.5573821816107,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 39.5573821816107,
-        "rsi": 39.5573821816107,
-        "adj_close": 5405.97021484375
-      }
-    },
-    {
-      "date": "2025-04-15",
-      "status": null,
-      "summary_value": 40.825011854026535,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 40.825011854026535,
-        "rsi": 40.825011854026535,
-        "adj_close": 5396.6298828125
-      }
-    },
-    {
-      "date": "2025-04-16",
-      "status": null,
-      "summary_value": 38.538354596250265,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 38.538354596250265,
-        "rsi": 38.538354596250265,
-        "adj_close": 5275.7001953125
-      }
-    },
-    {
-      "date": "2025-04-17",
-      "status": null,
-      "summary_value": 41.31206031880505,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 41.31206031880505,
-        "rsi": 41.31206031880505,
-        "adj_close": 5282.7001953125
-      }
-    },
-    {
-      "date": "2025-04-21",
-      "status": null,
-      "summary_value": 37.468170508686455,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 37.468170508686455,
-        "rsi": 37.468170508686455,
-        "adj_close": 5158.2001953125
-      }
-    },
-    {
-      "date": "2025-04-22",
-      "status": null,
-      "summary_value": 40.999724848240184,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 40.999724848240184,
-        "rsi": 40.999724848240184,
-        "adj_close": 5287.759765625
-      }
-    },
-    {
-      "date": "2025-04-23",
-      "status": null,
-      "summary_value": 42.50429735461547,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 42.50429735461547,
-        "rsi": 42.50429735461547,
-        "adj_close": 5375.85986328125
-      }
-    },
-    {
-      "date": "2025-04-24",
-      "status": null,
-      "summary_value": 52.44732329431035,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 52.44732329431035,
-        "rsi": 52.44732329431035,
-        "adj_close": 5484.77001953125
-      }
-    },
-    {
-      "date": "2025-04-25",
-      "status": null,
-      "summary_value": 64.83013738736713,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.83013738736713,
-        "rsi": 64.83013738736713,
-        "adj_close": 5525.2099609375
-      }
-    },
-    {
-      "date": "2025-04-28",
-      "status": null,
-      "summary_value": 65.41944667706042,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 65.41944667706042,
-        "rsi": 65.41944667706042,
-        "adj_close": 5528.75
-      }
-    },
-    {
-      "date": "2025-04-29",
-      "status": null,
-      "summary_value": 69.72496905131234,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.72496905131234,
-        "rsi": 69.72496905131234,
-        "adj_close": 5560.830078125
-      }
-    },
-    {
-      "date": "2025-04-30",
-      "status": null,
-      "summary_value": 55.611372444024056,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.611372444024056,
-        "rsi": 55.611372444024056,
-        "adj_close": 5569.06005859375
-      }
-    },
-    {
-      "date": "2025-05-01",
-      "status": null,
-      "summary_value": 69.87217722540797,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.87217722540797,
-        "rsi": 69.87217722540797,
-        "adj_close": 5604.14013671875
-      }
-    },
-    {
-      "date": "2025-05-02",
-      "status": null,
-      "summary_value": 69.4098589592285,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.4098589592285,
-        "rsi": 69.4098589592285,
-        "adj_close": 5686.669921875
-      }
-    },
-    {
-      "date": "2025-05-05",
-      "status": null,
-      "summary_value": 64.78529100572861,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.78529100572861,
-        "rsi": 64.78529100572861,
-        "adj_close": 5650.3798828125
-      }
-    },
-    {
-      "date": "2025-05-06",
-      "status": null,
-      "summary_value": 62.216233696238014,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.216233696238014,
-        "rsi": 62.216233696238014,
-        "adj_close": 5606.91015625
-      }
-    },
-    {
-      "date": "2025-05-07",
-      "status": null,
-      "summary_value": 73.26789679686875,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 73.26789679686875,
-        "rsi": 73.26789679686875,
-        "adj_close": 5631.27978515625
-      }
-    },
-    {
-      "date": "2025-05-08",
-      "status": null,
-      "summary_value": 74.13645252614182,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 74.13645252614182,
-        "rsi": 74.13645252614182,
-        "adj_close": 5663.93994140625
-      }
-    },
-    {
-      "date": "2025-05-09",
-      "status": null,
-      "summary_value": 87.48081277941846,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 87.48081277941846,
-        "rsi": 87.48081277941846,
-        "adj_close": 5659.91015625
-      }
-    },
-    {
-      "date": "2025-05-12",
-      "status": null,
-      "summary_value": 88.42700592336915,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 88.42700592336915,
-        "rsi": 88.42700592336915,
-        "adj_close": 5844.18994140625
-      }
-    },
-    {
-      "date": "2025-05-13",
-      "status": null,
-      "summary_value": 87.64656125031046,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 87.64656125031046,
-        "rsi": 87.64656125031046,
-        "adj_close": 5886.5498046875
-      }
-    },
-    {
-      "date": "2025-05-14",
-      "status": null,
-      "summary_value": 85.43775993998626,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 85.43775993998626,
-        "rsi": 85.43775993998626,
-        "adj_close": 5892.580078125
-      }
-    },
-    {
-      "date": "2025-05-15",
-      "status": null,
-      "summary_value": 85.0188354744226,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 85.0188354744226,
-        "rsi": 85.0188354744226,
-        "adj_close": 5916.93017578125
-      }
-    },
-    {
-      "date": "2025-05-16",
-      "status": null,
-      "summary_value": 85.96981074071772,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 85.96981074071772,
-        "rsi": 85.96981074071772,
-        "adj_close": 5958.3798828125
-      }
-    },
-    {
-      "date": "2025-05-19",
-      "status": null,
-      "summary_value": 85.30907690002782,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 85.30907690002782,
-        "rsi": 85.30907690002782,
-        "adj_close": 5963.60009765625
-      }
-    },
-    {
-      "date": "2025-05-20",
-      "status": null,
-      "summary_value": 81.72951858442815,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 81.72951858442815,
-        "rsi": 81.72951858442815,
-        "adj_close": 5940.4599609375
-      }
-    },
-    {
-      "date": "2025-05-21",
-      "status": null,
-      "summary_value": 68.61136389059368,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.61136389059368,
-        "rsi": 68.61136389059368,
-        "adj_close": 5844.60986328125
-      }
-    },
-    {
-      "date": "2025-05-22",
-      "status": null,
-      "summary_value": 63.720186445765464,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.720186445765464,
-        "rsi": 63.720186445765464,
-        "adj_close": 5842.009765625
-      }
-    },
-    {
-      "date": "2025-05-23",
-      "status": null,
-      "summary_value": 63.395436926279764,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.395436926279764,
-        "rsi": 63.395436926279764,
-        "adj_close": 5802.81982421875
-      }
-    },
-    {
-      "date": "2025-05-27",
-      "status": null,
-      "summary_value": 74.41830677629027,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 74.41830677629027,
-        "rsi": 74.41830677629027,
-        "adj_close": 5921.5400390625
-      }
-    },
-    {
-      "date": "2025-05-28",
-      "status": null,
-      "summary_value": 69.70298688409585,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.70298688409585,
-        "rsi": 69.70298688409585,
-        "adj_close": 5888.5498046875
-      }
-    },
-    {
-      "date": "2025-05-29",
-      "status": null,
-      "summary_value": 69.2775858603861,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.2775858603861,
-        "rsi": 69.2775858603861,
-        "adj_close": 5912.169921875
-      }
-    },
-    {
-      "date": "2025-05-30",
-      "status": null,
-      "summary_value": 69.66167033352525,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.66167033352525,
-        "rsi": 69.66167033352525,
-        "adj_close": 5911.68994140625
-      }
-    },
-    {
-      "date": "2025-06-02",
-      "status": null,
-      "summary_value": 59.55229707774052,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 59.55229707774052,
-        "rsi": 59.55229707774052,
-        "adj_close": 5935.93994140625
-      }
-    },
-    {
-      "date": "2025-06-03",
-      "status": null,
-      "summary_value": 58.8732304091536,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.8732304091536,
-        "rsi": 58.8732304091536,
-        "adj_close": 5970.3701171875
-      }
-    },
-    {
-      "date": "2025-06-04",
-      "status": null,
-      "summary_value": 58.38062906372762,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.38062906372762,
-        "rsi": 58.38062906372762,
-        "adj_close": 5970.81005859375
-      }
-    },
-    {
-      "date": "2025-06-05",
-      "status": null,
-      "summary_value": 52.36020768055359,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 52.36020768055359,
-        "rsi": 52.36020768055359,
-        "adj_close": 5939.2998046875
-      }
-    },
-    {
-      "date": "2025-06-06",
-      "status": null,
-      "summary_value": 54.25327820273456,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 54.25327820273456,
-        "rsi": 54.25327820273456,
-        "adj_close": 6000.35986328125
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "status": null,
-      "summary_value": 54.28105269923515,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 54.28105269923515,
-        "rsi": 54.28105269923515,
-        "adj_close": 6005.8798828125
-      }
-    },
-    {
-      "date": "2025-06-10",
-      "status": null,
-      "summary_value": 59.76487242511065,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 59.76487242511065,
-        "rsi": 59.76487242511065,
-        "adj_close": 6038.81005859375
-      }
-    },
-    {
-      "date": "2025-06-11",
-      "status": null,
-      "summary_value": 70.93162283987485,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 70.93162283987485,
-        "rsi": 70.93162283987485,
-        "adj_close": 6022.240234375
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "status": null,
-      "summary_value": 72.85091918384555,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 72.85091918384555,
-        "rsi": 72.85091918384555,
-        "adj_close": 6045.259765625
-      }
-    },
-    {
-      "date": "2025-06-13",
-      "status": null,
-      "summary_value": 68.37688220576172,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.37688220576172,
-        "rsi": 68.37688220576172,
-        "adj_close": 5976.97021484375
-      }
-    },
-    {
-      "date": "2025-06-16",
-      "status": null,
-      "summary_value": 63.56473637530439,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 63.56473637530439,
-        "rsi": 63.56473637530439,
-        "adj_close": 6033.10986328125
-      }
-    },
-    {
-      "date": "2025-06-17",
-      "status": null,
-      "summary_value": 60.98456154819661,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 60.98456154819661,
-        "rsi": 60.98456154819661,
-        "adj_close": 5982.72021484375
-      }
-    },
-    {
-      "date": "2025-06-18",
-      "status": null,
-      "summary_value": 58.44233926325592,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.44233926325592,
-        "rsi": 58.44233926325592,
-        "adj_close": 5980.8701171875
-      }
-    },
-    {
-      "date": "2025-06-20",
-      "status": null,
-      "summary_value": 56.693609129781336,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 56.693609129781336,
-        "rsi": 56.693609129781336,
-        "adj_close": 5967.83984375
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "status": null,
-      "summary_value": 59.859464207290294,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 59.859464207290294,
-        "rsi": 59.859464207290294,
-        "adj_close": 6025.169921875
-      }
-    },
-    {
-      "date": "2025-06-24",
-      "status": null,
-      "summary_value": 62.55542481199602,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.55542481199602,
-        "rsi": 62.55542481199602,
-        "adj_close": 6092.18017578125
-      }
-    },
-    {
-      "date": "2025-06-25",
-      "status": null,
-      "summary_value": 62.51885194785831,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 62.51885194785831,
-        "rsi": 62.51885194785831,
-        "adj_close": 6092.16015625
-      }
-    },
-    {
-      "date": "2025-06-26",
-      "status": null,
-      "summary_value": 70.09089273295822,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 70.09089273295822,
-        "rsi": 70.09089273295822,
-        "adj_close": 6141.02001953125
-      }
-    },
-    {
-      "date": "2025-06-27",
-      "status": null,
-      "summary_value": 68.25652767254175,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.25652767254175,
-        "rsi": 68.25652767254175,
-        "adj_close": 6173.06982421875
-      }
-    },
-    {
-      "date": "2025-06-30",
-      "status": null,
-      "summary_value": 69.93218005530416,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.93218005530416,
-        "rsi": 69.93218005530416,
-        "adj_close": 6204.9501953125
-      }
-    },
-    {
-      "date": "2025-07-01",
-      "status": null,
-      "summary_value": 66.81523413042649,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 66.81523413042649,
-        "rsi": 66.81523413042649,
-        "adj_close": 6198.009765625
-      }
-    },
-    {
-      "date": "2025-07-02",
-      "status": null,
-      "summary_value": 71.09948201305913,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 71.09948201305913,
-        "rsi": 71.09948201305913,
-        "adj_close": 6227.419921875
-      }
-    },
-    {
-      "date": "2025-07-03",
-      "status": null,
-      "summary_value": 72.72146481425838,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 72.72146481425838,
-        "rsi": 72.72146481425838,
-        "adj_close": 6279.35009765625
-      }
-    },
-    {
-      "date": "2025-07-07",
-      "status": null,
-      "summary_value": 75.49417460442415,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 75.49417460442415,
-        "rsi": 75.49417460442415,
-        "adj_close": 6229.97998046875
-      }
-    },
-    {
-      "date": "2025-07-08",
-      "status": null,
-      "summary_value": 71.64191564147627,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 71.64191564147627,
-        "rsi": 71.64191564147627,
-        "adj_close": 6225.52001953125
-      }
-    },
-    {
-      "date": "2025-07-09",
-      "status": null,
-      "summary_value": 82.478775976746,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 82.478775976746,
-        "rsi": 82.478775976746,
-        "adj_close": 6263.259765625
-      }
-    },
-    {
-      "date": "2025-07-10",
-      "status": null,
-      "summary_value": 83.49382594739772,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 83.49382594739772,
-        "rsi": 83.49382594739772,
-        "adj_close": 6280.4599609375
-      }
-    },
-    {
-      "date": "2025-07-11",
-      "status": null,
-      "summary_value": 82.08430561429194,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 82.08430561429194,
-        "rsi": 82.08430561429194,
-        "adj_close": 6259.75
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "status": null,
-      "summary_value": 79.94530745930801,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 79.94530745930801,
-        "rsi": 79.94530745930801,
-        "adj_close": 6268.56005859375
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "status": null,
-      "summary_value": 70.81101518684227,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 70.81101518684227,
-        "rsi": 70.81101518684227,
-        "adj_close": 6243.759765625
-      }
-    },
-    {
-      "date": "2025-07-16",
-      "status": null,
-      "summary_value": 72.33003661141055,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 72.33003661141055,
-        "rsi": 72.33003661141055,
-        "adj_close": 6263.7001953125
-      }
-    },
-    {
-      "date": "2025-07-17",
-      "status": null,
-      "summary_value": 71.18992468663552,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 71.18992468663552,
-        "rsi": 71.18992468663552,
-        "adj_close": 6297.35986328125
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "status": null,
-      "summary_value": 68.33319103552766,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.33319103552766,
-        "rsi": 68.33319103552766,
-        "adj_close": 6296.7900390625
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "status": null,
-      "summary_value": 66.00915514507037,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 66.00915514507037,
-        "rsi": 66.00915514507037,
-        "adj_close": 6305.60009765625
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "status": null,
-      "summary_value": 67.91897273482698,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 67.91897273482698,
-        "rsi": 67.91897273482698,
-        "adj_close": 6309.6201171875
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "status": null,
-      "summary_value": 69.84395540909385,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 69.84395540909385,
-        "rsi": 69.84395540909385,
-        "adj_close": 6358.91015625
-      }
-    },
-    {
-      "date": "2025-07-24",
-      "status": null,
-      "summary_value": 64.79809518566435,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.79809518566435,
-        "rsi": 64.79809518566435,
-        "adj_close": 6363.35009765625
-      }
-    },
-    {
-      "date": "2025-07-25",
-      "status": null,
-      "summary_value": 80.5420830607503,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 80.5420830607503,
-        "rsi": 80.5420830607503,
-        "adj_close": 6388.64013671875
-      }
-    },
-    {
-      "date": "2025-07-28",
-      "status": null,
-      "summary_value": 82.02876251123536,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 82.02876251123536,
-        "rsi": 82.02876251123536,
-        "adj_close": 6389.77001953125
-      }
-    },
-    {
-      "date": "2025-07-29",
-      "status": null,
-      "summary_value": 72.64497035339575,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 72.64497035339575,
-        "rsi": 72.64497035339575,
-        "adj_close": 6370.85986328125
-      }
-    },
-    {
-      "date": "2025-07-30",
-      "status": null,
-      "summary_value": 68.05198859809127,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.05198859809127,
-        "rsi": 68.05198859809127,
-        "adj_close": 6362.89990234375
-      }
-    },
-    {
-      "date": "2025-07-31",
-      "status": null,
-      "summary_value": 67.2276736202799,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 67.2276736202799,
-        "rsi": 67.2276736202799,
-        "adj_close": 6339.39013671875
-      }
-    },
-    {
-      "date": "2025-08-01",
-      "status": null,
-      "summary_value": 45.28123156937306,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 45.28123156937306,
-        "rsi": 45.28123156937306,
-        "adj_close": 6238.009765625
-      }
-    },
-    {
-      "date": "2025-08-04",
-      "status": null,
-      "summary_value": 61.02498497703141,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 61.02498497703141,
-        "rsi": 61.02498497703141,
-        "adj_close": 6329.93994140625
-      }
-    },
-    {
-      "date": "2025-08-05",
-      "status": null,
-      "summary_value": 54.41799511050003,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 54.41799511050003,
-        "rsi": 54.41799511050003,
-        "adj_close": 6299.18994140625
-      }
-    },
-    {
-      "date": "2025-08-06",
-      "status": null,
-      "summary_value": 55.76283704544436,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.76283704544436,
-        "rsi": 55.76283704544436,
-        "adj_close": 6345.06005859375
-      }
-    },
-    {
-      "date": "2025-08-07",
-      "status": null,
-      "summary_value": 55.16432418047999,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.16432418047999,
-        "rsi": 55.16432418047999,
-        "adj_close": 6340.0
-      }
-    },
-    {
-      "date": "2025-08-08",
-      "status": null,
-      "summary_value": 59.1341821868421,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 59.1341821868421,
-        "rsi": 59.1341821868421,
-        "adj_close": 6389.4501953125
-      }
-    },
-    {
-      "date": "2025-08-11",
-      "status": null,
-      "summary_value": 56.77643829026653,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 56.77643829026653,
-        "rsi": 56.77643829026653,
-        "adj_close": 6373.4501953125
-      }
-    },
-    {
-      "date": "2025-08-12",
-      "status": null,
-      "summary_value": 58.79062007013993,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.79062007013993,
-        "rsi": 58.79062007013993,
-        "adj_close": 6445.759765625
-      }
-    },
-    {
-      "date": "2025-08-13",
-      "status": null,
-      "summary_value": 60.11323725961239,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 60.11323725961239,
-        "rsi": 60.11323725961239,
-        "adj_close": 6466.580078125
-      }
-    },
-    {
-      "date": "2025-08-14",
-      "status": null,
-      "summary_value": 58.202592788275005,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.202592788275005,
-        "rsi": 58.202592788275005,
-        "adj_close": 6468.5400390625
-      }
-    },
-    {
-      "date": "2025-08-15",
-      "status": null,
-      "summary_value": 55.94765487046758,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.94765487046758,
-        "rsi": 55.94765487046758,
-        "adj_close": 6449.7998046875
-      }
-    },
-    {
-      "date": "2025-08-18",
-      "status": null,
-      "summary_value": 58.048062096437405,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 58.048062096437405,
-        "rsi": 58.048062096437405,
-        "adj_close": 6449.14990234375
-      }
-    },
-    {
-      "date": "2025-08-19",
-      "status": null,
-      "summary_value": 54.694811478255275,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 54.694811478255275,
-        "rsi": 54.694811478255275,
-        "adj_close": 6411.3701171875
-      }
-    },
-    {
-      "date": "2025-08-20",
-      "status": null,
-      "summary_value": 55.546984572230016,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 55.546984572230016,
-        "rsi": 55.546984572230016,
-        "adj_close": 6395.77978515625
-      }
-    },
-    {
-      "date": "2025-08-21",
-      "status": null,
-      "summary_value": 65.27790634927445,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 65.27790634927445,
-        "rsi": 65.27790634927445,
-        "adj_close": 6370.169921875
-      }
-    },
-    {
-      "date": "2025-08-22",
-      "status": null,
-      "summary_value": 65.65980351765694,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 65.65980351765694,
-        "rsi": 65.65980351765694,
-        "adj_close": 6466.91015625
-      }
-    },
-    {
-      "date": "2025-08-25",
-      "status": null,
-      "summary_value": 66.13764111284304,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 66.13764111284304,
-        "rsi": 66.13764111284304,
-        "adj_close": 6439.31982421875
-      }
-    },
-    {
-      "date": "2025-08-26",
-      "status": null,
-      "summary_value": 64.56661779000609,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.56661779000609,
-        "rsi": 64.56661779000609,
-        "adj_close": 6465.93994140625
-      }
-    },
-    {
-      "date": "2025-08-27",
-      "status": null,
-      "summary_value": 66.62273536634228,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 66.62273536634228,
-        "rsi": 66.62273536634228,
-        "adj_close": 6481.39990234375
-      }
-    },
-    {
-      "date": "2025-08-28",
-      "status": null,
-      "summary_value": 64.18130185971158,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.18130185971158,
-        "rsi": 64.18130185971158,
-        "adj_close": 6501.85986328125
-      }
-    },
-    {
-      "date": "2025-08-29",
-      "status": null,
-      "summary_value": 60.28718432984537,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 60.28718432984537,
-        "rsi": 60.28718432984537,
-        "adj_close": 6460.259765625
-      }
-    },
-    {
-      "date": "2025-09-02",
-      "status": null,
-      "summary_value": 46.16832381966543,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 46.16832381966543,
-        "rsi": 46.16832381966543,
-        "adj_close": 6415.5400390625
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "status": null,
-      "summary_value": 47.74513810428135,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 47.74513810428135,
-        "rsi": 47.74513810428135,
-        "adj_close": 6448.259765625
-      }
-    },
-    {
-      "date": "2025-09-04",
-      "status": null,
-      "summary_value": 53.66077233822573,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 53.66077233822573,
-        "rsi": 53.66077233822573,
-        "adj_close": 6502.080078125
-      }
-    },
-    {
-      "date": "2025-09-05",
-      "status": null,
-      "summary_value": 53.44611967837208,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 53.44611967837208,
-        "rsi": 53.44611967837208,
-        "adj_close": 6481.5
-      }
-    },
-    {
-      "date": "2025-09-08",
-      "status": null,
-      "summary_value": 54.86319175867402,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 54.86319175867402,
-        "rsi": 54.86319175867402,
-        "adj_close": 6495.14990234375
-      }
-    },
-    {
-      "date": "2025-09-09",
-      "status": null,
-      "summary_value": 61.18373145969598,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 61.18373145969598,
-        "rsi": 61.18373145969598,
-        "adj_close": 6512.60986328125
-      }
-    },
-    {
-      "date": "2025-09-10",
-      "status": null,
-      "summary_value": 64.92574593696615,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.92574593696615,
-        "rsi": 64.92574593696615,
-        "adj_close": 6532.0400390625
-      }
-    },
-    {
-      "date": "2025-09-11",
-      "status": null,
-      "summary_value": 72.3430896382479,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 72.3430896382479,
-        "rsi": 72.3430896382479,
-        "adj_close": 6587.47021484375
-      }
-    },
-    {
-      "date": "2025-09-12",
-      "status": null,
-      "summary_value": 64.94444803628534,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 64.94444803628534,
-        "rsi": 64.94444803628534,
-        "adj_close": 6584.2900390625
-      }
-    },
-    {
-      "date": "2025-09-15",
-      "status": null,
-      "summary_value": 72.21042977908274,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 72.21042977908274,
-        "rsi": 72.21042977908274,
-        "adj_close": 6615.27978515625
-      }
-    },
-    {
-      "date": "2025-09-16",
-      "status": null,
-      "summary_value": 68.6259744118008,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.6259744118008,
-        "rsi": 68.6259744118008,
-        "adj_close": 6606.759765625
-      }
-    },
-    {
-      "date": "2025-09-17",
-      "status": null,
-      "summary_value": 66.11923509561305,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 66.11923509561305,
-        "rsi": 66.11923509561305,
-        "adj_close": 6600.35009765625
-      }
-    },
-    {
-      "date": "2025-09-18",
-      "status": null,
-      "summary_value": 67.1130464941521,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 67.1130464941521,
-        "rsi": 67.1130464941521,
-        "adj_close": 6631.9599609375
-      }
-    },
-    {
-      "date": "2025-09-19",
-      "status": null,
-      "summary_value": 77.512726372783,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 77.512726372783,
-        "rsi": 77.512726372783,
-        "adj_close": 6664.35986328125
-      }
-    },
-    {
-      "date": "2025-09-22",
-      "status": null,
-      "summary_value": 89.11950324614692,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 89.11950324614692,
-        "rsi": 89.11950324614692,
-        "adj_close": 6693.75
-      }
-    },
-    {
-      "date": "2025-09-23",
-      "status": null,
-      "summary_value": 79.0047321309793,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 79.0047321309793,
-        "rsi": 79.0047321309793,
-        "adj_close": 6656.919921875
-      }
-    },
-    {
-      "date": "2025-09-24",
-      "status": null,
-      "summary_value": 70.91714255220961,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 70.91714255220961,
-        "rsi": 70.91714255220961,
-        "adj_close": 6637.97021484375
-      }
-    },
-    {
-      "date": "2025-09-25",
-      "status": null,
-      "summary_value": 68.25487305392514,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 68.25487305392514,
-        "rsi": 68.25487305392514,
-        "adj_close": 6604.72021484375
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": null,
-      "summary_value": 70.47108299969722,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 70.47108299969722,
-        "rsi": 70.47108299969722,
-        "adj_close": 6643.7001953125
-      }
-    },
-    {
-      "date": "2025-09-29",
-      "status": null,
-      "summary_value": 70.47513580210367,
-      "details": {
-        "market": "S&P 500",
-        "indicator_value": 70.47513580210367,
-        "rsi": 70.47513580210367,
-        "adj_close": 6661.2099609375
-      }
-    },
-    {
-      "date": "2025-09-30",
+      "date": "2025-10-24",
       "status": "normal",
-      "summary_value": 71.09795677509774,
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-13",
+      "status": "normal",
+      "summary_value": 45.64690011098344,
       "details": {
         "market": "S&P 500",
-        "indicator_value": 71.09795677509774,
-        "rsi": 71.09795677509774,
-        "adj_close": 6688.4599609375
+        "indicator_value": 45.64690011098344,
+        "rsi": 45.64690011098344,
+        "adj_close": 6737.490234375
       }
     },
     {
-      "date": "2025-10-01",
+      "date": "2025-11-14",
       "status": "normal",
-      "summary_value": 68.30274917911774,
+      "summary_value": 36.998814518502776,
       "details": {
         "market": "S&P 500",
-        "indicator_value": 68.30274917911774,
-        "rsi": 68.30274917911774,
-        "adj_close": 6711.2001953125
+        "indicator_value": 36.998814518502776,
+        "rsi": 36.998814518502776,
+        "adj_close": 6734.10986328125
       }
     },
     {
-      "date": "2025-10-02",
+      "date": "2025-11-15",
       "status": "normal",
-      "summary_value": 69.33158943230548,
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-17",
+      "status": "normal",
+      "summary_value": 31.435074812026016,
       "details": {
         "market": "S&P 500",
-        "indicator_value": 69.33158943230548,
-        "rsi": 69.33158943230548,
-        "adj_close": 6715.35009765625
+        "indicator_value": 31.435074812026016,
+        "rsi": 31.435074812026016,
+        "adj_close": 6672.41015625
       }
+    },
+    {
+      "date": "2025-11-18",
+      "status": "normal",
+      "summary_value": 28.757372103633415,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 28.757372103633415,
+        "rsi": 28.757372103633415,
+        "adj_close": 6617.31982421875
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "status": "normal",
+      "summary_value": 34.98006339985379,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 34.98006339985379,
+        "rsi": 34.98006339985379,
+        "adj_close": 6642.16015625
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "status": "normal",
+      "summary_value": 28.0080223428661,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 28.0080223428661,
+        "rsi": 28.0080223428661,
+        "adj_close": 6538.759765625
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "status": "normal",
+      "summary_value": 33.12691633923862,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 33.12691633923862,
+        "rsi": 33.12691633923862,
+        "adj_close": 6602.990234375
+      }
+    },
+    {
+      "date": "2025-11-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-24",
+      "status": "normal",
+      "summary_value": 45.62681615964204,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.62681615964204,
+        "rsi": 45.62681615964204,
+        "adj_close": 6705.1201171875
+      }
+    },
+    {
+      "date": "2025-11-25",
+      "status": "normal",
+      "summary_value": 48.08868876929725,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.08868876929725,
+        "rsi": 48.08868876929725,
+        "adj_close": 6765.8798828125
+      }
+    },
+    {
+      "date": "2025-11-26",
+      "status": "normal",
+      "summary_value": 56.0218661827339,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.0218661827339,
+        "rsi": 56.0218661827339,
+        "adj_close": 6812.60986328125
+      }
+    },
+    {
+      "date": "2025-11-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-28",
+      "status": "normal",
+      "summary_value": 57.57216414992734,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.57216414992734,
+        "rsi": 57.57216414992734,
+        "adj_close": 6849.08984375
+      }
+    },
+    {
+      "date": "2025-11-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-01",
+      "status": "normal",
+      "summary_value": 48.63844506538324,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.63844506538324,
+        "rsi": 48.63844506538324,
+        "adj_close": 6812.6298828125
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "status": "normal",
+      "summary_value": 48.81867949868408,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.81867949868408,
+        "rsi": 48.81867949868408,
+        "adj_close": 6829.3701171875
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "status": "normal",
+      "summary_value": 49.91956061829303,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 49.91956061829303,
+        "rsi": 49.91956061829303,
+        "adj_close": 6849.72021484375
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "status": "normal",
+      "summary_value": 59.35059324259133,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 59.35059324259133,
+        "rsi": 59.35059324259133,
+        "adj_close": 6857.1201171875
+      }
+    },
+    {
+      "date": "2025-12-05",
+      "status": "normal",
+      "summary_value": 60.49045297445357,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 60.49045297445357,
+        "rsi": 60.49045297445357,
+        "adj_close": 6870.39990234375
+      }
+    },
+    {
+      "date": "2025-12-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-08",
+      "status": "normal",
+      "summary_value": 64.22891020074577,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 64.22891020074577,
+        "rsi": 64.22891020074577,
+        "adj_close": 6846.509765625
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "status": "normal",
+      "summary_value": 69.8323746020231,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 69.8323746020231,
+        "rsi": 69.8323746020231,
+        "adj_close": 6840.509765625
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "status": "normal",
+      "summary_value": 70.93418054887863,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 70.93418054887863,
+        "rsi": 70.93418054887863,
+        "adj_close": 6886.68017578125
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "status": "normal",
+      "summary_value": 86.59432657418131,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 86.59432657418131,
+        "rsi": 86.59432657418131,
+        "adj_close": 6901.0
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "status": "high",
+      "summary_value": 72.25064532932612,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 72.25064532932612,
+        "rsi": 72.25064532932612,
+        "adj_close": 6827.41015625
+      }
+    },
+    {
+      "date": "2025-12-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-15",
+      "status": "normal",
+      "summary_value": 63.483134113819915,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 63.483134113819915,
+        "rsi": 63.483134113819915,
+        "adj_close": 6816.509765625
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "status": "normal",
+      "summary_value": 54.664075292920614,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 54.664075292920614,
+        "rsi": 54.664075292920614,
+        "adj_close": 6800.259765625
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "status": "normal",
+      "summary_value": 38.62131833204965,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 38.62131833204965,
+        "rsi": 38.62131833204965,
+        "adj_close": 6721.43017578125
+      }
+    },
+    {
+      "date": "2025-12-18",
+      "status": "normal",
+      "summary_value": 41.09840245128997,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.09840245128997,
+        "rsi": 41.09840245128997,
+        "adj_close": 6774.759765625
+      }
+    },
+    {
+      "date": "2025-12-19",
+      "status": "normal",
+      "summary_value": 52.48078623033483,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.48078623033483,
+        "rsi": 52.48078623033483,
+        "adj_close": 6834.5
+      }
+    },
+    {
+      "date": "2025-12-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-22",
+      "status": "normal",
+      "summary_value": 55.24742683188913,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.24742683188913,
+        "rsi": 55.24742683188913,
+        "adj_close": 6878.490234375
+      }
+    },
+    {
+      "date": "2025-12-23",
+      "status": "normal",
+      "summary_value": 56.27047078863698,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.27047078863698,
+        "rsi": 56.27047078863698,
+        "adj_close": 6909.7900390625
+      }
+    },
+    {
+      "date": "2025-12-24",
+      "status": "normal",
+      "summary_value": 57.586285994518505,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.586285994518505,
+        "rsi": 57.586285994518505,
+        "adj_close": 6932.0498046875
+      }
+    },
+    {
+      "date": "2025-12-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-26",
+      "status": "normal",
+      "summary_value": 56.167655342084394,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.167655342084394,
+        "rsi": 56.167655342084394,
+        "adj_close": 6929.93994140625
+      }
+    },
+    {
+      "date": "2025-12-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-29",
+      "status": "normal",
+      "summary_value": 56.131654875541116,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.131654875541116,
+        "rsi": 56.131654875541116,
+        "adj_close": 6905.740234375
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "status": "normal",
+      "summary_value": 55.727821103449664,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.727821103449664,
+        "rsi": 55.727821103449664,
+        "adj_close": 6896.240234375
+      }
+    },
+    {
+      "date": "2025-12-31",
+      "status": "normal",
+      "summary_value": 45.80700395450283,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.80700395450283,
+        "rsi": 45.80700395450283,
+        "adj_close": 6845.5
+      }
+    },
+    {
+      "date": "2026-01-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-02",
+      "status": "normal",
+      "summary_value": 45.6576513697435,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.6576513697435,
+        "rsi": 45.6576513697435,
+        "adj_close": 6858.47021484375
+      }
+    },
+    {
+      "date": "2026-01-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-05",
+      "status": "normal",
+      "summary_value": 58.11831360519361,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 58.11831360519361,
+        "rsi": 58.11831360519361,
+        "adj_close": 6902.0498046875
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "status": "normal",
+      "summary_value": 63.051077097899835,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 63.051077097899835,
+        "rsi": 63.051077097899835,
+        "adj_close": 6944.81982421875
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "status": "normal",
+      "summary_value": 62.08617352273472,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 62.08617352273472,
+        "rsi": 62.08617352273472,
+        "adj_close": 6920.93017578125
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "status": "normal",
+      "summary_value": 73.76166009876789,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 73.76166009876789,
+        "rsi": 73.76166009876789,
+        "adj_close": 6921.4599609375
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "status": "normal",
+      "summary_value": 73.22023743980829,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 73.22023743980829,
+        "rsi": 73.22023743980829,
+        "adj_close": 6966.27978515625
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-12",
+      "status": "normal",
+      "summary_value": 69.63019954266717,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 69.63019954266717,
+        "rsi": 69.63019954266717,
+        "adj_close": 6977.27001953125
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "status": "normal",
+      "summary_value": 62.793059483857725,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 62.793059483857725,
+        "rsi": 62.793059483857725,
+        "adj_close": 6963.740234375
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "status": "normal",
+      "summary_value": 52.479148993779624,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.479148993779624,
+        "rsi": 52.479148993779624,
+        "adj_close": 6926.60009765625
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "status": "normal",
+      "summary_value": 51.85579149649591,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 51.85579149649591,
+        "rsi": 51.85579149649591,
+        "adj_close": 6944.47021484375
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "status": "normal",
+      "summary_value": 51.49408466214112,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 51.49408466214112,
+        "rsi": 51.49408466214112,
+        "adj_close": 6940.009765625
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-20",
+      "status": "normal",
+      "summary_value": 38.05979020417343,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 38.05979020417343,
+        "rsi": 38.05979020417343,
+        "adj_close": 6796.85986328125
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "status": "normal",
+      "summary_value": 48.03692788278279,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.03692788278279,
+        "rsi": 48.03692788278279,
+        "adj_close": 6875.6201171875
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "status": "normal",
+      "summary_value": 56.62352890706554,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.62352890706554,
+        "rsi": 56.62352890706554,
+        "adj_close": 6913.35009765625
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "status": "normal",
+      "summary_value": 55.69710719258445,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.69710719258445,
+        "rsi": 55.69710719258445,
+        "adj_close": 6915.60986328125
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-26",
+      "status": "normal",
+      "summary_value": 54.89118958322799,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 54.89118958322799,
+        "rsi": 54.89118958322799,
+        "adj_close": 6950.22998046875
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "status": "normal",
+      "summary_value": 53.532613690907795,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 53.532613690907795,
+        "rsi": 53.532613690907795,
+        "adj_close": 6978.60009765625
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "status": "normal",
+      "summary_value": 56.277430880622525,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.277430880622525,
+        "rsi": 56.277430880622525,
+        "adj_close": 6978.02978515625
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "status": "normal",
+      "summary_value": 55.131742585527284,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.131742585527284,
+        "rsi": 55.131742585527284,
+        "adj_close": 6969.009765625
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "status": "normal",
+      "summary_value": 46.961765102980316,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.961765102980316,
+        "rsi": 46.961765102980316,
+        "adj_close": 6939.02978515625
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-02",
+      "status": "normal",
+      "summary_value": 49.91259963641449,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 49.91259963641449,
+        "rsi": 49.91259963641449,
+        "adj_close": 6976.43994140625
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "status": "normal",
+      "summary_value": 45.58339225899872,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.58339225899872,
+        "rsi": 45.58339225899872,
+        "adj_close": 6917.81005859375
+      }
+    },
+    {
+      "date": "2026-02-04",
+      "status": "normal",
+      "summary_value": 45.76384319064167,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.76384319064167,
+        "rsi": 45.76384319064167,
+        "adj_close": 6882.72021484375
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "status": "normal",
+      "summary_value": 37.501921804290134,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 37.501921804290134,
+        "rsi": 37.501921804290134,
+        "adj_close": 6798.39990234375
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "status": "normal",
+      "summary_value": 49.45994347020693,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 49.45994347020693,
+        "rsi": 49.45994347020693,
+        "adj_close": 6932.2998046875
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-09",
+      "status": "normal",
+      "summary_value": 63.92285686068481,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 63.92285686068481,
+        "rsi": 63.92285686068481,
+        "adj_close": 6964.81982421875
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "status": "normal",
+      "summary_value": 56.045514508931554,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.045514508931554,
+        "rsi": 56.045514508931554,
+        "adj_close": 6941.81005859375
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "status": "normal",
+      "summary_value": 52.756657814471524,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.756657814471524,
+        "rsi": 52.756657814471524,
+        "adj_close": 6941.47021484375
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "status": "normal",
+      "summary_value": 43.280507344921844,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.280507344921844,
+        "rsi": 43.280507344921844,
+        "adj_close": 6832.759765625
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "status": "normal",
+      "summary_value": 40.25595354793498,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 40.25595354793498,
+        "rsi": 40.25595354793498,
+        "adj_close": 6836.169921875
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-17",
+      "status": "normal",
+      "summary_value": 37.997406042639255,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 37.997406042639255,
+        "rsi": 37.997406042639255,
+        "adj_close": 6843.22021484375
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "status": "normal",
+      "summary_value": 41.95986140967275,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.95986140967275,
+        "rsi": 41.95986140967275,
+        "adj_close": 6881.31005859375
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "status": "normal",
+      "summary_value": 41.24668530265391,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.24668530265391,
+        "rsi": 41.24668530265391,
+        "adj_close": 6861.89013671875
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "status": "normal",
+      "summary_value": 47.65535498352927,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.65535498352927,
+        "rsi": 47.65535498352927,
+        "adj_close": 6909.509765625
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-23",
+      "status": "normal",
+      "summary_value": 39.55442941148349,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 39.55442941148349,
+        "rsi": 39.55442941148349,
+        "adj_close": 6837.75
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "status": "normal",
+      "summary_value": 47.890667581507735,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.890667581507735,
+        "rsi": 47.890667581507735,
+        "adj_close": 6890.06982421875
+      }
+    },
+    {
+      "date": "2026-02-25",
+      "status": "normal",
+      "summary_value": 54.67257807659454,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 54.67257807659454,
+        "rsi": 54.67257807659454,
+        "adj_close": 6946.1298828125
+      }
+    },
+    {
+      "date": "2026-02-26",
+      "status": "normal",
+      "summary_value": 58.7461241658741,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 58.7461241658741,
+        "rsi": 58.7461241658741,
+        "adj_close": 6908.85986328125
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "status": "normal",
+      "summary_value": 44.93707205014245,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 44.93707205014245,
+        "rsi": 44.93707205014245,
+        "adj_close": 6878.8798828125
+      }
+    },
+    {
+      "date": "2026-02-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-02",
+      "status": "normal",
+      "summary_value": 41.64292027194976,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.64292027194976,
+        "rsi": 41.64292027194976,
+        "adj_close": 6881.6201171875
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "status": "normal",
+      "summary_value": 38.404094699885746,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 38.404094699885746,
+        "rsi": 38.404094699885746,
+        "adj_close": 6816.6298828125
+      }
+    },
+    {
+      "date": "2026-03-04",
+      "status": "normal",
+      "summary_value": 43.92441618418958,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.92441618418958,
+        "rsi": 43.92441618418958,
+        "adj_close": 6869.5
+      }
+    },
+    {
+      "date": "2026-03-05",
+      "status": "normal",
+      "summary_value": 49.80379766950143,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 49.80379766950143,
+        "rsi": 49.80379766950143,
+        "adj_close": 6830.7099609375
+      }
+    },
+    {
+      "date": "2026-03-06",
+      "status": "normal",
+      "summary_value": 42.11433463910111,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 42.11433463910111,
+        "rsi": 42.11433463910111,
+        "adj_close": 6740.02001953125
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-09",
+      "status": "normal",
+      "summary_value": 46.41420099039779,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.41420099039779,
+        "rsi": 46.41420099039779,
+        "adj_close": 6795.990234375
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "status": "normal",
+      "summary_value": 42.13924303707919,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 42.13924303707919,
+        "rsi": 42.13924303707919,
+        "adj_close": 6781.47998046875
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "status": "normal",
+      "summary_value": 43.071206087143096,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.071206087143096,
+        "rsi": 43.071206087143096,
+        "adj_close": 6775.7998046875
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "status": "normal",
+      "summary_value": 32.499559918851915,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 32.499559918851915,
+        "rsi": 32.499559918851915,
+        "adj_close": 6672.6201171875
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "status": "normal",
+      "summary_value": 34.07698504854589,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 34.07698504854589,
+        "rsi": 34.07698504854589,
+        "adj_close": 6632.18994140625
+      }
+    },
+    {
+      "date": "2026-03-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-16",
+      "status": "normal",
+      "summary_value": 35.56147261274225,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 35.56147261274225,
+        "rsi": 35.56147261274225,
+        "adj_close": 6699.3798828125
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "status": "normal",
+      "summary_value": 31.47828685102334,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 31.47828685102334,
+        "rsi": 31.47828685102334,
+        "adj_close": 6716.08984375
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "status": "normal",
+      "summary_value": 28.954895935115758,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 28.954895935115758,
+        "rsi": 28.954895935115758,
+        "adj_close": 6624.7001953125
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "status": "normal",
+      "summary_value": 29.468650950798718,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 29.468650950798718,
+        "rsi": 29.468650950798718,
+        "adj_close": 6606.490234375
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "status": "normal",
+      "summary_value": 25.339864972001294,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 25.339864972001294,
+        "rsi": 25.339864972001294,
+        "adj_close": 6506.47998046875
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-23",
+      "status": "normal",
+      "summary_value": 34.70234608195945,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 34.70234608195945,
+        "rsi": 34.70234608195945,
+        "adj_close": 6581.0
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "status": "normal",
+      "summary_value": 28.89704837070694,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 28.89704837070694,
+        "rsi": 28.89704837070694,
+        "adj_close": 6556.3701171875
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "status": "normal",
+      "summary_value": 33.834692332862886,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 33.834692332862886,
+        "rsi": 33.834692332862886,
+        "adj_close": 6591.89990234375
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "status": "normal",
+      "summary_value": 32.76780095377171,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 32.76780095377171,
+        "rsi": 32.76780095377171,
+        "adj_close": 6477.16015625
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "status": "normal",
+      "summary_value": 23.796355262188314,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 23.796355262188314,
+        "rsi": 23.796355262188314,
+        "adj_close": 6368.85009765625
+      }
+    },
+    {
+      "date": "2026-03-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-30",
+      "status": "normal",
+      "summary_value": 23.490286525326,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 23.490286525326,
+        "rsi": 23.490286525326,
+        "adj_close": 6343.72021484375
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "status": "normal",
+      "summary_value": 37.69481486665043,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 37.69481486665043,
+        "rsi": 37.69481486665043,
+        "adj_close": 6528.52001953125
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "status": "normal",
+      "summary_value": 44.870286631303486,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 44.870286631303486,
+        "rsi": 44.870286631303486,
+        "adj_close": 6575.31982421875
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "status": "normal",
+      "summary_value": 47.29608335369308,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.29608335369308,
+        "rsi": 47.29608335369308,
+        "adj_close": 6582.68994140625
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-06",
+      "status": "normal",
+      "summary_value": 45.010207671003535,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.010207671003535,
+        "rsi": 45.010207671003535,
+        "adj_close": 6611.830078125
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "status": "normal",
+      "summary_value": 44.26756891987407,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 44.26756891987407,
+        "rsi": 44.26756891987407,
+        "adj_close": 6616.85009765625
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "status": "normal",
+      "summary_value": 58.40858347611255,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 58.40858347611255,
+        "rsi": 58.40858347611255,
+        "adj_close": 6782.81005859375
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "status": "normal",
+      "summary_value": 61.31810310849382,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.31810310849382,
+        "rsi": 61.31810310849382,
+        "adj_close": 6824.66015625
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "status": "normal",
+      "summary_value": 67.80754229473371,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 67.80754229473371,
+        "rsi": 67.80754229473371,
+        "adj_close": 6816.89013671875
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-13",
+      "status": "normal",
+      "summary_value": 67.61544556821346,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 67.61544556821346,
+        "rsi": 67.61544556821346,
+        "adj_close": 6886.240234375
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "status": "normal",
+      "summary_value": 72.26707538894397,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 72.26707538894397,
+        "rsi": 72.26707538894397,
+        "adj_close": 6967.3798828125
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "status": "normal",
+      "summary_value": 72.85648374216339,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 72.85648374216339,
+        "rsi": 72.85648374216339,
+        "adj_close": 7022.9501953125
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "status": "normal",
+      "summary_value": 83.31915374690044,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 83.31915374690044,
+        "rsi": 83.31915374690044,
+        "adj_close": 7041.27978515625
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "status": "high",
+      "summary_value": 96.00248943355301,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 96.00248943355301,
+        "rsi": 96.00248943355301,
+        "adj_close": 7126.06005859375
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-19",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-20",
+      "status": "high",
+      "summary_value": 96.96981500680167,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 96.96981500680167,
+        "rsi": 96.96981500680167,
+        "adj_close": 7109.14013671875
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "status": "high",
+      "summary_value": 89.65824743050929,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 89.65824743050929,
+        "rsi": 89.65824743050929,
+        "adj_close": 7064.009765625
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "status": "high",
+      "summary_value": 90.05721247048287,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 90.05721247048287,
+        "rsi": 90.05721247048287,
+        "adj_close": 7137.89990234375
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "status": "high",
+      "summary_value": 86.28836444282662,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 86.28836444282662,
+        "rsi": 86.28836444282662,
+        "adj_close": 7108.39990234375
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "status": "high",
+      "summary_value": 86.79059038673344,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 86.79059038673344,
+        "rsi": 86.79059038673344,
+        "adj_close": 7165.080078125
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-26",
+      "status": "high",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-27",
+      "status": "high",
+      "summary_value": 86.85718900932044,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 86.85718900932044,
+        "rsi": 86.85718900932044,
+        "adj_close": 7173.91015625
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "status": "high",
+      "summary_value": 78.48596735940986,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 78.48596735940986,
+        "rsi": 78.48596735940986,
+        "adj_close": 7138.7998046875
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "status": "normal",
+      "summary_value": 76.56735749136122,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 76.56735749136122,
+        "rsi": 76.56735749136122,
+        "adj_close": 7135.9501953125
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "status": "normal",
+      "summary_value": 80.11023332720926,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 80.11023332720926,
+        "rsi": 80.11023332720926,
+        "adj_close": 7209.009765625
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "status": "high",
+      "summary_value": 78.51879747963135,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 78.51879747963135,
+        "rsi": 78.51879747963135,
+        "adj_close": 7230.1201171875
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-04",
+      "status": "normal",
+      "summary_value": 71.17193341814948,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 71.17193341814948,
+        "rsi": 71.17193341814948,
+        "adj_close": 7200.75
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "status": "normal",
+      "summary_value": 71.3228249996695,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 71.3228249996695,
+        "rsi": 71.3228249996695,
+        "adj_close": 7259.22021484375
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "status": "normal",
+      "summary_value": 75.23689135227653,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 75.23689135227653,
+        "rsi": 75.23689135227653,
+        "adj_close": 7365.1201171875
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "status": "normal",
+      "summary_value": 68.04365576997898,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 68.04365576997898,
+        "rsi": 68.04365576997898,
+        "adj_close": 7337.10986328125
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "status": "normal",
+      "summary_value": 73.00901767091317,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 73.00901767091317,
+        "rsi": 73.00901767091317,
+        "adj_close": 7398.93017578125
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-11",
+      "status": "normal",
+      "summary_value": 79.14150520089741,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 79.14150520089741,
+        "rsi": 79.14150520089741,
+        "adj_close": 7412.83984375
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "status": "normal",
+      "summary_value": 74.51629256074841,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 74.51629256074841,
+        "rsi": 74.51629256074841,
+        "adj_close": 7400.9599609375
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "status": "normal",
+      "summary_value": 80.51570770056655,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 80.51570770056655,
+        "rsi": 80.51570770056655,
+        "adj_close": 7444.25
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "status": "high",
+      "summary_value": 80.52667985066023,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 80.52667985066023,
+        "rsi": 80.52667985066023,
+        "adj_close": 7501.240234375
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "status": "high",
+      "summary_value": 68.4858843320164,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 68.4858843320164,
+        "rsi": 68.4858843320164,
+        "adj_close": 7408.5
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-18",
+      "status": "normal",
+      "summary_value": 71.84423774595676,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 71.84423774595676,
+        "rsi": 71.84423774595676,
+        "adj_close": 7403.0498046875
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "status": "normal",
+      "summary_value": 66.70601753474682,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 66.70601753474682,
+        "rsi": 66.70601753474682,
+        "adj_close": 7353.60986328125
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "status": "normal",
+      "summary_value": 67.0249544376436,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 67.0249544376436,
+        "rsi": 67.0249544376436,
+        "adj_close": 7432.97021484375
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "status": "normal",
+      "summary_value": 66.60042272806224,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 66.60042272806224,
+        "rsi": 66.60042272806224,
+        "adj_close": 7445.72021484375
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "status": "normal",
+      "summary_value": 71.05098314130325,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 71.05098314130325,
+        "rsi": 71.05098314130325,
+        "adj_close": 7473.47021484375
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-26",
+      "status": "normal",
+      "summary_value": 70.46646349200489,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 70.46646349200489,
+        "rsi": 70.46646349200489,
+        "adj_close": 7519.1201171875
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "status": "normal",
+      "summary_value": 64.63750500683693,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 64.63750500683693,
+        "rsi": 64.63750500683693,
+        "adj_close": 7520.35986328125
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "status": "normal",
+      "summary_value": 70.76106248551152,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 70.76106248551152,
+        "rsi": 70.76106248551152,
+        "adj_close": 7563.6298828125
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "status": "normal",
+      "summary_value": 68.10754187217127,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 68.10754187217127,
+        "rsi": 68.10754187217127,
+        "adj_close": 7580.06005859375
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-01",
+      "status": "normal",
+      "summary_value": 68.48499289970056,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 68.48499289970056,
+        "rsi": 68.48499289970056,
+        "adj_close": 7599.9599609375
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "status": "normal",
+      "summary_value": 70.71294135652685,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 70.71294135652685,
+        "rsi": 70.71294135652685,
+        "adj_close": 7609.77978515625
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "status": "normal",
+      "summary_value": 60.58543856881459,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 60.58543856881459,
+        "rsi": 60.58543856881459,
+        "adj_close": 7553.68017578125
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "status": "normal",
+      "summary_value": 58.46735781725156,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 58.46735781725156,
+        "rsi": 58.46735781725156,
+        "adj_close": 7584.31005859375
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "status": "normal",
+      "summary_value": 47.9310288549419,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.9310288549419,
+        "rsi": 47.9310288549419,
+        "adj_close": 7383.740234375
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-08",
+      "status": "normal",
+      "summary_value": 50.21793628748373,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.21793628748373,
+        "rsi": 50.21793628748373,
+        "adj_close": 7405.72998046875
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "status": "normal",
+      "summary_value": 52.82616177276433,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.82616177276433,
+        "rsi": 52.82616177276433,
+        "adj_close": 7386.64990234375
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "status": "normal",
+      "summary_value": 36.718166963488216,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 36.718166963488216,
+        "rsi": 36.718166963488216,
+        "adj_close": 7266.990234375
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "status": "normal",
+      "summary_value": 46.52281899005935,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.52281899005935,
+        "rsi": 46.52281899005935,
+        "adj_close": 7394.2998046875
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "status": "normal",
+      "summary_value": 47.19485849582573,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.19485849582573,
+        "rsi": 47.19485849582573,
+        "adj_close": 7431.4599609375
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-15",
+      "status": "normal",
+      "summary_value": 52.128960099880345,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.128960099880345,
+        "rsi": 52.128960099880345,
+        "adj_close": 7554.2900390625
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "status": "normal",
+      "summary_value": 49.48081795089098,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 49.48081795089098,
+        "rsi": 49.48081795089098,
+        "adj_close": 7511.35009765625
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "status": "normal",
+      "summary_value": 42.16256800951747,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 42.16256800951747,
+        "rsi": 42.16256800951747,
+        "adj_close": 7420.10009765625
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "status": "normal",
+      "summary_value": 45.94373282736836,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.94373282736836,
+        "rsi": 45.94373282736836,
+        "adj_close": 7500.580078125
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-22",
+      "status": "normal",
+      "summary_value": 43.56172334721959,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.56172334721959,
+        "rsi": 43.56172334721959,
+        "adj_close": 7472.7900390625
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "status": "normal",
+      "summary_value": 38.7422530388247,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 38.7422530388247,
+        "rsi": 38.7422530388247,
+        "adj_close": 7365.4599609375
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "status": "normal",
+      "summary_value": 40.56896004161606,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 40.56896004161606,
+        "rsi": 40.56896004161606,
+        "adj_close": 7358.22021484375
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "status": "normal",
+      "summary_value": 38.73066918709786,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 38.73066918709786,
+        "rsi": 38.73066918709786,
+        "adj_close": 7357.490234375
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "status": "normal",
+      "summary_value": 48.16373962734778,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.16373962734778,
+        "rsi": 48.16373962734778,
+        "adj_close": 7354.02001953125
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-29",
+      "status": "normal",
+      "summary_value": 51.985864831755066,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 51.985864831755066,
+        "rsi": 51.985864831755066,
+        "adj_close": 7440.43017578125
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "status": "normal",
+      "summary_value": 56.1689297389289,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.1689297389289,
+        "rsi": 56.1689297389289,
+        "adj_close": 7499.35986328125
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "status": "normal",
+      "summary_value": 63.348140521400296,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 63.348140521400296,
+        "rsi": 63.348140521400296,
+        "adj_close": 7483.22998046875
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "status": "normal",
+      "summary_value": 56.513871703727006,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.513871703727006,
+        "rsi": 56.513871703727006,
+        "adj_close": 7483.240234375
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-06",
+      "status": "normal",
+      "summary_value": 57.572221985740875,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.572221985740875,
+        "rsi": 57.572221985740875,
+        "adj_close": 7537.43017578125
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "status": "normal",
+      "summary_value": 45.86882919833667,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.86882919833667,
+        "rsi": 45.86882919833667,
+        "adj_close": 7503.85009765625
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "status": "normal",
+      "summary_value": 47.56742813016074,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.56742813016074,
+        "rsi": 47.56742813016074,
+        "adj_close": 7482.7099609375
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "status": "normal",
+      "summary_value": 61.06275174417282,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.06275174417282,
+        "rsi": 61.06275174417282,
+        "adj_close": 7543.64013671875
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "status": "normal",
+      "summary_value": 57.339638965510964,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 57.339638965510964,
+        "rsi": 57.339638965510964,
+        "adj_close": 7575.39013671875
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-13",
+      "status": "normal",
+      "summary_value": 53.926051007756406,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 53.926051007756406,
+        "rsi": 53.926051007756406,
+        "adj_close": 7515.33984375
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "status": "normal",
+      "summary_value": 69.24436294886458,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 69.24436294886458,
+        "rsi": 69.24436294886458,
+        "adj_close": 7543.58984375
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "status": "normal",
+      "summary_value": 72.10860352495736,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 72.10860352495736,
+        "rsi": 72.10860352495736,
+        "adj_close": 7572.39990234375
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "status": "normal",
+      "summary_value": 66.87596002733653,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 66.87596002733653,
+        "rsi": 66.87596002733653,
+        "adj_close": 7533.77001953125
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "status": "normal",
+      "summary_value": 58.71335986131904,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 58.71335986131904,
+        "rsi": 58.71335986131904,
+        "adj_close": 7457.68994140625
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-20",
+      "status": "normal",
+      "summary_value": 50.27248617959061,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.27248617959061,
+        "rsi": 50.27248617959061,
+        "adj_close": 7443.27978515625
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "status": "normal",
+      "summary_value": 50.928541085167026,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.928541085167026,
+        "rsi": 50.928541085167026,
+        "adj_close": 7509.2001953125
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "status": "normal",
+      "summary_value": 51.50097611204556,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 51.50097611204556,
+        "rsi": 51.50097611204556,
+        "adj_close": 7498.9599609375
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "status": "normal",
+      "summary_value": 43.90372946632708,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.90372946632708,
+        "rsi": 43.90372946632708,
+        "adj_close": 7408.2998046875
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "status": "normal",
+      "summary_value": 38.88112783920259,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 38.88112783920259,
+        "rsi": 38.88112783920259,
+        "adj_close": 7411.97998046875
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-27",
+      "status": "normal",
+      "summary_value": 41.47441571750221,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.47441571750221,
+        "rsi": 41.47441571750221,
+        "adj_close": 7413.18017578125
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "status": "normal",
+      "summary_value": 44.87561718170776,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 44.87561718170776,
+        "rsi": 44.87561718170776,
+        "adj_close": 7428.77978515625
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "status": "normal",
+      "summary_value": 30.31788786730226,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 30.31788786730226,
+        "rsi": 30.31788786730226,
+        "adj_close": 7316.14990234375
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "status": "normal",
+      "summary_value": 39.6830609165753,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 39.6830609165753,
+        "rsi": 39.6830609165753,
+        "adj_close": 7437.6298828125
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "status": "normal",
+      "summary_value": 48.05818092458552,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.05818092458552,
+        "rsi": 48.05818092458552,
+        "adj_close": 7489.72021484375
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-03",
+      "status": "normal",
+      "summary_value": 53.8338263002221,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 53.8338263002221,
+        "rsi": 53.8338263002221,
+        "adj_close": 7600.5
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "status": "normal",
+      "summary_value": 59.660706340602,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 59.660706340602,
+        "rsi": 59.660706340602,
+        "adj_close": 7736.52001953125
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "status": "normal",
+      "summary_value": 61.51910153918378,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 61.51910153918378,
+        "rsi": 61.51910153918378,
+        "adj_close": 7723.5498046875
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "status": "normal",
+      "summary_value": 66.56900242001228,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 66.56900242001228,
+        "rsi": 66.56900242001228,
+        "adj_close": 7709.9599609375
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "status": "normal",
+      "summary_value": 69.7825125059918,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 69.7825125059918,
+        "rsi": 69.7825125059918,
+        "adj_close": 7757.64013671875
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-10",
+      "status": "normal",
+      "summary_value": 66.63434328365167,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 66.63434328365167,
+        "rsi": 66.63434328365167,
+        "adj_close": 7753.10986328125
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "status": "normal",
+      "summary_value": 65.32722704526697,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 65.32722704526697,
+        "rsi": 65.32722704526697,
+        "adj_close": 7728.2001953125
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "status": "normal",
+      "summary_value": 75.10850935321074,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 75.10850935321074,
+        "rsi": 75.10850935321074,
+        "adj_close": 7748.5
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "status": "normal",
+      "summary_value": 76.71726313873411,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 76.71726313873411,
+        "rsi": 76.71726313873411,
+        "adj_close": 7798.990234375
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "status": "normal",
+      "summary_value": 75.3007905471228,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 75.3007905471228,
+        "rsi": 75.3007905471228,
+        "adj_close": 7785.759765625
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-17",
+      "status": "normal",
+      "summary_value": 70.7696421837845,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 70.7696421837845,
+        "rsi": 70.7696421837845,
+        "adj_close": 7745.06005859375
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "status": "normal",
+      "summary_value": 76.75014135777182,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 76.75014135777182,
+        "rsi": 76.75014135777182,
+        "adj_close": 7691.759765625
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "status": "normal",
+      "summary_value": 72.64955586699818,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 72.64955586699818,
+        "rsi": 72.64955586699818,
+        "adj_close": 7707.97998046875
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "status": "normal",
+      "summary_value": 62.381840175338446,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 62.381840175338446,
+        "rsi": 62.381840175338446,
+        "adj_close": 7641.16015625
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "status": "normal",
+      "summary_value": 56.91705713021182,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 56.91705713021182,
+        "rsi": 56.91705713021182,
+        "adj_close": 7674.3701171875
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-24",
+      "status": "normal",
+      "summary_value": 40.02765826674862,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 40.02765826674862,
+        "rsi": 40.02765826674862,
+        "adj_close": 7652.85986328125
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "status": "normal",
+      "summary_value": 44.63113523436128,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 44.63113523436128,
+        "rsi": 44.63113523436128,
+        "adj_close": 7677.27978515625
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "status": "normal",
+      "summary_value": 45.91075033686596,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.91075033686596,
+        "rsi": 45.91075033686596,
+        "adj_close": 7675.7001953125
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "status": "normal",
+      "summary_value": 46.8758192681567,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.8758192681567,
+        "rsi": 46.8758192681567,
+        "adj_close": 7730.990234375
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "status": "normal",
+      "summary_value": 45.31401650510901,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.31401650510901,
+        "rsi": 45.31401650510901,
+        "adj_close": 7711.759765625
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-31",
+      "status": "normal",
+      "summary_value": 45.24121791762472,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.24121791762472,
+        "rsi": 45.24121791762472,
+        "adj_close": 7686.14013671875
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "status": "normal",
+      "summary_value": 37.714453843023115,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 37.714453843023115,
+        "rsi": 37.714453843023115,
+        "adj_close": 7631.47021484375
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "status": "normal",
+      "summary_value": 35.6388078200395,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 35.6388078200395,
+        "rsi": 35.6388078200395,
+        "adj_close": 7666.60009765625
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "status": "normal",
+      "summary_value": 46.40231504650961,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.40231504650961,
+        "rsi": 46.40231504650961,
+        "adj_close": 7747.7099609375
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "status": "normal",
+      "summary_value": 47.44209669714689,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.44209669714689,
+        "rsi": 47.44209669714689,
+        "adj_close": 7718.60009765625
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-08",
+      "status": "normal",
+      "summary_value": 48.2082746963588,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.2082746963588,
+        "rsi": 48.2082746963588,
+        "adj_close": 7673.52001953125
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "status": "normal",
+      "summary_value": 43.2426132112675,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 43.2426132112675,
+        "rsi": 43.2426132112675,
+        "adj_close": 7636.35986328125
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "status": "normal",
+      "summary_value": 45.12977771623529,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.12977771623529,
+        "rsi": 45.12977771623529,
+        "adj_close": 7591.7001953125
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "status": "normal",
+      "summary_value": 48.38935213198856,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 48.38935213198856,
+        "rsi": 48.38935213198856,
+        "adj_close": 7656.97998046875
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-14",
+      "status": "normal",
+      "summary_value": 47.039655897036404,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.039655897036404,
+        "rsi": 47.039655897036404,
+        "adj_close": 7619.97998046875
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "status": "normal",
+      "summary_value": 41.90066922052138,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 41.90066922052138,
+        "rsi": 41.90066922052138,
+        "adj_close": 7585.72998046875
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "status": "normal",
+      "summary_value": 39.63278551343101,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 39.63278551343101,
+        "rsi": 39.63278551343101,
+        "adj_close": 7551.81005859375
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "status": "normal",
+      "summary_value": 42.57918833414951,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 42.57918833414951,
+        "rsi": 42.57918833414951,
+        "adj_close": 7637.759765625
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "status": "normal",
+      "summary_value": 45.07303655833578,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 45.07303655833578,
+        "rsi": 45.07303655833578,
+        "adj_close": 7650.5
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-21",
+      "status": "normal",
+      "summary_value": 55.53037891230027,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.53037891230027,
+        "rsi": 55.53037891230027,
+        "adj_close": 7764.7001953125
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "status": "normal",
+      "summary_value": 60.15557392554198,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 60.15557392554198,
+        "rsi": 60.15557392554198,
+        "adj_close": 7764.64013671875
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "status": "normal",
+      "summary_value": 52.90295630466949,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.90295630466949,
+        "rsi": 52.90295630466949,
+        "adj_close": 7706.02978515625
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "status": "normal",
+      "summary_value": 46.367842062254404,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 46.367842062254404,
+        "rsi": 46.367842062254404,
+        "adj_close": 7704.1298828125
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "status": "normal",
+      "summary_value": 52.0333102567899,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.0333102567899,
+        "rsi": 52.0333102567899,
+        "adj_close": 7743.41015625
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-28",
+      "status": "normal",
+      "summary_value": 50.81394476367934,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.81394476367934,
+        "rsi": 50.81394476367934,
+        "adj_close": 7683.68994140625
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "status": "normal",
+      "summary_value": 52.87131981903956,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 52.87131981903956,
+        "rsi": 52.87131981903956,
+        "adj_close": 7670.83984375
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "status": "normal",
+      "summary_value": 55.202916812428036,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.202916812428036,
+        "rsi": 55.202916812428036,
+        "adj_close": 7651.5400390625
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "status": "normal",
+      "summary_value": 50.902456524348885,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.902456524348885,
+        "rsi": 50.902456524348885,
+        "adj_close": 7666.4501953125
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "status": "normal",
+      "summary_value": 59.443714363680755,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 59.443714363680755,
+        "rsi": 59.443714363680755,
+        "adj_close": 7722.72021484375
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-05",
+      "status": "normal",
+      "summary_value": 66.77718711672196,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 66.77718711672196,
+        "rsi": 66.77718711672196,
+        "adj_close": 7773.9501953125
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "status": "normal",
+      "summary_value": 73.34962072904023,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 73.34962072904023,
+        "rsi": 73.34962072904023,
+        "adj_close": 7818.93017578125
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "status": "normal",
+      "summary_value": 66.29635631301687,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 66.29635631301687,
+        "rsi": 66.29635631301687,
+        "adj_close": 7801.77001953125
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "status": "normal",
+      "summary_value": 60.89997432934249,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 60.89997432934249,
+        "rsi": 60.89997432934249,
+        "adj_close": 7765.35986328125
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "status": "normal",
+      "summary_value": 55.10392147682144,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.10392147682144,
+        "rsi": 55.10392147682144,
+        "adj_close": 7811.5400390625
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-12",
+      "status": "normal",
+      "summary_value": 54.59943844096197,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 54.59943844096197,
+        "rsi": 54.59943844096197,
+        "adj_close": 7807.240234375
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "status": "normal",
+      "summary_value": 62.235431692071394,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 62.235431692071394,
+        "rsi": 62.235431692071394,
+        "adj_close": 7805.4501953125
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "status": "normal",
+      "summary_value": 51.50848713625671,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 51.50848713625671,
+        "rsi": 51.50848713625671,
+        "adj_close": 7718.93994140625
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "status": "normal",
+      "summary_value": 50.06816238112552,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 50.06816238112552,
+        "rsi": 50.06816238112552,
+        "adj_close": 7744.06005859375
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "normal",
+      "summary_value": 47.582883952732296,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 47.582883952732296,
+        "rsi": 47.582883952732296,
+        "adj_close": 7659.43994140625
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-19",
+      "status": "normal",
+      "summary_value": 51.91225278258951,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 51.91225278258951,
+        "rsi": 51.91225278258951,
+        "adj_close": 7690.72998046875
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "status": "normal",
+      "summary_value": 55.83893219422091,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 55.83893219422091,
+        "rsi": 55.83893219422091,
+        "adj_close": 7712.56982421875
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "status": "normal",
+      "summary_value": 58.212891384761186,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 58.212891384761186,
+        "rsi": 58.212891384761186,
+        "adj_close": 7757.169921875
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "status": "normal",
+      "summary_value": 44.97346524816823,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 44.97346524816823,
+        "rsi": 44.97346524816823,
+        "adj_close": 7663.43017578125
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "status": "normal",
+      "summary_value": 37.00739399783339,
+      "details": {
+        "market": "S&P 500",
+        "indicator_value": 37.00739399783339,
+        "rsi": 37.00739399783339,
+        "adj_close": 7623.68017578125
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     }
   ]
 }

@@ -10,2607 +10,3223 @@
     "ETF"
   ],
   "threshold": "> 20",
-  "updated_at": "2025-10-03T06:07:08+00:00",
+  "updated_at": "2026-10-24T09:49:14+00:00",
   "series": [
     {
-      "date": "2024-10-03",
-      "status": null,
-      "summary_value": -2445.93,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2445.93,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-04",
-      "status": null,
-      "summary_value": -4997.22,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4997.22,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-07",
-      "status": null,
-      "summary_value": -745.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -745.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-08",
-      "status": null,
-      "summary_value": 113.52,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 113.52,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-09",
-      "status": null,
-      "summary_value": -3237.94,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3237.94,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-10",
-      "status": null,
-      "summary_value": 1038.92,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1038.92,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-11",
-      "status": null,
-      "summary_value": -1641.8,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1641.8,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-14",
-      "status": null,
-      "summary_value": 1246.04,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1246.04,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-15",
-      "status": null,
-      "summary_value": 5197.74,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5197.74,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-16",
-      "status": null,
-      "summary_value": 7332.22,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 7332.22,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-17",
-      "status": null,
-      "summary_value": -4251.07,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4251.07,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-18",
-      "status": null,
-      "summary_value": 291.12,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 291.12,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-21",
-      "status": null,
-      "summary_value": -1081.48,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1081.48,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-22",
-      "status": null,
-      "summary_value": 641.89,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 641.89,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-23",
-      "status": null,
-      "summary_value": 379.12,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 379.12,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-24",
-      "status": null,
-      "summary_value": 4883.38,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4883.38,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-25",
-      "status": null,
-      "summary_value": -955.6,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -955.6,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-28",
-      "status": null,
-      "summary_value": -3155.44,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3155.44,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-29",
-      "status": null,
-      "summary_value": -261.23,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -261.23,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-30",
-      "status": null,
-      "summary_value": -1017.54,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1017.54,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-10-31",
-      "status": null,
-      "summary_value": 202.84,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 202.84,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-01",
-      "status": null,
-      "summary_value": 2872.46,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2872.46,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-04",
-      "status": null,
-      "summary_value": 799.61,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 799.61,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-05",
-      "status": null,
-      "summary_value": 227.83,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 227.83,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-06",
-      "status": null,
-      "summary_value": 2363.88,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2363.88,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-07",
-      "status": null,
-      "summary_value": 4640.34,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4640.34,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-08",
-      "status": null,
-      "summary_value": 1697.25,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1697.25,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-11",
-      "status": null,
-      "summary_value": 3706.88,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3706.88,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-12",
-      "status": null,
-      "summary_value": 1675.69,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1675.69,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-13",
-      "status": null,
-      "summary_value": -2416.9,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2416.9,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-14",
-      "status": null,
-      "summary_value": 3223.42,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3223.42,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-15",
-      "status": null,
-      "summary_value": 415.37,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 415.37,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-18",
-      "status": null,
-      "summary_value": 5475.75,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5475.75,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-19",
-      "status": null,
-      "summary_value": -4645.37,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4645.37,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-20",
-      "status": null,
-      "summary_value": -6139.69,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -6139.69,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-21",
-      "status": null,
-      "summary_value": -236.15,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -236.15,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-22",
-      "status": null,
-      "summary_value": -4570.88,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4570.88,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-25",
-      "status": null,
-      "summary_value": 1399.88,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1399.88,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-26",
-      "status": null,
-      "summary_value": 985.87,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 985.87,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-27",
-      "status": null,
-      "summary_value": -3485.48,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3485.48,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-28",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-11-29",
-      "status": null,
-      "summary_value": -269.41,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -269.41,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-02",
-      "status": null,
-      "summary_value": 3733.05,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3733.05,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-03",
-      "status": null,
-      "summary_value": 301.82,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 301.82,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-04",
-      "status": null,
-      "summary_value": 996.48,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 996.48,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-05",
-      "status": null,
-      "summary_value": -5802.39,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -5802.39,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-06",
-      "status": null,
-      "summary_value": 6944.22,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6944.22,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-09",
-      "status": null,
-      "summary_value": 1489.73,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1489.73,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-10",
-      "status": null,
-      "summary_value": 6316.12,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6316.12,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-11",
-      "status": null,
-      "summary_value": 873.82,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 873.82,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-12",
-      "status": null,
-      "summary_value": -425.29,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -425.29,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-13",
-      "status": null,
-      "summary_value": 241.71,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 241.71,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-16",
-      "status": null,
-      "summary_value": 8128.15,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 8128.15,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-17",
-      "status": null,
-      "summary_value": 3185.13,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3185.13,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-18",
-      "status": null,
-      "summary_value": -9005.04,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -9005.04,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-19",
-      "status": null,
-      "summary_value": -9942.99,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -9942.99,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-20",
-      "status": null,
-      "summary_value": -14125.03,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -14125.03,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-23",
-      "status": null,
-      "summary_value": 22882.26,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 22882.26,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-24",
-      "status": null,
-      "summary_value": -3212.17,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3212.17,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-25",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-26",
-      "status": null,
-      "summary_value": -2856.7,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2856.7,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-27",
-      "status": null,
-      "summary_value": 1382.79,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1382.79,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-30",
-      "status": null,
-      "summary_value": -2200.08,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2200.08,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2024-12-31",
-      "status": null,
-      "summary_value": 4706.05,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4706.05,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-01",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-02",
-      "status": null,
-      "summary_value": 2548.18,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2548.18,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-03",
-      "status": null,
-      "summary_value": -438.38,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -438.38,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-06",
-      "status": null,
-      "summary_value": -1923.69,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1923.69,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-07",
-      "status": null,
-      "summary_value": -1845.2,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1845.2,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-08",
-      "status": null,
-      "summary_value": 1559.85,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1559.85,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-09",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-10",
-      "status": null,
-      "summary_value": -4716.42,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4716.42,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-13",
-      "status": null,
-      "summary_value": 1596.6,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1596.6,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-14",
-      "status": null,
-      "summary_value": -1482.81,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1482.81,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-15",
-      "status": null,
-      "summary_value": 756.81,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 756.81,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-16",
-      "status": null,
-      "summary_value": 652.16,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 652.16,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-17",
-      "status": null,
-      "summary_value": -3253.96,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3253.96,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-20",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-21",
-      "status": null,
-      "summary_value": 6632.7,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6632.7,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-22",
-      "status": null,
-      "summary_value": -6932.11,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -6932.11,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-23",
-      "status": null,
-      "summary_value": -3760.29,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3760.29,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-24",
-      "status": null,
-      "summary_value": -1188.97,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1188.97,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-27",
-      "status": null,
-      "summary_value": -1732.91,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1732.91,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-28",
-      "status": null,
-      "summary_value": 6141.65,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6141.65,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-29",
-      "status": null,
-      "summary_value": -3295.63,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3295.63,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-30",
-      "status": null,
-      "summary_value": -30.09,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -30.09,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-01-31",
-      "status": null,
-      "summary_value": -2813.52,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2813.52,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-03",
-      "status": null,
-      "summary_value": -3341.35,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3341.35,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-04",
-      "status": null,
-      "summary_value": 4003.24,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4003.24,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-05",
-      "status": null,
-      "summary_value": -1023.08,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1023.08,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-06",
-      "status": null,
-      "summary_value": 543.77,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 543.77,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-07",
-      "status": null,
-      "summary_value": 212.23,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 212.23,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-10",
-      "status": null,
-      "summary_value": 390.43,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 390.43,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-11",
-      "status": null,
-      "summary_value": -1149.08,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1149.08,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-12",
-      "status": null,
-      "summary_value": 877.25,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 877.25,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-13",
-      "status": null,
-      "summary_value": -693.93,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -693.93,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-14",
-      "status": null,
-      "summary_value": -2377.84,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2377.84,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-17",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-18",
-      "status": null,
-      "summary_value": -2835.54,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2835.54,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-19",
-      "status": null,
-      "summary_value": 4035.07,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4035.07,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-20",
-      "status": null,
-      "summary_value": -919.25,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -919.25,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-21",
-      "status": null,
-      "summary_value": 1556.17,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1556.17,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-24",
-      "status": null,
-      "summary_value": 3869.25,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3869.25,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-25",
-      "status": null,
-      "summary_value": 4685.89,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4685.89,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-26",
-      "status": null,
-      "summary_value": 2525.14,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2525.14,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-27",
-      "status": null,
-      "summary_value": -326.83,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -326.83,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-02-28",
-      "status": null,
-      "summary_value": 4532.5,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4532.5,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-03",
-      "status": null,
-      "summary_value": -9239.27,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -9239.27,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-04",
-      "status": null,
-      "summary_value": 4465.93,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4465.93,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-05",
-      "status": null,
-      "summary_value": 2104.84,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2104.84,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-06",
-      "status": null,
-      "summary_value": -174.93,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -174.93,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-07",
-      "status": null,
-      "summary_value": -1030.95,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1030.95,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-10",
-      "status": null,
-      "summary_value": -1641.57,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1641.57,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-11",
-      "status": null,
-      "summary_value": 8941.41,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 8941.41,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-12",
-      "status": null,
-      "summary_value": 695.45,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 695.45,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-13",
-      "status": null,
-      "summary_value": -503.18,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -503.18,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-14",
-      "status": null,
-      "summary_value": 192.98,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 192.98,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-17",
-      "status": null,
-      "summary_value": -2140.1,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2140.1,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-18",
-      "status": null,
-      "summary_value": 1076.97,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1076.97,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-19",
-      "status": null,
-      "summary_value": -8804.94,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -8804.94,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-20",
-      "status": null,
-      "summary_value": -11167.24,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -11167.24,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-21",
-      "status": null,
-      "summary_value": -1187.96,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1187.96,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-24",
-      "status": null,
-      "summary_value": 846.72,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 846.72,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-25",
-      "status": null,
-      "summary_value": -1637.15,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1637.15,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-26",
-      "status": null,
-      "summary_value": 1380.88,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1380.88,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-27",
-      "status": null,
-      "summary_value": 170.68,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 170.68,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-28",
-      "status": null,
-      "summary_value": -453.65,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -453.65,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-03-31",
-      "status": null,
-      "summary_value": -3001.8,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3001.8,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-01",
-      "status": null,
-      "summary_value": -6540.59,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -6540.59,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-02",
-      "status": null,
-      "summary_value": 1683.45,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1683.45,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-03",
-      "status": null,
-      "summary_value": 28.25,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 28.25,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-04",
-      "status": null,
-      "summary_value": -4489.24,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4489.24,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-07",
-      "status": null,
-      "summary_value": 9403.98,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 9403.98,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-08",
-      "status": null,
-      "summary_value": 5977.34,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5977.34,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-09",
-      "status": null,
-      "summary_value": 744.75,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 744.75,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-10",
-      "status": null,
-      "summary_value": 7122.79,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 7122.79,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-11",
-      "status": null,
-      "summary_value": -3937.57,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3937.57,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-14",
-      "status": null,
-      "summary_value": -1443.18,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1443.18,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-15",
-      "status": null,
-      "summary_value": -2155.01,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2155.01,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-16",
-      "status": null,
-      "summary_value": -2339.75,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2339.75,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-17",
-      "status": null,
-      "summary_value": 1130.56,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1130.56,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-18",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-21",
-      "status": null,
-      "summary_value": 5054.8,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5054.8,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-22",
-      "status": null,
-      "summary_value": -925.53,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -925.53,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-23",
-      "status": null,
-      "summary_value": -1976.63,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1976.63,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-24",
-      "status": null,
-      "summary_value": 643.06,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 643.06,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-25",
-      "status": null,
-      "summary_value": -4537.84,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4537.84,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-28",
-      "status": null,
-      "summary_value": -2423.31,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2423.31,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-29",
-      "status": null,
-      "summary_value": -1901.34,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1901.34,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-04-30",
-      "status": null,
-      "summary_value": 471.16,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 471.16,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-01",
-      "status": null,
-      "summary_value": -3886.2,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3886.2,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-02",
-      "status": null,
-      "summary_value": 865.94,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 865.94,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-05",
-      "status": null,
-      "summary_value": -1020.43,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1020.43,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-06",
-      "status": null,
-      "summary_value": 169.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 169.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-07",
-      "status": null,
-      "summary_value": -1537.23,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1537.23,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-08",
-      "status": null,
-      "summary_value": -1768.48,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1768.48,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-09",
-      "status": null,
-      "summary_value": 677.61,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 677.61,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-12",
-      "status": null,
-      "summary_value": 2003.51,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2003.51,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-13",
-      "status": null,
-      "summary_value": 2127.18,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2127.18,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-14",
-      "status": null,
-      "summary_value": 1379.5,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1379.5,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-15",
-      "status": null,
-      "summary_value": -3614.03,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3614.03,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-16",
-      "status": null,
-      "summary_value": -2419.89,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2419.89,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-19",
-      "status": null,
-      "summary_value": -4666.19,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4666.19,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-20",
-      "status": null,
-      "summary_value": 6099.01,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6099.01,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-21",
-      "status": null,
-      "summary_value": 2074.59,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2074.59,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-22",
-      "status": null,
-      "summary_value": 787.34,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 787.34,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-23",
-      "status": null,
-      "summary_value": -1748.9,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1748.9,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-26",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-27",
-      "status": null,
-      "summary_value": -4516.9,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4516.9,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-28",
-      "status": null,
-      "summary_value": 1713.79,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1713.79,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-29",
-      "status": null,
-      "summary_value": 2262.57,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2262.57,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-05-30",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-02",
-      "status": null,
-      "summary_value": -2684.7,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2684.7,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-03",
-      "status": null,
-      "summary_value": 148.13,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 148.13,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-04",
-      "status": null,
-      "summary_value": 1519.71,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1519.71,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-05",
-      "status": null,
-      "summary_value": 715.24,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 715.24,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-06",
-      "status": null,
-      "summary_value": -2549.65,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2549.65,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-09",
-      "status": null,
-      "summary_value": -868.68,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -868.68,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-10",
-      "status": null,
-      "summary_value": 3118.37,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3118.37,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-11",
-      "status": null,
-      "summary_value": 3889.25,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3889.25,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "status": null,
-      "summary_value": 992.21,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 992.21,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-13",
-      "status": null,
-      "summary_value": -2263.64,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2263.64,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-16",
-      "status": null,
-      "summary_value": -5103.75,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -5103.75,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-17",
-      "status": null,
-      "summary_value": -2199.56,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2199.56,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-18",
-      "status": null,
-      "summary_value": -1135.47,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1135.47,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-19",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-20",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-23",
-      "status": null,
-      "summary_value": 594.42,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 594.42,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-24",
-      "status": null,
-      "summary_value": 2880.67,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2880.67,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-25",
-      "status": null,
-      "summary_value": 3307.2,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3307.2,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-26",
-      "status": null,
-      "summary_value": 4065.74,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4065.74,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-27",
-      "status": null,
-      "summary_value": -886.96,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -886.96,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-06-30",
-      "status": null,
-      "summary_value": 1014.64,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1014.64,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-01",
-      "status": null,
-      "summary_value": -3245.33,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3245.33,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-02",
-      "status": null,
-      "summary_value": 4538.48,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4538.48,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-03",
-      "status": null,
-      "summary_value": -3939.69,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3939.69,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-04",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-07",
-      "status": null,
-      "summary_value": 1689.36,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1689.36,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-08",
-      "status": null,
-      "summary_value": -931.17,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -931.17,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-09",
-      "status": null,
-      "summary_value": 2078.14,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2078.14,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-10",
-      "status": null,
-      "summary_value": 312.05,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 312.05,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-11",
-      "status": null,
-      "summary_value": -3692.83,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3692.83,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-14",
-      "status": null,
-      "summary_value": 1777.93,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1777.93,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-15",
-      "status": null,
-      "summary_value": -2686.26,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2686.26,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-16",
-      "status": null,
-      "summary_value": 1151.25,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1151.25,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-17",
-      "status": null,
-      "summary_value": 1779.21,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1779.21,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-18",
-      "status": null,
-      "summary_value": 2196.74,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2196.74,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-21",
-      "status": null,
-      "summary_value": 2259.42,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2259.42,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-22",
-      "status": null,
-      "summary_value": -4462.41,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4462.41,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-23",
-      "status": null,
-      "summary_value": 31.45,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 31.45,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-24",
-      "status": null,
-      "summary_value": -3232.57,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3232.57,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-25",
-      "status": null,
-      "summary_value": 6850.24,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6850.24,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-28",
-      "status": null,
-      "summary_value": -1783.12,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1783.12,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-29",
-      "status": null,
-      "summary_value": 2324.83,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2324.83,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-30",
-      "status": null,
-      "summary_value": 1333.62,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1333.62,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-07-31",
-      "status": null,
-      "summary_value": -2727.35,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2727.35,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-01",
-      "status": null,
-      "summary_value": 5529.79,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5529.79,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-04",
-      "status": null,
-      "summary_value": -7991.41,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -7991.41,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-05",
-      "status": null,
-      "summary_value": -4038.9,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4038.9,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-06",
-      "status": null,
-      "summary_value": 1538.66,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1538.66,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-07",
-      "status": null,
-      "summary_value": -506.07,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -506.07,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-08",
-      "status": null,
-      "summary_value": -316.05,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -316.05,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-11",
-      "status": null,
-      "summary_value": 1751.95,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1751.95,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-12",
-      "status": null,
-      "summary_value": 2891.7,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2891.7,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-13",
-      "status": null,
-      "summary_value": -3406.62,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3406.62,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-14",
-      "status": null,
-      "summary_value": 128.97,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 128.97,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-15",
-      "status": null,
-      "summary_value": -3773.66,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3773.66,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-18",
-      "status": null,
-      "summary_value": 1093.68,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1093.68,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-19",
-      "status": null,
-      "summary_value": -1865.65,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1865.65,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-20",
-      "status": null,
-      "summary_value": 1343.19,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1343.19,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-21",
-      "status": null,
-      "summary_value": 765.69,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 765.69,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-22",
-      "status": null,
-      "summary_value": -4067.88,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4067.88,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-25",
-      "status": null,
-      "summary_value": -548.48,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -548.48,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-26",
-      "status": null,
-      "summary_value": 3084.14,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3084.14,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-27",
-      "status": null,
-      "summary_value": -161.3,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -161.3,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-28",
-      "status": null,
-      "summary_value": 388.05,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 388.05,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-08-29",
-      "status": null,
-      "summary_value": -2627.68,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2627.68,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-01",
-      "status": null,
-      "summary_value": 0.0,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-02",
-      "status": null,
-      "summary_value": 8155.7,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 8155.7,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-03",
-      "status": null,
-      "summary_value": -3746.29,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3746.29,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-04",
-      "status": null,
-      "summary_value": -2349.36,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2349.36,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-05",
-      "status": null,
-      "summary_value": -4121.63,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4121.63,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-08",
-      "status": null,
-      "summary_value": -1844.27,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1844.27,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-09",
-      "status": null,
-      "summary_value": 2496.74,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2496.74,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-10",
-      "status": null,
-      "summary_value": 4519.31,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4519.31,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-11",
-      "status": null,
-      "summary_value": -3880.66,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3880.66,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-12",
-      "status": null,
-      "summary_value": -3255.8,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3255.8,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-15",
-      "status": null,
-      "summary_value": 3681.68,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3681.68,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-16",
-      "status": null,
-      "summary_value": 2378.43,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2378.43,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-17",
-      "status": null,
-      "summary_value": -2408.44,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2408.44,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-18",
-      "status": null,
-      "summary_value": -11437.42,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -11437.42,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-19",
-      "status": null,
-      "summary_value": -3113.16,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3113.16,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-22",
-      "status": null,
-      "summary_value": 1991.3,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1991.3,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-23",
-      "status": null,
-      "summary_value": -766.76,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -766.76,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-24",
-      "status": null,
-      "summary_value": 4044.76,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4044.76,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-25",
-      "status": null,
-      "summary_value": 5025.05,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5025.05,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-26",
-      "status": "unavailable",
-      "summary_value": 1052.61,
-      "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1052.61,
-        "aggregated_flows": -11099.63
-      }
-    },
-    {
-      "date": "2025-09-29",
+      "date": "2025-10-24",
       "status": "normal",
-      "summary_value": -2448.58,
+      "summary_value": -6716.29,
       "details": {
         "ticker": "SPY",
-        "net_flow_musd": -2448.58,
-        "aggregated_flows": -2448.58
+        "net_flow_musd": -6716.29,
+        "aggregated_flows": -6716.29
       }
     },
     {
-      "date": "2025-09-30",
+      "date": "2025-10-25",
       "status": "normal",
-      "summary_value": 2123.29,
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-27",
+      "status": "normal",
+      "summary_value": -473.87,
       "details": {
         "ticker": "SPY",
-        "net_flow_musd": 2123.29,
-        "aggregated_flows": 2123.29
+        "net_flow_musd": -473.87,
+        "aggregated_flows": -473.87
       }
     },
     {
-      "date": "2025-10-01",
+      "date": "2025-10-28",
       "status": "normal",
-      "summary_value": 7562.6,
+      "summary_value": 2501.25,
       "details": {
         "ticker": "SPY",
-        "net_flow_musd": 7562.6,
-        "aggregated_flows": 7562.6
+        "net_flow_musd": 2501.25,
+        "aggregated_flows": 2501.25
       }
+    },
+    {
+      "date": "2025-10-29",
+      "status": "normal",
+      "summary_value": 549.47,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 549.47,
+        "aggregated_flows": 549.47
+      }
+    },
+    {
+      "date": "2025-10-30",
+      "status": "normal",
+      "summary_value": -755.5,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -755.5,
+        "aggregated_flows": -755.5
+      }
+    },
+    {
+      "date": "2025-10-31",
+      "status": "normal",
+      "summary_value": 2584.06,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2584.06,
+        "aggregated_flows": 2584.06
+      }
+    },
+    {
+      "date": "2025-11-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-03",
+      "status": "normal",
+      "summary_value": 10500.4,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 10500.4,
+        "aggregated_flows": 10500.4
+      }
+    },
+    {
+      "date": "2025-11-04",
+      "status": "normal",
+      "summary_value": -1195.34,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1195.34,
+        "aggregated_flows": -1195.34
+      }
+    },
+    {
+      "date": "2025-11-05",
+      "status": "normal",
+      "summary_value": -168.76,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -168.76,
+        "aggregated_flows": -168.76
+      }
+    },
+    {
+      "date": "2025-11-06",
+      "status": "normal",
+      "summary_value": 1863.16,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1863.16,
+        "aggregated_flows": 1863.16
+      }
+    },
+    {
+      "date": "2025-11-07",
+      "status": "normal",
+      "summary_value": 971.43,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 971.43,
+        "aggregated_flows": 971.43
+      }
+    },
+    {
+      "date": "2025-11-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-10",
+      "status": "normal",
+      "summary_value": -1241.09,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1241.09,
+        "aggregated_flows": -1241.09
+      }
+    },
+    {
+      "date": "2025-11-11",
+      "status": "normal",
+      "summary_value": -1669.1,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1669.1,
+        "aggregated_flows": -1669.1
+      }
+    },
+    {
+      "date": "2025-11-12",
+      "status": "normal",
+      "summary_value": 2858.2,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 2858.2,
+        "aggregated_flows": 2858.2
+      }
+    },
+    {
+      "date": "2025-11-13",
+      "status": "normal",
+      "summary_value": 403.62,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 403.62,
+        "aggregated_flows": 403.62
+      }
+    },
+    {
+      "date": "2025-11-14",
+      "status": "normal",
+      "summary_value": 3436.44,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 3436.44,
+        "aggregated_flows": 3436.44
+      }
+    },
+    {
+      "date": "2025-11-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-17",
+      "status": "normal",
+      "summary_value": -3073.69,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -3073.69,
+        "aggregated_flows": -3073.69
+      }
+    },
+    {
+      "date": "2025-11-18",
+      "status": "normal",
+      "summary_value": -995.92,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -995.92,
+        "aggregated_flows": 375.74
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "status": "normal",
+      "summary_value": 1371.66,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 1371.66,
+        "aggregated_flows": 375.74
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "status": "normal",
+      "summary_value": 809.62,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 809.62,
+        "aggregated_flows": 809.62
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "status": "normal",
+      "summary_value": -1288.25,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -1288.25,
+        "aggregated_flows": -1288.25
+      }
+    },
+    {
+      "date": "2025-11-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-24",
+      "status": "normal",
+      "summary_value": -3039.06,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -3039.06,
+        "aggregated_flows": -3039.06
+      }
+    },
+    {
+      "date": "2025-11-25",
+      "status": "normal",
+      "summary_value": -4750.16,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4750.16,
+        "aggregated_flows": -6741.79
+      }
+    },
+    {
+      "date": "2025-11-26",
+      "status": "normal",
+      "summary_value": -1991.63,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1991.63,
+        "aggregated_flows": -6741.79
+      }
+    },
+    {
+      "date": "2025-11-27",
+      "status": "normal",
+      "summary_value": 0.0,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 0.0,
+        "aggregated_flows": -6741.79
+      }
+    },
+    {
+      "date": "2025-11-28",
+      "status": "normal",
+      "summary_value": 645.8,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 645.8,
+        "aggregated_flows": 645.8
+      }
+    },
+    {
+      "date": "2025-11-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-01",
+      "status": "normal",
+      "summary_value": 136.69,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 136.69,
+        "aggregated_flows": 2820.25
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "status": "normal",
+      "summary_value": 3501.45,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3501.45,
+        "aggregated_flows": 2820.25
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "status": "normal",
+      "summary_value": -817.89,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -817.89,
+        "aggregated_flows": 2820.25
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "status": "normal",
+      "summary_value": -1367.25,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1367.25,
+        "aggregated_flows": -1367.25
+      }
+    },
+    {
+      "date": "2025-12-05",
+      "status": "normal",
+      "summary_value": 4072.23,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4072.23,
+        "aggregated_flows": 4072.23
+      }
+    },
+    {
+      "date": "2025-12-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-08",
+      "status": "normal",
+      "summary_value": 12687.83,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 12687.83,
+        "aggregated_flows": 13371.33
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "status": "normal",
+      "summary_value": 683.5,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 683.5,
+        "aggregated_flows": 13371.33
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "status": "normal",
+      "summary_value": -3448.7,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3448.7,
+        "aggregated_flows": -3448.7
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "status": "normal",
+      "summary_value": -756.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -756.28,
+        "aggregated_flows": -756.28
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "status": "normal",
+      "summary_value": 4650.5,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4650.5,
+        "aggregated_flows": 4650.5
+      }
+    },
+    {
+      "date": "2025-12-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-15",
+      "status": "normal",
+      "summary_value": 2577.18,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 2577.18,
+        "aggregated_flows": 4350.67
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "status": "normal",
+      "summary_value": 610.5,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 610.5,
+        "aggregated_flows": 4350.67
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "status": "normal",
+      "summary_value": 1162.99,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 1162.99,
+        "aggregated_flows": 4350.67
+      }
+    },
+    {
+      "date": "2025-12-18",
+      "status": "normal",
+      "summary_value": -503.45,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -503.45,
+        "aggregated_flows": -503.45
+      }
+    },
+    {
+      "date": "2025-12-19",
+      "status": "normal",
+      "summary_value": -3179.93,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3179.93,
+        "aggregated_flows": -3179.93
+      }
+    },
+    {
+      "date": "2025-12-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-22",
+      "status": "normal",
+      "summary_value": 5648.54,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 5648.54,
+        "aggregated_flows": 5648.54
+      }
+    },
+    {
+      "date": "2025-12-23",
+      "status": "normal",
+      "summary_value": -2191.9,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2191.9,
+        "aggregated_flows": -2191.9
+      }
+    },
+    {
+      "date": "2025-12-24",
+      "status": "normal",
+      "summary_value": 1789.02,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1789.02,
+        "aggregated_flows": 1789.02
+      }
+    },
+    {
+      "date": "2025-12-25",
+      "status": "normal",
+      "summary_value": 0.0,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 0.0,
+        "aggregated_flows": 1789.02
+      }
+    },
+    {
+      "date": "2025-12-26",
+      "status": "normal",
+      "summary_value": 966.42,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 966.42,
+        "aggregated_flows": 966.42
+      }
+    },
+    {
+      "date": "2025-12-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-29",
+      "status": "normal",
+      "summary_value": 3554.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3554.28,
+        "aggregated_flows": 7753.18
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "status": "normal",
+      "summary_value": 5502.09,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 5502.09,
+        "aggregated_flows": 7753.18
+      }
+    },
+    {
+      "date": "2025-12-31",
+      "status": "normal",
+      "summary_value": -1064.56,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1064.56,
+        "aggregated_flows": 7753.18
+      }
+    },
+    {
+      "date": "2026-01-01",
+      "status": "normal",
+      "summary_value": 0.0,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 0.0,
+        "aggregated_flows": 7753.18
+      }
+    },
+    {
+      "date": "2026-01-02",
+      "status": "normal",
+      "summary_value": -238.63,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -238.63,
+        "aggregated_flows": 7753.18
+      }
+    },
+    {
+      "date": "2026-01-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-05",
+      "status": "normal",
+      "summary_value": -3157.89,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -3157.89,
+        "aggregated_flows": -3157.89
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "status": "normal",
+      "summary_value": -3300.46,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3300.46,
+        "aggregated_flows": -8489.74
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "status": "normal",
+      "summary_value": -5189.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -5189.28,
+        "aggregated_flows": -8489.74
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "status": "normal",
+      "summary_value": 2034.11,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2034.11,
+        "aggregated_flows": 2034.11
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "status": "normal",
+      "summary_value": 930.72,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 930.72,
+        "aggregated_flows": 930.72
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-12",
+      "status": "normal",
+      "summary_value": -595.45,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -595.45,
+        "aggregated_flows": 28.34
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "status": "normal",
+      "summary_value": -219.56,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -219.56,
+        "aggregated_flows": 28.34
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "status": "normal",
+      "summary_value": 657.5,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 657.5,
+        "aggregated_flows": 28.34
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "status": "normal",
+      "summary_value": 185.85,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 185.85,
+        "aggregated_flows": 28.34
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "status": "normal",
+      "summary_value": -1349.38,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1349.38,
+        "aggregated_flows": -1349.38
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-19",
+      "status": "normal",
+      "summary_value": 0.0,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 0.0,
+        "aggregated_flows": -1349.38
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "status": "normal",
+      "summary_value": -714.21,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -714.21,
+        "aggregated_flows": -714.21
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "status": "normal",
+      "summary_value": -2811.02,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2811.02,
+        "aggregated_flows": -8189.89
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "status": "normal",
+      "summary_value": -5378.87,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -5378.87,
+        "aggregated_flows": -8189.89
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "status": "normal",
+      "summary_value": -1676.06,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -1676.06,
+        "aggregated_flows": -1676.06
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-26",
+      "status": "normal",
+      "summary_value": 137.85,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 137.85,
+        "aggregated_flows": 2853.93
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "status": "normal",
+      "summary_value": -865.88,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -865.88,
+        "aggregated_flows": 2853.93
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "status": "normal",
+      "summary_value": 3581.96,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3581.96,
+        "aggregated_flows": 2853.93
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "status": "normal",
+      "summary_value": 104.32,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 104.32,
+        "aggregated_flows": 104.32
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "status": "normal",
+      "summary_value": 1826.03,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 1826.03,
+        "aggregated_flows": 1826.03
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-02",
+      "status": "normal",
+      "summary_value": 2593.65,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2593.65,
+        "aggregated_flows": 2593.65
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "status": "normal",
+      "summary_value": -4520.08,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4520.08,
+        "aggregated_flows": -244.8
+      }
+    },
+    {
+      "date": "2026-02-04",
+      "status": "normal",
+      "summary_value": 4275.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4275.28,
+        "aggregated_flows": -244.8
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "status": "normal",
+      "summary_value": 1604.71,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 1604.71,
+        "aggregated_flows": 708.89
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "status": "normal",
+      "summary_value": -895.82,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -895.82,
+        "aggregated_flows": 708.89
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-09",
+      "status": "normal",
+      "summary_value": -488.03,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -488.03,
+        "aggregated_flows": -488.03
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "status": "normal",
+      "summary_value": -2326.02,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2326.02,
+        "aggregated_flows": -2014.58
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "status": "normal",
+      "summary_value": 311.44,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 311.44,
+        "aggregated_flows": -2014.58
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "status": "normal",
+      "summary_value": 934.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 934.28,
+        "aggregated_flows": 934.28
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "status": "normal",
+      "summary_value": 1141.22,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 1141.22,
+        "aggregated_flows": 1141.22
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-16",
+      "status": "normal",
+      "summary_value": 0.0,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 0.0,
+        "aggregated_flows": 0.0
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "status": "normal",
+      "summary_value": 511.54,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 511.54,
+        "aggregated_flows": 511.54
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "status": "normal",
+      "summary_value": 648.39,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 648.39,
+        "aggregated_flows": 648.39
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "status": "normal",
+      "summary_value": -2161.95,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2161.95,
+        "aggregated_flows": -2161.95
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "status": "normal",
+      "summary_value": -1985.02,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1985.02,
+        "aggregated_flows": -1985.02
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-23",
+      "status": "normal",
+      "summary_value": -669.6,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -669.6,
+        "aggregated_flows": -669.6
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "status": "normal",
+      "summary_value": -102.32,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -102.32,
+        "aggregated_flows": -102.32
+      }
+    },
+    {
+      "date": "2026-02-25",
+      "status": "normal",
+      "summary_value": -103.11,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -103.11,
+        "aggregated_flows": -103.11
+      }
+    },
+    {
+      "date": "2026-02-26",
+      "status": "normal",
+      "summary_value": -893.81,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -893.81,
+        "aggregated_flows": -3208.96
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "status": "normal",
+      "summary_value": -2315.15,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -2315.15,
+        "aggregated_flows": -3208.96
+      }
+    },
+    {
+      "date": "2026-02-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-02",
+      "status": "normal",
+      "summary_value": 577.13,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 577.13,
+        "aggregated_flows": 577.13
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "status": "normal",
+      "summary_value": -1976.99,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -1976.99,
+        "aggregated_flows": -1976.99
+      }
+    },
+    {
+      "date": "2026-03-04",
+      "status": "normal",
+      "summary_value": -361.01,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -361.01,
+        "aggregated_flows": -361.01
+      }
+    },
+    {
+      "date": "2026-03-05",
+      "status": "normal",
+      "summary_value": -137.1,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -137.1,
+        "aggregated_flows": -3204.55
+      }
+    },
+    {
+      "date": "2026-03-06",
+      "status": "normal",
+      "summary_value": -3067.45,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3067.45,
+        "aggregated_flows": -3204.55
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-09",
+      "status": "normal",
+      "summary_value": -2388.13,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2388.13,
+        "aggregated_flows": -2388.13
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "status": "normal",
+      "summary_value": 5291.12,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 5291.12,
+        "aggregated_flows": 518.44
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "status": "normal",
+      "summary_value": -4772.68,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4772.68,
+        "aggregated_flows": 518.44
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "status": "normal",
+      "summary_value": 2431.34,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": 2431.34,
+        "aggregated_flows": 1624.94
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "status": "normal",
+      "summary_value": -806.4,
+      "details": {
+        "ticker": "QQQ",
+        "net_flow_musd": -806.4,
+        "aggregated_flows": 1624.94
+      }
+    },
+    {
+      "date": "2026-03-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-16",
+      "status": "normal",
+      "summary_value": -4039.65,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4039.65,
+        "aggregated_flows": -4039.65
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "status": "normal",
+      "summary_value": -167.25,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -167.25,
+        "aggregated_flows": -8517.26
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "status": "normal",
+      "summary_value": -8350.01,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -8350.01,
+        "aggregated_flows": -8517.26
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "status": "normal",
+      "summary_value": -1124.69,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1124.69,
+        "aggregated_flows": -1124.69
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "status": "normal",
+      "summary_value": 65.98,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 65.98,
+        "aggregated_flows": 65.98
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-23",
+      "status": "normal",
+      "summary_value": 2397.82,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2397.82,
+        "aggregated_flows": 17671.39
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "status": "normal",
+      "summary_value": 15273.57,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 15273.57,
+        "aggregated_flows": 17671.39
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "status": "normal",
+      "summary_value": -7518.42,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -7518.42,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "status": "normal",
+      "summary_value": -2774.39,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2774.39,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "status": "normal",
+      "summary_value": 1586.09,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1586.09,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-03-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-30",
+      "status": "normal",
+      "summary_value": -2559.35,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2559.35,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "status": "normal",
+      "summary_value": 1463.39,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1463.39,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "status": "normal",
+      "summary_value": -3078.88,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3078.88,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "status": "normal",
+      "summary_value": -721.44,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -721.44,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-06",
+      "status": "normal",
+      "summary_value": -1021.15,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1021.15,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "status": "normal",
+      "summary_value": 3856.96,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3856.96,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "status": "normal",
+      "summary_value": 2230.26,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2230.26,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "status": "normal",
+      "summary_value": 7276.49,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 7276.49,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "status": "normal",
+      "summary_value": 135.87,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 135.87,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-13",
+      "status": "normal",
+      "summary_value": -377.43,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -377.43,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "status": "normal",
+      "summary_value": -1666.41,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1666.41,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "status": "normal",
+      "summary_value": 664.93,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 664.93,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "status": "normal",
+      "summary_value": 1263.16,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1263.16,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "status": "normal",
+      "summary_value": 3018.34,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3018.34,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-20",
+      "status": "normal",
+      "summary_value": 247.98,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 247.98,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "status": "normal",
+      "summary_value": 1513.67,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1513.67,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "status": "normal",
+      "summary_value": 2987.89,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2987.89,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "status": "normal",
+      "summary_value": -2904.73,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2904.73,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "status": "normal",
+      "summary_value": -35.71,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -35.71,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-27",
+      "status": "normal",
+      "summary_value": -3825.37,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3825.37,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "status": "normal",
+      "summary_value": 1529.78,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1529.78,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "status": "normal",
+      "summary_value": 4374.15,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4374.15,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "status": "normal",
+      "summary_value": -790.4,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -790.4,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "status": "normal",
+      "summary_value": 3206.95,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3206.95,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-04",
+      "status": "normal",
+      "summary_value": 466.56,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 466.56,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "status": "normal",
+      "summary_value": -3437.2,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3437.2,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "status": "normal",
+      "summary_value": 2642.99,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2642.99,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "status": "normal",
+      "summary_value": 438.83,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 438.83,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "status": "normal",
+      "summary_value": 4167.67,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4167.67,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-11",
+      "status": "normal",
+      "summary_value": 776.04,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 776.04,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "status": "normal",
+      "summary_value": 2582.81,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2582.81,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "status": "normal",
+      "summary_value": 2004.16,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2004.16,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "status": "normal",
+      "summary_value": -3889.46,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3889.46,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "status": "normal",
+      "summary_value": 2068.84,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2068.84,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-18",
+      "status": "normal",
+      "summary_value": -4984.01,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4984.01,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "status": "normal",
+      "summary_value": 5537.88,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 5537.88,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "status": "normal",
+      "summary_value": -6079.6,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -6079.6,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "status": "normal",
+      "summary_value": 2228.32,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2228.32,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "status": "normal",
+      "summary_value": -1975.76,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1975.76,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-26",
+      "status": "normal",
+      "summary_value": 675.15,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 675.15,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "status": "normal",
+      "summary_value": 1050.41,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1050.41,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "status": "normal",
+      "summary_value": 1282.83,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1282.83,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "status": "normal",
+      "summary_value": 1058.79,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1058.79,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-01",
+      "status": "normal",
+      "summary_value": 834.15,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 834.15,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "status": "normal",
+      "summary_value": -2126.09,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2126.09,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "status": "normal",
+      "summary_value": 1771.29,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1771.29,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "status": "normal",
+      "summary_value": 4919.98,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4919.98,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "status": "normal",
+      "summary_value": -73.7,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -73.7,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-08",
+      "status": "normal",
+      "summary_value": 8057.95,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 8057.95,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "status": "normal",
+      "summary_value": -4682.4,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4682.4,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "status": "normal",
+      "summary_value": 4062.71,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4062.71,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "status": "normal",
+      "summary_value": 1623.97,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1623.97,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "status": "normal",
+      "summary_value": -222.57,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -222.57,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-15",
+      "status": "normal",
+      "summary_value": -1508.63,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1508.63,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "status": "normal",
+      "summary_value": -3075.24,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3075.24,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "status": "normal",
+      "summary_value": -12300.2,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -12300.2,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "status": "normal",
+      "summary_value": -12700.53,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -12700.53,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-22",
+      "status": "normal",
+      "summary_value": 17455.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 17455.28,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "status": "normal",
+      "summary_value": 6566.42,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 6566.42,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "status": "normal",
+      "summary_value": 3078.43,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3078.43,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "status": "normal",
+      "summary_value": 769.56,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 769.56,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "status": "normal",
+      "summary_value": 4102.48,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4102.48,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-29",
+      "status": "normal",
+      "summary_value": -2001.22,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2001.22,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "status": "normal",
+      "summary_value": -8031.68,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -8031.68,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "status": "normal",
+      "summary_value": -2124.82,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2124.82,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "status": "normal",
+      "summary_value": 4697.12,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4697.12,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-06",
+      "status": "normal",
+      "summary_value": -3379.71,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3379.71,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "status": "normal",
+      "summary_value": -934.63,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -934.63,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "status": "normal",
+      "summary_value": 1416.64,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1416.64,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "status": "normal",
+      "summary_value": -2443.0,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2443.0,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "status": "normal",
+      "summary_value": 2642.25,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2642.25,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-13",
+      "status": "normal",
+      "summary_value": -5354.96,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -5354.96,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "status": "normal",
+      "summary_value": 8945.91,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 8945.91,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "status": "normal",
+      "summary_value": -1094.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1094.28,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "status": "normal",
+      "summary_value": 2702.98,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2702.98,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "status": "normal",
+      "summary_value": 2415.57,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2415.57,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-20",
+      "status": "normal",
+      "summary_value": 259.64,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 259.64,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "status": "normal",
+      "summary_value": 1571.66,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1571.66,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "status": "normal",
+      "summary_value": -3101.7,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3101.7,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "status": "normal",
+      "summary_value": 2547.41,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2547.41,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "status": "normal",
+      "summary_value": 2216.42,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2216.42,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-27",
+      "status": "normal",
+      "summary_value": 1662.59,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1662.59,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "status": "normal",
+      "summary_value": 2258.49,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2258.49,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "status": "normal",
+      "summary_value": 218.78,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 218.78,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "status": "normal",
+      "summary_value": -1186.19,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1186.19,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "status": "normal",
+      "summary_value": 671.94,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 671.94,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-03",
+      "status": "normal",
+      "summary_value": -3258.01,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3258.01,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "status": "normal",
+      "summary_value": -6169.82,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -6169.82,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "status": "normal",
+      "summary_value": 4119.16,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4119.16,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "status": "normal",
+      "summary_value": -8185.4,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -8185.4,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "status": "normal",
+      "summary_value": -1894.74,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1894.74,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-10",
+      "status": "normal",
+      "summary_value": 5951.98,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 5951.98,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "status": "normal",
+      "summary_value": 3544.41,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3544.41,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "status": "normal",
+      "summary_value": -4249.12,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4249.12,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "status": "normal",
+      "summary_value": 3071.55,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3071.55,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "status": "normal",
+      "summary_value": 4192.46,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4192.46,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-17",
+      "status": "normal",
+      "summary_value": -1544.85,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1544.85,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "status": "normal",
+      "summary_value": 1879.46,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1879.46,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "status": "normal",
+      "summary_value": 3805.58,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3805.58,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "status": "normal",
+      "summary_value": 4763.98,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4763.98,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "status": "normal",
+      "summary_value": -1263.21,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1263.21,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-24",
+      "status": "normal",
+      "summary_value": -9237.74,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -9237.74,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "status": "normal",
+      "summary_value": -3829.62,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3829.62,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "status": "normal",
+      "summary_value": 1186.94,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1186.94,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "status": "normal",
+      "summary_value": 1851.06,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1851.06,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "status": "normal",
+      "summary_value": 269.28,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 269.28,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-31",
+      "status": "normal",
+      "summary_value": 191.71,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 191.71,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "status": "normal",
+      "summary_value": -1561.04,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1561.04,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "status": "normal",
+      "summary_value": -382.49,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -382.49,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "status": "normal",
+      "summary_value": 734.46,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 734.46,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "status": "normal",
+      "summary_value": -2349.51,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2349.51,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-08",
+      "status": "normal",
+      "summary_value": -1187.09,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1187.09,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "status": "normal",
+      "summary_value": 1257.61,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 1257.61,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "status": "normal",
+      "summary_value": 454.69,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 454.69,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "status": "normal",
+      "summary_value": 4012.84,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4012.84,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-14",
+      "status": "normal",
+      "summary_value": -3461.15,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -3461.15,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "status": "normal",
+      "summary_value": -2347.96,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2347.96,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "status": "normal",
+      "summary_value": -10519.03,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -10519.03,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "status": "normal",
+      "summary_value": -5033.38,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -5033.38,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "status": "normal",
+      "summary_value": -1257.32,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1257.32,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-21",
+      "status": "normal",
+      "summary_value": 6496.95,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 6496.95,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "status": "normal",
+      "summary_value": 2861.74,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2861.74,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "status": "normal",
+      "summary_value": 3838.05,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3838.05,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "status": "normal",
+      "summary_value": 14926.64,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 14926.64,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "status": "normal",
+      "summary_value": -5708.01,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -5708.01,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-28",
+      "status": "normal",
+      "summary_value": 3559.14,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3559.14,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "status": "normal",
+      "summary_value": -1872.11,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1872.11,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "status": "normal",
+      "summary_value": 0.0,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 0.0,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "status": "normal",
+      "summary_value": 6759.41,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 6759.41,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "status": "normal",
+      "summary_value": -8309.97,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -8309.97,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-05",
+      "status": "normal",
+      "summary_value": -2284.94,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2284.94,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "status": "normal",
+      "summary_value": -4207.06,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4207.06,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "status": "normal",
+      "summary_value": 4275.66,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 4275.66,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "status": "normal",
+      "summary_value": -502.95,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -502.95,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "status": "normal",
+      "summary_value": -467.07,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -467.07,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-12",
+      "status": "normal",
+      "summary_value": -116.7,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -116.7,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "status": "normal",
+      "summary_value": 2294.68,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 2294.68,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "status": "normal",
+      "summary_value": -1384.65,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -1384.65,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "status": "normal",
+      "summary_value": 7679.42,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 7679.42,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "normal",
+      "summary_value": -4351.23,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -4351.23,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-19",
+      "status": "normal",
+      "summary_value": 3487.52,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": 3487.52,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "status": "normal",
+      "summary_value": -499.63,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -499.63,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "status": "normal",
+      "summary_value": -2435.32,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -2435.32,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "status": "normal",
+      "summary_value": -267.33,
+      "details": {
+        "ticker": "SPY",
+        "net_flow_musd": -267.33,
+        "aggregated_flows": 33153.53
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     }
   ]
 }
