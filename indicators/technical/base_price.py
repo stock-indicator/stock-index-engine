@@ -1,11 +1,12 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import timedelta
 from typing import Dict, Optional
 
 import pandas as pd
 import yfinance as yf
 
+from common.utils import utc_now
 from indicators.base import BaseIndicator
 
 
@@ -17,8 +18,9 @@ class PriceSeriesIndicator(BaseIndicator):
 
     def collect_full(self, fetcher=None) -> pd.DataFrame:
         history_days = self.get_history_window_days()
-        start_date = datetime.utcnow().date() - timedelta(days=history_days + 30)
-        end_date = datetime.utcnow().date()
+        today = utc_now().date()
+        start_date = today - timedelta(days=history_days + 30)
+        end_date = today
         frames = []
         for market, ticker in self.tickers.items():
             df = yf.download(
@@ -52,13 +54,13 @@ class PriceSeriesIndicator(BaseIndicator):
             existing_clean.groupby("ticker")["data_start_date"].max().dropna().to_dict()
         )
         frames = []
+        end_date = utc_now().date()
         for market, ticker in self.tickers.items():
             last_date = last_dates.get(ticker)
             if last_date is None:
-                start_date = datetime.utcnow().date() - timedelta(days=self.get_history_window_days())
+                start_date = end_date - timedelta(days=self.get_history_window_days())
             else:
                 start_date = (pd.to_datetime(last_date).date() + timedelta(days=1))
-            end_date = datetime.utcnow().date()
             if start_date >= end_date:
                 continue
             df = yf.download(

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from typing import Dict, Iterable, Optional
+from typing import Dict, Optional
 
 import pandas as pd
 import psycopg
@@ -24,13 +24,24 @@ def get_psql_connection(name: Optional[str] = None) -> Optional[psycopg.Connecti
             if conn.get("name") == name:
                 target = conn
                 break
-    if target is None:
+        if target is None:
+            # Falling through to connections[0] here would hand back a
+            # different database than the caller asked for, and the caller
+            # has no way to tell. Writing indicator data to the wrong
+            # database is worse than not writing it at all.
+            logger.warning(
+                "No PostgreSQL connection named %r is configured (have: %s)",
+                name,
+                ", ".join(repr(c.get("name")) for c in connections) or "none",
+            )
+            return None
+    else:
         target = connections[0]
     password = target.get("password")
     if not password:
         return None
     try:
-        conn = psycopg.connect(
+        return psycopg.connect(
             host=target.get("host"),
             port=int(target.get("port", 5432)),
             dbname=target.get("database"),
@@ -38,8 +49,10 @@ def get_psql_connection(name: Optional[str] = None) -> Optional[psycopg.Connecti
             password=password,
             row_factory=dict_row,
         )
-        return conn
     except Exception as exc:  # pragma: no cover
+        # Postgres is optional: callers treat None as "no database" and fall
+        # back to the CSV/JSON files, so an unreachable server is a warning
+        # (no traceback), not a failed run.
         logger.warning("Failed to connect to PostgreSQL: %s", exc)
         return None
 
@@ -80,8 +93,12 @@ def upsert_indicator_dataframe(slug: str, df: pd.DataFrame) -> None:
                 created_at = NOW()
             """
             cur.executemany(insert_sql, rows)
-    except Exception as exc:  # pragma: no cover
-        logger.warning("Failed to upsert data for %s: %s", slug, exc)
+    except Exception:  # pragma: no cover
+        # Best-effort sink, same as the connection above: a failed write must
+        # not fail the indicator run (the clean CSV is already on disk). A
+        # SQL or serialization error is worth a traceback, unlike a connect
+        # failure.
+        logger.exception("Failed to upsert data for %s", slug)
     finally:
         conn.close()
         logger.debug("Closed database connection for %s", slug)
@@ -102,13 +119,17 @@ def _to_date(value) -> Optional[str]:
         try:
             return value.isoformat()
         except Exception:
-            pass
+            # An object with a missing or broken isoformat() is not fatal:
+            # fall through to pandas parsing below.
+            logger.debug("isoformat() failed for %s; falling back to pandas", type(value).__name__)
     try:
         parsed = pd.to_datetime(value)
         if pd.isna(parsed):
             return None
         return parsed.date().isoformat()
     except Exception:
+        # Anything pandas cannot parse is stored as a NULL date rather than
+        # failing the whole batch over one malformed cell.
         return None
 
 
@@ -123,11 +144,11 @@ def _row_to_payload(row: pd.Series) -> Dict[str, object]:
             payload[col] = value.total_seconds()
         elif isinstance(value, (pd.Series, pd.DataFrame)):
             payload[col] = value.to_dict()
-        elif isinstance(value, (float, int)) and pd.isna(value):
-            payload[col] = None
-        elif isinstance(value, pd.Timestamp) and pd.isna(value):
-            payload[col] = None
-        elif isinstance(value, str) and value.strip().lower() in {"nat", "nan", ""}:
+        elif (
+            isinstance(value, (float, int)) and pd.isna(value)
+        ) or (
+            isinstance(value, str) and value.strip().lower() in {"nat", "nan", ""}
+        ):
             payload[col] = None
         else:
             payload[col] = value

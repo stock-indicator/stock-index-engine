@@ -1,15 +1,15 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-from typing import Optional
+from typing import List
 
 import pandas as pd
-import requests
 
 from common.fetchers import resource_fetcher
 from common.models import IndicatorResult
+from common.utils import naive_utc, naive_utc_from_timestamp, utc_now
 from indicators.base import BaseIndicator, IndicatorMetadata, compute_end_date
 
 
@@ -82,9 +82,11 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
             latest_entry = data["fear_and_greed"]
             latest_ts = latest_entry.get("timestamp")
             if latest_ts:
-                latest_dt = datetime.fromisoformat(latest_ts.replace("Z", "+00:00"))
+                latest_dt = naive_utc(
+                    datetime.fromisoformat(latest_ts.replace("Z", "+00:00"))
+                )
             else:
-                latest_dt = datetime.utcnow()
+                latest_dt = utc_now()
             rows = self._collect_historical(data)
             rows.append({
                 "as_of": latest_dt,
@@ -99,7 +101,7 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
             primary_series = series_list[0]["series"][0]
             rows = [
                 {
-                    "as_of": datetime.fromisoformat(date),
+                    "as_of": naive_utc(datetime.fromisoformat(date)),
                     "fear_greed_index": float(value),
                     "rating": None,
                 }
@@ -118,9 +120,8 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
             rating = item.get("rating")
             if timestamp_ms is None or value is None:
                 continue
-            dt = datetime.utcfromtimestamp(timestamp_ms / 1000)
             rows.append({
-                "as_of": dt,
+                "as_of": naive_utc_from_timestamp(timestamp_ms / 1000),
                 "fear_greed_index": float(value),
                 "rating": rating,
             })

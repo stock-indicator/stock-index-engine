@@ -10,527 +10,2411 @@
     "AAII"
   ],
   "threshold": "> 70%",
-  "updated_at": "2025-10-03T06:07:08+00:00",
+  "updated_at": "2026-10-24T18:56:53+00:00",
   "series": [
     {
-      "date": "2024-10-03",
-      "status": null,
-      "summary_value": 45.4545,
+      "date": "2025-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-10-30",
+      "status": "normal",
+      "summary_value": 44.027300000000004,
       "details": {
-        "Bullish": 45.4545,
-        "Neutral": 27.2727,
-        "Bearish": 27.2727
+        "Bullish": 44.027300000000004,
+        "Neutral": 19.1126,
+        "Bearish": 36.8601
       }
     },
     {
-      "date": "2024-10-10",
-      "status": null,
-      "summary_value": 49.0119,
+      "date": "2025-10-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-06",
+      "status": "normal",
+      "summary_value": 37.966100000000004,
       "details": {
-        "Bullish": 49.0119,
-        "Neutral": 30.4348,
-        "Bearish": 20.5534
+        "Bullish": 37.966100000000004,
+        "Neutral": 25.7627,
+        "Bearish": 36.2712
       }
     },
     {
-      "date": "2024-10-17",
-      "status": null,
-      "summary_value": 45.4545,
+      "date": "2025-11-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-13",
+      "status": "normal",
+      "summary_value": 31.6151,
       "details": {
-        "Bullish": 45.4545,
-        "Neutral": 29.1667,
-        "Bearish": 25.3788
+        "Bullish": 31.6151,
+        "Neutral": 19.244,
+        "Bearish": 49.1409
       }
     },
     {
-      "date": "2024-10-24",
-      "status": null,
-      "summary_value": 37.7049,
+      "date": "2025-11-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-20",
+      "status": "normal",
+      "summary_value": 32.5758,
       "details": {
-        "Bullish": 37.7049,
-        "Neutral": 32.377,
-        "Bearish": 29.918
+        "Bullish": 32.5758,
+        "Neutral": 23.863599999999998,
+        "Bearish": 43.5606
       }
     },
     {
-      "date": "2024-10-31",
-      "status": null,
-      "summary_value": 39.485,
+      "date": "2025-11-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-27",
+      "status": "normal",
+      "summary_value": 32.0285,
       "details": {
-        "Bullish": 39.485,
-        "Neutral": 29.6137,
-        "Bearish": 30.9013
+        "Bullish": 32.0285,
+        "Neutral": 25.266899999999996,
+        "Bearish": 42.7046
       }
     },
     {
-      "date": "2024-11-07",
-      "status": null,
-      "summary_value": 41.5441,
+      "date": "2025-11-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-11-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-04",
+      "status": "normal",
+      "summary_value": 44.2907,
       "details": {
-        "Bullish": 41.5441,
-        "Neutral": 30.8824,
-        "Bearish": 27.5735
+        "Bullish": 44.2907,
+        "Neutral": 24.9135,
+        "Bearish": 30.7958
       }
     },
     {
-      "date": "2024-11-14",
-      "status": null,
-      "summary_value": 49.8442,
+      "date": "2025-12-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-11",
+      "status": "normal",
+      "summary_value": 44.586,
       "details": {
-        "Bullish": 49.8442,
-        "Neutral": 21.8069,
-        "Bearish": 28.3489
+        "Bullish": 44.586,
+        "Neutral": 24.840799999999998,
+        "Bearish": 30.5732
       }
     },
     {
-      "date": "2024-11-21",
-      "status": null,
-      "summary_value": 41.2903,
+      "date": "2025-12-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-18",
+      "status": "normal",
+      "summary_value": 44.1406,
       "details": {
-        "Bullish": 41.2903,
-        "Neutral": 25.4839,
-        "Bearish": 33.2258
+        "Bullish": 44.1406,
+        "Neutral": 22.656299999999998,
+        "Bearish": 33.2031
       }
     },
     {
-      "date": "2024-11-28",
-      "status": null,
-      "summary_value": 37.0518,
+      "date": "2025-12-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-25",
+      "status": "normal",
+      "summary_value": 37.4449,
       "details": {
-        "Bullish": 37.0518,
-        "Neutral": 24.3028,
-        "Bearish": 38.6454
+        "Bullish": 37.4449,
+        "Neutral": 27.753299999999996,
+        "Bearish": 34.8018
       }
     },
     {
-      "date": "2024-12-05",
-      "status": null,
-      "summary_value": 48.3333,
+      "date": "2025-12-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2025-12-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-01",
+      "status": "normal",
+      "summary_value": 42.0354,
       "details": {
-        "Bullish": 48.3333,
-        "Neutral": 21.0,
-        "Bearish": 30.6667
+        "Bullish": 42.0354,
+        "Neutral": 30.973499999999998,
+        "Bearish": 26.9912
       }
     },
     {
-      "date": "2024-12-12",
-      "status": null,
-      "summary_value": 43.3333,
+      "date": "2026-01-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-08",
+      "status": "normal",
+      "summary_value": 42.492000000000004,
       "details": {
-        "Bullish": 43.3333,
+        "Bullish": 42.492000000000004,
+        "Neutral": 27.476,
+        "Bearish": 30.0319
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-15",
+      "status": "normal",
+      "summary_value": 49.5017,
+      "details": {
+        "Bullish": 49.5017,
+        "Neutral": 22.2591,
+        "Bearish": 28.239199999999997
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-22",
+      "status": "normal",
+      "summary_value": 43.1655,
+      "details": {
+        "Bullish": 43.1655,
+        "Neutral": 24.1007,
+        "Bearish": 32.7338
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-29",
+      "status": "normal",
+      "summary_value": 44.4,
+      "details": {
+        "Bullish": 44.4,
+        "Neutral": 24.8,
+        "Bearish": 30.8
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-01-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-05",
+      "status": "normal",
+      "summary_value": 39.667,
+      "details": {
+        "Bullish": 39.667,
+        "Neutral": 31.333299999999998,
+        "Bearish": 28.999999999999996
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-12",
+      "status": "normal",
+      "summary_value": 38.5214,
+      "details": {
+        "Bullish": 38.5214,
+        "Neutral": 23.3463,
+        "Bearish": 38.1323
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-19",
+      "status": "normal",
+      "summary_value": 34.5382,
+      "details": {
+        "Bullish": 34.5382,
+        "Neutral": 28.5141,
+        "Bearish": 36.9478
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-26",
+      "status": "normal",
+      "summary_value": 33.1967,
+      "details": {
+        "Bullish": 33.1967,
+        "Neutral": 27.049200000000003,
+        "Bearish": 39.7541
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-02-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-05",
+      "status": "normal",
+      "summary_value": 33.057900000000004,
+      "details": {
+        "Bullish": 33.057900000000004,
+        "Neutral": 31.405,
+        "Bearish": 35.5372
+      }
+    },
+    {
+      "date": "2026-03-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-12",
+      "status": "normal",
+      "summary_value": 31.9392,
+      "details": {
+        "Bullish": 31.9392,
+        "Neutral": 21.673000000000002,
+        "Bearish": 46.3878
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-19",
+      "status": "normal",
+      "summary_value": 30.4,
+      "details": {
+        "Bullish": 30.4,
+        "Neutral": 17.599999999999998,
+        "Bearish": 52.0
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-26",
+      "status": "normal",
+      "summary_value": 32.0988,
+      "details": {
+        "Bullish": 32.0988,
+        "Neutral": 18.107,
+        "Bearish": 49.7942
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-03-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-02",
+      "status": "normal",
+      "summary_value": 33.571400000000004,
+      "details": {
+        "Bullish": 33.571400000000004,
+        "Neutral": 15.0,
+        "Bearish": 51.4286
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-09",
+      "status": "normal",
+      "summary_value": 35.7466,
+      "details": {
+        "Bullish": 35.7466,
+        "Neutral": 21.267,
+        "Bearish": 42.9864
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-16",
+      "status": "normal",
+      "summary_value": 31.7308,
+      "details": {
+        "Bullish": 31.7308,
+        "Neutral": 25.4808,
+        "Bearish": 42.7885
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-23",
+      "status": "normal",
+      "summary_value": 46.0465,
+      "details": {
+        "Bullish": 46.0465,
+        "Neutral": 19.5349,
+        "Bearish": 34.4186
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-04-30",
+      "status": "normal",
+      "summary_value": 38.1323,
+      "details": {
+        "Bullish": 38.1323,
+        "Neutral": 22.179,
+        "Bearish": 39.6887
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-07",
+      "status": "normal",
+      "summary_value": 38.3142,
+      "details": {
+        "Bullish": 38.3142,
+        "Neutral": 28.7356,
+        "Bearish": 32.9502
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-14",
+      "status": "normal",
+      "summary_value": 39.322,
+      "details": {
+        "Bullish": 39.322,
+        "Neutral": 24.067800000000002,
+        "Bearish": 36.6102
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-21",
+      "status": "normal",
+      "summary_value": 31.7181,
+      "details": {
+        "Bullish": 31.7181,
+        "Neutral": 24.6696,
+        "Bearish": 43.6123
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-28",
+      "status": "normal",
+      "summary_value": 35.556,
+      "details": {
+        "Bullish": 35.556,
+        "Neutral": 22.592599999999997,
+        "Bearish": 41.8519
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-05-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-04",
+      "status": "normal",
+      "summary_value": 36.2637,
+      "details": {
+        "Bullish": 36.2637,
+        "Neutral": 26.7399,
+        "Bearish": 36.9963
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-11",
+      "status": "normal",
+      "summary_value": 30.3738,
+      "details": {
+        "Bullish": 30.3738,
+        "Neutral": 21.9626,
+        "Bearish": 47.6636
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-18",
+      "status": "normal",
+      "summary_value": 36.5741,
+      "details": {
+        "Bullish": 36.5741,
+        "Neutral": 24.0741,
+        "Bearish": 39.3519
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-25",
+      "status": "normal",
+      "summary_value": 44.9339,
+      "details": {
+        "Bullish": 44.9339,
+        "Neutral": 18.942700000000002,
+        "Bearish": 36.1233
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-06-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-02",
+      "status": "normal",
+      "summary_value": 31.3636,
+      "details": {
+        "Bullish": 31.3636,
+        "Neutral": 26.363599999999998,
+        "Bearish": 42.2727
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-09",
+      "status": "normal",
+      "summary_value": 36.2791,
+      "details": {
+        "Bullish": 36.2791,
+        "Neutral": 26.5116,
+        "Bearish": 37.2093
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-16",
+      "status": "normal",
+      "summary_value": 44.907399999999996,
+      "details": {
+        "Bullish": 44.907399999999996,
+        "Neutral": 22.2222,
+        "Bearish": 32.8704
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-23",
+      "status": "normal",
+      "summary_value": 29.591800000000003,
+      "details": {
+        "Bullish": 29.591800000000003,
+        "Neutral": 28.061199999999996,
+        "Bearish": 42.3469
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-07-30",
+      "status": "normal",
+      "summary_value": 31.0185,
+      "details": {
+        "Bullish": 31.0185,
+        "Neutral": 26.8519,
+        "Bearish": 42.1296
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-06",
+      "status": "normal",
+      "summary_value": 37.037,
+      "details": {
+        "Bullish": 37.037,
         "Neutral": 25.0,
-        "Bearish": 31.6667
+        "Bearish": 37.963
       }
     },
     {
-      "date": "2024-12-19",
-      "status": null,
-      "summary_value": 40.7143,
+      "date": "2026-08-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-09",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-10",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-11",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-12",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-13",
+      "status": "unavailable",
+      "summary_value": 34.7032,
       "details": {
-        "Bullish": 40.7143,
-        "Neutral": 27.857100000000003,
-        "Bearish": 31.4286
+        "Bullish": 34.7032,
+        "Neutral": 27.3973,
+        "Bearish": 37.8995
       }
     },
     {
-      "date": "2024-12-26",
-      "status": null,
-      "summary_value": 37.8049,
+      "date": "2026-08-14",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-15",
+      "status": "unavailable",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-20",
+      "status": "normal",
+      "summary_value": 35.467999999999996,
       "details": {
-        "Bullish": 37.8049,
-        "Neutral": 28.0488,
-        "Bearish": 34.146300000000004
+        "Bullish": 35.467999999999996,
+        "Neutral": 24.630499999999998,
+        "Bearish": 39.9015
       }
     },
     {
-      "date": "2025-01-02",
-      "status": null,
-      "summary_value": 35.443000000000005,
+      "date": "2026-08-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-27",
+      "status": "normal",
+      "summary_value": 32.921800000000005,
       "details": {
-        "Bullish": 35.443000000000005,
-        "Neutral": 30.3797,
-        "Bearish": 34.1772
+        "Bullish": 32.921800000000005,
+        "Neutral": 22.6337,
+        "Bearish": 44.4444
       }
     },
     {
-      "date": "2025-01-09",
-      "status": null,
-      "summary_value": 34.6674,
+      "date": "2026-08-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-08-31",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-01",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-03",
+      "status": "normal",
+      "summary_value": 39.738,
       "details": {
-        "Bullish": 34.6674,
-        "Neutral": 27.957,
-        "Bearish": 37.3656
+        "Bullish": 39.738,
+        "Neutral": 22.7074,
+        "Bearish": 37.5546
       }
     },
     {
-      "date": "2025-01-16",
-      "status": null,
-      "summary_value": 25.428600000000003,
+      "date": "2026-09-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-08",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-10",
+      "status": "normal",
+      "summary_value": 37.9501,
       "details": {
-        "Bullish": 25.428600000000003,
-        "Neutral": 34.0,
-        "Bearish": 40.5714
+        "Bullish": 37.9501,
+        "Neutral": 22.7147,
+        "Bearish": 39.3352
       }
     },
     {
-      "date": "2025-01-23",
-      "status": null,
-      "summary_value": 43.4286,
+      "date": "2026-09-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-15",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-17",
+      "status": "normal",
+      "summary_value": 28.7736,
       "details": {
-        "Bullish": 43.4286,
-        "Neutral": 27.1429,
-        "Bearish": 29.4286
+        "Bullish": 28.7736,
+        "Neutral": 17.9245,
+        "Bearish": 53.3019
       }
     },
     {
-      "date": "2025-01-30",
-      "status": null,
-      "summary_value": 40.9639,
+      "date": "2026-09-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-22",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-24",
+      "status": "normal",
+      "summary_value": 32.6923,
       "details": {
-        "Bullish": 40.9639,
-        "Neutral": 25.0,
-        "Bearish": 34.036100000000005
+        "Bullish": 32.6923,
+        "Neutral": 19.230800000000002,
+        "Bearish": 48.0769
       }
     },
     {
-      "date": "2025-02-06",
-      "status": null,
-      "summary_value": 33.3333,
+      "date": "2026-09-25",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-26",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-27",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-28",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-29",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-09-30",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-01",
+      "status": "normal",
+      "summary_value": 34.6491,
       "details": {
-        "Bullish": 33.3333,
-        "Neutral": 23.8095,
-        "Bearish": 42.8571
+        "Bullish": 34.6491,
+        "Neutral": 18.8596,
+        "Bearish": 46.4912
       }
     },
     {
-      "date": "2025-02-13",
-      "status": null,
-      "summary_value": 28.4153,
-      "details": {
-        "Bullish": 28.4153,
-        "Neutral": 24.3169,
-        "Bearish": 47.2678
-      }
+      "date": "2026-10-02",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     },
     {
-      "date": "2025-02-20",
-      "status": null,
-      "summary_value": 29.1908,
-      "details": {
-        "Bullish": 29.1908,
-        "Neutral": 30.3468,
-        "Bearish": 40.4624
-      }
+      "date": "2026-10-03",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     },
     {
-      "date": "2025-02-27",
-      "status": null,
-      "summary_value": 19.3846,
-      "details": {
-        "Bullish": 19.3846,
-        "Neutral": 20.0,
-        "Bearish": 60.6154
-      }
+      "date": "2026-10-04",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     },
     {
-      "date": "2025-03-06",
-      "status": null,
-      "summary_value": 19.3333,
-      "details": {
-        "Bullish": 19.3333,
-        "Neutral": 23.5556,
-        "Bearish": 57.1111
-      }
+      "date": "2026-10-05",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     },
     {
-      "date": "2025-03-13",
-      "status": null,
-      "summary_value": 19.1083,
-      "details": {
-        "Bullish": 19.1083,
-        "Neutral": 21.6561,
-        "Bearish": 59.2357
-      }
+      "date": "2026-10-06",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     },
     {
-      "date": "2025-03-20",
-      "status": null,
-      "summary_value": 21.5812,
-      "details": {
-        "Bullish": 21.5812,
-        "Neutral": 20.2991,
-        "Bearish": 58.1197
-      }
+      "date": "2026-10-07",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     },
     {
-      "date": "2025-03-27",
-      "status": null,
-      "summary_value": 27.4194,
+      "date": "2026-10-08",
+      "status": "normal",
+      "summary_value": 40.2524,
       "details": {
-        "Bullish": 27.4194,
-        "Neutral": 20.4301,
-        "Bearish": 52.1505
-      }
-    },
-    {
-      "date": "2025-04-03",
-      "status": null,
-      "summary_value": 21.7617,
-      "details": {
-        "Bullish": 21.7617,
-        "Neutral": 16.3212,
-        "Bearish": 61.917100000000005
-      }
-    },
-    {
-      "date": "2025-04-10",
-      "status": null,
-      "summary_value": 28.5171,
-      "details": {
-        "Bullish": 28.5171,
-        "Neutral": 12.5475,
-        "Bearish": 58.9354
-      }
-    },
-    {
-      "date": "2025-04-17",
-      "status": null,
-      "summary_value": 25.4364,
-      "details": {
-        "Bullish": 25.4364,
-        "Neutral": 17.7057,
-        "Bearish": 56.8579
-      }
-    },
-    {
-      "date": "2025-04-24",
-      "status": null,
-      "summary_value": 21.9373,
-      "details": {
-        "Bullish": 21.9373,
-        "Neutral": 22.5071,
-        "Bearish": 55.555600000000005
-      }
-    },
-    {
-      "date": "2025-05-01",
-      "status": null,
-      "summary_value": 20.944,
-      "details": {
-        "Bullish": 20.944,
-        "Neutral": 19.764,
-        "Bearish": 59.292
-      }
-    },
-    {
-      "date": "2025-05-08",
-      "status": null,
-      "summary_value": 29.4479,
-      "details": {
-        "Bullish": 29.4479,
-        "Neutral": 19.0184,
-        "Bearish": 51.5337
-      }
-    },
-    {
-      "date": "2025-05-15",
-      "status": null,
-      "summary_value": 35.932199999999995,
-      "details": {
-        "Bullish": 35.932199999999995,
-        "Neutral": 19.661,
-        "Bearish": 44.4068
-      }
-    },
-    {
-      "date": "2025-05-22",
-      "status": null,
-      "summary_value": 37.7049,
-      "details": {
-        "Bullish": 37.7049,
-        "Neutral": 25.5738,
-        "Bearish": 36.7213
-      }
-    },
-    {
-      "date": "2025-05-29",
-      "status": null,
-      "summary_value": 32.8904,
-      "details": {
-        "Bullish": 32.8904,
-        "Neutral": 25.2492,
-        "Bearish": 41.8605
-      }
-    },
-    {
-      "date": "2025-06-05",
-      "status": null,
-      "summary_value": 32.6599,
-      "details": {
-        "Bullish": 32.6599,
-        "Neutral": 25.9259,
-        "Bearish": 41.4141
-      }
-    },
-    {
-      "date": "2025-06-12",
-      "status": null,
-      "summary_value": 36.6667,
-      "details": {
-        "Bullish": 36.6667,
-        "Neutral": 29.7436,
-        "Bearish": 33.5897
-      }
-    },
-    {
-      "date": "2025-06-19",
-      "status": null,
-      "summary_value": 33.209,
-      "details": {
-        "Bullish": 33.209,
-        "Neutral": 25.3731,
-        "Bearish": 41.4179
-      }
-    },
-    {
-      "date": "2025-06-26",
-      "status": null,
-      "summary_value": 35.0694,
-      "details": {
-        "Bullish": 35.0694,
-        "Neutral": 24.6528,
-        "Bearish": 40.2778
-      }
-    },
-    {
-      "date": "2025-07-03",
-      "status": null,
-      "summary_value": 45.0161,
-      "details": {
-        "Bullish": 45.0161,
-        "Neutral": 21.865,
-        "Bearish": 33.119
-      }
-    },
-    {
-      "date": "2025-07-10",
-      "status": null,
-      "summary_value": 41.3793,
-      "details": {
-        "Bullish": 41.3793,
-        "Neutral": 22.9885,
-        "Bearish": 35.632200000000005
-      }
-    },
-    {
-      "date": "2025-07-17",
-      "status": null,
-      "summary_value": 39.2655,
-      "details": {
-        "Bullish": 39.2655,
-        "Neutral": 21.7514,
+        "Bullish": 40.2524,
+        "Neutral": 20.762700000000002,
         "Bearish": 38.9831
       }
     },
     {
-      "date": "2025-07-24",
-      "status": null,
-      "summary_value": 36.7781,
+      "date": "2026-10-09",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-10",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-11",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-12",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-13",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-14",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-15",
+      "status": "normal",
+      "summary_value": 38.7283,
       "details": {
-        "Bullish": 36.7781,
-        "Neutral": 29.1793,
-        "Bearish": 34.0426
+        "Bullish": 38.7283,
+        "Neutral": 19.653200000000002,
+        "Bearish": 41.618500000000004
       }
     },
     {
-      "date": "2025-07-31",
-      "status": null,
-      "summary_value": 40.3333,
+      "date": "2026-10-16",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-17",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-18",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-19",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-20",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-21",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    },
+    {
+      "date": "2026-10-22",
+      "status": "normal",
+      "summary_value": 36.871500000000005,
       "details": {
-        "Bullish": 40.3333,
-        "Neutral": 26.6667,
-        "Bearish": 33.0
+        "Bullish": 36.871500000000005,
+        "Neutral": 17.3184,
+        "Bearish": 45.8101
       }
     },
     {
-      "date": "2025-08-07",
-      "status": null,
-      "summary_value": 34.8703,
-      "details": {
-        "Bullish": 34.8703,
-        "Neutral": 21.902,
-        "Bearish": 43.2277
-      }
+      "date": "2026-10-23",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     },
     {
-      "date": "2025-08-14",
-      "status": null,
-      "summary_value": 29.8817,
-      "details": {
-        "Bullish": 29.8817,
-        "Neutral": 23.9645,
-        "Bearish": 46.1538
-      }
-    },
-    {
-      "date": "2025-08-21",
-      "status": null,
-      "summary_value": 30.8442,
-      "details": {
-        "Bullish": 30.8442,
-        "Neutral": 24.3506,
-        "Bearish": 44.8052
-      }
-    },
-    {
-      "date": "2025-08-28",
-      "status": null,
-      "summary_value": 34.6021,
-      "details": {
-        "Bullish": 34.6021,
-        "Neutral": 25.951600000000003,
-        "Bearish": 39.4464
-      }
-    },
-    {
-      "date": "2025-09-04",
-      "status": null,
-      "summary_value": 32.6861,
-      "details": {
-        "Bullish": 32.6861,
-        "Neutral": 23.9482,
-        "Bearish": 43.3657
-      }
-    },
-    {
-      "date": "2025-09-11",
-      "status": null,
-      "summary_value": 28.0277,
-      "details": {
-        "Bullish": 28.0277,
-        "Neutral": 22.4913,
-        "Bearish": 49.481
-      }
-    },
-    {
-      "date": "2025-09-18",
-      "status": null,
-      "summary_value": 41.6667,
-      "details": {
-        "Bullish": 41.6667,
-        "Neutral": 15.9722,
-        "Bearish": 42.3611
-      }
-    },
-    {
-      "date": "2025-09-25",
-      "status": null,
-      "summary_value": 41.726600000000005,
-      "details": {
-        "Bullish": 41.726600000000005,
-        "Neutral": 19.0647,
-        "Bearish": 39.2086
-      }
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
     }
   ]
 }

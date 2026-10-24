@@ -23,6 +23,7 @@ FRED_LOGGER = LOGGER.getChild("fred")
 MULTPL_LOGGER = LOGGER.getChild("multpl")
 FINRA_LOGGER = LOGGER.getChild("finra")
 IPO_LOGGER = LOGGER.getChild("ipo")
+SP500_LOGGER = LOGGER.getChild("sp500")
 
 
 class MarketDataFetcher:
@@ -168,6 +169,9 @@ def fetch_finra_margin_table(ttl_days: int = 60) -> Optional[pd.DataFrame]:
     try:
         df = pd.read_excel(path, sheet_name=0)
     except Exception as exc:
+        # read_excel raises a spread of types (zip, xlrd/openpyxl, OSError)
+        # for a truncated or corrupt cache file. None makes the indicator
+        # report "unavailable" instead of crashing the whole run.
         FINRA_LOGGER.warning("Failed to read FINRA margin statistics %s: %s", path, exc)
         return None
 
@@ -336,3 +340,36 @@ def fetch_renaissance_ipo_stats(ttl_days: int = 1) -> Optional[Dict[str, object]
         result["as_of"],
     )
     return result
+
+
+def fetch_sp500_constituents(ttl_days: int = 30) -> Optional[pd.DataFrame]:
+    """Return current S&P 500 members (symbol, name, cik) from the Wikipedia constituents table."""
+
+    SP500_LOGGER.info("Ensuring S&P 500 constituents (ttl_days=%s)", ttl_days)
+    path = resource_fetcher.ensure(
+        "SP500-Constituents",
+        ttl_days=ttl_days,
+        filename="sp500_constituents.html",
+    )
+    if path is None or not path.exists():
+        SP500_LOGGER.warning("S&P 500 constituents page unavailable after ensure()")
+        return None
+
+    try:
+        tables = pd.read_html(str(path), match="Symbol")
+    except ValueError as exc:
+        SP500_LOGGER.warning("No constituents table found in %s: %s", path, exc)
+        return None
+
+    table = tables[0]
+    if not {"Symbol", "Security", "CIK"}.issubset(table.columns):
+        SP500_LOGGER.warning("Constituents table missing expected columns: %s", table.columns.tolist())
+        return None
+
+    constituents = table[["Symbol", "Security", "CIK"]].rename(
+        columns={"Symbol": "symbol", "Security": "name", "CIK": "cik"}
+    )
+    constituents["symbol"] = constituents["symbol"].astype(str).str.strip()
+    constituents["cik"] = constituents["cik"].astype(int)
+    SP500_LOGGER.info("Loaded %d S&P 500 constituents", len(constituents))
+    return constituents.reset_index(drop=True)

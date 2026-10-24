@@ -1,0 +1,2570 @@
+{
+  "indicator": "insider_buy_share",
+  "display_name": "Insider Buy Share",
+  "category": "Sentiment",
+  "markets": [
+    "S&P 500"
+  ],
+  "topics": [
+    "Sentiment",
+    "Insider"
+  ],
+  "threshold": "Bottom 10% of past year",
+  "updated_at": "2026-10-24T18:56:53+00:00",
+  "series": [
+    {
+      "date": "2026-04-11",
+      "status": "normal",
+      "summary_value": 3.61,
+      "details": {
+        "buy_share_90d_pct": 3.61,
+        "buy_share_30d_pct": 2.86,
+        "low_tail_threshold_pct": 2.45,
+        "buy_value_90d_usd": 685551605.59,
+        "sell_value_90d_usd": 18323514163.52,
+        "trades_90d": 5997
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "status": "normal",
+      "summary_value": 3.52,
+      "details": {
+        "buy_share_90d_pct": 3.52,
+        "buy_share_30d_pct": 2.4,
+        "low_tail_threshold_pct": 2.46,
+        "buy_value_90d_usd": 667952469.24,
+        "sell_value_90d_usd": 18303386879.67,
+        "trades_90d": 5974
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "status": "normal",
+      "summary_value": 3.39,
+      "details": {
+        "buy_share_90d_pct": 3.39,
+        "buy_share_30d_pct": 2.42,
+        "low_tail_threshold_pct": 2.48,
+        "buy_value_90d_usd": 642932852.51,
+        "sell_value_90d_usd": 18306086840.1,
+        "trades_90d": 5948
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "status": "normal",
+      "summary_value": 3.29,
+      "details": {
+        "buy_share_90d_pct": 3.29,
+        "buy_share_30d_pct": 2.36,
+        "low_tail_threshold_pct": 2.49,
+        "buy_value_90d_usd": 623106939.62,
+        "sell_value_90d_usd": 18333371573.0,
+        "trades_90d": 5929
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "status": "normal",
+      "summary_value": 3.17,
+      "details": {
+        "buy_share_90d_pct": 3.17,
+        "buy_share_30d_pct": 2.19,
+        "low_tail_threshold_pct": 2.51,
+        "buy_value_90d_usd": 606912220.45,
+        "sell_value_90d_usd": 18560250728.24,
+        "trades_90d": 5945
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "status": "normal",
+      "summary_value": 3.05,
+      "details": {
+        "buy_share_90d_pct": 3.05,
+        "buy_share_30d_pct": 2.07,
+        "low_tail_threshold_pct": 2.53,
+        "buy_value_90d_usd": 586458722.62,
+        "sell_value_90d_usd": 18662555050.65,
+        "trades_90d": 5942
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "status": "normal",
+      "summary_value": 3.04,
+      "details": {
+        "buy_share_90d_pct": 3.04,
+        "buy_share_30d_pct": 2.13,
+        "low_tail_threshold_pct": 2.55,
+        "buy_value_90d_usd": 586459142.56,
+        "sell_value_90d_usd": 18708309437.24,
+        "trades_90d": 5992
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "status": "normal",
+      "summary_value": 3.04,
+      "details": {
+        "buy_share_90d_pct": 3.04,
+        "buy_share_30d_pct": 2.14,
+        "low_tail_threshold_pct": 2.56,
+        "buy_value_90d_usd": 586459142.56,
+        "sell_value_90d_usd": 18708309437.24,
+        "trades_90d": 5992
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "status": "normal",
+      "summary_value": 3.04,
+      "details": {
+        "buy_share_90d_pct": 3.04,
+        "buy_share_30d_pct": 2.37,
+        "low_tail_threshold_pct": 2.58,
+        "buy_value_90d_usd": 586459142.56,
+        "sell_value_90d_usd": 18708309437.24,
+        "trades_90d": 5992
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "status": "normal",
+      "summary_value": 2.93,
+      "details": {
+        "buy_share_90d_pct": 2.93,
+        "buy_share_30d_pct": 2.27,
+        "low_tail_threshold_pct": 2.6,
+        "buy_value_90d_usd": 565441855.04,
+        "sell_value_90d_usd": 18757182467.99,
+        "trades_90d": 5989
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "status": "normal",
+      "summary_value": 2.82,
+      "details": {
+        "buy_share_90d_pct": 2.82,
+        "buy_share_30d_pct": 2.25,
+        "low_tail_threshold_pct": 2.61,
+        "buy_value_90d_usd": 543847316.11,
+        "sell_value_90d_usd": 18713385782.4,
+        "trades_90d": 6013
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "status": "normal",
+      "summary_value": 2.7,
+      "details": {
+        "buy_share_90d_pct": 2.7,
+        "buy_share_30d_pct": 1.46,
+        "low_tail_threshold_pct": 2.63,
+        "buy_value_90d_usd": 521588743.2,
+        "sell_value_90d_usd": 18764557837.34,
+        "trades_90d": 6005
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "status": "high",
+      "summary_value": 2.58,
+      "details": {
+        "buy_share_90d_pct": 2.58,
+        "buy_share_30d_pct": 0.68,
+        "low_tail_threshold_pct": 2.58,
+        "buy_value_90d_usd": 495136336.19,
+        "sell_value_90d_usd": 18732091122.16,
+        "trades_90d": 5993
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "status": "high",
+      "summary_value": 2.56,
+      "details": {
+        "buy_share_90d_pct": 2.56,
+        "buy_share_30d_pct": 0.92,
+        "low_tail_threshold_pct": 2.56,
+        "buy_value_90d_usd": 495210466.09,
+        "sell_value_90d_usd": 18831368150.09,
+        "trades_90d": 6048
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "status": "high",
+      "summary_value": 2.56,
+      "details": {
+        "buy_share_90d_pct": 2.56,
+        "buy_share_30d_pct": 0.91,
+        "low_tail_threshold_pct": 2.56,
+        "buy_value_90d_usd": 495210466.09,
+        "sell_value_90d_usd": 18831368150.09,
+        "trades_90d": 6048
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "status": "high",
+      "summary_value": 2.44,
+      "details": {
+        "buy_share_90d_pct": 2.44,
+        "buy_share_30d_pct": 0.27,
+        "low_tail_threshold_pct": 2.5,
+        "buy_value_90d_usd": 470145602.15,
+        "sell_value_90d_usd": 18764594514.16,
+        "trades_90d": 6004
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "status": "high",
+      "summary_value": 2.33,
+      "details": {
+        "buy_share_90d_pct": 2.33,
+        "buy_share_30d_pct": 0.33,
+        "low_tail_threshold_pct": 2.45,
+        "buy_value_90d_usd": 447626939.78,
+        "sell_value_90d_usd": 18765638302.23,
+        "trades_90d": 6009
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "status": "high",
+      "summary_value": 2.23,
+      "details": {
+        "buy_share_90d_pct": 2.23,
+        "buy_share_30d_pct": 0.47,
+        "low_tail_threshold_pct": 2.42,
+        "buy_value_90d_usd": 429170652.38,
+        "sell_value_90d_usd": 18806919022.32,
+        "trades_90d": 6037
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "status": "high",
+      "summary_value": 2.16,
+      "details": {
+        "buy_share_90d_pct": 2.16,
+        "buy_share_30d_pct": 0.53,
+        "low_tail_threshold_pct": 2.37,
+        "buy_value_90d_usd": 410412092.04,
+        "sell_value_90d_usd": 18615774719.22,
+        "trades_90d": 6047
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "status": "high",
+      "summary_value": 2.08,
+      "details": {
+        "buy_share_90d_pct": 2.08,
+        "buy_share_30d_pct": 0.59,
+        "low_tail_threshold_pct": 2.37,
+        "buy_value_90d_usd": 395267319.91,
+        "sell_value_90d_usd": 18623311451.67,
+        "trades_90d": 6075
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "status": "high",
+      "summary_value": 2.07,
+      "details": {
+        "buy_share_90d_pct": 2.07,
+        "buy_share_30d_pct": 0.81,
+        "low_tail_threshold_pct": 2.36,
+        "buy_value_90d_usd": 401402073.18,
+        "sell_value_90d_usd": 18985374850.8,
+        "trades_90d": 6295
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "status": "high",
+      "summary_value": 2.07,
+      "details": {
+        "buy_share_90d_pct": 2.07,
+        "buy_share_30d_pct": 0.83,
+        "low_tail_threshold_pct": 2.33,
+        "buy_value_90d_usd": 401402073.18,
+        "sell_value_90d_usd": 18985374850.8,
+        "trades_90d": 6295
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "status": "high",
+      "summary_value": 2.02,
+      "details": {
+        "buy_share_90d_pct": 2.02,
+        "buy_share_30d_pct": 0.83,
+        "low_tail_threshold_pct": 2.3,
+        "buy_value_90d_usd": 384323858.86,
+        "sell_value_90d_usd": 18618693355.64,
+        "trades_90d": 6005
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "status": "high",
+      "summary_value": 2.03,
+      "details": {
+        "buy_share_90d_pct": 2.03,
+        "buy_share_30d_pct": 0.85,
+        "low_tail_threshold_pct": 2.29,
+        "buy_value_90d_usd": 383064756.55,
+        "sell_value_90d_usd": 18443473197.99,
+        "trades_90d": 6087
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "status": "high",
+      "summary_value": 2.06,
+      "details": {
+        "buy_share_90d_pct": 2.06,
+        "buy_share_30d_pct": 0.84,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 381490132.25,
+        "sell_value_90d_usd": 18169868065.21,
+        "trades_90d": 6053
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "status": "high",
+      "summary_value": 2.05,
+      "details": {
+        "buy_share_90d_pct": 2.05,
+        "buy_share_30d_pct": 1.01,
+        "low_tail_threshold_pct": 2.22,
+        "buy_value_90d_usd": 383317951.33,
+        "sell_value_90d_usd": 18278853472.51,
+        "trades_90d": 6089
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "status": "high",
+      "summary_value": 2.05,
+      "details": {
+        "buy_share_90d_pct": 2.05,
+        "buy_share_30d_pct": 1.03,
+        "low_tail_threshold_pct": 2.19,
+        "buy_value_90d_usd": 380646388.22,
+        "sell_value_90d_usd": 18220529234.42,
+        "trades_90d": 6077
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "status": "high",
+      "summary_value": 2.04,
+      "details": {
+        "buy_share_90d_pct": 2.04,
+        "buy_share_30d_pct": 1.04,
+        "low_tail_threshold_pct": 2.14,
+        "buy_value_90d_usd": 381460656.85,
+        "sell_value_90d_usd": 18350307303.11,
+        "trades_90d": 6182
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "status": "high",
+      "summary_value": 2.04,
+      "details": {
+        "buy_share_90d_pct": 2.04,
+        "buy_share_30d_pct": 1.05,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 381460656.85,
+        "sell_value_90d_usd": 18350307303.11,
+        "trades_90d": 6182
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "status": "high",
+      "summary_value": 2.01,
+      "details": {
+        "buy_share_90d_pct": 2.01,
+        "buy_share_30d_pct": 1.01,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 372362168.28,
+        "sell_value_90d_usd": 18194930572.58,
+        "trades_90d": 6080
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "status": "high",
+      "summary_value": 2.04,
+      "details": {
+        "buy_share_90d_pct": 2.04,
+        "buy_share_30d_pct": 1.54,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 378906056.15,
+        "sell_value_90d_usd": 18186744247.27,
+        "trades_90d": 6137
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "status": "normal",
+      "summary_value": 2.1,
+      "details": {
+        "buy_share_90d_pct": 2.1,
+        "buy_share_30d_pct": 1.94,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 391272520.39,
+        "sell_value_90d_usd": 18242606209.43,
+        "trades_90d": 6077
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "status": "normal",
+      "summary_value": 2.54,
+      "details": {
+        "buy_share_90d_pct": 2.54,
+        "buy_share_30d_pct": 4.28,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 467269446.73,
+        "sell_value_90d_usd": 17934409741.73,
+        "trades_90d": 6072
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "status": "normal",
+      "summary_value": 2.79,
+      "details": {
+        "buy_share_90d_pct": 2.79,
+        "buy_share_30d_pct": 6.12,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 511061398.23,
+        "sell_value_90d_usd": 17799243651.49,
+        "trades_90d": 6014
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "status": "normal",
+      "summary_value": 2.92,
+      "details": {
+        "buy_share_90d_pct": 2.92,
+        "buy_share_30d_pct": 7.29,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 540139677.47,
+        "sell_value_90d_usd": 17930509426.77,
+        "trades_90d": 6201
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "status": "normal",
+      "summary_value": 2.92,
+      "details": {
+        "buy_share_90d_pct": 2.92,
+        "buy_share_30d_pct": 7.92,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 540139677.47,
+        "sell_value_90d_usd": 17930509426.77,
+        "trades_90d": 6201
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "status": "normal",
+      "summary_value": 2.92,
+      "details": {
+        "buy_share_90d_pct": 2.92,
+        "buy_share_30d_pct": 8.04,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 540139677.47,
+        "sell_value_90d_usd": 17930509426.77,
+        "trades_90d": 6201
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "status": "normal",
+      "summary_value": 2.75,
+      "details": {
+        "buy_share_90d_pct": 2.75,
+        "buy_share_30d_pct": 8.08,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 502041407.65,
+        "sell_value_90d_usd": 17756321930.42,
+        "trades_90d": 6059
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "status": "normal",
+      "summary_value": 2.61,
+      "details": {
+        "buy_share_90d_pct": 2.61,
+        "buy_share_30d_pct": 7.56,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 477731260.05,
+        "sell_value_90d_usd": 17802312696.88,
+        "trades_90d": 6018
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "status": "normal",
+      "summary_value": 2.37,
+      "details": {
+        "buy_share_90d_pct": 2.37,
+        "buy_share_30d_pct": 5.95,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 451758021.06,
+        "sell_value_90d_usd": 18582307351.0,
+        "trades_90d": 6036
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "status": "normal",
+      "summary_value": 2.31,
+      "details": {
+        "buy_share_90d_pct": 2.31,
+        "buy_share_30d_pct": 5.87,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 438592116.47,
+        "sell_value_90d_usd": 18547207319.84,
+        "trades_90d": 6060
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "status": "normal",
+      "summary_value": 2.28,
+      "details": {
+        "buy_share_90d_pct": 2.28,
+        "buy_share_30d_pct": 5.58,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 442125734.95,
+        "sell_value_90d_usd": 18921788288.36,
+        "trades_90d": 6252
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "status": "normal",
+      "summary_value": 2.28,
+      "details": {
+        "buy_share_90d_pct": 2.28,
+        "buy_share_30d_pct": 5.65,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 442125734.95,
+        "sell_value_90d_usd": 18921788288.36,
+        "trades_90d": 6252
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "status": "normal",
+      "summary_value": 2.23,
+      "details": {
+        "buy_share_90d_pct": 2.23,
+        "buy_share_30d_pct": 5.78,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 425823886.74,
+        "sell_value_90d_usd": 18650745252.86,
+        "trades_90d": 6059
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "status": "normal",
+      "summary_value": 2.2,
+      "details": {
+        "buy_share_90d_pct": 2.2,
+        "buy_share_30d_pct": 5.78,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 412555514.51,
+        "sell_value_90d_usd": 18358648786.35,
+        "trades_90d": 5908
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "status": "normal",
+      "summary_value": 2.11,
+      "details": {
+        "buy_share_90d_pct": 2.11,
+        "buy_share_30d_pct": 5.27,
+        "low_tail_threshold_pct": 2.09,
+        "buy_value_90d_usd": 400420890.98,
+        "sell_value_90d_usd": 18586303745.95,
+        "trades_90d": 5889
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "status": "high",
+      "summary_value": 2.06,
+      "details": {
+        "buy_share_90d_pct": 2.06,
+        "buy_share_30d_pct": 4.97,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 391466105.62,
+        "sell_value_90d_usd": 18604944240.37,
+        "trades_90d": 5841
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "status": "normal",
+      "summary_value": 2.08,
+      "details": {
+        "buy_share_90d_pct": 2.08,
+        "buy_share_30d_pct": 5.27,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 389293123.52,
+        "sell_value_90d_usd": 18308771665.82,
+        "trades_90d": 5763
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "status": "normal",
+      "summary_value": 2.07,
+      "details": {
+        "buy_share_90d_pct": 2.07,
+        "buy_share_30d_pct": 5.17,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 391104128.25,
+        "sell_value_90d_usd": 18464870444.11,
+        "trades_90d": 5893
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "status": "normal",
+      "summary_value": 2.07,
+      "details": {
+        "buy_share_90d_pct": 2.07,
+        "buy_share_30d_pct": 5.2,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 391104128.25,
+        "sell_value_90d_usd": 18464870444.11,
+        "trades_90d": 5893
+      }
+    },
+    {
+      "date": "2026-05-31",
+      "status": "normal",
+      "summary_value": 2.1,
+      "details": {
+        "buy_share_90d_pct": 2.1,
+        "buy_share_30d_pct": 5.47,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 377372500.18,
+        "sell_value_90d_usd": 17621412144.49,
+        "trades_90d": 5571
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "status": "normal",
+      "summary_value": 2.18,
+      "details": {
+        "buy_share_90d_pct": 2.18,
+        "buy_share_30d_pct": 5.43,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 401623235.14,
+        "sell_value_90d_usd": 18029580056.04,
+        "trades_90d": 5894
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "status": "normal",
+      "summary_value": 3.09,
+      "details": {
+        "buy_share_90d_pct": 3.09,
+        "buy_share_30d_pct": 5.12,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 410987591.53,
+        "sell_value_90d_usd": 12878056315.64,
+        "trades_90d": 6004
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "status": "normal",
+      "summary_value": 3.18,
+      "details": {
+        "buy_share_90d_pct": 3.18,
+        "buy_share_30d_pct": 5.3,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 424952248.73,
+        "sell_value_90d_usd": 12949980066.94,
+        "trades_90d": 6057
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "status": "normal",
+      "summary_value": 2.69,
+      "details": {
+        "buy_share_90d_pct": 2.69,
+        "buy_share_30d_pct": 3.87,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 422800853.04,
+        "sell_value_90d_usd": 15275808172.93,
+        "trades_90d": 6247
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "status": "normal",
+      "summary_value": 2.77,
+      "details": {
+        "buy_share_90d_pct": 2.77,
+        "buy_share_30d_pct": 4.06,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 442985447.88,
+        "sell_value_90d_usd": 15521028618.41,
+        "trades_90d": 6478
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "status": "normal",
+      "summary_value": 2.77,
+      "details": {
+        "buy_share_90d_pct": 2.77,
+        "buy_share_30d_pct": 4.08,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 442985447.88,
+        "sell_value_90d_usd": 15521028618.41,
+        "trades_90d": 6478
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "status": "normal",
+      "summary_value": 2.82,
+      "details": {
+        "buy_share_90d_pct": 2.82,
+        "buy_share_30d_pct": 4.13,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 442952298.89,
+        "sell_value_90d_usd": 15277239852.8,
+        "trades_90d": 6367
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "status": "normal",
+      "summary_value": 2.81,
+      "details": {
+        "buy_share_90d_pct": 2.81,
+        "buy_share_30d_pct": 4.03,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 442356894.16,
+        "sell_value_90d_usd": 15295132505.17,
+        "trades_90d": 6324
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "status": "normal",
+      "summary_value": 2.84,
+      "details": {
+        "buy_share_90d_pct": 2.84,
+        "buy_share_30d_pct": 3.98,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 440726840.61,
+        "sell_value_90d_usd": 15102352830.87,
+        "trades_90d": 6491
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "status": "normal",
+      "summary_value": 3.19,
+      "details": {
+        "buy_share_90d_pct": 3.19,
+        "buy_share_30d_pct": 3.82,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 430582272.18,
+        "sell_value_90d_usd": 13060439475.88,
+        "trades_90d": 6658
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "status": "normal",
+      "summary_value": 3.13,
+      "details": {
+        "buy_share_90d_pct": 3.13,
+        "buy_share_30d_pct": 3.75,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 422947243.49,
+        "sell_value_90d_usd": 13103804725.76,
+        "trades_90d": 6868
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "status": "normal",
+      "summary_value": 3.08,
+      "details": {
+        "buy_share_90d_pct": 3.08,
+        "buy_share_30d_pct": 2.8,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 423037871.79,
+        "sell_value_90d_usd": 13299293576.91,
+        "trades_90d": 7071
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "status": "normal",
+      "summary_value": 3.08,
+      "details": {
+        "buy_share_90d_pct": 3.08,
+        "buy_share_30d_pct": 2.06,
+        "low_tail_threshold_pct": 2.07,
+        "buy_value_90d_usd": 423037871.79,
+        "sell_value_90d_usd": 13299293576.91,
+        "trades_90d": 7071
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "status": "normal",
+      "summary_value": 3.11,
+      "details": {
+        "buy_share_90d_pct": 3.11,
+        "buy_share_30d_pct": 1.73,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 422892507.9,
+        "sell_value_90d_usd": 13176193072.7,
+        "trades_90d": 6928
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "status": "normal",
+      "summary_value": 3.1,
+      "details": {
+        "buy_share_90d_pct": 3.1,
+        "buy_share_30d_pct": 1.7,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 424112775.81,
+        "sell_value_90d_usd": 13277236611.09,
+        "trades_90d": 7006
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "status": "normal",
+      "summary_value": 2.97,
+      "details": {
+        "buy_share_90d_pct": 2.97,
+        "buy_share_30d_pct": 1.58,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 425184638.32,
+        "sell_value_90d_usd": 13896274707.47,
+        "trades_90d": 7015
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "status": "normal",
+      "summary_value": 2.97,
+      "details": {
+        "buy_share_90d_pct": 2.97,
+        "buy_share_30d_pct": 1.45,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 425333929.91,
+        "sell_value_90d_usd": 13911866375.09,
+        "trades_90d": 7047
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "status": "normal",
+      "summary_value": 2.97,
+      "details": {
+        "buy_share_90d_pct": 2.97,
+        "buy_share_30d_pct": 1.45,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 425430533.57,
+        "sell_value_90d_usd": 13885546372.48,
+        "trades_90d": 7050
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "status": "normal",
+      "summary_value": 2.97,
+      "details": {
+        "buy_share_90d_pct": 2.97,
+        "buy_share_30d_pct": 1.62,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 425430533.57,
+        "sell_value_90d_usd": 13885546372.48,
+        "trades_90d": 7050
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "status": "normal",
+      "summary_value": 2.97,
+      "details": {
+        "buy_share_90d_pct": 2.97,
+        "buy_share_30d_pct": 1.63,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 425430533.57,
+        "sell_value_90d_usd": 13885546372.48,
+        "trades_90d": 7050
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "status": "normal",
+      "summary_value": 2.88,
+      "details": {
+        "buy_share_90d_pct": 2.88,
+        "buy_share_30d_pct": 1.67,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 404915004.5,
+        "sell_value_90d_usd": 13644116770.93,
+        "trades_90d": 6935
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "status": "normal",
+      "summary_value": 2.76,
+      "details": {
+        "buy_share_90d_pct": 2.76,
+        "buy_share_30d_pct": 1.65,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 388354947.39,
+        "sell_value_90d_usd": 13681097609.61,
+        "trades_90d": 7056
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "status": "normal",
+      "summary_value": 2.89,
+      "details": {
+        "buy_share_90d_pct": 2.89,
+        "buy_share_30d_pct": 1.66,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 389131912.4,
+        "sell_value_90d_usd": 13058158176.75,
+        "trades_90d": 7066
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "status": "normal",
+      "summary_value": 2.77,
+      "details": {
+        "buy_share_90d_pct": 2.77,
+        "buy_share_30d_pct": 1.54,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 388694659.35,
+        "sell_value_90d_usd": 13619955610.65,
+        "trades_90d": 7104
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "status": "normal",
+      "summary_value": 2.71,
+      "details": {
+        "buy_share_90d_pct": 2.71,
+        "buy_share_30d_pct": 1.63,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380714938.52,
+        "sell_value_90d_usd": 13653248779.18,
+        "trades_90d": 7139
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "status": "normal",
+      "summary_value": 2.7,
+      "details": {
+        "buy_share_90d_pct": 2.7,
+        "buy_share_30d_pct": 1.66,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380914711.36,
+        "sell_value_90d_usd": 13734730481.2,
+        "trades_90d": 7243
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "status": "normal",
+      "summary_value": 2.7,
+      "details": {
+        "buy_share_90d_pct": 2.7,
+        "buy_share_30d_pct": 1.38,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380914711.36,
+        "sell_value_90d_usd": 13734730481.2,
+        "trades_90d": 7243
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "status": "normal",
+      "summary_value": 2.71,
+      "details": {
+        "buy_share_90d_pct": 2.71,
+        "buy_share_30d_pct": 1.39,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380914217.11,
+        "sell_value_90d_usd": 13681555014.51,
+        "trades_90d": 7206
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "status": "normal",
+      "summary_value": 2.69,
+      "details": {
+        "buy_share_90d_pct": 2.69,
+        "buy_share_30d_pct": 1.36,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380501159.21,
+        "sell_value_90d_usd": 13777258593.66,
+        "trades_90d": 7222
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "status": "normal",
+      "summary_value": 2.7,
+      "details": {
+        "buy_share_90d_pct": 2.7,
+        "buy_share_30d_pct": 1.36,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380537892.1,
+        "sell_value_90d_usd": 13701199374.06,
+        "trades_90d": 7150
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "status": "normal",
+      "summary_value": 2.67,
+      "details": {
+        "buy_share_90d_pct": 2.67,
+        "buy_share_30d_pct": 0.98,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380540075.59,
+        "sell_value_90d_usd": 13849779424.86,
+        "trades_90d": 7324
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "status": "normal",
+      "summary_value": 2.65,
+      "details": {
+        "buy_share_90d_pct": 2.65,
+        "buy_share_30d_pct": 0.83,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380540478.23,
+        "sell_value_90d_usd": 13965775974.39,
+        "trades_90d": 7386
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "status": "normal",
+      "summary_value": 2.65,
+      "details": {
+        "buy_share_90d_pct": 2.65,
+        "buy_share_30d_pct": 0.59,
+        "low_tail_threshold_pct": 2.08,
+        "buy_value_90d_usd": 380540478.23,
+        "sell_value_90d_usd": 13965775974.39,
+        "trades_90d": 7386
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "status": "normal",
+      "summary_value": 2.65,
+      "details": {
+        "buy_share_90d_pct": 2.65,
+        "buy_share_30d_pct": 0.97,
+        "low_tail_threshold_pct": 2.09,
+        "buy_value_90d_usd": 380540478.23,
+        "sell_value_90d_usd": 13965775974.39,
+        "trades_90d": 7386
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "status": "normal",
+      "summary_value": 2.67,
+      "details": {
+        "buy_share_90d_pct": 2.67,
+        "buy_share_30d_pct": 0.46,
+        "low_tail_threshold_pct": 2.09,
+        "buy_value_90d_usd": 380540034.81,
+        "sell_value_90d_usd": 13888238337.47,
+        "trades_90d": 7333
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "status": "normal",
+      "summary_value": 2.64,
+      "details": {
+        "buy_share_90d_pct": 2.64,
+        "buy_share_30d_pct": 0.45,
+        "low_tail_threshold_pct": 2.09,
+        "buy_value_90d_usd": 380039994.52,
+        "sell_value_90d_usd": 14025642689.53,
+        "trades_90d": 7464
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "status": "normal",
+      "summary_value": 2.64,
+      "details": {
+        "buy_share_90d_pct": 2.64,
+        "buy_share_30d_pct": 0.44,
+        "low_tail_threshold_pct": 2.09,
+        "buy_value_90d_usd": 380039048.19,
+        "sell_value_90d_usd": 14008785886.72,
+        "trades_90d": 7513
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "status": "normal",
+      "summary_value": 2.63,
+      "details": {
+        "buy_share_90d_pct": 2.63,
+        "buy_share_30d_pct": 0.45,
+        "low_tail_threshold_pct": 2.09,
+        "buy_value_90d_usd": 379865684.02,
+        "sell_value_90d_usd": 14079477506.51,
+        "trades_90d": 7632
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "status": "normal",
+      "summary_value": 2.6,
+      "details": {
+        "buy_share_90d_pct": 2.6,
+        "buy_share_30d_pct": 0.44,
+        "low_tail_threshold_pct": 2.09,
+        "buy_value_90d_usd": 378698967.09,
+        "sell_value_90d_usd": 14211148251.12,
+        "trades_90d": 7727
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "status": "normal",
+      "summary_value": 2.58,
+      "details": {
+        "buy_share_90d_pct": 2.58,
+        "buy_share_30d_pct": 0.4,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 378699352.93,
+        "sell_value_90d_usd": 14283178171.89,
+        "trades_90d": 7762
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "status": "normal",
+      "summary_value": 2.58,
+      "details": {
+        "buy_share_90d_pct": 2.58,
+        "buy_share_30d_pct": 0.25,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 378699352.93,
+        "sell_value_90d_usd": 14283178171.89,
+        "trades_90d": 7762
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "status": "normal",
+      "summary_value": 2.58,
+      "details": {
+        "buy_share_90d_pct": 2.58,
+        "buy_share_30d_pct": 0.26,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 377698938.21,
+        "sell_value_90d_usd": 14257493387.95,
+        "trades_90d": 7729
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "status": "normal",
+      "summary_value": 2.57,
+      "details": {
+        "buy_share_90d_pct": 2.57,
+        "buy_share_30d_pct": 0.25,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 377698935.35,
+        "sell_value_90d_usd": 14341494528.82,
+        "trades_90d": 7756
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "status": "normal",
+      "summary_value": 2.6,
+      "details": {
+        "buy_share_90d_pct": 2.6,
+        "buy_share_30d_pct": 0.25,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 377642198.63,
+        "sell_value_90d_usd": 14136467060.55,
+        "trades_90d": 7663
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "status": "normal",
+      "summary_value": 2.63,
+      "details": {
+        "buy_share_90d_pct": 2.63,
+        "buy_share_30d_pct": 0.22,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 377699554.83,
+        "sell_value_90d_usd": 14008435320.56,
+        "trades_90d": 7754
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "status": "normal",
+      "summary_value": 2.62,
+      "details": {
+        "buy_share_90d_pct": 2.62,
+        "buy_share_30d_pct": 0.21,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 377699550.94,
+        "sell_value_90d_usd": 14021870938.25,
+        "trades_90d": 7749
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "status": "normal",
+      "summary_value": 2.63,
+      "details": {
+        "buy_share_90d_pct": 2.63,
+        "buy_share_30d_pct": 0.25,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 379218066.09,
+        "sell_value_90d_usd": 14036785162.1,
+        "trades_90d": 7781
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "status": "normal",
+      "summary_value": 2.63,
+      "details": {
+        "buy_share_90d_pct": 2.63,
+        "buy_share_30d_pct": 0.23,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 379218066.09,
+        "sell_value_90d_usd": 14036785162.1,
+        "trades_90d": 7781
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "status": "normal",
+      "summary_value": 2.65,
+      "details": {
+        "buy_share_90d_pct": 2.65,
+        "buy_share_30d_pct": 0.23,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 379217638.44,
+        "sell_value_90d_usd": 13944555240.79,
+        "trades_90d": 7712
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "status": "normal",
+      "summary_value": 2.64,
+      "details": {
+        "buy_share_90d_pct": 2.64,
+        "buy_share_30d_pct": 0.23,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 379217613.07,
+        "sell_value_90d_usd": 13968854235.42,
+        "trades_90d": 7734
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "status": "normal",
+      "summary_value": 2.66,
+      "details": {
+        "buy_share_90d_pct": 2.66,
+        "buy_share_30d_pct": 0.22,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 379217588.68,
+        "sell_value_90d_usd": 13894997866.4,
+        "trades_90d": 7728
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "status": "normal",
+      "summary_value": 2.66,
+      "details": {
+        "buy_share_90d_pct": 2.66,
+        "buy_share_30d_pct": 0.22,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 379016279.37,
+        "sell_value_90d_usd": 13857154552.66,
+        "trades_90d": 7728
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "status": "normal",
+      "summary_value": 2.68,
+      "details": {
+        "buy_share_90d_pct": 2.68,
+        "buy_share_30d_pct": 0.19,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 378997806.35,
+        "sell_value_90d_usd": 13786050334.83,
+        "trades_90d": 7714
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "status": "normal",
+      "summary_value": 2.66,
+      "details": {
+        "buy_share_90d_pct": 2.66,
+        "buy_share_30d_pct": 0.25,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 378998230.29,
+        "sell_value_90d_usd": 13878242249.47,
+        "trades_90d": 7805
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "status": "normal",
+      "summary_value": 2.66,
+      "details": {
+        "buy_share_90d_pct": 2.66,
+        "buy_share_30d_pct": 0.14,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 378998230.29,
+        "sell_value_90d_usd": 13878242249.47,
+        "trades_90d": 7805
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "status": "normal",
+      "summary_value": 2.66,
+      "details": {
+        "buy_share_90d_pct": 2.66,
+        "buy_share_30d_pct": 0.13,
+        "low_tail_threshold_pct": 2.1,
+        "buy_value_90d_usd": 377918682.3,
+        "sell_value_90d_usd": 13847781330.49,
+        "trades_90d": 7749
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "status": "normal",
+      "summary_value": 2.63,
+      "details": {
+        "buy_share_90d_pct": 2.63,
+        "buy_share_30d_pct": 0.12,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 375489746.01,
+        "sell_value_90d_usd": 13878055993.31,
+        "trades_90d": 7754
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "status": "normal",
+      "summary_value": 2.56,
+      "details": {
+        "buy_share_90d_pct": 2.56,
+        "buy_share_30d_pct": 0.1,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 374491405.88,
+        "sell_value_90d_usd": 14266467807.24,
+        "trades_90d": 7835
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "status": "normal",
+      "summary_value": 2.54,
+      "details": {
+        "buy_share_90d_pct": 2.54,
+        "buy_share_30d_pct": 0.1,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 373039387.42,
+        "sell_value_90d_usd": 14295613087.17,
+        "trades_90d": 7815
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "status": "normal",
+      "summary_value": 2.56,
+      "details": {
+        "buy_share_90d_pct": 2.56,
+        "buy_share_30d_pct": 0.08,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 366905023.29,
+        "sell_value_90d_usd": 13976113408.62,
+        "trades_90d": 7646
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "status": "normal",
+      "summary_value": 2.53,
+      "details": {
+        "buy_share_90d_pct": 2.53,
+        "buy_share_30d_pct": 0.18,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 369219945.25,
+        "sell_value_90d_usd": 14196120447.68,
+        "trades_90d": 7706
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "status": "normal",
+      "summary_value": 2.53,
+      "details": {
+        "buy_share_90d_pct": 2.53,
+        "buy_share_30d_pct": 0.19,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 369219945.25,
+        "sell_value_90d_usd": 14196120447.68,
+        "trades_90d": 7706
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "status": "normal",
+      "summary_value": 2.55,
+      "details": {
+        "buy_share_90d_pct": 2.55,
+        "buy_share_30d_pct": 0.19,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 367733308.86,
+        "sell_value_90d_usd": 14068756831.25,
+        "trades_90d": 7551
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "status": "normal",
+      "summary_value": 2.52,
+      "details": {
+        "buy_share_90d_pct": 2.52,
+        "buy_share_30d_pct": 0.51,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 376422355.13,
+        "sell_value_90d_usd": 14587125298.75,
+        "trades_90d": 7683
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "status": "normal",
+      "summary_value": 2.51,
+      "details": {
+        "buy_share_90d_pct": 2.51,
+        "buy_share_30d_pct": 0.58,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 373443003.0,
+        "sell_value_90d_usd": 14485738208.96,
+        "trades_90d": 7682
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "status": "normal",
+      "summary_value": 2.48,
+      "details": {
+        "buy_share_90d_pct": 2.48,
+        "buy_share_30d_pct": 0.72,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 378671492.15,
+        "sell_value_90d_usd": 14909604141.88,
+        "trades_90d": 7851
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "status": "normal",
+      "summary_value": 2.47,
+      "details": {
+        "buy_share_90d_pct": 2.47,
+        "buy_share_30d_pct": 0.71,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 377963654.14,
+        "sell_value_90d_usd": 14926318683.12,
+        "trades_90d": 7855
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "status": "normal",
+      "summary_value": 2.44,
+      "details": {
+        "buy_share_90d_pct": 2.44,
+        "buy_share_30d_pct": 0.71,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 378888692.55,
+        "sell_value_90d_usd": 15148636484.96,
+        "trades_90d": 8085
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "status": "normal",
+      "summary_value": 2.44,
+      "details": {
+        "buy_share_90d_pct": 2.44,
+        "buy_share_30d_pct": 0.74,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 378888692.55,
+        "sell_value_90d_usd": 15148636484.96,
+        "trades_90d": 8085
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "status": "normal",
+      "summary_value": 2.37,
+      "details": {
+        "buy_share_90d_pct": 2.37,
+        "buy_share_30d_pct": 0.76,
+        "low_tail_threshold_pct": 2.11,
+        "buy_value_90d_usd": 362161738.94,
+        "sell_value_90d_usd": 14927305720.96,
+        "trades_90d": 7892
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "status": "normal",
+      "summary_value": 2.67,
+      "details": {
+        "buy_share_90d_pct": 2.67,
+        "buy_share_30d_pct": 2.39,
+        "low_tail_threshold_pct": 2.12,
+        "buy_value_90d_usd": 404757193.83,
+        "sell_value_90d_usd": 14783060415.01,
+        "trades_90d": 7927
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "status": "normal",
+      "summary_value": 2.57,
+      "details": {
+        "buy_share_90d_pct": 2.57,
+        "buy_share_30d_pct": 3.97,
+        "low_tail_threshold_pct": 2.12,
+        "buy_value_90d_usd": 389404171.8,
+        "sell_value_90d_usd": 14790338005.42,
+        "trades_90d": 7899
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "status": "normal",
+      "summary_value": 2.36,
+      "details": {
+        "buy_share_90d_pct": 2.36,
+        "buy_share_30d_pct": 4.72,
+        "low_tail_threshold_pct": 2.12,
+        "buy_value_90d_usd": 363178685.29,
+        "sell_value_90d_usd": 15020733388.85,
+        "trades_90d": 7889
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "status": "normal",
+      "summary_value": 2.44,
+      "details": {
+        "buy_share_90d_pct": 2.44,
+        "buy_share_30d_pct": 5.66,
+        "low_tail_threshold_pct": 2.13,
+        "buy_value_90d_usd": 375031143.58,
+        "sell_value_90d_usd": 15002382944.13,
+        "trades_90d": 7773
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "status": "normal",
+      "summary_value": 2.61,
+      "details": {
+        "buy_share_90d_pct": 2.61,
+        "buy_share_30d_pct": 6.33,
+        "low_tail_threshold_pct": 2.13,
+        "buy_value_90d_usd": 407229082.89,
+        "sell_value_90d_usd": 15174592952.42,
+        "trades_90d": 7876
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "status": "normal",
+      "summary_value": 2.61,
+      "details": {
+        "buy_share_90d_pct": 2.61,
+        "buy_share_30d_pct": 6.43,
+        "low_tail_threshold_pct": 2.14,
+        "buy_value_90d_usd": 407229082.89,
+        "sell_value_90d_usd": 15174592952.42,
+        "trades_90d": 7876
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "status": "normal",
+      "summary_value": 2.55,
+      "details": {
+        "buy_share_90d_pct": 2.55,
+        "buy_share_30d_pct": 6.41,
+        "low_tail_threshold_pct": 2.14,
+        "buy_value_90d_usd": 393705252.1,
+        "sell_value_90d_usd": 15032195631.22,
+        "trades_90d": 7724
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "status": "normal",
+      "summary_value": 2.85,
+      "details": {
+        "buy_share_90d_pct": 2.85,
+        "buy_share_30d_pct": 7.27,
+        "low_tail_threshold_pct": 2.14,
+        "buy_value_90d_usd": 438148474.47,
+        "sell_value_90d_usd": 14916968929.57,
+        "trades_90d": 7779
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "status": "normal",
+      "summary_value": 3.28,
+      "details": {
+        "buy_share_90d_pct": 3.28,
+        "buy_share_30d_pct": 7.77,
+        "low_tail_threshold_pct": 2.15,
+        "buy_value_90d_usd": 480600650.45,
+        "sell_value_90d_usd": 14181148089.25,
+        "trades_90d": 7803
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "status": "normal",
+      "summary_value": 3.53,
+      "details": {
+        "buy_share_90d_pct": 3.53,
+        "buy_share_30d_pct": 8.46,
+        "low_tail_threshold_pct": 2.15,
+        "buy_value_90d_usd": 520254502.71,
+        "sell_value_90d_usd": 14213811262.04,
+        "trades_90d": 7832
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "status": "normal",
+      "summary_value": 3.87,
+      "details": {
+        "buy_share_90d_pct": 3.87,
+        "buy_share_30d_pct": 9.11,
+        "low_tail_threshold_pct": 2.16,
+        "buy_value_90d_usd": 562739389.19,
+        "sell_value_90d_usd": 13994465831.1,
+        "trades_90d": 7764
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "status": "normal",
+      "summary_value": 4.08,
+      "details": {
+        "buy_share_90d_pct": 4.08,
+        "buy_share_30d_pct": 9.47,
+        "low_tail_threshold_pct": 2.16,
+        "buy_value_90d_usd": 605567642.99,
+        "sell_value_90d_usd": 14243537461.76,
+        "trades_90d": 7963
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "status": "normal",
+      "summary_value": 4.08,
+      "details": {
+        "buy_share_90d_pct": 4.08,
+        "buy_share_30d_pct": 9.52,
+        "low_tail_threshold_pct": 2.16,
+        "buy_value_90d_usd": 605567642.99,
+        "sell_value_90d_usd": 14243537461.76,
+        "trades_90d": 7963
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "status": "normal",
+      "summary_value": 4.08,
+      "details": {
+        "buy_share_90d_pct": 4.08,
+        "buy_share_30d_pct": 9.7,
+        "low_tail_threshold_pct": 2.16,
+        "buy_value_90d_usd": 605567642.99,
+        "sell_value_90d_usd": 14243537461.76,
+        "trades_90d": 7963
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "status": "normal",
+      "summary_value": 4.59,
+      "details": {
+        "buy_share_90d_pct": 4.59,
+        "buy_share_30d_pct": 10.55,
+        "low_tail_threshold_pct": 2.17,
+        "buy_value_90d_usd": 671921576.01,
+        "sell_value_90d_usd": 13981091798.01,
+        "trades_90d": 7946
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "status": "normal",
+      "summary_value": 4.99,
+      "details": {
+        "buy_share_90d_pct": 4.99,
+        "buy_share_30d_pct": 11.02,
+        "low_tail_threshold_pct": 2.17,
+        "buy_value_90d_usd": 731422011.68,
+        "sell_value_90d_usd": 13924999717.67,
+        "trades_90d": 7993
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "status": "normal",
+      "summary_value": 5.27,
+      "details": {
+        "buy_share_90d_pct": 5.27,
+        "buy_share_30d_pct": 12.05,
+        "low_tail_threshold_pct": 2.17,
+        "buy_value_90d_usd": 770735737.59,
+        "sell_value_90d_usd": 13859743954.79,
+        "trades_90d": 7975
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "status": "normal",
+      "summary_value": 5.67,
+      "details": {
+        "buy_share_90d_pct": 5.67,
+        "buy_share_30d_pct": 13.82,
+        "low_tail_threshold_pct": 2.17,
+        "buy_value_90d_usd": 831406367.75,
+        "sell_value_90d_usd": 13819507825.29,
+        "trades_90d": 7910
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "status": "normal",
+      "summary_value": 6.0,
+      "details": {
+        "buy_share_90d_pct": 6.0,
+        "buy_share_30d_pct": 14.71,
+        "low_tail_threshold_pct": 2.17,
+        "buy_value_90d_usd": 887000502.13,
+        "sell_value_90d_usd": 13906501174.06,
+        "trades_90d": 7975
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "status": "normal",
+      "summary_value": 6.0,
+      "details": {
+        "buy_share_90d_pct": 6.0,
+        "buy_share_30d_pct": 14.82,
+        "low_tail_threshold_pct": 2.18,
+        "buy_value_90d_usd": 887000502.13,
+        "sell_value_90d_usd": 13906501174.06,
+        "trades_90d": 7975
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "status": "normal",
+      "summary_value": 6.03,
+      "details": {
+        "buy_share_90d_pct": 6.03,
+        "buy_share_30d_pct": 15.43,
+        "low_tail_threshold_pct": 2.18,
+        "buy_value_90d_usd": 854058907.75,
+        "sell_value_90d_usd": 13298511625.79,
+        "trades_90d": 7516
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "status": "normal",
+      "summary_value": 6.57,
+      "details": {
+        "buy_share_90d_pct": 6.57,
+        "buy_share_30d_pct": 15.92,
+        "low_tail_threshold_pct": 2.18,
+        "buy_value_90d_usd": 906973540.3,
+        "sell_value_90d_usd": 12894970329.45,
+        "trades_90d": 7369
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "status": "normal",
+      "summary_value": 6.77,
+      "details": {
+        "buy_share_90d_pct": 6.77,
+        "buy_share_30d_pct": 16.04,
+        "low_tail_threshold_pct": 2.18,
+        "buy_value_90d_usd": 937863357.5,
+        "sell_value_90d_usd": 12925037612.31,
+        "trades_90d": 7442
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "status": "normal",
+      "summary_value": 8.61,
+      "details": {
+        "buy_share_90d_pct": 8.61,
+        "buy_share_30d_pct": 18.29,
+        "low_tail_threshold_pct": 2.18,
+        "buy_value_90d_usd": 1018456171.27,
+        "sell_value_90d_usd": 10811035665.27,
+        "trades_90d": 7266
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "status": "normal",
+      "summary_value": 9.01,
+      "details": {
+        "buy_share_90d_pct": 9.01,
+        "buy_share_30d_pct": 18.98,
+        "low_tail_threshold_pct": 2.19,
+        "buy_value_90d_usd": 1081511401.31,
+        "sell_value_90d_usd": 10921051960.45,
+        "trades_90d": 7306
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "status": "normal",
+      "summary_value": 9.42,
+      "details": {
+        "buy_share_90d_pct": 9.42,
+        "buy_share_30d_pct": 20.86,
+        "low_tail_threshold_pct": 2.19,
+        "buy_value_90d_usd": 1169283650.45,
+        "sell_value_90d_usd": 11239863001.97,
+        "trades_90d": 7445
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "status": "normal",
+      "summary_value": 9.42,
+      "details": {
+        "buy_share_90d_pct": 9.42,
+        "buy_share_30d_pct": 21.44,
+        "low_tail_threshold_pct": 2.19,
+        "buy_value_90d_usd": 1169283650.45,
+        "sell_value_90d_usd": 11239863001.97,
+        "trades_90d": 7445
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "status": "normal",
+      "summary_value": 9.58,
+      "details": {
+        "buy_share_90d_pct": 9.58,
+        "buy_share_30d_pct": 22.37,
+        "low_tail_threshold_pct": 2.19,
+        "buy_value_90d_usd": 1169283247.8,
+        "sell_value_90d_usd": 11031360509.77,
+        "trades_90d": 7266
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "status": "normal",
+      "summary_value": 9.67,
+      "details": {
+        "buy_share_90d_pct": 9.67,
+        "buy_share_30d_pct": 22.37,
+        "low_tail_threshold_pct": 2.19,
+        "buy_value_90d_usd": 1169232938.18,
+        "sell_value_90d_usd": 10924155401.88,
+        "trades_90d": 7004
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "status": "normal",
+      "summary_value": 10.4,
+      "details": {
+        "buy_share_90d_pct": 10.4,
+        "buy_share_30d_pct": 23.13,
+        "low_tail_threshold_pct": 2.2,
+        "buy_value_90d_usd": 1257722406.89,
+        "sell_value_90d_usd": 10839777739.07,
+        "trades_90d": 6931
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "status": "normal",
+      "summary_value": 10.89,
+      "details": {
+        "buy_share_90d_pct": 10.89,
+        "buy_share_30d_pct": 23.26,
+        "low_tail_threshold_pct": 2.2,
+        "buy_value_90d_usd": 1321198626.72,
+        "sell_value_90d_usd": 10814813933.53,
+        "trades_90d": 6804
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "status": "normal",
+      "summary_value": 11.45,
+      "details": {
+        "buy_share_90d_pct": 11.45,
+        "buy_share_30d_pct": 23.45,
+        "low_tail_threshold_pct": 2.2,
+        "buy_value_90d_usd": 1388023589.46,
+        "sell_value_90d_usd": 10729825087.79,
+        "trades_90d": 6692
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "status": "normal",
+      "summary_value": 11.77,
+      "details": {
+        "buy_share_90d_pct": 11.77,
+        "buy_share_30d_pct": 24.41,
+        "low_tail_threshold_pct": 2.2,
+        "buy_value_90d_usd": 1462453289.35,
+        "sell_value_90d_usd": 10962701406.92,
+        "trades_90d": 6906
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "status": "normal",
+      "summary_value": 11.77,
+      "details": {
+        "buy_share_90d_pct": 11.77,
+        "buy_share_30d_pct": 24.34,
+        "low_tail_threshold_pct": 2.2,
+        "buy_value_90d_usd": 1462453289.35,
+        "sell_value_90d_usd": 10962701406.92,
+        "trades_90d": 6906
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "status": "normal",
+      "summary_value": 11.97,
+      "details": {
+        "buy_share_90d_pct": 11.97,
+        "buy_share_30d_pct": 24.7,
+        "low_tail_threshold_pct": 2.2,
+        "buy_value_90d_usd": 1461202185.98,
+        "sell_value_90d_usd": 10749430751.65,
+        "trades_90d": 6743
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "status": "normal",
+      "summary_value": 12.52,
+      "details": {
+        "buy_share_90d_pct": 12.52,
+        "buy_share_30d_pct": 23.66,
+        "low_tail_threshold_pct": 2.21,
+        "buy_value_90d_usd": 1460531880.99,
+        "sell_value_90d_usd": 10203518590.01,
+        "trades_90d": 6846
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "status": "normal",
+      "summary_value": 12.41,
+      "details": {
+        "buy_share_90d_pct": 12.41,
+        "buy_share_30d_pct": 22.79,
+        "low_tail_threshold_pct": 2.21,
+        "buy_value_90d_usd": 1470159112.9,
+        "sell_value_90d_usd": 10380840914.35,
+        "trades_90d": 7054
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "status": "normal",
+      "summary_value": 9.48,
+      "details": {
+        "buy_share_90d_pct": 9.48,
+        "buy_share_30d_pct": 12.83,
+        "low_tail_threshold_pct": 2.21,
+        "buy_value_90d_usd": 1469611669.79,
+        "sell_value_90d_usd": 14034670969.11,
+        "trades_90d": 7050
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "status": "normal",
+      "summary_value": 9.65,
+      "details": {
+        "buy_share_90d_pct": 9.65,
+        "buy_share_30d_pct": 12.94,
+        "low_tail_threshold_pct": 2.21,
+        "buy_value_90d_usd": 1525516913.31,
+        "sell_value_90d_usd": 14283516582.82,
+        "trades_90d": 7217
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "status": "normal",
+      "summary_value": 10.04,
+      "details": {
+        "buy_share_90d_pct": 10.04,
+        "buy_share_30d_pct": 13.26,
+        "low_tail_threshold_pct": 2.21,
+        "buy_value_90d_usd": 1632161262.17,
+        "sell_value_90d_usd": 14625274543.38,
+        "trades_90d": 7255
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "status": "normal",
+      "summary_value": 10.04,
+      "details": {
+        "buy_share_90d_pct": 10.04,
+        "buy_share_30d_pct": 13.05,
+        "low_tail_threshold_pct": 2.21,
+        "buy_value_90d_usd": 1632161262.17,
+        "sell_value_90d_usd": 14625274543.38,
+        "trades_90d": 7255
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "status": "normal",
+      "summary_value": 10.09,
+      "details": {
+        "buy_share_90d_pct": 10.09,
+        "buy_share_30d_pct": 12.99,
+        "low_tail_threshold_pct": 2.22,
+        "buy_value_90d_usd": 1632012284.34,
+        "sell_value_90d_usd": 14536496988.53,
+        "trades_90d": 7102
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "status": "normal",
+      "summary_value": 10.28,
+      "details": {
+        "buy_share_90d_pct": 10.28,
+        "buy_share_30d_pct": 13.25,
+        "low_tail_threshold_pct": 2.22,
+        "buy_value_90d_usd": 1683096417.32,
+        "sell_value_90d_usd": 14687652811.08,
+        "trades_90d": 7179
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "status": "normal",
+      "summary_value": 10.63,
+      "details": {
+        "buy_share_90d_pct": 10.63,
+        "buy_share_30d_pct": 13.17,
+        "low_tail_threshold_pct": 2.22,
+        "buy_value_90d_usd": 1683096404.58,
+        "sell_value_90d_usd": 14148440021.48,
+        "trades_90d": 7144
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "status": "normal",
+      "summary_value": 10.7,
+      "details": {
+        "buy_share_90d_pct": 10.7,
+        "buy_share_30d_pct": 12.76,
+        "low_tail_threshold_pct": 2.22,
+        "buy_value_90d_usd": 1724692958.48,
+        "sell_value_90d_usd": 14401351677.33,
+        "trades_90d": 7146
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "status": "normal",
+      "summary_value": 10.91,
+      "details": {
+        "buy_share_90d_pct": 10.91,
+        "buy_share_30d_pct": 12.81,
+        "low_tail_threshold_pct": 2.22,
+        "buy_value_90d_usd": 1777332991.99,
+        "sell_value_90d_usd": 14509778209.48,
+        "trades_90d": 7096
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "status": "normal",
+      "summary_value": 11.1,
+      "details": {
+        "buy_share_90d_pct": 11.1,
+        "buy_share_30d_pct": 12.66,
+        "low_tail_threshold_pct": 2.22,
+        "buy_value_90d_usd": 1817335375.01,
+        "sell_value_90d_usd": 14550675673.09,
+        "trades_90d": 7131
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "status": "normal",
+      "summary_value": 11.1,
+      "details": {
+        "buy_share_90d_pct": 11.1,
+        "buy_share_30d_pct": 12.21,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 1817335375.01,
+        "sell_value_90d_usd": 14550675673.09,
+        "trades_90d": 7131
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "status": "normal",
+      "summary_value": 11.19,
+      "details": {
+        "buy_share_90d_pct": 11.19,
+        "buy_share_30d_pct": 11.77,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 1817334964.13,
+        "sell_value_90d_usd": 14419461220.77,
+        "trades_90d": 7074
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "status": "normal",
+      "summary_value": 11.16,
+      "details": {
+        "buy_share_90d_pct": 11.16,
+        "buy_share_30d_pct": 11.66,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 1817228009.32,
+        "sell_value_90d_usd": 14467745927.05,
+        "trades_90d": 7053
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "status": "normal",
+      "summary_value": 11.3,
+      "details": {
+        "buy_share_90d_pct": 11.3,
+        "buy_share_30d_pct": 11.67,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 1821725629.96,
+        "sell_value_90d_usd": 14306026689.38,
+        "trades_90d": 6875
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "status": "normal",
+      "summary_value": 11.62,
+      "details": {
+        "buy_share_90d_pct": 11.62,
+        "buy_share_30d_pct": 11.69,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 1874721730.29,
+        "sell_value_90d_usd": 14260237362.35,
+        "trades_90d": 6863
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "status": "normal",
+      "summary_value": 11.83,
+      "details": {
+        "buy_share_90d_pct": 11.83,
+        "buy_share_30d_pct": 11.88,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 1931668871.58,
+        "sell_value_90d_usd": 14401860872.96,
+        "trades_90d": 7021
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "status": "normal",
+      "summary_value": 12.47,
+      "details": {
+        "buy_share_90d_pct": 12.47,
+        "buy_share_30d_pct": 12.79,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067402908.47,
+        "sell_value_90d_usd": 14507221853.22,
+        "trades_90d": 7073
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "status": "normal",
+      "summary_value": 12.47,
+      "details": {
+        "buy_share_90d_pct": 12.47,
+        "buy_share_30d_pct": 12.46,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067402908.47,
+        "sell_value_90d_usd": 14506496881.55,
+        "trades_90d": 7065
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "status": "normal",
+      "summary_value": 12.59,
+      "details": {
+        "buy_share_90d_pct": 12.59,
+        "buy_share_30d_pct": 11.97,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067402499.58,
+        "sell_value_90d_usd": 14356908494.66,
+        "trades_90d": 6908
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "status": "normal",
+      "summary_value": 12.56,
+      "details": {
+        "buy_share_90d_pct": 12.56,
+        "buy_share_30d_pct": 11.85,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067603098.91,
+        "sell_value_90d_usd": 14396267037.32,
+        "trades_90d": 6862
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "status": "normal",
+      "summary_value": 12.46,
+      "details": {
+        "buy_share_90d_pct": 12.46,
+        "buy_share_30d_pct": 11.49,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067602701.44,
+        "sell_value_90d_usd": 14520122909.23,
+        "trades_90d": 6839
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "status": "normal",
+      "summary_value": 12.54,
+      "details": {
+        "buy_share_90d_pct": 12.54,
+        "buy_share_30d_pct": 11.41,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067602301.31,
+        "sell_value_90d_usd": 14421735350.42,
+        "trades_90d": 6765
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "status": "normal",
+      "summary_value": 12.58,
+      "details": {
+        "buy_share_90d_pct": 12.58,
+        "buy_share_30d_pct": 10.55,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067601915.47,
+        "sell_value_90d_usd": 14369780526.27,
+        "trades_90d": 6761
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "status": "normal",
+      "summary_value": 12.48,
+      "details": {
+        "buy_share_90d_pct": 12.48,
+        "buy_share_30d_pct": 9.74,
+        "low_tail_threshold_pct": 2.23,
+        "buy_value_90d_usd": 2067601915.47,
+        "sell_value_90d_usd": 14495357199.49,
+        "trades_90d": 6881
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "status": "normal",
+      "summary_value": 12.48,
+      "details": {
+        "buy_share_90d_pct": 12.48,
+        "buy_share_30d_pct": 9.08,
+        "low_tail_threshold_pct": 2.24,
+        "buy_value_90d_usd": 2067601915.47,
+        "sell_value_90d_usd": 14495357199.49,
+        "trades_90d": 6881
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "status": "normal",
+      "summary_value": 12.59,
+      "details": {
+        "buy_share_90d_pct": 12.59,
+        "buy_share_30d_pct": 8.44,
+        "low_tail_threshold_pct": 2.24,
+        "buy_value_90d_usd": 2067601504.37,
+        "sell_value_90d_usd": 14355783943.52,
+        "trades_90d": 6826
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "status": "normal",
+      "summary_value": 12.62,
+      "details": {
+        "buy_share_90d_pct": 12.62,
+        "buy_share_30d_pct": 8.39,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2067601096.0,
+        "sell_value_90d_usd": 14310079598.54,
+        "trades_90d": 6835
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "status": "normal",
+      "summary_value": 12.69,
+      "details": {
+        "buy_share_90d_pct": 12.69,
+        "buy_share_30d_pct": 8.35,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2067543315.33,
+        "sell_value_90d_usd": 14225209772.59,
+        "trades_90d": 6729
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "status": "normal",
+      "summary_value": 12.81,
+      "details": {
+        "buy_share_90d_pct": 12.81,
+        "buy_share_30d_pct": 8.81,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2091229288.16,
+        "sell_value_90d_usd": 14229973301.8,
+        "trades_90d": 6797
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "status": "normal",
+      "summary_value": 12.76,
+      "details": {
+        "buy_share_90d_pct": 12.76,
+        "buy_share_30d_pct": 8.87,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089768467.01,
+        "sell_value_90d_usd": 14286727486.57,
+        "trades_90d": 6857
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "status": "normal",
+      "summary_value": 12.73,
+      "details": {
+        "buy_share_90d_pct": 12.73,
+        "buy_share_30d_pct": 19.62,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089768467.01,
+        "sell_value_90d_usd": 14325240648.12,
+        "trades_90d": 6917
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "status": "normal",
+      "summary_value": 12.73,
+      "details": {
+        "buy_share_90d_pct": 12.73,
+        "buy_share_30d_pct": 19.75,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089768467.01,
+        "sell_value_90d_usd": 14325240648.12,
+        "trades_90d": 6917
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "status": "normal",
+      "summary_value": 12.77,
+      "details": {
+        "buy_share_90d_pct": 12.77,
+        "buy_share_30d_pct": 19.01,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089768050.54,
+        "sell_value_90d_usd": 14273392150.54,
+        "trades_90d": 6848
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "status": "normal",
+      "summary_value": 12.78,
+      "details": {
+        "buy_share_90d_pct": 12.78,
+        "buy_share_30d_pct": 18.96,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089767637.06,
+        "sell_value_90d_usd": 14256331400.38,
+        "trades_90d": 6830
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "status": "normal",
+      "summary_value": 12.78,
+      "details": {
+        "buy_share_90d_pct": 12.78,
+        "buy_share_30d_pct": 18.73,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089775073.68,
+        "sell_value_90d_usd": 14264342551.83,
+        "trades_90d": 6842
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "status": "normal",
+      "summary_value": 12.75,
+      "details": {
+        "buy_share_90d_pct": 12.75,
+        "buy_share_30d_pct": 17.79,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089719416.8,
+        "sell_value_90d_usd": 14294392692.17,
+        "trades_90d": 6834
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "status": "normal",
+      "summary_value": 12.8,
+      "details": {
+        "buy_share_90d_pct": 12.8,
+        "buy_share_30d_pct": 18.0,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089718992.86,
+        "sell_value_90d_usd": 14231199346.33,
+        "trades_90d": 6775
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "status": "normal",
+      "summary_value": 12.8,
+      "details": {
+        "buy_share_90d_pct": 12.8,
+        "buy_share_30d_pct": 18.96,
+        "low_tail_threshold_pct": 2.25,
+        "buy_value_90d_usd": 2089718992.86,
+        "sell_value_90d_usd": 14231944636.33,
+        "trades_90d": 6776
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    }
+  ]
+}

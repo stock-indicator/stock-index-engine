@@ -9,6 +9,7 @@ import requests
 
 from .config import HTTP_HEADERS
 from .logger import get_logger
+from .utils import naive_utc_from_timestamp, utc_now
 
 RESOURCE_BASE_DIR = Path("resources/files")
 DOWNLOAD_CONFIG = Path("resources/download_url.conf")
@@ -72,13 +73,14 @@ class ResourceFetcher:
             return None
 
         def sort_key(path: Path) -> dt.datetime:
+            # Both branches must stay naive UTC: max() compares their results.
             match = dated_pattern.match(path.name)
             if match:
                 try:
                     return dt.datetime.strptime(match.group(1), "%Y%m%d")
                 except ValueError:
                     pass
-            return dt.datetime.utcfromtimestamp(path.stat().st_mtime)
+            return naive_utc_from_timestamp(path.stat().st_mtime)
 
         return max(candidates, key=sort_key)
 
@@ -107,7 +109,7 @@ class ResourceFetcher:
         latest = self._latest_file(folder, base_filename)
 
         if ttl_days is not None and latest is not None:
-            age = dt.datetime.utcnow() - dt.datetime.utcfromtimestamp(latest.stat().st_mtime)
+            age = utc_now() - naive_utc_from_timestamp(latest.stat().st_mtime)
             if age <= dt.timedelta(days=ttl_days):
                 self.logger.info(
                     "Using cached resource %s at %s (age=%s)",
@@ -120,7 +122,7 @@ class ResourceFetcher:
             self.logger.info("Using cached resource %s at %s", key, latest)
             return latest
 
-        timestamp = dt.datetime.utcnow().strftime("%Y%m%d")
+        timestamp = utc_now().strftime("%Y%m%d")
         base_path = Path(base_filename)
         dated_filename = f"{base_path.stem}_{timestamp}{base_path.suffix}"
         target = folder / dated_filename

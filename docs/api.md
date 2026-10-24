@@ -79,11 +79,15 @@ List all indicator results from the latest run.
           {"market": "Nasdaq 100", "value": 96.38},
           {"market": "S&P 500", "value": 68.25}
         ],
-        "topics": ["Technical", "Momentum"]
+        "topics": ["Technical", "Momentum"],
+        "updated_at": "2025-09-28T09:56:06+00:00"
       }
     ]
   }
   ```
+
+- **Notes**
+  - `generated_at` is when the snapshot file was last written. Each indicator's own `updated_at` is when its reading was produced; after a single-indicator refresh the other indicators keep their earlier `updated_at`.
 
 - **Errors**
   - `404` – no indicator run has been recorded yet.
@@ -106,7 +110,8 @@ Retrieve the latest result for a single indicator. The `slug` is lowercase with 
       {"market": "Nasdaq 100", "value": 96.38},
       {"market": "S&P 500", "value": 68.25}
     ],
-    "topics": ["Technical", "Momentum"]
+    "topics": ["Technical", "Momentum"],
+    "updated_at": "2025-09-28T09:56:06+00:00"
   }
   ```
 
@@ -150,6 +155,11 @@ Return the time-series JSON produced from `output/history/{slug}.json`.
 ### POST /refresh
 Trigger a background refresh cycle. The response returns immediately while the refresh executes in the background.
 
+- **Authentication**
+  - Server-only: the request must come from loopback inside the engine's own container (for example `docker exec stock-index-engine ...`, which is what the devops repo's `refresh.sh` does) and carry `Authorization: Bearer <REFRESH_TOKEN>`. Anything else gets `403`, so the public site cannot trigger a refresh even with the token. The production frontend's nginx also blocks `/api/refresh` and allows only GET under `/api/`.
+  - Set `REFRESH_TOKEN` in the engine's environment; without it the endpoint returns `403` and only the scheduler refreshes data.
+  - Generate a token with `python -c "import secrets; print(secrets.token_urlsafe(32))"`.
+
 - **Request Body**
   ```json
   {
@@ -158,7 +168,8 @@ Trigger a background refresh cycle. The response returns immediately while the r
   }
   ```
   - `mode` (`manual` | `full`): incremental vs cache-busting refresh.
-  - `lookback_days` (integer >= 30): how much history to regenerate in `output/history`.
+  - `lookback_days` (integer, clamped to 30–3650): how much history to regenerate in `output/history`.
+  - `indicator_slug` (optional string): refresh a single indicator. Required when `mode` is `full`.
 
 - **Response 202**
   ```json
@@ -173,15 +184,26 @@ Trigger a background refresh cycle. The response returns immediately while the r
   - `manual` refresh reuses cached raw data when available.
   - `full` refresh deletes cached clean/raw files (and optional shared resource cache) before re-running indicators.
   - Each refresh persists the snapshot to `output/market_status.latest.json`, updates `output/market_indicator_log.csv`, regenerates history JSON, and writes summary rows to PostgreSQL.
-  - Concurrent refreshes are not guarded; ensure you avoid overlapping jobs or add external coordination.
+  - A single-indicator refresh (`indicator_slug`) updates only that indicator's entry in `output/market_status.latest.json`, its row cells in `output/market_indicator_log.csv` and its history file. The other entries keep their last reading and `updated_at`, and `summary` is recomputed over the merged set.
+  - Snapshot and log files are written atomically (temp file, then rename), so readers never see a half-written file. One API process runs one refresh at a time: a request that arrives while a refresh (or the scheduled job) is running gets `409`. Two separate processes finishing at the same instant can still overwrite each other's update, so avoid overlapping jobs or add external coordination.
 
 ## Scheduler
 At startup the API enables an AsyncIO scheduler that runs `manual_refresh()` using the cron expression from the `REFRESH_CRON` environment variable (defaults to `0 6 * * *`). Set `REFRESH_CRON` before launching the app to customise the cadence, or disable scheduling by commenting out the job registration in `services/api.py` if you plan to trigger refreshes externally.
 
+- A refresh that fires up to an hour late (busy process) still runs instead of being skipped.
+- If the last refresh is more than 26 hours old when the API starts (it was down at the scheduled time), a catch-up refresh runs a minute after startup.
+- Every 3 hours, and once at startup, the scheduler snapshots Invesco's QQQ fund details into `resources/snapshots/qqq_fund_details.csv`. QQQ flows are the change between daily snapshots, so a single missed refresh no longer loses a day.
+
+### GET /health/data
+Returns `200` with `{"status": "ok"}` while the data is current, and `503` with `{"status": "stale", "problems": [...]}` when the last refresh is more than 30 hours old or the SPY/QQQ flows have had no new data for over 7 days. Point an uptime monitor at it; `/health` only reports that the process is running.
+
 ## Status Codes
 - `200` – successful requests.
 - `202` – refresh accepted.
+- `401` – refresh token missing or wrong.
+- `403` – refresh is disabled because `REFRESH_TOKEN` is not set.
 - `404` – resource not available (no run yet, unknown indicator, or missing history file).
+- `409` – a refresh is already running.
 - `500` – unhandled server error. Check `logs/market_indicators.log` or container logs for details.
 
 ## Data Locations

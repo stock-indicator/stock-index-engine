@@ -16,4 +16,7 @@ class IndicatorResult:
     pure_value: Optional[List[Any]] = None
     topics: List[str] = field(default_factory=list)
     description: Optional[str] = None
+    # ISO-8601 time this reading was produced. Stamped when the snapshot is
+    # written, and carried over unchanged for indicators a partial refresh skips.
+    updated_at: Optional[str] = None
 

@@ -82,10 +82,10 @@ class BaseAnnualizedReturnIndicator(PriceSeriesIndicator):
 
         cutoff_date = as_of.date() - timedelta(days=lookback_days)
         upper_date = as_of.date()
-        series = series[(series.index.date >= cutoff_date) & (series.index.date <= upper_date)]
-        if series.empty:
-            return None
-
+        # Shift over the full series and only then cut to the window: a
+        # 365-day window holds ~251 trading days, fewer than the 252-day
+        # lookback, so pre-cutting left every return NaN and the history fell
+        # back to plotting index prices.
         lookback_prices = series.shift(ANNUAL_RETURN_WINDOW)
         returns = ((series / lookback_prices) - 1) * 100
         combined = pd.DataFrame(

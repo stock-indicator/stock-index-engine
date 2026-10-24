@@ -1,0 +1,33 @@
+{
+  "indicator": "social_bull_bear_ratio",
+  "display_name": "Social Bull-Bear Ratio",
+  "category": "Sentiment",
+  "markets": [
+    "US Market"
+  ],
+  "topics": [
+    "Sentiment"
+  ],
+  "threshold": ">= 0.75",
+  "updated_at": "2026-10-24T18:56:53+00:00",
+  "series": [
+    {
+      "date": "2026-10-15",
+      "status": null,
+      "summary_value": 0.4286,
+      "details": {
+        "bull_ratio": 0.4286,
+        "bullish": 9,
+        "bearish": 12,
+        "labelled": 21,
+        "total": 60
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "status": "normal",
+      "summary_value": null,
+      "details": {}
+    }
+  ]
+}
