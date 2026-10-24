@@ -2,7 +2,7 @@
     "psql.connections": [
         {
             "name": "Financial1",
-            "host": "140.238.215.228",
+            "host": "@vault:psql.Financial1.host",
             "port": 5432,
             "database": "financialdb",
             "user": "ljyou001",

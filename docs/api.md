@@ -79,11 +79,15 @@ List all indicator results from the latest run.
           {"market": "Nasdaq 100", "value": 96.38},
           {"market": "S&P 500", "value": 68.25}
         ],
-        "topics": ["Technical", "Momentum"]
+        "topics": ["Technical", "Momentum"],
+        "updated_at": "2025-09-28T09:56:06+00:00"
       }
     ]
   }
   ```
+
+- **Notes**
+  - `generated_at` is when the snapshot file was last written. Each indicator's own `updated_at` is when its reading was produced; after a single-indicator refresh the other indicators keep their earlier `updated_at`.
 
 - **Errors**
   - `404` – no indicator run has been recorded yet.
@@ -106,7 +110,8 @@ Retrieve the latest result for a single indicator. The `slug` is lowercase with 
       {"market": "Nasdaq 100", "value": 96.38},
       {"market": "S&P 500", "value": 68.25}
     ],
-    "topics": ["Technical", "Momentum"]
+    "topics": ["Technical", "Momentum"],
+    "updated_at": "2025-09-28T09:56:06+00:00"
   }
   ```
 
@@ -150,6 +155,10 @@ Return the time-series JSON produced from `output/history/{slug}.json`.
 ### POST /refresh
 Trigger a background refresh cycle. The response returns immediately while the refresh executes in the background.
 
+- **Authentication**
+  - Requires `Authorization: Bearer <REFRESH_TOKEN>`. Set `REFRESH_TOKEN` in the engine's environment; without it the endpoint returns `403` and only the scheduler refreshes data.
+  - Generate a token with `python -c "import secrets; print(secrets.token_urlsafe(32))"`.
+
 - **Request Body**
   ```json
   {
@@ -158,7 +167,8 @@ Trigger a background refresh cycle. The response returns immediately while the r
   }
   ```
   - `mode` (`manual` | `full`): incremental vs cache-busting refresh.
-  - `lookback_days` (integer >= 30): how much history to regenerate in `output/history`.
+  - `lookback_days` (integer, clamped to 30–3650): how much history to regenerate in `output/history`.
+  - `indicator_slug` (optional string): refresh a single indicator. Required when `mode` is `full`.
 
 - **Response 202**
   ```json
@@ -173,7 +183,8 @@ Trigger a background refresh cycle. The response returns immediately while the r
   - `manual` refresh reuses cached raw data when available.
   - `full` refresh deletes cached clean/raw files (and optional shared resource cache) before re-running indicators.
   - Each refresh persists the snapshot to `output/market_status.latest.json`, updates `output/market_indicator_log.csv`, regenerates history JSON, and writes summary rows to PostgreSQL.
-  - Concurrent refreshes are not guarded; ensure you avoid overlapping jobs or add external coordination.
+  - A single-indicator refresh (`indicator_slug`) updates only that indicator's entry in `output/market_status.latest.json`, its row cells in `output/market_indicator_log.csv` and its history file. The other entries keep their last reading and `updated_at`, and `summary` is recomputed over the merged set.
+  - Snapshot and log files are written atomically (temp file, then rename), so readers never see a half-written file. One API process runs one refresh at a time: a request that arrives while a refresh (or the scheduled job) is running gets `409`. Two separate processes finishing at the same instant can still overwrite each other's update, so avoid overlapping jobs or add external coordination.
 
 ## Scheduler
 At startup the API enables an AsyncIO scheduler that runs `manual_refresh()` using the cron expression from the `REFRESH_CRON` environment variable (defaults to `0 6 * * *`). Set `REFRESH_CRON` before launching the app to customise the cadence, or disable scheduling by commenting out the job registration in `services/api.py` if you plan to trigger refreshes externally.
@@ -181,7 +192,10 @@ At startup the API enables an AsyncIO scheduler that runs `manual_refresh()` usi
 ## Status Codes
 - `200` – successful requests.
 - `202` – refresh accepted.
+- `401` – refresh token missing or wrong.
+- `403` – refresh is disabled because `REFRESH_TOKEN` is not set.
 - `404` – resource not available (no run yet, unknown indicator, or missing history file).
+- `409` – a refresh is already running.
 - `500` – unhandled server error. Check `logs/market_indicators.log` or container logs for details.
 
 ## Data Locations

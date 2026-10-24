@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import logging
 from datetime import datetime, timezone
+from logging.handlers import RotatingFileHandler
 from pathlib import Path
 from typing import Any, Dict, Iterable, Mapping, Optional
 
@@ -118,7 +119,10 @@ class _JsonFormatter(logging.Formatter):
 
     def _format_timestamp(self, record: logging.LogRecord) -> str:
         if self.datefmt:
-            return datetime.fromtimestamp(record.created).strftime(self.datefmt)
+            # Wall-clock time in the host's local zone, as before; astimezone()
+            # with no argument converts to local without changing the output.
+            local = datetime.fromtimestamp(record.created, tz=timezone.utc).astimezone()
+            return local.strftime(self.datefmt)
         return datetime.fromtimestamp(record.created, tz=timezone.utc).isoformat()
 
 
@@ -150,7 +154,14 @@ def setup_logging() -> None:
     for handler in list(root.handlers):
         root.removeHandler(handler)
 
-    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    # Rotate so a long-running container cannot grow the log without bound
+    # (a year of uptime reached ~19 MB with a plain FileHandler).
+    file_handler = RotatingFileHandler(
+        log_file,
+        maxBytes=int(cfg.get("max_bytes", 5 * 1024 * 1024)),
+        backupCount=int(cfg.get("backup_count", 3)),
+        encoding="utf-8",
+    )
     file_handler.setFormatter(formatter)
 
     console_handler = logging.StreamHandler()

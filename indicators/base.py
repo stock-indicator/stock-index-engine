@@ -3,9 +3,9 @@ from __future__ import annotations
 import json
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional
 
 import numpy as np
 import pandas as pd
@@ -14,6 +14,7 @@ from common.db import upsert_indicator_dataframe
 from common.logger import get_logger
 from common.models import IndicatorResult
 from common.settings import settings
+from common.utils import utc_now
 
 RESOURCES_DIR = Path("resources")
 RAW_DATA_DIR = RESOURCES_DIR / "raw"
@@ -160,8 +161,10 @@ class BaseIndicator(ABC):
             return
         try:
             upsert_indicator_dataframe(self.slug, df)
-        except Exception as exc:  # pragma: no cover
-            print(f"[DB] ingestion failed for {self.slug}: {exc}")
+        except Exception:  # pragma: no cover
+            # Postgres is a best-effort sink: the CSV/JSON files are the source
+            # of truth, so a failed ingest must not fail the indicator run.
+            self.logger.exception("DB ingestion failed for %s", self.slug)
 
     def merge_clean_data(self, existing: pd.DataFrame, new: pd.DataFrame) -> pd.DataFrame:
         combined = pd.concat([existing, new], ignore_index=True)
@@ -214,7 +217,7 @@ class BaseIndicator(ABC):
         return df
 
     def _store_raw_snapshot(self, data: Any, tag: str) -> None:
-        timestamp = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+        timestamp = utc_now().strftime("%Y%m%dT%H%M%SZ")
         if isinstance(data, pd.DataFrame):
             path = self.raw_storage_dir / f"{tag}_{timestamp}.csv"
             data.to_csv(path, index=False)
@@ -257,7 +260,7 @@ def compute_end_date(index: pd.Index) -> List[pd.Timestamp]:
 
     dates = pd.to_datetime(index)
     end_dates: List[pd.Timestamp] = []
-    for i, start in enumerate(dates):
+    for i in range(len(dates)):
         if i + 1 < len(dates):
             next_start = dates[i + 1]
             end_dates.append(next_start - pd.Timedelta(days=1))

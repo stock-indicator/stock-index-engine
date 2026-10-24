@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import pandas as pd
-
 from common.models import IndicatorResult
 from indicators.base import IndicatorMetadata
 from indicators.macro.base_fred import FREDIndicator

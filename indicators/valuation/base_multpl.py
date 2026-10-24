@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 import re
-from datetime import datetime
-from typing import List
 
 import pandas as pd
 import requests
@@ -32,8 +30,7 @@ class MultplIndicator(BaseIndicator):
                 rows.append(cols[:2])
         if not rows:
             return pd.DataFrame()
-        df = pd.DataFrame(rows, columns=["date", "value"])
-        return df
+        return pd.DataFrame(rows, columns=["date", "value"])
 
     def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:
         if raw.empty:
@@ -65,5 +62,4 @@ class MultplIndicator(BaseIndicator):
 
     def merge_clean_data(self, existing: pd.DataFrame, new: pd.DataFrame) -> pd.DataFrame:
         combined = super().merge_clean_data(existing, new)
-        combined = combined.drop_duplicates(subset="data_start_date", keep="last")
-        return combined
+        return combined.drop_duplicates(subset="data_start_date", keep="last")

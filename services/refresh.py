@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import shutil
-from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
@@ -9,6 +8,7 @@ from common.api_keys import load_api_keys
 from common.config import OUTPUT_DIR
 from common.fetchers import MarketDataFetcher
 from common.logger import get_logger
+from common.utils import utc_now
 
 from services import ALL_INDICATORS
 from services.evaluator import evaluate_indicators
@@ -24,7 +24,7 @@ RESOURCES_FILE_CACHE_DIR = Path("resources/files")
 
 
 def _backup_clean_file(clean_path: Path) -> None:
-    timestamp = datetime.utcnow().strftime('%Y%m%dT%H%M%S')
+    timestamp = utc_now().strftime('%Y%m%dT%H%M%S')
     backup_name = '{}.bak{}'.format(clean_path.name, timestamp)
     backup_path = clean_path.with_name(backup_name)
     clean_path.rename(backup_path)
@@ -37,6 +37,9 @@ def _clear_indicator_cache(indicator) -> None:
         try:
             _backup_clean_file(clean_path)
         except Exception as exc:  # pragma: no cover
+            # The backup is a courtesy. A full refresh has to rebuild this
+            # file anyway, so a failed backup falls back to deleting it
+            # rather than blocking the refresh.
             logger.warning('Failed to backup clean data at %s: %s', clean_path, exc)
             clean_path.unlink(missing_ok=True)
     raw_dir = indicator.raw_storage_dir
@@ -79,8 +82,12 @@ def _run_cycle(
     regenerate_history: bool,
     lookback_days: int,
 ) -> IndicatorRun:
+    indicators = list(indicators)
+    partial = {i.slug for i in indicators} != {i.slug for i in ALL_INDICATORS}
     run = evaluate_indicators(indicators, fetcher=fetcher, mode=mode)
-    persist_run(run)
+    # A subset run only replaces its own entries; the other indicators keep their
+    # last reading and timestamp. The persisted run covers the whole snapshot.
+    run = persist_run(run, partial=partial)
     if regenerate_history:
         generate_indicator_histories(
             indicators=indicators,

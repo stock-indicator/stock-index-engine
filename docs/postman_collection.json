@@ -12,6 +12,10 @@
     {
       "key": "indicatorSlug",
       "value": "rsi_14"
+    },
+    {
+      "key": "refreshToken",
+      "value": ""
     }
   ],
   "item": [
@@ -73,6 +77,10 @@
           {
             "key": "Content-Type",
             "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{refreshToken}}"
           }
         ],
         "body": {

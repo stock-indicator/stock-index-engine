@@ -1,18 +1,33 @@
 # Git
 .git
 .gitignore
+.github/
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.ruff_cache/
+.venv/
+venv/
 
 # IDEs
 .idea/
 .vscode/
 
+# Secrets: pass them as environment variables instead
+api.key
+keys.txt
+vault.key
+*.key
+.env
+.env.*
+
 # Local files
 logs/
 output/
 resources/
+dev_step/
+Dockerfile
+.dockerignore

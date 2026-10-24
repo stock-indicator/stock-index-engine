@@ -1,20 +1,23 @@
 from __future__ import annotations
 
 import os
+import secrets
+import threading
 import time
-from typing import Any, Dict, Literal, Optional
+from typing import Any, Callable, Dict, Literal, Optional
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
-from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
+from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, model_validator
 
 from common.logger import get_logger
 from common.settings import settings
 from common.utils import sanitize_column_name
 from services import get_indicator_by_slug
-from services.history import load_indicator_history, load_and_filter_history
+from services.history import load_and_filter_history
 from services.output import read_latest_payload
 from services.refresh import full_refresh, manual_refresh
 
@@ -22,29 +25,33 @@ from services.refresh import full_refresh, manual_refresh
 logger = get_logger("services.api")
 app = FastAPI(title="Market Indicator Service", version="1.0.0")
 
+# The read endpoints serve public data, so any origin may read them. Nothing
+# authenticates with cookies (refresh uses a bearer token), so credentials
+# stay off: with "*" origins they would let any site make credentialed calls.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_credentials=False,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Authorization", "Content-Type"],
 )
 
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     access_logger = get_logger("api.access")
     start_time = time.time()
-    
+
     response = await call_next(request)
-    
+
     process_time = (time.time() - start_time) * 1000
 
+    client = f"{request.client.host}:{request.client.port}" if request.client else "unknown"
     log_dict = {
         "log_type": "access",
         "request": {
             "method": request.method,
             "url": str(request.url),
-            "client": f"{request.client.host}:{request.client.port}",
+            "client": client,
             "user_agent": request.headers.get("user-agent", "unknown")
         },
         "response": {
@@ -62,6 +69,42 @@ _scheduler: AsyncIOScheduler | None = None
 REFRESH_CRON = os.getenv("REFRESH_CRON", settings.get("refresh.cron", "0 6 * * *"))
 API_HOST = settings.get_api_host()
 API_PORT = settings.get_api_port()
+
+# POST /refresh can purge caches that cannot be re-downloaded (FINRA and
+# etf.com now answer 403), so it needs a secret. Without REFRESH_TOKEN the
+# endpoint is off; the scheduler still runs.
+REFRESH_TOKEN = os.getenv("REFRESH_TOKEN", "").strip()
+MIN_LOOKBACK_DAYS = 30
+MAX_LOOKBACK_DAYS = 3650
+
+_bearer = HTTPBearer(auto_error=False)
+# One refresh at a time: a full refresh deletes cache directories that a
+# concurrent run may be reading from.
+_refresh_lock = threading.Lock()
+
+
+def require_refresh_token(
+    credentials: Optional[HTTPAuthorizationCredentials] = Depends(_bearer),
+) -> None:
+    if not REFRESH_TOKEN:
+        raise HTTPException(status_code=403, detail="Refresh is disabled on this server")
+    supplied = credentials.credentials if credentials else ""
+    if not secrets.compare_digest(supplied.encode(), REFRESH_TOKEN.encode()):
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid or missing refresh token",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+
+def _run_locked(task: Callable[..., object], **kwargs: object) -> None:
+    """Run a refresh that already holds ``_refresh_lock``, then release it."""
+    try:
+        task(**kwargs)
+    except Exception as exc:  # pragma: no cover
+        logger.exception("Refresh failed: %s", exc)
+    finally:
+        _refresh_lock.release()
 
 
 class RefreshRequest(BaseModel):
@@ -88,11 +131,16 @@ def _enrich_indicator(item: Dict[str, object]) -> Dict[str, object]:
 
 
 def _scheduled_manual_refresh() -> None:
+    if not _refresh_lock.acquire(blocking=False):
+        logger.warning("Skipping scheduled refresh: another refresh is still running")
+        return
     try:
         manual_refresh()
         logger.info("Scheduled manual refresh executed")
     except Exception as exc:  # pragma: no cover
         logger.exception("Scheduled manual refresh failed: %s", exc)
+    finally:
+        _refresh_lock.release()
 
 
 @app.on_event("startup")
@@ -159,25 +207,27 @@ def get_indicator(slug: str) -> Dict[str, object]:
 
 
 @app.get("/indicators/{slug}/history")
-def get_indicator_history(slug: str, lookback_days: Optional[int] = None) -> Dict[str, object]:
+def get_indicator_history(
+    slug: str,
+    lookback_days: Optional[int] = Query(None, ge=1, le=36500),
+) -> Dict[str, object]:
     history = load_and_filter_history(slug.lower(), lookback_days)
     if history is None:
         raise HTTPException(status_code=404, detail=f"History for '{slug}' not available")
     return history
 
 
-@app.post("/refresh", status_code=202)
+@app.post("/refresh", status_code=202, dependencies=[Depends(require_refresh_token)])
 def trigger_refresh(request: RefreshRequest, background_tasks: BackgroundTasks) -> Dict[str, object]:
     mode = request.mode
-    lookback_days = max(30, request.lookback_days)
+    lookback_days = min(max(MIN_LOOKBACK_DAYS, request.lookback_days), MAX_LOOKBACK_DAYS)
     indicator_slug = request.indicator_slug
     if indicator_slug and get_indicator_by_slug(indicator_slug) is None:
         raise HTTPException(status_code=404, detail=f"Indicator '{indicator_slug}' not found")
-    task_kwargs = {"lookback_days": lookback_days, "indicator_slug": indicator_slug}
-    if mode == "manual":
-        background_tasks.add_task(manual_refresh, **task_kwargs)
-    else:
-        background_tasks.add_task(full_refresh, **task_kwargs)
+    if not _refresh_lock.acquire(blocking=False):
+        raise HTTPException(status_code=409, detail="A refresh is already running")
+    task = manual_refresh if mode == "manual" else full_refresh
+    background_tasks.add_task(_run_locked, task, lookback_days=lookback_days, indicator_slug=indicator_slug)
     logger.info("Refresh request accepted (mode=%s, lookback_days=%s, indicator=%s)", mode, lookback_days, indicator_slug or "all")
     return {"status": "accepted", "mode": mode, "lookback_days": lookback_days, "indicator_slug": indicator_slug}
 

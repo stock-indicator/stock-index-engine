@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import time
 from common.models import IndicatorResult
 from indicators.base import IndicatorMetadata
 from indicators.technical.base_price import PriceSeriesIndicator
@@ -27,6 +28,39 @@ class VIXLevelIndicator(PriceSeriesIndicator):
                 notes="No VIX data available.",
             )
         latest_vix = float(series.iloc[-1])
+        if latest_vix == 0:
+            self.logger.info("VIX value is zero, retrying in 10 seconds...")
+            time.sleep(10)
+            # Refetch
+            raw_df = fetcher.get_price_history(self.tickers["US Market"])
+            if raw_df.empty:
+                return self.build_result(status="unavailable", notes="No VIX data on retry.")
+
+            raw_df = raw_df.reset_index().rename(columns={"Date": "date"})
+            raw_df["ticker"] = self.tickers["US Market"]
+            raw_df["market"] = "US Market"
+
+            clean_df = self.clean_data(raw_df)
+            series_by_market = self.prepare_price_series(clean_df)
+            series = series_by_market.get("US Market")
+
+            if series is None or series.empty:
+                return self.build_result(
+                    raw_value=None,
+                    pure_value=None,
+                    status="unavailable",
+                    notes="No VIX data available after retry.",
+                )
+            latest_vix = float(series.iloc[-1])
+            if latest_vix == 0:
+                self.logger.warning("VIX value is still zero after retry, skipping.")
+                return self.build_result(
+                    raw_value=0,
+                    pure_value=None,
+                    status="unavailable",
+                    notes="VIX value is zero after retry, skipping.",
+                )
+
         status = "high" if latest_vix < 10 else "normal"
         pure_value = [
             {"market": "US Market", "vix": latest_vix}

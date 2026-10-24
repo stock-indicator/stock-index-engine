@@ -211,3 +211,5 @@ vault.key
 api.key
 resources/raw/
 resources/files/
+# Backups a full refresh leaves next to the clean CSVs
+resources/clean/*.bak*

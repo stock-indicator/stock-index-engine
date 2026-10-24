@@ -44,6 +44,8 @@ def evaluate_indicators(
         try:
             result = indicator.evaluate(fetcher)
         except Exception as exc:  # pylint: disable=broad-except
+            # Isolate failures per indicator: one broken data source is
+            # reported as "unavailable" and must not abort the rest of the run.
             logger.exception("Indicator '%s' failed: %s", meta.name, exc)
             results.append(_failure_result(indicator, exc))
             continue

@@ -1,8 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta
-from pathlib import Path
+from datetime import date, datetime, timedelta
 from typing import Dict, Iterable, List, Optional
 
 import numpy as np
@@ -11,7 +10,7 @@ import pandas as pd
 from common.config import OUTPUT_DIR
 from common.db import get_psql_connection
 from common.logger import get_logger
-from common.utils import sanitize_column_name
+from common.utils import sanitize_column_name, utc_now, write_text_atomic
 from services.output import LOG_CSV_PATH, sanitize_for_json
 
 
@@ -71,7 +70,9 @@ def generate_indicator_histories(
             lookback_days=lookback_days,
         )
         if custom_series is not None:
-            series = _append_status_only_entries(custom_series, status_map)
+            series = _append_status_only_entries(
+                custom_series, status_map, as_of=as_of, lookback_days=lookback_days
+            )
             series.sort(key=lambda item: item["date"])
         else:
             series = _build_series(
@@ -116,7 +117,7 @@ def load_and_filter_history(slug: str, lookback_days: Optional[int] = None) -> O
     if not isinstance(series, list):
         return history
 
-    cutoff = datetime.utcnow().date() - timedelta(days=lookback_days)
+    cutoff = utc_now().date() - timedelta(days=lookback_days)
     filtered_series = [
         item for item in series
         if datetime.fromisoformat(item.get("date", "1970-01-01")).date() >= cutoff
@@ -128,7 +129,7 @@ def load_and_filter_history(slug: str, lookback_days: Optional[int] = None) -> O
 
 def _write_history_file(slug: str, payload: Dict[str, object]) -> None:
     path = HISTORY_DIR / f"{slug}.json"
-    path.write_text(json.dumps(sanitize_for_json(payload), indent=2), encoding="utf-8")
+    write_text_atomic(path, json.dumps(sanitize_for_json(payload), indent=2))
     logger.info("Wrote history series for %s to %s", slug, path)
 
 
@@ -137,8 +138,11 @@ def _load_status_history(*, as_of: datetime, lookback_days: int, alias_map: Dict
         return {}
     try:
         df = pd.read_csv(LOG_CSV_PATH)
-    except Exception as exc:  # pragma: no cover
-        logger.warning("Failed to read history log: %s", exc)
+    except Exception:  # pragma: no cover
+        # Statuses are an overlay on the series, so a bad log degrades the
+        # history to values without statuses instead of failing the refresh.
+        # Keep the traceback: this is the only trace of why they went missing.
+        logger.exception("Failed to read history log %s", LOG_CSV_PATH)
         return {}
     if df.empty or "date" not in df.columns:
         return {}
@@ -217,24 +221,54 @@ def _build_series(
                     "details": details,
                 }
             )
-    details_template = series[-1]["details"].copy() if series else None
-    series = _append_status_only_entries(series, status_map, details_template=details_template)
+    series = _append_status_only_entries(
+        series, status_map, as_of=as_of, lookback_days=lookback_days
+    )
     series.sort(key=lambda item: item["date"])
     return series
 
 
-def _append_status_only_entries(series: List[Dict[str, object]], status_map: Dict[str, str], *, details_template: Optional[Dict[str, object]] = None) -> List[Dict[str, object]]:
+def _append_status_only_entries(
+    series: List[Dict[str, object]],
+    status_map: Dict[str, str],
+    *,
+    as_of: datetime,
+    lookback_days: int,
+) -> List[Dict[str, object]]:
+    """Add entries for dates that carry a status but no observation.
+
+    ``details`` is left empty rather than copied from another date's row.
+    Stamping the latest observation's values onto a date that had none would
+    invent data the series never carried -- that is what the original append
+    did, and why disabling it was the right call; the copying is the part not
+    worth keeping, not the feature. ``summary_value`` is null, which the
+    frontend already types as nullable and renders as a gap in the line.
+
+    Entries are bounded to the same window ``_build_series`` applies to the
+    data rows, so a status outside the requested lookback cannot leak in.
+    """
     if not status_map:
         return series
     existing_dates = {item.get("date") for item in series}
-    template = details_template or {}
+    cutoff = as_of.date() - timedelta(days=lookback_days)
+    upper = as_of.date()
     for status_date, status_value in status_map.items():
         if status_date in existing_dates:
             continue
-        details = template.copy() if isinstance(template, dict) else {}
-        # series.append(
-        #     {"date": status_date, "status": status_value, "summary_value": None, "details": details}
-        # )
+        try:
+            parsed = date.fromisoformat(status_date)
+        except (TypeError, ValueError):
+            continue
+        if not cutoff <= parsed <= upper:
+            continue
+        series.append(
+            {
+                "date": status_date,
+                "status": status_value,
+                "summary_value": None,
+                "details": {},
+            }
+        )
     return series
 
 
@@ -269,6 +303,10 @@ def _extract_summary_value(details: Dict[str, object]) -> Optional[float]:
         "macd",
         "rsi",
         "reading",
+        # Price rows (e.g. VIX) carry OHLC columns. Without these the fallback
+        # below picks "open", which yfinance reports as 0.0 for some bars.
+        "adj_close",
+        "close",
     ]
     for key in preferred_keys:
         value = details.get(key)
@@ -344,8 +382,10 @@ def _upsert_history_to_db(slug: str, series: List[Dict[str, object]]) -> None:
         with conn, conn.cursor() as cur:
             cur.execute(create_table_sql)
             cur.executemany(insert_sql, rows)
-    except Exception as exc:  # pragma: no cover
-        logger.warning("Failed to upsert history for %s: %s", slug, exc)
+    except Exception:  # pragma: no cover
+        # Postgres is a best-effort sink; the JSON history file has already
+        # been written by the time we get here.
+        logger.exception("Failed to upsert history for %s", slug)
     finally:
         conn.close()
 
