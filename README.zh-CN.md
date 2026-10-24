@@ -132,7 +132,7 @@ docker run \
 ```
 
 *   使用 `-e` 标志以环境变量形式传递 API 密钥。
-*   `REFRESH_TOKEN` 用于保护 `POST /refresh`，调用时放在 `Authorization: Bearer <token>` 请求头里。不设置则关闭该接口，每日定时刷新照常运行。
+*   `POST /refresh` 只接受容器内部发起、并带有 `REFRESH_TOKEN` 的请求（放在 `Authorization: Bearer <token>` 请求头里），例如用 `docker exec` 进入容器后调用 `http://127.0.0.1:8000/refresh`。不设置 token 则关闭该接口，每日定时刷新照常运行。
 *   容器以非 root 用户运行（`APP_UID`，默认 10001），挂载的目录需要对该 uid 可写。
 *   将本地目录挂载到 `/app/output` 以持久化生成的报告。
 *   同时挂载 `/app/resources`，让 SEC Form 4 缓存在容器重启后保留。否则每个新容器都会重复一次首次构建。

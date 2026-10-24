@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import threading
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -30,9 +31,12 @@ USER_AGENT = "stock-index-engine/0.1 (market sentiment indicators)"
 # A weekend plus a market holiday. A longer gap means missing data, and a
 # streak must not be counted across it.
 MAX_GAP_DAYS = 5
-# A ticker whose newest flow is this much older than the newest flow overall
-# is reported as stale instead of feeding the streak.
+# A ticker whose newest flow is more than this many days old is reported as
+# stale instead of feeding the streak.
 STALE_AFTER_DAYS = 7
+# The API scheduler snapshots fund details between refreshes, and the refresh
+# snapshots too; both read-modify-write the same CSV.
+_SNAPSHOT_LOCK = threading.Lock()
 
 
 class ETFFundFlowIndicator(BaseIndicator):
@@ -101,14 +105,14 @@ class ETFFundFlowIndicator(BaseIndicator):
                 notes="ETF fund flow dataset empty.",
             )
         clean_df["data_start_date"] = pd.to_datetime(clean_df["data_start_date"])
-        newest = clean_df["data_start_date"].max()
+        today = pd.Timestamp(utc_now().date())
         streaks = {}
         latest_flows = {}
         stale = {}
         for ticker, group in clean_df.groupby("ticker"):
             group = group.sort_values("data_start_date")
             last_date = group["data_start_date"].iloc[-1]
-            if (newest - last_date).days > STALE_AFTER_DAYS:
+            if (today - last_date).days > STALE_AFTER_DAYS:
                 stale[ticker] = last_date.date().isoformat()
                 continue
             streak = 0
@@ -234,9 +238,12 @@ class ETFFundFlowIndicator(BaseIndicator):
         )
 
     def _load_nav_history(self, ticker: str) -> Optional[pd.DataFrame]:
+        # ttl 0: download once per UTC day (the dated file is reused within the
+        # day). With a 1-day ttl a manual run late in the day made the next
+        # morning's refresh reuse it and fall a day behind.
         path = resource_fetcher.ensure(
             NAV_HISTORY_RESOURCES[ticker],
-            ttl_days=1,
+            ttl_days=0,
             filename=f"navhist-{ticker.lower()}.xlsx",
         )
         if path is None or not path.exists():
@@ -310,11 +317,19 @@ class ETFFundFlowIndicator(BaseIndicator):
             self.logger.warning("Fund details for %s lack date, NAV or shares: %r", ticker, payload)
             return
         snapshot = pd.DataFrame([{"as_of": as_of, "nav": float(nav), "shares": float(shares)}])
-        existing = self._load_snapshots(ticker)
-        if existing is not None:
-            existing["as_of"] = existing["as_of"].dt.strftime("%Y-%m-%d")
-            snapshot = pd.concat([existing, snapshot], ignore_index=True)
-        # The API repeats the last business day over weekends and holidays.
-        snapshot = snapshot.drop_duplicates(subset="as_of", keep="last").sort_values("as_of")
-        write_text_atomic(self._snapshot_path(ticker), snapshot.to_csv(index=False))
+        with _SNAPSHOT_LOCK:
+            existing = self._load_snapshots(ticker)
+            if existing is not None:
+                existing["as_of"] = existing["as_of"].dt.strftime("%Y-%m-%d")
+                snapshot = pd.concat([existing, snapshot], ignore_index=True)
+            # The API repeats the last business day over weekends and holidays.
+            snapshot = snapshot.drop_duplicates(subset="as_of", keep="last").sort_values("as_of")
+            write_text_atomic(self._snapshot_path(ticker), snapshot.to_csv(index=False))
         self.logger.info("Recorded %s fund details for %s", ticker, as_of)
+
+
+def record_fund_snapshots() -> None:
+    """Snapshot every snapshot-based ETF; the API scheduler calls this every few hours."""
+    indicator = ETFFundFlowIndicator()
+    for ticker in FUND_DETAILS_RESOURCES:
+        indicator._record_snapshot(ticker)

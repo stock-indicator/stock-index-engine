@@ -156,7 +156,8 @@ Return the time-series JSON produced from `output/history/{slug}.json`.
 Trigger a background refresh cycle. The response returns immediately while the refresh executes in the background.
 
 - **Authentication**
-  - Requires `Authorization: Bearer <REFRESH_TOKEN>`. Set `REFRESH_TOKEN` in the engine's environment; without it the endpoint returns `403` and only the scheduler refreshes data.
+  - Server-only: the request must come from loopback inside the engine's own container (for example `docker exec stock-index-engine ...`, which is what the devops repo's `refresh.sh` does) and carry `Authorization: Bearer <REFRESH_TOKEN>`. Anything else gets `403`, so the public site cannot trigger a refresh even with the token. The production frontend's nginx also blocks `/api/refresh` and allows only GET under `/api/`.
+  - Set `REFRESH_TOKEN` in the engine's environment; without it the endpoint returns `403` and only the scheduler refreshes data.
   - Generate a token with `python -c "import secrets; print(secrets.token_urlsafe(32))"`.
 
 - **Request Body**
@@ -188,6 +189,13 @@ Trigger a background refresh cycle. The response returns immediately while the r
 
 ## Scheduler
 At startup the API enables an AsyncIO scheduler that runs `manual_refresh()` using the cron expression from the `REFRESH_CRON` environment variable (defaults to `0 6 * * *`). Set `REFRESH_CRON` before launching the app to customise the cadence, or disable scheduling by commenting out the job registration in `services/api.py` if you plan to trigger refreshes externally.
+
+- A refresh that fires up to an hour late (busy process) still runs instead of being skipped.
+- If the last refresh is more than 26 hours old when the API starts (it was down at the scheduled time), a catch-up refresh runs a minute after startup.
+- Every 3 hours, and once at startup, the scheduler snapshots Invesco's QQQ fund details into `resources/snapshots/qqq_fund_details.csv`. QQQ flows are the change between daily snapshots, so a single missed refresh no longer loses a day.
+
+### GET /health/data
+Returns `200` with `{"status": "ok"}` while the data is current, and `503` with `{"status": "stale", "problems": [...]}` when the last refresh is more than 30 hours old or the SPY/QQQ flows have had no new data for over 7 days. Point an uptime monitor at it; `/health` only reports that the process is running.
 
 ## Status Codes
 - `200` – successful requests.

@@ -135,7 +135,7 @@ docker run \
 ```
 
 *   Use the `-e` flag to pass API keys as environment variables.
-*   `REFRESH_TOKEN` protects `POST /refresh` (send it as `Authorization: Bearer <token>`). Leave it unset to turn the endpoint off; the daily scheduler still runs.
+*   `POST /refresh` only works from inside the container and with `REFRESH_TOKEN` (sent as `Authorization: Bearer <token>`), e.g. `docker exec` into it and call `http://127.0.0.1:8000/refresh`. Leave the token unset to turn the endpoint off; the daily scheduler still runs.
 *   The container runs as a non-root user (`APP_UID`, default 10001), so the mounted directories must be writable by that uid.
 *   Mount a local directory to `/app/output` to persist the generated reports.
 *   Mount `/app/resources` as well so the SEC Form 4 cache survives container restarts. Without that mount, every new container repeats the first build.
