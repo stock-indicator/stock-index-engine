@@ -9,7 +9,7 @@
     "Sentiment"
   ],
   "threshold": ">= 90th percentile",
-  "updated_at": "2026-10-24T09:49:14+00:00",
+  "updated_at": "2026-10-24T18:56:53+00:00",
   "series": [
     {
       "date": "2026-10-15",
@@ -24,11 +24,11 @@
     {
       "date": "2026-10-24",
       "status": "normal",
-      "summary_value": 2.32,
+      "summary_value": 2.04,
       "details": {
-        "posts_per_hour": 2.32,
+        "posts_per_hour": 2.04,
         "sample_size": 100,
-        "span_hours": 42.682
+        "span_hours": 48.446
       }
     }
   ]

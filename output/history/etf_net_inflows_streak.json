@@ -10,16 +10,17 @@
     "ETF"
   ],
   "threshold": "> 20",
-  "updated_at": "2026-10-24T09:49:14+00:00",
+  "updated_at": "2026-10-24T18:56:53+00:00",
   "series": [
     {
       "date": "2025-10-24",
       "status": "normal",
-      "summary_value": -6716.29,
+      "summary_value": -6594.16,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -6716.29,
-        "aggregated_flows": -6716.29
+        "total_net_flow_musd": -6594.16,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 122.13,
+        "spy_net_flow_musd": -6716.29
       }
     },
     {
@@ -37,41 +38,45 @@
     {
       "date": "2025-10-27",
       "status": "normal",
-      "summary_value": -473.87,
+      "summary_value": 204.8,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -473.87,
-        "aggregated_flows": -473.87
+        "total_net_flow_musd": 204.8,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 678.67,
+        "spy_net_flow_musd": -473.87
       }
     },
     {
       "date": "2025-10-28",
       "status": "normal",
-      "summary_value": 2501.25,
+      "summary_value": 1873.02,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2501.25,
-        "aggregated_flows": 2501.25
+        "total_net_flow_musd": 1873.02,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -628.23,
+        "spy_net_flow_musd": 2501.25
       }
     },
     {
       "date": "2025-10-29",
       "status": "normal",
-      "summary_value": 549.47,
+      "summary_value": -20.12,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 549.47,
-        "aggregated_flows": 549.47
+        "total_net_flow_musd": -20.12,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -569.59,
+        "spy_net_flow_musd": 549.47
       }
     },
     {
       "date": "2025-10-30",
       "status": "normal",
-      "summary_value": -755.5,
+      "summary_value": 420.17,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -755.5,
-        "aggregated_flows": -755.5
+        "total_net_flow_musd": 420.17,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1175.67,
+        "spy_net_flow_musd": -755.5
       }
     },
     {
@@ -79,9 +84,10 @@
       "status": "normal",
       "summary_value": 2584.06,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2584.06,
-        "aggregated_flows": 2584.06
+        "total_net_flow_musd": 2584.06,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 0.0,
+        "spy_net_flow_musd": 2584.06
       }
     },
     {
@@ -99,51 +105,56 @@
     {
       "date": "2025-11-03",
       "status": "normal",
-      "summary_value": 10500.4,
+      "summary_value": 10626.24,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 10500.4,
-        "aggregated_flows": 10500.4
+        "total_net_flow_musd": 10626.24,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 125.84,
+        "spy_net_flow_musd": 10500.4
       }
     },
     {
       "date": "2025-11-04",
       "status": "normal",
-      "summary_value": -1195.34,
+      "summary_value": -1384.93,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1195.34,
-        "aggregated_flows": -1195.34
+        "total_net_flow_musd": -1384.93,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -189.59,
+        "spy_net_flow_musd": -1195.34
       }
     },
     {
       "date": "2025-11-05",
       "status": "normal",
-      "summary_value": -168.76,
+      "summary_value": 1502.27,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -168.76,
-        "aggregated_flows": -168.76
+        "total_net_flow_musd": 1502.27,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1671.03,
+        "spy_net_flow_musd": -168.76
       }
     },
     {
       "date": "2025-11-06",
       "status": "normal",
-      "summary_value": 1863.16,
+      "summary_value": 3265.77,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1863.16,
-        "aggregated_flows": 1863.16
+        "total_net_flow_musd": 3265.77,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1402.61,
+        "spy_net_flow_musd": 1863.16
       }
     },
     {
       "date": "2025-11-07",
       "status": "normal",
-      "summary_value": 971.43,
+      "summary_value": 726.85,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 971.43,
-        "aggregated_flows": 971.43
+        "total_net_flow_musd": 726.85,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -244.58,
+        "spy_net_flow_musd": 971.43
       }
     },
     {
@@ -161,51 +172,56 @@
     {
       "date": "2025-11-10",
       "status": "normal",
-      "summary_value": -1241.09,
+      "summary_value": -4777.7,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1241.09,
-        "aggregated_flows": -1241.09
+        "total_net_flow_musd": -4777.7,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -3536.61,
+        "spy_net_flow_musd": -1241.09
       }
     },
     {
       "date": "2025-11-11",
       "status": "normal",
-      "summary_value": -1669.1,
+      "summary_value": -3601.19,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1669.1,
-        "aggregated_flows": -1669.1
+        "total_net_flow_musd": -3601.19,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -1932.09,
+        "spy_net_flow_musd": -1669.1
       }
     },
     {
       "date": "2025-11-12",
       "status": "normal",
-      "summary_value": 2858.2,
+      "summary_value": 2175.07,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2858.2,
-        "aggregated_flows": 2858.2
+        "total_net_flow_musd": 2175.07,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 2858.2,
+        "spy_net_flow_musd": -683.13
       }
     },
     {
       "date": "2025-11-13",
       "status": "normal",
-      "summary_value": 403.62,
+      "summary_value": 370.03,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 403.62,
-        "aggregated_flows": 403.62
+        "total_net_flow_musd": 370.03,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 403.62,
+        "spy_net_flow_musd": -33.59
       }
     },
     {
       "date": "2025-11-14",
       "status": "normal",
-      "summary_value": 3436.44,
+      "summary_value": 5350.64,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 3436.44,
-        "aggregated_flows": 3436.44
+        "total_net_flow_musd": 5350.64,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 3436.44,
+        "spy_net_flow_musd": 1914.2
       }
     },
     {
@@ -223,51 +239,56 @@
     {
       "date": "2025-11-17",
       "status": "normal",
-      "summary_value": -3073.69,
+      "summary_value": -8897.41,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -3073.69,
-        "aggregated_flows": -3073.69
+        "total_net_flow_musd": -8897.41,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -3073.69,
+        "spy_net_flow_musd": -5823.72
       }
     },
     {
       "date": "2025-11-18",
       "status": "normal",
-      "summary_value": -995.92,
+      "summary_value": 3823.01,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -995.92,
-        "aggregated_flows": 375.74
+        "total_net_flow_musd": 3823.01,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -995.92,
+        "spy_net_flow_musd": 4818.93
       }
     },
     {
       "date": "2025-11-19",
       "status": "normal",
-      "summary_value": 1371.66,
+      "summary_value": 1901.76,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1371.66,
-        "aggregated_flows": 375.74
+        "total_net_flow_musd": 1901.76,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1371.66,
+        "spy_net_flow_musd": 530.1
       }
     },
     {
       "date": "2025-11-20",
       "status": "normal",
-      "summary_value": 809.62,
+      "summary_value": 1037.96,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 809.62,
-        "aggregated_flows": 809.62
+        "total_net_flow_musd": 1037.96,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 809.62,
+        "spy_net_flow_musd": 228.34
       }
     },
     {
       "date": "2025-11-21",
       "status": "normal",
-      "summary_value": -1288.25,
+      "summary_value": 918.92,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1288.25,
-        "aggregated_flows": -1288.25
+        "total_net_flow_musd": 918.92,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -1288.25,
+        "spy_net_flow_musd": 2207.17
       }
     },
     {
@@ -285,31 +306,34 @@
     {
       "date": "2025-11-24",
       "status": "normal",
-      "summary_value": -3039.06,
+      "summary_value": -3273.22,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -3039.06,
-        "aggregated_flows": -3039.06
+        "total_net_flow_musd": -3273.22,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -3039.06,
+        "spy_net_flow_musd": -234.16
       }
     },
     {
       "date": "2025-11-25",
       "status": "normal",
-      "summary_value": -4750.16,
+      "summary_value": -3206.04,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4750.16,
-        "aggregated_flows": -6741.79
+        "total_net_flow_musd": -3206.04,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1544.12,
+        "spy_net_flow_musd": -4750.16
       }
     },
     {
       "date": "2025-11-26",
       "status": "normal",
-      "summary_value": -1991.63,
+      "summary_value": -499.46,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1991.63,
-        "aggregated_flows": -6741.79
+        "total_net_flow_musd": -499.46,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1492.17,
+        "spy_net_flow_musd": -1991.63
       }
     },
     {
@@ -317,19 +341,21 @@
       "status": "normal",
       "summary_value": 0.0,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -6741.79
+        "total_net_flow_musd": 0.0,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 0.0,
+        "spy_net_flow_musd": 0.0
       }
     },
     {
       "date": "2025-11-28",
       "status": "normal",
-      "summary_value": 645.8,
+      "summary_value": -1228.12,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 645.8,
-        "aggregated_flows": 645.8
+        "total_net_flow_musd": -1228.12,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -1873.92,
+        "spy_net_flow_musd": 645.8
       }
     },
     {
@@ -349,9 +375,9 @@
       "status": "normal",
       "summary_value": 136.69,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 136.69,
-        "aggregated_flows": 2820.25
+        "total_net_flow_musd": 136.69,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 136.69
       }
     },
     {
@@ -359,9 +385,9 @@
       "status": "normal",
       "summary_value": 3501.45,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3501.45,
-        "aggregated_flows": 2820.25
+        "total_net_flow_musd": 3501.45,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3501.45
       }
     },
     {
@@ -369,9 +395,9 @@
       "status": "normal",
       "summary_value": -817.89,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -817.89,
-        "aggregated_flows": 2820.25
+        "total_net_flow_musd": -817.89,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -817.89
       }
     },
     {
@@ -379,19 +405,20 @@
       "status": "normal",
       "summary_value": -1367.25,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1367.25,
-        "aggregated_flows": -1367.25
+        "total_net_flow_musd": -1367.25,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1367.25
       }
     },
     {
       "date": "2025-12-05",
       "status": "normal",
-      "summary_value": 4072.23,
+      "summary_value": 6501.36,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4072.23,
-        "aggregated_flows": 4072.23
+        "total_net_flow_musd": 6501.36,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 2429.13,
+        "spy_net_flow_musd": 4072.23
       }
     },
     {
@@ -411,9 +438,9 @@
       "status": "normal",
       "summary_value": 12687.83,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 12687.83,
-        "aggregated_flows": 13371.33
+        "total_net_flow_musd": 12687.83,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 12687.83
       }
     },
     {
@@ -421,39 +448,42 @@
       "status": "normal",
       "summary_value": 683.5,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 683.5,
-        "aggregated_flows": 13371.33
+        "total_net_flow_musd": 683.5,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 683.5
       }
     },
     {
       "date": "2025-12-10",
       "status": "normal",
-      "summary_value": -3448.7,
+      "summary_value": -3479.95,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3448.7,
-        "aggregated_flows": -3448.7
+        "total_net_flow_musd": -3479.95,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -31.25,
+        "spy_net_flow_musd": -3448.7
       }
     },
     {
       "date": "2025-12-11",
       "status": "normal",
-      "summary_value": -756.28,
+      "summary_value": -567.97,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -756.28,
-        "aggregated_flows": -756.28
+        "total_net_flow_musd": -567.97,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 188.31,
+        "spy_net_flow_musd": -756.28
       }
     },
     {
       "date": "2025-12-12",
       "status": "normal",
-      "summary_value": 4650.5,
+      "summary_value": 1773.14,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4650.5,
-        "aggregated_flows": 4650.5
+        "total_net_flow_musd": 1773.14,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -2877.36,
+        "spy_net_flow_musd": 4650.5
       }
     },
     {
@@ -471,31 +501,34 @@
     {
       "date": "2025-12-15",
       "status": "normal",
-      "summary_value": 2577.18,
+      "summary_value": 7171.88,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2577.18,
-        "aggregated_flows": 4350.67
+        "total_net_flow_musd": 7171.88,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 2577.18,
+        "spy_net_flow_musd": 4594.7
       }
     },
     {
       "date": "2025-12-16",
       "status": "normal",
-      "summary_value": 610.5,
+      "summary_value": 1017.96,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 610.5,
-        "aggregated_flows": 4350.67
+        "total_net_flow_musd": 1017.96,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 610.5,
+        "spy_net_flow_musd": 407.46
       }
     },
     {
       "date": "2025-12-17",
       "status": "normal",
-      "summary_value": 1162.99,
+      "summary_value": -20015.36,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1162.99,
-        "aggregated_flows": 4350.67
+        "total_net_flow_musd": -20015.36,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1162.99,
+        "spy_net_flow_musd": -21178.35
       }
     },
     {
@@ -503,9 +536,9 @@
       "status": "normal",
       "summary_value": -503.45,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -503.45,
-        "aggregated_flows": -503.45
+        "total_net_flow_musd": -503.45,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -503.45
       }
     },
     {
@@ -513,9 +546,9 @@
       "status": "normal",
       "summary_value": -3179.93,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3179.93,
-        "aggregated_flows": -3179.93
+        "total_net_flow_musd": -3179.93,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3179.93
       }
     },
     {
@@ -533,11 +566,12 @@
     {
       "date": "2025-12-22",
       "status": "normal",
-      "summary_value": 5648.54,
+      "summary_value": 4074.49,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5648.54,
-        "aggregated_flows": 5648.54
+        "total_net_flow_musd": 4074.49,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -1574.05,
+        "spy_net_flow_musd": 5648.54
       }
     },
     {
@@ -545,19 +579,20 @@
       "status": "normal",
       "summary_value": -2191.9,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2191.9,
-        "aggregated_flows": -2191.9
+        "total_net_flow_musd": -2191.9,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2191.9
       }
     },
     {
       "date": "2025-12-24",
       "status": "normal",
-      "summary_value": 1789.02,
+      "summary_value": 3251.61,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1789.02,
-        "aggregated_flows": 1789.02
+        "total_net_flow_musd": 3251.61,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1462.59,
+        "spy_net_flow_musd": 1789.02
       }
     },
     {
@@ -565,19 +600,21 @@
       "status": "normal",
       "summary_value": 0.0,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 1789.02
+        "total_net_flow_musd": 0.0,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 0.0,
+        "spy_net_flow_musd": 0.0
       }
     },
     {
       "date": "2025-12-26",
       "status": "normal",
-      "summary_value": 966.42,
+      "summary_value": 498.39,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 966.42,
-        "aggregated_flows": 966.42
+        "total_net_flow_musd": 498.39,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -468.03,
+        "spy_net_flow_musd": 966.42
       }
     },
     {
@@ -595,31 +632,34 @@
     {
       "date": "2025-12-29",
       "status": "normal",
-      "summary_value": 3554.28,
+      "summary_value": 4957.72,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3554.28,
-        "aggregated_flows": 7753.18
+        "total_net_flow_musd": 4957.72,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1403.44,
+        "spy_net_flow_musd": 3554.28
       }
     },
     {
       "date": "2025-12-30",
       "status": "normal",
-      "summary_value": 5502.09,
+      "summary_value": 6060.87,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5502.09,
-        "aggregated_flows": 7753.18
+        "total_net_flow_musd": 6060.87,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 558.78,
+        "spy_net_flow_musd": 5502.09
       }
     },
     {
       "date": "2025-12-31",
       "status": "normal",
-      "summary_value": -1064.56,
+      "summary_value": 483.77,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1064.56,
-        "aggregated_flows": 7753.18
+        "total_net_flow_musd": 483.77,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1548.33,
+        "spy_net_flow_musd": -1064.56
       }
     },
     {
@@ -627,19 +667,21 @@
       "status": "normal",
       "summary_value": 0.0,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 7753.18
+        "total_net_flow_musd": 0.0,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 0.0,
+        "spy_net_flow_musd": 0.0
       }
     },
     {
       "date": "2026-01-02",
       "status": "normal",
-      "summary_value": -238.63,
+      "summary_value": 283.42,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -238.63,
-        "aggregated_flows": 7753.18
+        "total_net_flow_musd": 283.42,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 522.05,
+        "spy_net_flow_musd": -238.63
       }
     },
     {
@@ -657,11 +699,12 @@
     {
       "date": "2026-01-05",
       "status": "normal",
-      "summary_value": -3157.89,
+      "summary_value": -4567.46,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -3157.89,
-        "aggregated_flows": -3157.89
+        "total_net_flow_musd": -4567.46,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -3157.89,
+        "spy_net_flow_musd": -1409.57
       }
     },
     {
@@ -669,9 +712,9 @@
       "status": "normal",
       "summary_value": -3300.46,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3300.46,
-        "aggregated_flows": -8489.74
+        "total_net_flow_musd": -3300.46,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3300.46
       }
     },
     {
@@ -679,9 +722,9 @@
       "status": "normal",
       "summary_value": -5189.28,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -5189.28,
-        "aggregated_flows": -8489.74
+        "total_net_flow_musd": -5189.28,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -5189.28
       }
     },
     {
@@ -689,19 +732,20 @@
       "status": "normal",
       "summary_value": 2034.11,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2034.11,
-        "aggregated_flows": 2034.11
+        "total_net_flow_musd": 2034.11,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2034.11
       }
     },
     {
       "date": "2026-01-09",
       "status": "normal",
-      "summary_value": 930.72,
+      "summary_value": 2978.21,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 930.72,
-        "aggregated_flows": 930.72
+        "total_net_flow_musd": 2978.21,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 930.72,
+        "spy_net_flow_musd": 2047.49
       }
     },
     {
@@ -719,51 +763,56 @@
     {
       "date": "2026-01-12",
       "status": "normal",
-      "summary_value": -595.45,
+      "summary_value": -3341.56,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -595.45,
-        "aggregated_flows": 28.34
+        "total_net_flow_musd": -3341.56,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -595.45,
+        "spy_net_flow_musd": -2746.11
       }
     },
     {
       "date": "2026-01-13",
       "status": "normal",
-      "summary_value": -219.56,
+      "summary_value": -1572.63,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -219.56,
-        "aggregated_flows": 28.34
+        "total_net_flow_musd": -1572.63,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -219.56,
+        "spy_net_flow_musd": -1353.07
       }
     },
     {
       "date": "2026-01-14",
       "status": "normal",
-      "summary_value": 657.5,
+      "summary_value": 5454.36,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 657.5,
-        "aggregated_flows": 28.34
+        "total_net_flow_musd": 5454.36,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 657.5,
+        "spy_net_flow_musd": 4796.86
       }
     },
     {
       "date": "2026-01-15",
       "status": "normal",
-      "summary_value": 185.85,
+      "summary_value": 2538.62,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 185.85,
-        "aggregated_flows": 28.34
+        "total_net_flow_musd": 2538.62,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 185.85,
+        "spy_net_flow_musd": 2352.77
       }
     },
     {
       "date": "2026-01-16",
       "status": "normal",
-      "summary_value": -1349.38,
+      "summary_value": -1535.83,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1349.38,
-        "aggregated_flows": -1349.38
+        "total_net_flow_musd": -1535.83,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -186.45,
+        "spy_net_flow_musd": -1349.38
       }
     },
     {
@@ -783,49 +832,54 @@
       "status": "normal",
       "summary_value": 0.0,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": -1349.38
+        "total_net_flow_musd": 0.0,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 0.0,
+        "spy_net_flow_musd": 0.0
       }
     },
     {
       "date": "2026-01-20",
       "status": "normal",
-      "summary_value": -714.21,
+      "summary_value": -1764.11,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -714.21,
-        "aggregated_flows": -714.21
+        "total_net_flow_musd": -1764.11,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -714.21,
+        "spy_net_flow_musd": -1049.9
       }
     },
     {
       "date": "2026-01-21",
       "status": "normal",
-      "summary_value": -2811.02,
+      "summary_value": -3479.66,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2811.02,
-        "aggregated_flows": -8189.89
+        "total_net_flow_musd": -3479.66,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -668.64,
+        "spy_net_flow_musd": -2811.02
       }
     },
     {
       "date": "2026-01-22",
       "status": "normal",
-      "summary_value": -5378.87,
+      "summary_value": -4670.36,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -5378.87,
-        "aggregated_flows": -8189.89
+        "total_net_flow_musd": -4670.36,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 708.51,
+        "spy_net_flow_musd": -5378.87
       }
     },
     {
       "date": "2026-01-23",
       "status": "normal",
-      "summary_value": -1676.06,
+      "summary_value": -2709.94,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1676.06,
-        "aggregated_flows": -1676.06
+        "total_net_flow_musd": -2709.94,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -1676.06,
+        "spy_net_flow_musd": -1033.88
       }
     },
     {
@@ -845,9 +899,9 @@
       "status": "normal",
       "summary_value": 137.85,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 137.85,
-        "aggregated_flows": 2853.93
+        "total_net_flow_musd": 137.85,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 137.85
       }
     },
     {
@@ -855,9 +909,9 @@
       "status": "normal",
       "summary_value": -865.88,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -865.88,
-        "aggregated_flows": 2853.93
+        "total_net_flow_musd": -865.88,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -865.88
       }
     },
     {
@@ -865,29 +919,31 @@
       "status": "normal",
       "summary_value": 3581.96,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3581.96,
-        "aggregated_flows": 2853.93
+        "total_net_flow_musd": 3581.96,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3581.96
       }
     },
     {
       "date": "2026-01-29",
       "status": "normal",
-      "summary_value": 104.32,
+      "summary_value": 1528.63,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 104.32,
-        "aggregated_flows": 104.32
+        "total_net_flow_musd": 1528.63,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1424.31,
+        "spy_net_flow_musd": 104.32
       }
     },
     {
       "date": "2026-01-30",
       "status": "normal",
-      "summary_value": 1826.03,
+      "summary_value": 235.26,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1826.03,
-        "aggregated_flows": 1826.03
+        "total_net_flow_musd": 235.26,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1826.03,
+        "spy_net_flow_musd": -1590.77
       }
     },
     {
@@ -907,9 +963,9 @@
       "status": "normal",
       "summary_value": 2593.65,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2593.65,
-        "aggregated_flows": 2593.65
+        "total_net_flow_musd": 2593.65,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2593.65
       }
     },
     {
@@ -917,9 +973,9 @@
       "status": "normal",
       "summary_value": -4520.08,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4520.08,
-        "aggregated_flows": -244.8
+        "total_net_flow_musd": -4520.08,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4520.08
       }
     },
     {
@@ -927,29 +983,31 @@
       "status": "normal",
       "summary_value": 4275.28,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4275.28,
-        "aggregated_flows": -244.8
+        "total_net_flow_musd": 4275.28,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4275.28
       }
     },
     {
       "date": "2026-02-05",
       "status": "normal",
-      "summary_value": 1604.71,
+      "summary_value": -1648.14,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1604.71,
-        "aggregated_flows": 708.89
+        "total_net_flow_musd": -1648.14,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1604.71,
+        "spy_net_flow_musd": -3252.85
       }
     },
     {
       "date": "2026-02-06",
       "status": "normal",
-      "summary_value": -895.82,
+      "summary_value": -515.75,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -895.82,
-        "aggregated_flows": 708.89
+        "total_net_flow_musd": -515.75,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -895.82,
+        "spy_net_flow_musd": 380.07
       }
     },
     {
@@ -967,51 +1025,56 @@
     {
       "date": "2026-02-09",
       "status": "normal",
-      "summary_value": -488.03,
+      "summary_value": -1772.55,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -488.03,
-        "aggregated_flows": -488.03
+        "total_net_flow_musd": -1772.55,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -488.03,
+        "spy_net_flow_musd": -1284.52
       }
     },
     {
       "date": "2026-02-10",
       "status": "normal",
-      "summary_value": -2326.02,
+      "summary_value": -4569.85,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2326.02,
-        "aggregated_flows": -2014.58
+        "total_net_flow_musd": -4569.85,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -2243.83,
+        "spy_net_flow_musd": -2326.02
       }
     },
     {
       "date": "2026-02-11",
       "status": "normal",
-      "summary_value": 311.44,
+      "summary_value": -1858.85,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 311.44,
-        "aggregated_flows": -2014.58
+        "total_net_flow_musd": -1858.85,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -2170.29,
+        "spy_net_flow_musd": 311.44
       }
     },
     {
       "date": "2026-02-12",
       "status": "normal",
-      "summary_value": 934.28,
+      "summary_value": 964.94,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 934.28,
-        "aggregated_flows": 934.28
+        "total_net_flow_musd": 964.94,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 30.66,
+        "spy_net_flow_musd": 934.28
       }
     },
     {
       "date": "2026-02-13",
       "status": "normal",
-      "summary_value": 1141.22,
+      "summary_value": 7753.94,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 1141.22,
-        "aggregated_flows": 1141.22
+        "total_net_flow_musd": 7753.94,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1141.22,
+        "spy_net_flow_musd": 6612.72
       }
     },
     {
@@ -1031,19 +1094,20 @@
       "status": "normal",
       "summary_value": 0.0,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 0.0
+        "total_net_flow_musd": 0.0,
+        "tickers": "QQQ",
+        "qqq_net_flow_musd": 0.0
       }
     },
     {
       "date": "2026-02-17",
       "status": "normal",
-      "summary_value": 511.54,
+      "summary_value": -5562.83,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 511.54,
-        "aggregated_flows": 511.54
+        "total_net_flow_musd": -5562.83,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 511.54,
+        "spy_net_flow_musd": -6074.37
       }
     },
     {
@@ -1051,9 +1115,9 @@
       "status": "normal",
       "summary_value": 648.39,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 648.39,
-        "aggregated_flows": 648.39
+        "total_net_flow_musd": 648.39,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 648.39
       }
     },
     {
@@ -1061,19 +1125,20 @@
       "status": "normal",
       "summary_value": -2161.95,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2161.95,
-        "aggregated_flows": -2161.95
+        "total_net_flow_musd": -2161.95,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2161.95
       }
     },
     {
       "date": "2026-02-20",
       "status": "normal",
-      "summary_value": -1985.02,
+      "summary_value": -536.65,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1985.02,
-        "aggregated_flows": -1985.02
+        "total_net_flow_musd": -536.65,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 1448.37,
+        "spy_net_flow_musd": -1985.02
       }
     },
     {
@@ -1091,11 +1156,12 @@
     {
       "date": "2026-02-23",
       "status": "normal",
-      "summary_value": -669.6,
+      "summary_value": -1522.25,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -669.6,
-        "aggregated_flows": -669.6
+        "total_net_flow_musd": -1522.25,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -669.6,
+        "spy_net_flow_musd": -852.65
       }
     },
     {
@@ -1103,9 +1169,9 @@
       "status": "normal",
       "summary_value": -102.32,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -102.32,
-        "aggregated_flows": -102.32
+        "total_net_flow_musd": -102.32,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -102.32
       }
     },
     {
@@ -1113,29 +1179,31 @@
       "status": "normal",
       "summary_value": -103.11,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -103.11,
-        "aggregated_flows": -103.11
+        "total_net_flow_musd": -103.11,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -103.11
       }
     },
     {
       "date": "2026-02-26",
       "status": "normal",
-      "summary_value": -893.81,
+      "summary_value": -2134.49,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -893.81,
-        "aggregated_flows": -3208.96
+        "total_net_flow_musd": -2134.49,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -893.81,
+        "spy_net_flow_musd": -1240.68
       }
     },
     {
       "date": "2026-02-27",
       "status": "normal",
-      "summary_value": -2315.15,
+      "summary_value": 601.8,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -2315.15,
-        "aggregated_flows": -3208.96
+        "total_net_flow_musd": 601.8,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -2315.15,
+        "spy_net_flow_musd": 2916.95
       }
     },
     {
@@ -1153,51 +1221,56 @@
     {
       "date": "2026-03-02",
       "status": "normal",
-      "summary_value": 577.13,
+      "summary_value": -4675.87,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 577.13,
-        "aggregated_flows": 577.13
+        "total_net_flow_musd": -4675.87,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 577.13,
+        "spy_net_flow_musd": -5253.0
       }
     },
     {
       "date": "2026-03-03",
       "status": "normal",
-      "summary_value": -1976.99,
+      "summary_value": -6330.4,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -1976.99,
-        "aggregated_flows": -1976.99
+        "total_net_flow_musd": -6330.4,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -1976.99,
+        "spy_net_flow_musd": -4353.41
       }
     },
     {
       "date": "2026-03-04",
       "status": "normal",
-      "summary_value": -361.01,
+      "summary_value": -1594.9,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -361.01,
-        "aggregated_flows": -361.01
+        "total_net_flow_musd": -1594.9,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -361.01,
+        "spy_net_flow_musd": -1233.89
       }
     },
     {
       "date": "2026-03-05",
       "status": "normal",
-      "summary_value": -137.1,
+      "summary_value": -2427.58,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -137.1,
-        "aggregated_flows": -3204.55
+        "total_net_flow_musd": -2427.58,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -2290.48,
+        "spy_net_flow_musd": -137.1
       }
     },
     {
       "date": "2026-03-06",
       "status": "normal",
-      "summary_value": -3067.45,
+      "summary_value": -2397.49,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3067.45,
-        "aggregated_flows": -3204.55
+        "total_net_flow_musd": -2397.49,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 669.96,
+        "spy_net_flow_musd": -3067.45
       }
     },
     {
@@ -1215,11 +1288,12 @@
     {
       "date": "2026-03-09",
       "status": "normal",
-      "summary_value": -2388.13,
+      "summary_value": -3288.06,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2388.13,
-        "aggregated_flows": -2388.13
+        "total_net_flow_musd": -3288.06,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -899.93,
+        "spy_net_flow_musd": -2388.13
       }
     },
     {
@@ -1227,9 +1301,9 @@
       "status": "normal",
       "summary_value": 5291.12,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5291.12,
-        "aggregated_flows": 518.44
+        "total_net_flow_musd": 5291.12,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 5291.12
       }
     },
     {
@@ -1237,29 +1311,31 @@
       "status": "normal",
       "summary_value": -4772.68,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4772.68,
-        "aggregated_flows": 518.44
+        "total_net_flow_musd": -4772.68,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4772.68
       }
     },
     {
       "date": "2026-03-12",
       "status": "normal",
-      "summary_value": 2431.34,
+      "summary_value": 5762.25,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": 2431.34,
-        "aggregated_flows": 1624.94
+        "total_net_flow_musd": 5762.25,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 2431.34,
+        "spy_net_flow_musd": 3330.91
       }
     },
     {
       "date": "2026-03-13",
       "status": "normal",
-      "summary_value": -806.4,
+      "summary_value": 6643.78,
       "details": {
-        "ticker": "QQQ",
-        "net_flow_musd": -806.4,
-        "aggregated_flows": 1624.94
+        "total_net_flow_musd": 6643.78,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": -806.4,
+        "spy_net_flow_musd": 7450.18
       }
     },
     {
@@ -1279,9 +1355,9 @@
       "status": "normal",
       "summary_value": -4039.65,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4039.65,
-        "aggregated_flows": -4039.65
+        "total_net_flow_musd": -4039.65,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4039.65
       }
     },
     {
@@ -1289,9 +1365,9 @@
       "status": "normal",
       "summary_value": -167.25,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -167.25,
-        "aggregated_flows": -8517.26
+        "total_net_flow_musd": -167.25,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -167.25
       }
     },
     {
@@ -1299,19 +1375,20 @@
       "status": "normal",
       "summary_value": -8350.01,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -8350.01,
-        "aggregated_flows": -8517.26
+        "total_net_flow_musd": -8350.01,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -8350.01
       }
     },
     {
       "date": "2026-03-19",
       "status": "normal",
-      "summary_value": -1124.69,
+      "summary_value": -857.05,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1124.69,
-        "aggregated_flows": -1124.69
+        "total_net_flow_musd": -857.05,
+        "tickers": "QQQ,SPY",
+        "qqq_net_flow_musd": 267.64,
+        "spy_net_flow_musd": -1124.69
       }
     },
     {
@@ -1319,9 +1396,9 @@
       "status": "normal",
       "summary_value": 65.98,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 65.98,
-        "aggregated_flows": 65.98
+        "total_net_flow_musd": 65.98,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 65.98
       }
     },
     {
@@ -1341,9 +1418,9 @@
       "status": "normal",
       "summary_value": 2397.82,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2397.82,
-        "aggregated_flows": 17671.39
+        "total_net_flow_musd": 2397.82,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2397.82
       }
     },
     {
@@ -1351,9 +1428,9 @@
       "status": "normal",
       "summary_value": 15273.57,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 15273.57,
-        "aggregated_flows": 17671.39
+        "total_net_flow_musd": 15273.57,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 15273.57
       }
     },
     {
@@ -1361,9 +1438,9 @@
       "status": "normal",
       "summary_value": -7518.42,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -7518.42,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -7518.42,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -7518.42
       }
     },
     {
@@ -1371,9 +1448,9 @@
       "status": "normal",
       "summary_value": -2774.39,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2774.39,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2774.39,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2774.39
       }
     },
     {
@@ -1381,9 +1458,9 @@
       "status": "normal",
       "summary_value": 1586.09,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1586.09,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1586.09,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1586.09
       }
     },
     {
@@ -1403,9 +1480,9 @@
       "status": "normal",
       "summary_value": -2559.35,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2559.35,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2559.35,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2559.35
       }
     },
     {
@@ -1413,9 +1490,9 @@
       "status": "normal",
       "summary_value": 1463.39,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1463.39,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1463.39,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1463.39
       }
     },
     {
@@ -1423,9 +1500,9 @@
       "status": "normal",
       "summary_value": -3078.88,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3078.88,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3078.88,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3078.88
       }
     },
     {
@@ -1433,9 +1510,9 @@
       "status": "normal",
       "summary_value": -721.44,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -721.44,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -721.44,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -721.44
       }
     },
     {
@@ -1461,9 +1538,9 @@
       "status": "normal",
       "summary_value": -1021.15,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1021.15,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1021.15,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1021.15
       }
     },
     {
@@ -1471,9 +1548,9 @@
       "status": "normal",
       "summary_value": 3856.96,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3856.96,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3856.96,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3856.96
       }
     },
     {
@@ -1481,9 +1558,9 @@
       "status": "normal",
       "summary_value": 2230.26,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2230.26,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2230.26,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2230.26
       }
     },
     {
@@ -1491,9 +1568,9 @@
       "status": "normal",
       "summary_value": 7276.49,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 7276.49,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 7276.49,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 7276.49
       }
     },
     {
@@ -1501,9 +1578,9 @@
       "status": "normal",
       "summary_value": 135.87,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 135.87,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 135.87,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 135.87
       }
     },
     {
@@ -1523,9 +1600,9 @@
       "status": "normal",
       "summary_value": -377.43,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -377.43,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -377.43,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -377.43
       }
     },
     {
@@ -1533,9 +1610,9 @@
       "status": "normal",
       "summary_value": -1666.41,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1666.41,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1666.41,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1666.41
       }
     },
     {
@@ -1543,9 +1620,9 @@
       "status": "normal",
       "summary_value": 664.93,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 664.93,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 664.93,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 664.93
       }
     },
     {
@@ -1553,9 +1630,9 @@
       "status": "normal",
       "summary_value": 1263.16,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1263.16,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1263.16,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1263.16
       }
     },
     {
@@ -1563,9 +1640,9 @@
       "status": "normal",
       "summary_value": 3018.34,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3018.34,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3018.34,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3018.34
       }
     },
     {
@@ -1585,9 +1662,9 @@
       "status": "normal",
       "summary_value": 247.98,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 247.98,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 247.98,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 247.98
       }
     },
     {
@@ -1595,9 +1672,9 @@
       "status": "normal",
       "summary_value": 1513.67,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1513.67,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1513.67,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1513.67
       }
     },
     {
@@ -1605,9 +1682,9 @@
       "status": "normal",
       "summary_value": 2987.89,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2987.89,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2987.89,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2987.89
       }
     },
     {
@@ -1615,9 +1692,9 @@
       "status": "normal",
       "summary_value": -2904.73,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2904.73,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2904.73,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2904.73
       }
     },
     {
@@ -1625,9 +1702,9 @@
       "status": "normal",
       "summary_value": -35.71,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -35.71,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -35.71,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -35.71
       }
     },
     {
@@ -1647,9 +1724,9 @@
       "status": "normal",
       "summary_value": -3825.37,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3825.37,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3825.37,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3825.37
       }
     },
     {
@@ -1657,9 +1734,9 @@
       "status": "normal",
       "summary_value": 1529.78,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1529.78,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1529.78,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1529.78
       }
     },
     {
@@ -1667,9 +1744,9 @@
       "status": "normal",
       "summary_value": 4374.15,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4374.15,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4374.15,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4374.15
       }
     },
     {
@@ -1677,9 +1754,9 @@
       "status": "normal",
       "summary_value": -790.4,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -790.4,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -790.4,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -790.4
       }
     },
     {
@@ -1687,9 +1764,9 @@
       "status": "normal",
       "summary_value": 3206.95,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3206.95,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3206.95,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3206.95
       }
     },
     {
@@ -1709,9 +1786,9 @@
       "status": "normal",
       "summary_value": 466.56,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 466.56,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 466.56,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 466.56
       }
     },
     {
@@ -1719,9 +1796,9 @@
       "status": "normal",
       "summary_value": -3437.2,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3437.2,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3437.2,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3437.2
       }
     },
     {
@@ -1729,9 +1806,9 @@
       "status": "normal",
       "summary_value": 2642.99,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2642.99,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2642.99,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2642.99
       }
     },
     {
@@ -1739,9 +1816,9 @@
       "status": "normal",
       "summary_value": 438.83,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 438.83,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 438.83,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 438.83
       }
     },
     {
@@ -1749,9 +1826,9 @@
       "status": "normal",
       "summary_value": 4167.67,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4167.67,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4167.67,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4167.67
       }
     },
     {
@@ -1771,9 +1848,9 @@
       "status": "normal",
       "summary_value": 776.04,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 776.04,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 776.04,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 776.04
       }
     },
     {
@@ -1781,9 +1858,9 @@
       "status": "normal",
       "summary_value": 2582.81,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2582.81,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2582.81,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2582.81
       }
     },
     {
@@ -1791,9 +1868,9 @@
       "status": "normal",
       "summary_value": 2004.16,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2004.16,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2004.16,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2004.16
       }
     },
     {
@@ -1801,9 +1878,9 @@
       "status": "normal",
       "summary_value": -3889.46,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3889.46,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3889.46,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3889.46
       }
     },
     {
@@ -1811,9 +1888,9 @@
       "status": "normal",
       "summary_value": 2068.84,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2068.84,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2068.84,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2068.84
       }
     },
     {
@@ -1833,9 +1910,9 @@
       "status": "normal",
       "summary_value": -4984.01,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4984.01,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -4984.01,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4984.01
       }
     },
     {
@@ -1843,9 +1920,9 @@
       "status": "normal",
       "summary_value": 5537.88,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5537.88,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 5537.88,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 5537.88
       }
     },
     {
@@ -1853,9 +1930,9 @@
       "status": "normal",
       "summary_value": -6079.6,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -6079.6,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -6079.6,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -6079.6
       }
     },
     {
@@ -1863,9 +1940,9 @@
       "status": "normal",
       "summary_value": 2228.32,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2228.32,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2228.32,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2228.32
       }
     },
     {
@@ -1873,9 +1950,9 @@
       "status": "normal",
       "summary_value": -1975.76,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1975.76,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1975.76,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1975.76
       }
     },
     {
@@ -1901,9 +1978,9 @@
       "status": "normal",
       "summary_value": 675.15,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 675.15,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 675.15,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 675.15
       }
     },
     {
@@ -1911,9 +1988,9 @@
       "status": "normal",
       "summary_value": 1050.41,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1050.41,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1050.41,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1050.41
       }
     },
     {
@@ -1921,9 +1998,9 @@
       "status": "normal",
       "summary_value": 1282.83,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1282.83,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1282.83,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1282.83
       }
     },
     {
@@ -1931,9 +2008,9 @@
       "status": "normal",
       "summary_value": 1058.79,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1058.79,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1058.79,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1058.79
       }
     },
     {
@@ -1953,9 +2030,9 @@
       "status": "normal",
       "summary_value": 834.15,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 834.15,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 834.15,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 834.15
       }
     },
     {
@@ -1963,9 +2040,9 @@
       "status": "normal",
       "summary_value": -2126.09,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2126.09,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2126.09,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2126.09
       }
     },
     {
@@ -1973,9 +2050,9 @@
       "status": "normal",
       "summary_value": 1771.29,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1771.29,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1771.29,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1771.29
       }
     },
     {
@@ -1983,9 +2060,9 @@
       "status": "normal",
       "summary_value": 4919.98,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4919.98,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4919.98,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4919.98
       }
     },
     {
@@ -1993,9 +2070,9 @@
       "status": "normal",
       "summary_value": -73.7,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -73.7,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -73.7,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -73.7
       }
     },
     {
@@ -2015,9 +2092,9 @@
       "status": "normal",
       "summary_value": 8057.95,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 8057.95,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 8057.95,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 8057.95
       }
     },
     {
@@ -2025,9 +2102,9 @@
       "status": "normal",
       "summary_value": -4682.4,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4682.4,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -4682.4,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4682.4
       }
     },
     {
@@ -2035,9 +2112,9 @@
       "status": "normal",
       "summary_value": 4062.71,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4062.71,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4062.71,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4062.71
       }
     },
     {
@@ -2045,9 +2122,9 @@
       "status": "normal",
       "summary_value": 1623.97,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1623.97,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1623.97,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1623.97
       }
     },
     {
@@ -2055,9 +2132,9 @@
       "status": "normal",
       "summary_value": -222.57,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -222.57,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -222.57,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -222.57
       }
     },
     {
@@ -2077,9 +2154,9 @@
       "status": "normal",
       "summary_value": -1508.63,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1508.63,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1508.63,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1508.63
       }
     },
     {
@@ -2087,9 +2164,9 @@
       "status": "normal",
       "summary_value": -3075.24,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3075.24,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3075.24,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3075.24
       }
     },
     {
@@ -2097,9 +2174,9 @@
       "status": "normal",
       "summary_value": -12300.2,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -12300.2,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -12300.2,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -12300.2
       }
     },
     {
@@ -2107,9 +2184,9 @@
       "status": "normal",
       "summary_value": -12700.53,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -12700.53,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -12700.53,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -12700.53
       }
     },
     {
@@ -2135,9 +2212,9 @@
       "status": "normal",
       "summary_value": 17455.28,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 17455.28,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 17455.28,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 17455.28
       }
     },
     {
@@ -2145,9 +2222,9 @@
       "status": "normal",
       "summary_value": 6566.42,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6566.42,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 6566.42,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 6566.42
       }
     },
     {
@@ -2155,9 +2232,9 @@
       "status": "normal",
       "summary_value": 3078.43,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3078.43,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3078.43,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3078.43
       }
     },
     {
@@ -2165,9 +2242,9 @@
       "status": "normal",
       "summary_value": 769.56,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 769.56,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 769.56,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 769.56
       }
     },
     {
@@ -2175,9 +2252,9 @@
       "status": "normal",
       "summary_value": 4102.48,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4102.48,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4102.48,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4102.48
       }
     },
     {
@@ -2197,9 +2274,9 @@
       "status": "normal",
       "summary_value": -2001.22,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2001.22,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2001.22,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2001.22
       }
     },
     {
@@ -2207,9 +2284,9 @@
       "status": "normal",
       "summary_value": -8031.68,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -8031.68,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -8031.68,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -8031.68
       }
     },
     {
@@ -2217,9 +2294,9 @@
       "status": "normal",
       "summary_value": -2124.82,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2124.82,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2124.82,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2124.82
       }
     },
     {
@@ -2227,9 +2304,9 @@
       "status": "normal",
       "summary_value": 4697.12,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4697.12,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4697.12,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4697.12
       }
     },
     {
@@ -2255,9 +2332,9 @@
       "status": "normal",
       "summary_value": -3379.71,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3379.71,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3379.71,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3379.71
       }
     },
     {
@@ -2265,9 +2342,9 @@
       "status": "normal",
       "summary_value": -934.63,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -934.63,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -934.63,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -934.63
       }
     },
     {
@@ -2275,9 +2352,9 @@
       "status": "normal",
       "summary_value": 1416.64,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1416.64,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1416.64,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1416.64
       }
     },
     {
@@ -2285,9 +2362,9 @@
       "status": "normal",
       "summary_value": -2443.0,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2443.0,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2443.0,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2443.0
       }
     },
     {
@@ -2295,9 +2372,9 @@
       "status": "normal",
       "summary_value": 2642.25,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2642.25,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2642.25,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2642.25
       }
     },
     {
@@ -2317,9 +2394,9 @@
       "status": "normal",
       "summary_value": -5354.96,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -5354.96,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -5354.96,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -5354.96
       }
     },
     {
@@ -2327,9 +2404,9 @@
       "status": "normal",
       "summary_value": 8945.91,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 8945.91,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 8945.91,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 8945.91
       }
     },
     {
@@ -2337,9 +2414,9 @@
       "status": "normal",
       "summary_value": -1094.28,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1094.28,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1094.28,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1094.28
       }
     },
     {
@@ -2347,9 +2424,9 @@
       "status": "normal",
       "summary_value": 2702.98,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2702.98,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2702.98,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2702.98
       }
     },
     {
@@ -2357,9 +2434,9 @@
       "status": "normal",
       "summary_value": 2415.57,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2415.57,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2415.57,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2415.57
       }
     },
     {
@@ -2379,9 +2456,9 @@
       "status": "normal",
       "summary_value": 259.64,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 259.64,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 259.64,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 259.64
       }
     },
     {
@@ -2389,9 +2466,9 @@
       "status": "normal",
       "summary_value": 1571.66,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1571.66,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1571.66,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1571.66
       }
     },
     {
@@ -2399,9 +2476,9 @@
       "status": "normal",
       "summary_value": -3101.7,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3101.7,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3101.7,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3101.7
       }
     },
     {
@@ -2409,9 +2486,9 @@
       "status": "normal",
       "summary_value": 2547.41,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2547.41,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2547.41,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2547.41
       }
     },
     {
@@ -2419,9 +2496,9 @@
       "status": "normal",
       "summary_value": 2216.42,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2216.42,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2216.42,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2216.42
       }
     },
     {
@@ -2441,9 +2518,9 @@
       "status": "normal",
       "summary_value": 1662.59,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1662.59,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1662.59,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1662.59
       }
     },
     {
@@ -2451,9 +2528,9 @@
       "status": "normal",
       "summary_value": 2258.49,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2258.49,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2258.49,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2258.49
       }
     },
     {
@@ -2461,9 +2538,9 @@
       "status": "normal",
       "summary_value": 218.78,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 218.78,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 218.78,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 218.78
       }
     },
     {
@@ -2471,9 +2548,9 @@
       "status": "normal",
       "summary_value": -1186.19,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1186.19,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1186.19,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1186.19
       }
     },
     {
@@ -2481,9 +2558,9 @@
       "status": "normal",
       "summary_value": 671.94,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 671.94,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 671.94,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 671.94
       }
     },
     {
@@ -2503,9 +2580,9 @@
       "status": "normal",
       "summary_value": -3258.01,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3258.01,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3258.01,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3258.01
       }
     },
     {
@@ -2513,9 +2590,9 @@
       "status": "normal",
       "summary_value": -6169.82,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -6169.82,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -6169.82,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -6169.82
       }
     },
     {
@@ -2523,9 +2600,9 @@
       "status": "normal",
       "summary_value": 4119.16,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4119.16,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4119.16,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4119.16
       }
     },
     {
@@ -2533,9 +2610,9 @@
       "status": "normal",
       "summary_value": -8185.4,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -8185.4,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -8185.4,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -8185.4
       }
     },
     {
@@ -2543,9 +2620,9 @@
       "status": "normal",
       "summary_value": -1894.74,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1894.74,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1894.74,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1894.74
       }
     },
     {
@@ -2565,9 +2642,9 @@
       "status": "normal",
       "summary_value": 5951.98,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 5951.98,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 5951.98,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 5951.98
       }
     },
     {
@@ -2575,9 +2652,9 @@
       "status": "normal",
       "summary_value": 3544.41,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3544.41,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3544.41,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3544.41
       }
     },
     {
@@ -2585,9 +2662,9 @@
       "status": "normal",
       "summary_value": -4249.12,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4249.12,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -4249.12,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4249.12
       }
     },
     {
@@ -2595,9 +2672,9 @@
       "status": "normal",
       "summary_value": 3071.55,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3071.55,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3071.55,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3071.55
       }
     },
     {
@@ -2605,9 +2682,9 @@
       "status": "normal",
       "summary_value": 4192.46,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4192.46,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4192.46,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4192.46
       }
     },
     {
@@ -2627,9 +2704,9 @@
       "status": "normal",
       "summary_value": -1544.85,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1544.85,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1544.85,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1544.85
       }
     },
     {
@@ -2637,9 +2714,9 @@
       "status": "normal",
       "summary_value": 1879.46,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1879.46,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1879.46,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1879.46
       }
     },
     {
@@ -2647,9 +2724,9 @@
       "status": "normal",
       "summary_value": 3805.58,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3805.58,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3805.58,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3805.58
       }
     },
     {
@@ -2657,9 +2734,9 @@
       "status": "normal",
       "summary_value": 4763.98,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4763.98,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4763.98,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4763.98
       }
     },
     {
@@ -2667,9 +2744,9 @@
       "status": "normal",
       "summary_value": -1263.21,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1263.21,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1263.21,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1263.21
       }
     },
     {
@@ -2689,9 +2766,9 @@
       "status": "normal",
       "summary_value": -9237.74,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -9237.74,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -9237.74,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -9237.74
       }
     },
     {
@@ -2699,9 +2776,9 @@
       "status": "normal",
       "summary_value": -3829.62,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3829.62,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3829.62,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3829.62
       }
     },
     {
@@ -2709,9 +2786,9 @@
       "status": "normal",
       "summary_value": 1186.94,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1186.94,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1186.94,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1186.94
       }
     },
     {
@@ -2719,9 +2796,9 @@
       "status": "normal",
       "summary_value": 1851.06,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1851.06,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1851.06,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1851.06
       }
     },
     {
@@ -2729,9 +2806,9 @@
       "status": "normal",
       "summary_value": 269.28,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 269.28,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 269.28,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 269.28
       }
     },
     {
@@ -2751,9 +2828,9 @@
       "status": "normal",
       "summary_value": 191.71,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 191.71,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 191.71,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 191.71
       }
     },
     {
@@ -2761,9 +2838,9 @@
       "status": "normal",
       "summary_value": -1561.04,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1561.04,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1561.04,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1561.04
       }
     },
     {
@@ -2771,9 +2848,9 @@
       "status": "normal",
       "summary_value": -382.49,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -382.49,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -382.49,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -382.49
       }
     },
     {
@@ -2781,9 +2858,9 @@
       "status": "normal",
       "summary_value": 734.46,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 734.46,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 734.46,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 734.46
       }
     },
     {
@@ -2791,9 +2868,9 @@
       "status": "normal",
       "summary_value": -2349.51,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2349.51,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2349.51,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2349.51
       }
     },
     {
@@ -2819,9 +2896,9 @@
       "status": "normal",
       "summary_value": -1187.09,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1187.09,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1187.09,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1187.09
       }
     },
     {
@@ -2829,9 +2906,9 @@
       "status": "normal",
       "summary_value": 1257.61,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 1257.61,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 1257.61,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 1257.61
       }
     },
     {
@@ -2839,9 +2916,9 @@
       "status": "normal",
       "summary_value": 454.69,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 454.69,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 454.69,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 454.69
       }
     },
     {
@@ -2849,9 +2926,9 @@
       "status": "normal",
       "summary_value": 4012.84,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4012.84,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4012.84,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4012.84
       }
     },
     {
@@ -2871,9 +2948,9 @@
       "status": "normal",
       "summary_value": -3461.15,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -3461.15,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -3461.15,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -3461.15
       }
     },
     {
@@ -2881,9 +2958,9 @@
       "status": "normal",
       "summary_value": -2347.96,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2347.96,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2347.96,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2347.96
       }
     },
     {
@@ -2891,9 +2968,9 @@
       "status": "normal",
       "summary_value": -10519.03,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -10519.03,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -10519.03,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -10519.03
       }
     },
     {
@@ -2901,9 +2978,9 @@
       "status": "normal",
       "summary_value": -5033.38,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -5033.38,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -5033.38,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -5033.38
       }
     },
     {
@@ -2911,9 +2988,9 @@
       "status": "normal",
       "summary_value": -1257.32,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1257.32,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1257.32,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1257.32
       }
     },
     {
@@ -2933,9 +3010,9 @@
       "status": "normal",
       "summary_value": 6496.95,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6496.95,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 6496.95,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 6496.95
       }
     },
     {
@@ -2943,9 +3020,9 @@
       "status": "normal",
       "summary_value": 2861.74,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2861.74,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2861.74,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2861.74
       }
     },
     {
@@ -2953,9 +3030,9 @@
       "status": "normal",
       "summary_value": 3838.05,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3838.05,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3838.05,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3838.05
       }
     },
     {
@@ -2963,9 +3040,9 @@
       "status": "normal",
       "summary_value": 14926.64,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 14926.64,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 14926.64,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 14926.64
       }
     },
     {
@@ -2973,9 +3050,9 @@
       "status": "normal",
       "summary_value": -5708.01,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -5708.01,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -5708.01,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -5708.01
       }
     },
     {
@@ -2995,9 +3072,9 @@
       "status": "normal",
       "summary_value": 3559.14,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3559.14,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3559.14,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3559.14
       }
     },
     {
@@ -3005,9 +3082,9 @@
       "status": "normal",
       "summary_value": -1872.11,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1872.11,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1872.11,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1872.11
       }
     },
     {
@@ -3015,9 +3092,9 @@
       "status": "normal",
       "summary_value": 0.0,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 0.0,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 0.0,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 0.0
       }
     },
     {
@@ -3025,9 +3102,9 @@
       "status": "normal",
       "summary_value": 6759.41,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 6759.41,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 6759.41,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 6759.41
       }
     },
     {
@@ -3035,9 +3112,9 @@
       "status": "normal",
       "summary_value": -8309.97,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -8309.97,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -8309.97,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -8309.97
       }
     },
     {
@@ -3057,9 +3134,9 @@
       "status": "normal",
       "summary_value": -2284.94,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2284.94,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2284.94,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2284.94
       }
     },
     {
@@ -3067,9 +3144,9 @@
       "status": "normal",
       "summary_value": -4207.06,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4207.06,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -4207.06,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4207.06
       }
     },
     {
@@ -3077,9 +3154,9 @@
       "status": "normal",
       "summary_value": 4275.66,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 4275.66,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 4275.66,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 4275.66
       }
     },
     {
@@ -3087,9 +3164,9 @@
       "status": "normal",
       "summary_value": -502.95,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -502.95,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -502.95,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -502.95
       }
     },
     {
@@ -3097,9 +3174,9 @@
       "status": "normal",
       "summary_value": -467.07,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -467.07,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -467.07,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -467.07
       }
     },
     {
@@ -3119,9 +3196,9 @@
       "status": "normal",
       "summary_value": -116.7,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -116.7,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -116.7,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -116.7
       }
     },
     {
@@ -3129,9 +3206,9 @@
       "status": "normal",
       "summary_value": 2294.68,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 2294.68,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 2294.68,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 2294.68
       }
     },
     {
@@ -3139,9 +3216,9 @@
       "status": "normal",
       "summary_value": -1384.65,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -1384.65,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -1384.65,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -1384.65
       }
     },
     {
@@ -3149,9 +3226,9 @@
       "status": "normal",
       "summary_value": 7679.42,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 7679.42,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 7679.42,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 7679.42
       }
     },
     {
@@ -3159,9 +3236,9 @@
       "status": "normal",
       "summary_value": -4351.23,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -4351.23,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -4351.23,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -4351.23
       }
     },
     {
@@ -3181,9 +3258,9 @@
       "status": "normal",
       "summary_value": 3487.52,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": 3487.52,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": 3487.52,
+        "tickers": "SPY",
+        "spy_net_flow_musd": 3487.52
       }
     },
     {
@@ -3191,9 +3268,9 @@
       "status": "normal",
       "summary_value": -499.63,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -499.63,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -499.63,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -499.63
       }
     },
     {
@@ -3201,9 +3278,9 @@
       "status": "normal",
       "summary_value": -2435.32,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -2435.32,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -2435.32,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -2435.32
       }
     },
     {
@@ -3211,9 +3288,9 @@
       "status": "normal",
       "summary_value": -267.33,
       "details": {
-        "ticker": "SPY",
-        "net_flow_musd": -267.33,
-        "aggregated_flows": 33153.53
+        "total_net_flow_musd": -267.33,
+        "tickers": "SPY",
+        "spy_net_flow_musd": -267.33
       }
     },
     {
