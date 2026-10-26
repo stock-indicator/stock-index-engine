@@ -124,7 +124,7 @@ Return the time-series JSON produced from `output/history/{slug}.json`. The file
 - **Query parameters**
   - `lookback_days` (optional integer, 1–36500): only points from the last N days. Omit for the full history.
   - `max_points` (optional integer, 10–20000): thin the series to at most this many points for charting. Each run of consecutive points is represented by one real point: its last `high`/`low` point if it has one, else its last point. Status-only entries (no value) are dropped. The newest point is always kept.
-  - `status` on a point is the logged status for that date, or, before the log began, the status the indicator's rule gives that value. `high` means overheated, `low` washed out.
+  - `status` on a point is the status the indicator's current rule gives that value, for indicators whose status is a threshold on the plotted value; otherwise it is the logged or computed status for that date. `high` means overheated, `low` washed out.
 
 - **Response 200**
   ```json

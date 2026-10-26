@@ -14,6 +14,7 @@ from common.models import IndicatorResult
 class BasePrice200DMADeviationIndicator(PriceSeriesIndicator):
     market_label: str
     threshold_pct: float = 25.0
+    low_threshold_pct: float = -10.0
     tickers: Dict[str, str]
 
     def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:
@@ -40,10 +41,12 @@ class BasePrice200DMADeviationIndicator(PriceSeriesIndicator):
         latest_ma = float(ma_series.iloc[-1])
         latest_price = float(series.iloc[-1])
         deviation = (latest_price - latest_ma) / latest_ma * 100 if latest_ma else 0.0
-        status = "high" if deviation > self.threshold_pct else "normal"
+        status = self.status_for_value(deviation)
         note = f"200DMA deviation for {self.market_label}"
         if status == "high":
             note += f" above {self.threshold_pct:.0f}%"
+        elif status == "low":
+            note += f" below {self.low_threshold_pct:.0f}%"
 
         details_entry = {
             "market": self.market_label,
@@ -107,7 +110,11 @@ class BasePrice200DMADeviationIndicator(PriceSeriesIndicator):
         return history
 
     def status_for_value(self, value: float) -> Optional[str]:
-        return "high" if value > self.threshold_pct else "normal"
+        if value > self.threshold_pct:
+            return "high"
+        if value < self.low_threshold_pct:
+            return "low"
+        return "normal"
 
 
 class Price200DMASP500Indicator(BasePrice200DMADeviationIndicator):
@@ -116,10 +123,10 @@ class Price200DMASP500Indicator(BasePrice200DMADeviationIndicator):
     metadata = IndicatorMetadata(
         name="Price vs 200DMA (S&P 500)",
         category="Technical",
-        threshold="> 25%",
+        threshold="High > 25% · Low < -10%",
         markets=[market_label],
         topics=["Technical", "Trend"],
-        description="Measures the percentage deviation of the index price from its 200-day moving average (200DMA). A large deviation suggests the market is overbought or extended.",
+        description="Measures the percentage deviation of the index price from its 200-day moving average (200DMA). Far above it the market is overbought or extended; more than 10% below it the market is in a deep, oversold decline.",
     )
     tickers = {market_label: INDEX_TICKERS["S&P 500"]}
 
@@ -130,7 +137,7 @@ class Price200DMANasdaqIndicator(BasePrice200DMADeviationIndicator):
     metadata = IndicatorMetadata(
         name="Price vs 200DMA (Nasdaq 100)",
         category="Technical",
-        threshold="> 25%",
+        threshold="High > 25% · Low < -10%",
         markets=[market_label],
         topics=["Technical", "Trend"],
     )

@@ -23,10 +23,10 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
     metadata = IndicatorMetadata(
         name="Smart vs Dumb Money",
         category="Sentiment",
-        threshold="> 70",
+        threshold="High ≥ 70 · Low < 25",
         markets=["US Market"],
         topics=["Sentiment"],
-        description="Uses the CNN Fear & Greed Index as a proxy for \'dumb money\' sentiment. Extreme greed (a high index value) can be a contrarian signal, suggesting retail investors are over-exposed.",
+        description="Uses the CNN Fear & Greed Index as a proxy for \'dumb money\' sentiment. Extreme greed (a high index value) can be a contrarian signal, suggesting retail investors are over-exposed; extreme fear (below 25) has tended to come near lows.",
     )
     default_history_days = 365
 
@@ -96,12 +96,11 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
         latest = clean_df.iloc[-1]
         latest_value = float(latest["index_value"])
         latest_date = latest["data_start_date"].isoformat()
-        status = "high" if latest_value >= 70 else "normal"
-        notes = (
-            "Dumb money confidence very high (index >= 70)"
-            if status == "high"
-            else "Fear & Greed index below exuberance threshold"
-        )
+        status = self.status_for_value(latest_value)
+        notes = {
+            "high": "Dumb money confidence very high (index >= 70)",
+            "low": "Extreme fear (index < 25)",
+        }.get(status, "Fear & Greed index between the fear and greed bands")
         pure_value = [
             {"metric": "fear_greed_index", "value": latest_value, "as_of": latest_date},
             {"metric": "rating", "value": latest.get("rating")},
@@ -114,7 +113,11 @@ class SmartVsDumbMoneyIndicator(BaseIndicator):
         )
 
     def status_for_value(self, value: float) -> Optional[str]:
-        return "high" if value >= 70 else "normal"
+        if value >= 70:
+            return "high"
+        if value < 25:
+            return "low"
+        return "normal"
 
     def _parse_json(self, text: str) -> pd.DataFrame:
         data = json.loads(text)
