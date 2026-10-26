@@ -25,6 +25,7 @@ def _compute_rsi(prices: pd.Series, period: int = RSI_PERIOD) -> pd.Series:
 class BaseRSIIndicator(PriceSeriesIndicator):
     market_label: str
     overbought_threshold: float = 80.0
+    oversold_threshold: float = 30.0
     tickers: Dict[str, str]
 
     def compute(self, clean_df: pd.DataFrame, fetcher: MarketDataFetcher) -> IndicatorResult:
@@ -49,10 +50,12 @@ class BaseRSIIndicator(PriceSeriesIndicator):
             )
 
         latest_rsi = float(rsi_series.iloc[-1])
-        status = "high" if latest_rsi > self.overbought_threshold else "normal"
+        status = self.status_for_value(latest_rsi)
         note = f"14-day RSI for {self.market_label}"
         if status == "high":
-            note += f" above {self.overbought_threshold}"
+            note += f" above {self.overbought_threshold:.0f} (overbought)"
+        elif status == "low":
+            note += f" below {self.oversold_threshold:.0f} (oversold)"
 
         details_entry = {
             "market": self.market_label,
@@ -109,7 +112,11 @@ class BaseRSIIndicator(PriceSeriesIndicator):
         return history
 
     def status_for_value(self, value: float) -> Optional[str]:
-        return "high" if value > self.overbought_threshold else "normal"
+        if value > self.overbought_threshold:
+            return "high"
+        if value < self.oversold_threshold:
+            return "low"
+        return "normal"
 
 
 class RSISP500Indicator(BaseRSIIndicator):
@@ -118,10 +125,10 @@ class RSISP500Indicator(BaseRSIIndicator):
     metadata = IndicatorMetadata(
         name="RSI 14 (S&P 500)",
         category="Technical",
-        threshold="> 80",
+        threshold="High > 80 · Low < 30",
         markets=[market_label],
         topics=["Technical", "Momentum"],
-        description="The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. A reading above 80 is often considered an overbought signal.",
+        description="The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. A reading above 80 is often considered overbought, and below 30 oversold.",
     )
     tickers = {market_label: INDEX_TICKERS["S&P 500"]}
 
@@ -132,7 +139,7 @@ class RSINasdaq100Indicator(BaseRSIIndicator):
     metadata = IndicatorMetadata(
         name="RSI 14 (Nasdaq 100)",
         category="Technical",
-        threshold="> 80",
+        threshold="High > 80 · Low < 30",
         markets=[market_label],
         topics=["Technical", "Momentum"],
     )

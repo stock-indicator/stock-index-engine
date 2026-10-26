@@ -141,18 +141,33 @@ Not backfillable: QQQ flows (Invesco publishes only today's values), Insider Buy
 Share (would need every Form 4 since the start date), and the social and
 prediction-market indicators.
 
-The daily run log only begins when the engine was first deployed, so older
-history points take the status the indicator's own rule gives that value
-(`BaseIndicator.status_for_value`). A decades-long chart shows every past
-`high` and `low` reading, not just the ones the engine happened to log.
+Indicators whose status is a threshold on the plotted value define
+`BaseIndicator.status_for_value`, and every history point takes the status that
+rule gives its value, including points the daily run log already covers. The
+log only starts at the first deploy and records the rule of its day, so
+re-reading the whole series under the current rule keeps a decades-long chart
+consistent: it shows every past `high` and `low` reading, and a newly added
+band applies to the past too. Indicators without such a rule (MACD divergence,
+yield-curve duration, ETF streak and others) keep their logged or computed
+statuses.
 
 ### `high` and `low`
 
 `high` marks an overheated market: stretched valuations, complacency,
 overbought breadth. `low` marks a washed-out one: cheap valuations, panic,
-oversold breadth. The original indicators report only `high` or `normal`; the
-ones below report both. The summary counts lows in `low_available` and in
+oversold breadth. The summary counts lows in `low_available` and in
 `by_category.<category>.low`.
+
+These indicators report both directions; the rest report only `high` or
+`normal`:
+
+| Indicator | `high` | `low` |
+|---|---|---|
+| RSI 14 (S&P 500, Nasdaq 100) | > 80 | < 30 |
+| Price vs 200DMA (S&P 500, Nasdaq 100) | > 25% | < -10% |
+| VIX Level | < 10 | > 35 |
+| Smart vs Dumb Money (CNN Fear & Greed) | >= 70 | < 25 |
+| The eight indicators added below | see table | see table |
 
 ### Added indicators
 

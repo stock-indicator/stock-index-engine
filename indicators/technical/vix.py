@@ -12,10 +12,10 @@ class VIXLevelIndicator(PriceSeriesIndicator):
     metadata = IndicatorMetadata(
         name="VIX Level",
         category="Technical",
-        threshold="< 10",
+        threshold="High < 10 · Low > 35",
         markets=["US Market"],
         topics=["Volatility"],
-        description="The CBOE Volatility Index (VIX) is a real-time index representing the market's expectation of 30-day forward-looking volatility. It is a widely used measure of market risk, often referred to as the 'fear gauge'.",
+        description="The CBOE Volatility Index (VIX) is a real-time index representing the market's expectation of 30-day forward-looking volatility. It is a widely used measure of market risk, often referred to as the 'fear gauge'. Below 10 the market is complacent; above 35 it is panicking, which has tended to happen near lows.",
     )
     tickers = {"US Market": "^VIX"}
 
@@ -64,19 +64,27 @@ class VIXLevelIndicator(PriceSeriesIndicator):
                     notes="VIX value is zero after retry, skipping.",
                 )
 
-        status = "high" if latest_vix < 10 else "normal"
+        status = self.status_for_value(latest_vix) or "normal"
         pure_value = [
             {"market": "US Market", "vix": latest_vix}
         ]
+        notes = {
+            "high": "VIX below 10: complacency",
+            "low": "VIX above 35: panic",
+        }.get(status, "VIX between the complacency and panic bands")
         return self.build_result(
             raw_value=f"{latest_vix:.2f}",
             pure_value=pure_value,
             status=status,
-            notes="Low VIX signals complacency",
+            notes=notes,
         )
 
     def status_for_value(self, value: float) -> Optional[str]:
         # yfinance reports 0.0 for some bars; that is missing data, not calm.
         if value <= 0:
             return None
-        return "high" if value < 10 else "normal"
+        if value < 10:
+            return "high"
+        if value > 35:
+            return "low"
+        return "normal"

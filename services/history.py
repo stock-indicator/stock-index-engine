@@ -97,7 +97,7 @@ def generate_indicator_histories(
                 as_of=as_of,
                 lookback_days=lookback_days,
             )
-        _fill_rule_statuses(indicator, series)
+        _apply_rule_statuses(indicator, series)
         payload = {
             "indicator": slug,
             "display_name": indicator.metadata.name,
@@ -112,11 +112,16 @@ def generate_indicator_histories(
         _upsert_history_to_db(slug, series)
 
 
-def _fill_rule_statuses(indicator, series: List[Dict[str, object]]) -> None:
-    """Give points without a logged status the one the indicator's rule assigns."""
+def _apply_rule_statuses(indicator, series: List[Dict[str, object]]) -> None:
+    """Mark each plotted point with the status the indicator's current rule gives it.
+
+    The rule wins over the logged status: the run log only starts at the
+    first deploy and records the rule of its day, so when a band is added
+    (e.g. RSI < 30 as "low"), every point, logged or not, is re-read under
+    the same rule. Indicators without a value rule keep the logged statuses,
+    as do status-only entries, which carry no value.
+    """
     for item in series:
-        if item.get("status") is not None:
-            continue
         value = _coerce_numeric(item.get("summary_value"))
         if value is None:
             continue
