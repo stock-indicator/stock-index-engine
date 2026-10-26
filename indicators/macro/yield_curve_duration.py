@@ -1,9 +1,12 @@
 from __future__ import annotations
 
+from datetime import datetime
+from typing import Dict, List, Optional
+
 import pandas as pd
 
 from common.models import IndicatorResult
-from indicators.base import IndicatorMetadata
+from indicators.base import IndicatorMetadata, clip_to_window
 from indicators.macro.base_fred import FREDIndicator
 
 
@@ -19,6 +22,40 @@ class YieldCurveDurationIndicator(FREDIndicator):
     required_series = {
         "spread_pct": "T10Y2Y",
     }
+
+    def build_history_series(
+        self,
+        clean_df: pd.DataFrame,
+        *,
+        status_map: Dict[str, str],
+        as_of: datetime,
+        lookback_days: Optional[int],
+    ) -> Optional[List[Dict[str, object]]]:
+        df = clean_df.dropna(subset=["spread_pct"]).set_index("data_start_date").sort_index()
+        spread = df["spread_pct"].astype(float)
+        if spread.empty:
+            return None
+        inverted = spread < 0
+        dates = spread.index.to_series()
+        # Number each run of consecutive same-sign days; an inverted day's
+        # streak is measured from the first day of its run, as in compute().
+        run_id = (inverted != inverted.shift()).cumsum()
+        run_start = dates.groupby(run_id).transform("min")
+        months = ((dates - run_start).dt.days / 30.4375).where(inverted, 0.0)
+        frame = clip_to_window(pd.DataFrame({"spread": spread, "months": months}), as_of, lookback_days)
+        history: List[Dict[str, object]] = []
+        for ts, row in frame.iterrows():
+            date_key = ts.date().isoformat()
+            inversion_months = float(row["months"])
+            history.append(
+                {
+                    "date": date_key,
+                    "status": status_map.get(date_key) or ("high" if inversion_months >= 12 else "normal"),
+                    "summary_value": float(row["spread"]),
+                    "details": {"spread_pct": float(row["spread"]), "inversion_months": round(inversion_months, 2)},
+                }
+            )
+        return history
 
     def compute(self, clean_df, fetcher) -> IndicatorResult:
         if clean_df.empty or "spread_pct" not in clean_df.columns:

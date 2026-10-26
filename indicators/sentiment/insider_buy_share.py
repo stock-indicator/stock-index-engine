@@ -54,7 +54,7 @@ from common.sec_edgar import (
     sync_form4_filings,
 )
 from common.settings import settings
-from indicators.base import BaseIndicator, IndicatorMetadata, compute_end_date
+from indicators.base import BaseIndicator, IndicatorMetadata, clip_to_window, compute_end_date
 
 
 SHORT_WINDOW_DAYS = 30
@@ -298,12 +298,10 @@ class InsiderBuyShareIndicator(BaseIndicator):
         *,
         status_map: Dict[str, str],
         as_of: datetime,
-        lookback_days: int,
+        lookback_days: Optional[int],
     ) -> Optional[List[Dict[str, object]]]:
         frame = self._rolling(clean_df)
-        frame = frame[frame["complete"]]
-        cutoff = pd.Timestamp(as_of.date() - timedelta(days=lookback_days))
-        frame = frame[frame.index >= cutoff]
+        frame = clip_to_window(frame[frame["complete"]], as_of, lookback_days)
 
         series: List[Dict[str, object]] = []
         for day, row in frame.iterrows():

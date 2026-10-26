@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Optional
+
 from common.models import IndicatorResult
 from indicators.base import IndicatorMetadata
 from indicators.valuation.base_multpl import MultplIndicator
@@ -37,3 +39,6 @@ class SP500PriceToSalesIndicator(MultplIndicator):
             status=status,
             notes="",
         )
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value > 6 else "normal"

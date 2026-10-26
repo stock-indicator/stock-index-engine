@@ -8,6 +8,8 @@ xlrd>=2.0
 psycopg[binary]>=3.2
 fastapi>=0.112
 uvicorn[standard]>=0.30
+# TradingView chart websocket (common/tradingview.py); sync client API
+websockets>=13
 apscheduler>=3.10
 edgartools>=5.62
 lxml>=5.0

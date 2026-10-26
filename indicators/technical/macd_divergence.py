@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Dict, List, Optional
 
 import pandas as pd
@@ -13,7 +13,7 @@ from common.config import (
     MACD_SLOW,
 )
 from common.models import IndicatorResult
-from indicators.base import IndicatorMetadata
+from indicators.base import IndicatorMetadata, clip_to_window
 from indicators.technical.base_price import PriceSeriesIndicator
 
 
@@ -98,30 +98,25 @@ class BaseMACDDivergenceIndicator(PriceSeriesIndicator):
         *,
         status_map: Dict[str, str],
         as_of: datetime,
-        lookback_days: int,
+        lookback_days: Optional[int],
     ) -> Optional[List[Dict[str, object]]]:
         series_map = self.prepare_price_series(clean_df)
         series = series_map.get(self.market_label)
         if series is None or series.empty:
             return None
 
-        cutoff_date = as_of.date() - timedelta(days=lookback_days)
-        upper_date = as_of.date()
-        series = series[(series.index.date >= cutoff_date) & (series.index.date <= upper_date)]
-        if series.empty:
-            return None
-
+        # The rolling maxima need MACD_LOOKBACK days before the window starts,
+        # so compute on the full series and clip afterwards.
         macd_df = _compute_macd(series).dropna()
-        macd_df = macd_df[(macd_df.index.date >= cutoff_date) & (macd_df.index.date <= upper_date)]
-        if macd_df.empty:
-            return None
-
         aligned_prices = series.reindex(macd_df.index)
         price_roll_max = aligned_prices.rolling(window=MACD_LOOKBACK).max()
         macd_roll_max = macd_df["macd"].rolling(window=MACD_LOOKBACK).max()
         price_new_high_series = aligned_prices >= (price_roll_max * 0.999)
         macd_new_high_series = macd_df["macd"] >= (macd_roll_max * 0.999)
         divergence_series = price_new_high_series & (~macd_new_high_series)
+        macd_df = clip_to_window(macd_df, as_of, lookback_days)
+        if macd_df.empty:
+            return None
 
         history: List[Dict[str, object]] = []
         for ts, row in macd_df.iterrows():
@@ -140,7 +135,7 @@ class BaseMACDDivergenceIndicator(PriceSeriesIndicator):
             history.append(
                 {
                     "date": date_key,
-                    "status": status_map.get(date_key),
+                    "status": status_map.get(date_key) or ("high" if details["divergence"] else "normal"),
                     "summary_value": float(row["macd"]),
                     "details": details,
                 }

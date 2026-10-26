@@ -11,6 +11,10 @@ from indicators.base import BaseIndicator, compute_end_date
 
 class FREDIndicator(BaseIndicator):
     required_series: Dict[str, str] = {}
+    # Every run re-downloads this window and merges it, so a long window both
+    # keeps each series' full history (GS10 from 1953, T10Y2Y from 1976) and
+    # backfills an indicator that was built with a shorter one.
+    default_history_days = 365 * 100
 
     def collect_full(self, fetcher) -> pd.DataFrame:
         start = utc_now() - timedelta(days=self.get_history_window_days() + 120)

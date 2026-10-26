@@ -49,7 +49,8 @@ class ETFFundFlowIndicator(BaseIndicator):
         description="Tracks the number of consecutive days of net inflows into SPY and QQQ. Daily flows are the change in shares outstanding times NAV, from State Street's and Invesco's published fund data. A long streak can indicate strong market conviction or potential overheating.",
     )
     tickers: List[str] = [*NAV_HISTORY_RESOURCES, *FUND_DETAILS_RESOURCES]
-    default_history_days = 365
+    # SPY's NAV history starts in December 2003; the window covers all of it.
+    default_history_days = 365 * 30
 
     def collect_full(self, fetcher) -> pd.DataFrame:
         end = utc_now().date()
@@ -64,7 +65,10 @@ class ETFFundFlowIndicator(BaseIndicator):
         starts = {}
         for ticker in self.tickers:
             rows = existing_clean[existing_clean["ticker"] == ticker]
-            if rows.empty:
+            if rows.empty or ticker in NAV_HISTORY_RESOURCES:
+                # A published NAV history is a local file once downloaded, so
+                # recomputing the whole window is cheap and backfills any days
+                # the stored rows lack.
                 starts[ticker] = default_start
             else:
                 starts[ticker] = pd.to_datetime(rows["data_start_date"].max()).date() + timedelta(days=1)
@@ -169,7 +173,7 @@ class ETFFundFlowIndicator(BaseIndicator):
         *,
         status_map: Dict[str, str],
         as_of: datetime,
-        lookback_days: int,
+        lookback_days: Optional[int],
     ) -> Optional[List[Dict[str, object]]]:
         # One point per day: the summed flow of the ETFs reporting that day,
         # with each ETF's own flow in the details. The default series would
@@ -178,8 +182,9 @@ class ETFFundFlowIndicator(BaseIndicator):
         if df.empty:
             return None
         df["data_start_date"] = pd.to_datetime(df["data_start_date"])
-        cutoff = pd.Timestamp(as_of.date() - timedelta(days=lookback_days))
-        df = df[(df["data_start_date"] >= cutoff) & (df["data_start_date"] <= pd.Timestamp(as_of.date()))]
+        df = df[df["data_start_date"] <= pd.Timestamp(as_of.date())]
+        if lookback_days is not None:
+            df = df[df["data_start_date"] >= pd.Timestamp(as_of.date() - timedelta(days=lookback_days))]
         if df.empty:
             return None
         wide = df.pivot_table(index="data_start_date", columns="ticker", values="net_flow_musd", aggfunc="last")

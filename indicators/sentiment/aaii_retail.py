@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Optional
+
 import pandas as pd
 
 from common.fetchers import resource_fetcher
@@ -81,6 +83,9 @@ class RetailPositioningIndicator(BaseIndicator):
             status=status,
             notes=notes,
         )
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value >= 70 else "normal"
 
     @staticmethod
     def _to_percent(value: float) -> float:

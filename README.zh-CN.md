@@ -46,11 +46,11 @@ EDGAR_IDENTITY="Your Name your.email@example.com"
 # 安装依赖
 pip install -r requirements.txt
 
-# 运行一次完整的刷新，重新生成365天的历史数据
-python market_indicators.py --mode full --lookback-days 365
+# 刷新全部指标，并导出每个指标的完整历史
+python market_indicators.py --mode manual
 
-# 运行一次增量刷新
-python market_indicators.py --mode manual --lookback-days 365
+# 从头重建单个指标（保留共享下载缓存：FINRA 屏蔽数据中心 IP，文件不一定能重新下载）
+python market_indicators.py --mode full --indicator cape_ratio --keep-resource-cache
 ```
 
 ### 3. 运行 API 服务
@@ -111,6 +111,66 @@ Retail Buzz Velocity 在累积满 30 个观测值之前，会以 `normal` 状态
 的说明——五个读数算出来的分位数不是分位数。
 
 指标口径、失败处理和可调参数见 [docs/social-sentiment.md](docs/social-sentiment.md)。
+
+## 长历史与双向信号
+
+### 历史深度
+
+每次刷新都会把每个指标存储的**全部**历史导出到 `output/history/<slug>.json`。
+API 按请求的范围（`lookback_days`）截取，并可为图表抽稀（`max_points`），详见
+[docs/api.md](docs/api.md)。
+
+存储的历史会在下一次刷新时自动回填，不需要 full refresh：
+
+| 数据源 | 可追溯到 |
+|---|---|
+| 价格类指标（RSI、MACD、200DMA、12 个月涨幅、VIX） | 每次运行下载 Yahoo 全量历史：标普 500 从 1927 年，纳指 100 从 1985 年，VIX 从 1990 年 |
+| FRED 宏观指标 | 每次运行读取整条序列：CPI 从 1947 年，10 年期收益率从 1953 年，T10Y2Y 从 1976 年 |
+| multpl.com 估值表 | PE、CAPE、股息率从 1871 年；P/B、P/S 从 2000 年 |
+| CNN 恐惧贪婪指数 | 从 2021 年 1 月起，这是 CNN 提供的最早日期 |
+| ETF 净流入（SPY） | 从 2003 年 12 月起，即道富 NAV 历史的起点 |
+| AAII、FINRA 融资余额、BIS 信贷/GDP | 本来就是完整历史（1987、1997、1947 年） |
+
+无法回填的：QQQ 资金流（景顺只公布当天数据）、Insider Buy Share（需要下载起始日以来
+的全部 Form 4）、社交与预测市场类指标。
+
+每日运行日志从引擎首次部署才开始记录，所以更早的历史点使用指标自身规则对该数值给出的
+状态（`BaseIndicator.status_for_value`）。几十年的图表上能看到过去每一次 `high` 和 `low`，
+而不只是引擎恰好记录下来的那些。
+
+### `high` 与 `low`
+
+`high` 表示市场过热：估值拉伸、情绪自满、广度超买。`low` 表示市场被洗盘：估值便宜、
+恐慌、广度超卖。原有指标只报告 `high` 或 `normal`，下面新增的指标两个方向都会报告。
+汇总里用 `low_available` 和 `by_category.<category>.low` 统计 low。
+
+### 新增指标
+
+| 指标 | 类别 | 数据源 | 起始 | `high` | `low` |
+|---|---|---|---|---|---|
+| Buffett Indicator | Valuation | 美联储 Z.1 企业股权市值 / GDP（FRED） | 1947 | > 150% | < 60% |
+| Tobin's Q | Valuation | 美联储 Z.1 企业股权市值 / 净资产（FRED） | 1945 | > 1.4 | < 0.5 |
+| Excess CAPE Yield | Valuation | 1 / CAPE（multpl）减实际 10 年期收益率（FRED） | 1957 | < 1% | > 7% |
+| Stocks Above 200DMA (S&P 500) | Technical | TradingView `INDEX:S5TH` | 1990 | > 80% | < 20% |
+| Stocks Above 200DMA (Nasdaq 100) | Technical | TradingView `INDEX:NDTH` | 2006 | > 80% | < 20% |
+| VIX Term Structure | Technical | VIX / VIX3M（Yahoo） | 2006 | < 0.80 | > 1.00 |
+| Equity Put/Call Ratio | Sentiment | TradingView `USI:PCCE`，10 日均值 | 2007 | < 0.60 | > 1.00 |
+| High-Yield Credit Spread | Macro | ICE BofA 高收益债 OAS：TradingView `FRED:BAMLH0A0HYM2` 加 FRED | 1996 | < 3.0% | > 7.0% |
+
+阈值都用全量历史校验过：`high` 区间覆盖了 1968、2000、2021 年的极值，`low` 区间覆盖了
+2002、2009、2020、2022 年和 2025 年 4 月的低点。Z.1 按季度发布、滞后约十周，所以
+Buffett 和 Tobin's Q 会用标普 500 自上一季度以来的涨跌幅来缩放最新季度的数值；这些行带
+`estimated: true`，直到 Z.1 公布该季度的实际值。
+
+### TradingView 数据
+
+`common/tradingview.py` 是 [TradingView-API](https://github.com/Mathieu2301/TradingView-API)
+所用图表会话协议的一个小型 Python 移植。它匿名连接 TradingView 的图表 websocket，读取
+完整的日线历史，覆盖了没有任何免密 API 提供的市场广度、CBOE put/call 和 FRED 镜像数据。
+FRED 自己的 API 现在只返回最近三年的 ICE 利差数据。
+
+这个接口是非官方的，所以下载失败时保留已存储的历史。基于 TradingView 的读数在最新数据
+点超过 7-10 天后会变成 `unavailable`，避免数据源坏掉时把冻结的旧值当成当前值。
 
 ## Docker 部署
 

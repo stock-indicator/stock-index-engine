@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import time
+from typing import Optional
+
 from common.models import IndicatorResult
 from indicators.base import IndicatorMetadata
 from indicators.technical.base_price import PriceSeriesIndicator
@@ -32,7 +34,8 @@ class VIXLevelIndicator(PriceSeriesIndicator):
             self.logger.info("VIX value is zero, retrying in 10 seconds...")
             time.sleep(10)
             # Refetch
-            raw_df = fetcher.get_price_history(self.tickers["US Market"])
+            # A short period bypasses the run cache, which holds the zero bar.
+            raw_df = fetcher.get_price_history(self.tickers["US Market"], period="1mo")
             if raw_df.empty:
                 return self.build_result(status="unavailable", notes="No VIX data on retry.")
 
@@ -71,3 +74,9 @@ class VIXLevelIndicator(PriceSeriesIndicator):
             status=status,
             notes="Low VIX signals complacency",
         )
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        # yfinance reports 0.0 for some bars; that is missing data, not calm.
+        if value <= 0:
+            return None
+        return "high" if value < 10 else "normal"
