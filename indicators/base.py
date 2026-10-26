@@ -109,6 +109,7 @@ class BaseIndicator(ABC):
         result = self.compute(clean_df, fetcher)
         result.markets = self.metadata.markets
         result.topics = self.metadata.topics
+        result.slug = self.slug
         return result
 
     # ------------------------------------------------------------------
@@ -154,6 +155,7 @@ class BaseIndicator(ABC):
             pure_value=pure_value,
             topics=topics if topics is not None else meta.topics,
             description=description if description is not None else meta.description,
+            slug=self.slug,
         )
 
     def ingest_dataframe(self, df: Optional[pd.DataFrame]) -> None:
@@ -184,9 +186,22 @@ class BaseIndicator(ABC):
         *,
         status_map: Dict[str, str],
         as_of: datetime,
-        lookback_days: int,
+        lookback_days: Optional[int],
     ) -> Optional[List[Dict[str, object]]]:
-        """Optional custom history builder per indicator."""
+        """Optional custom history builder per indicator.
+
+        ``lookback_days`` of ``None`` means the whole clean dataset.
+        """
+        return None
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        """Status this indicator's rule gives a plotted history value.
+
+        History points otherwise only carry statuses from the daily run log,
+        which starts when the engine was deployed, so decades of backfilled
+        data would plot without any. Indicators whose status is a threshold on
+        the plotted value override this; ``None`` leaves the point unmarked.
+        """
         return None
 
     # ------------------------------------------------------------------
@@ -253,6 +268,20 @@ class BaseIndicator(ABC):
         if isinstance(obj, (np.integer, np.floating)):
             return obj.item()
         return str(obj)
+
+
+def clip_to_window(obj, as_of: datetime, lookback_days: Optional[int]):
+    """Rows of a date-indexed Series/DataFrame inside the history window.
+
+    Clip only after computing rolling statistics on the full series: cutting
+    first leaves the first window's worth of points empty (a 200-day average
+    on a one-year window plotted only its last ~50 days).
+    """
+    upper = pd.Timestamp(as_of.date())
+    mask = obj.index <= upper
+    if lookback_days is not None:
+        mask &= obj.index >= upper - pd.Timedelta(days=lookback_days)
+    return obj[mask]
 
 
 def compute_end_date(index: pd.Index) -> List[pd.Timestamp]:

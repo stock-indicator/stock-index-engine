@@ -19,4 +19,7 @@ class IndicatorResult:
     # ISO-8601 time this reading was produced. Stamped when the snapshot is
     # written, and carried over unchanged for indicators a partial refresh skips.
     updated_at: Optional[str] = None
+    # The indicator's slug, which names its history file. Snapshots written
+    # before this field existed lack it; the API then derives it from the name.
+    slug: Optional[str] = None
 

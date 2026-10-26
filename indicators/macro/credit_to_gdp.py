@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Optional
+
 import pandas as pd
 
 from common.fetchers import resource_fetcher
@@ -75,3 +77,6 @@ class CreditToGDPIndicator(BaseIndicator):
             status=status,
             notes=notes,
         )
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value > 350 else "normal"

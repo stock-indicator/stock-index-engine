@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import shutil
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, Optional
 
 from common.api_keys import load_api_keys
 from common.config import OUTPUT_DIR
@@ -80,7 +80,7 @@ def _run_cycle(
     fetcher: MarketDataFetcher,
     mode: str,
     regenerate_history: bool,
-    lookback_days: int,
+    lookback_days: Optional[int],
 ) -> IndicatorRun:
     indicators = list(indicators)
     partial = {i.slug for i in indicators} != {i.slug for i in ALL_INDICATORS}
@@ -100,11 +100,14 @@ def _run_cycle(
 def manual_refresh(
     *,
     indicators: Iterable = ALL_INDICATORS,
-    lookback_days: int = 365,
+    lookback_days: Optional[int] = None,
     regenerate_history: bool = True,
     indicator_slug: str | None = None,
 ) -> IndicatorRun:
-    """Run incremental refresh using cached resources where possible."""
+    """Run incremental refresh using cached resources where possible.
+
+    ``lookback_days`` limits the exported history; ``None`` exports all of it.
+    """
 
     indicators = _prepare_indicators(indicators, indicator_slug)
     logger.info("Starting manual refresh for %d indicator(s)", len(indicators))
@@ -129,7 +132,7 @@ def manual_refresh(
 def full_refresh(
     *,
     indicators: Iterable = ALL_INDICATORS,
-    lookback_days: int = 365,
+    lookback_days: Optional[int] = None,
     regenerate_history: bool = True,
     purge_resource_cache: bool = True,
     indicator_slug: str | None = None,

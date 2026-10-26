@@ -24,6 +24,7 @@ def _failure_result(indicator, exc: Exception) -> IndicatorResult:
         raw_value=None,
         pure_value=None,
         topics=meta.topics,
+        slug=indicator.slug,
     )
 
 

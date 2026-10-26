@@ -11,26 +11,35 @@ from indicators.base import BaseIndicator, compute_end_date
 MULTPL_BASE_URL = "https://www.multpl.com"
 
 
+def fetch_multpl_table(table_slug: str, period: str = "by-quarter") -> pd.DataFrame:
+    """Raw ``date``/``value`` text cells of a multpl.com history table, newest first.
+
+    The first row is multpl's estimate for the current day; the rest are
+    one row per month (or quarter).
+    """
+    url = f"{MULTPL_BASE_URL}/{table_slug}/table/{period}"
+    response = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
+    table = soup.find("table")
+    if table is None:
+        return pd.DataFrame()
+    tbody = table.find("tbody") or table
+    rows = []
+    for tr in tbody.find_all("tr"):
+        cols = [td.get_text(strip=True) for td in tr.find_all("td")]
+        if len(cols) >= 2:
+            rows.append(cols[:2])
+    if not rows:
+        return pd.DataFrame()
+    return pd.DataFrame(rows, columns=["date", "value"])
+
+
 class MultplIndicator(BaseIndicator):
     table_slug: str = ""
 
     def collect_full(self, fetcher=None) -> pd.DataFrame:
-        url = f"{MULTPL_BASE_URL}/{self.table_slug}/table/by-quarter"
-        response = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, "html.parser")
-        table = soup.find("table")
-        if table is None:
-            return pd.DataFrame()
-        tbody = table.find("tbody") or table
-        rows = []
-        for tr in tbody.find_all("tr"):
-            cols = [td.get_text(strip=True) for td in tr.find_all("td")]
-            if len(cols) >= 2:
-                rows.append(cols[:2])
-        if not rows:
-            return pd.DataFrame()
-        return pd.DataFrame(rows, columns=["date", "value"])
+        return fetch_multpl_table(self.table_slug)
 
     def clean_data(self, raw: pd.DataFrame) -> pd.DataFrame:
         if raw.empty:

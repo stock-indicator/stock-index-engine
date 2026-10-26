@@ -1,3 +1,5 @@
+from .excess_cape_yield import ExcessCAPEYieldIndicator
+from .market_cap_ratios import BuffettIndicator, TobinsQIndicator
 from .shiller_cape import ShillerCAPEIndicator
 from .sp500_dividend_yield import SP500DividendYieldIndicator
 from .sp500_pe import SP500PEIndicator
@@ -10,4 +12,7 @@ VALUATION_INDICATORS = [
     ShillerCAPEIndicator(),
     SP500PriceToBookIndicator(),
     SP500PriceToSalesIndicator(),
+    BuffettIndicator(),
+    TobinsQIndicator(),
+    ExcessCAPEYieldIndicator(),
 ]

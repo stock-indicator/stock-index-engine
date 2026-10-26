@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 from .config import FRED_API_BASE, HTTP_HEADERS
 from .resources import ResourceFetcher
 from .logger import get_logger
+from .tradingview import fetch_daily_bars
 
 resource_fetcher = ResourceFetcher()
 
@@ -27,14 +28,22 @@ SP500_LOGGER = LOGGER.getChild("sp500")
 
 
 class MarketDataFetcher:
-    """Cache-friendly helpers for pulling price history and macro series."""
+    """Cache-friendly helpers for pulling price history and macro series.
+
+    One instance lives for one refresh run, so indicators that share a ticker
+    or series (four indicators read ^GSPC) download it once per run.
+    Returned frames are shared: copy before mutating.
+    """
 
     def __init__(self) -> None:
-        self._price_cache: Dict[str, pd.DataFrame] = {}
+        self._price_cache: Dict[Tuple[str, str], pd.DataFrame] = {}
+        self._fred_cache: Dict[Tuple[str, Optional[str]], Optional[pd.Series]] = {}
+        self._tradingview_cache: Dict[str, pd.DataFrame] = {}
         self.logger = LOGGER.getChild("market_data")
 
-    def get_price_history(self, ticker: str, period: str = "5y") -> pd.DataFrame:
-        if ticker not in self._price_cache:
+    def get_price_history(self, ticker: str, period: str = "max") -> pd.DataFrame:
+        cache_key = (ticker, period)
+        if cache_key not in self._price_cache:
             self.logger.info("Downloading price history for %s (period=%s)", ticker, period)
             try:
                 df = yf.download(
@@ -55,13 +64,30 @@ class MarketDataFetcher:
                     df = df.xs(ticker, axis=1, level="Ticker")
                 except (KeyError, ValueError):
                     df = df.droplevel(-1, axis=1)
-            self._price_cache[ticker] = df
+            self._price_cache[cache_key] = df
             self.logger.debug("Cached price history for %s with %d rows", ticker, len(df))
         else:
             self.logger.debug("Returning cached price history for %s", ticker)
-        return self._price_cache[ticker]
+        return self._price_cache[cache_key]
+
+    def get_tradingview_bars(self, symbol: str) -> pd.DataFrame:
+        """Full daily history for a TradingView symbol (see common.tradingview).
+
+        Raises ``TradingViewError`` when TradingView cannot serve it.
+        """
+        if symbol not in self._tradingview_cache:
+            self._tradingview_cache[symbol] = fetch_daily_bars(symbol)
+        return self._tradingview_cache[symbol]
 
     def fetch_fred_series(
+        self, series_id: str, observation_start: Optional[str] = None
+    ) -> Optional[pd.Series]:
+        cache_key = (series_id, observation_start)
+        if cache_key not in self._fred_cache:
+            self._fred_cache[cache_key] = self._download_fred_series(series_id, observation_start)
+        return self._fred_cache[cache_key]
+
+    def _download_fred_series(
         self, series_id: str, observation_start: Optional[str] = None
     ) -> Optional[pd.Series]:
         api_key = os.getenv("FRED_API_KEY")
@@ -81,8 +107,9 @@ class MarketDataFetcher:
             observation_start or "default",
         )
         try:
+            # Full daily series (T10Y2Y since 1976) are a few MB of JSON.
             response = requests.get(
-                FRED_API_BASE, params=params, timeout=10, headers=HTTP_HEADERS
+                FRED_API_BASE, params=params, timeout=30, headers=HTTP_HEADERS
             )
             response.raise_for_status()
         except requests.RequestException as exc:

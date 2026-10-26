@@ -1,13 +1,13 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Dict, List, Optional
 
 import pandas as pd
 
 from common.config import INDEX_TICKERS, ANNUAL_RETURN_WINDOW
 from common.models import IndicatorResult
-from indicators.base import IndicatorMetadata
+from indicators.base import IndicatorMetadata, clip_to_window
 from indicators.technical.base_price import PriceSeriesIndicator
 
 
@@ -73,15 +73,13 @@ class BaseAnnualizedReturnIndicator(PriceSeriesIndicator):
         *,
         status_map: Dict[str, str],
         as_of: datetime,
-        lookback_days: int,
+        lookback_days: Optional[int],
     ) -> Optional[List[Dict[str, object]]]:
         series_map = self.prepare_price_series(clean_df)
         series = series_map.get(self.market_label)
         if series is None or series.empty:
             return None
 
-        cutoff_date = as_of.date() - timedelta(days=lookback_days)
-        upper_date = as_of.date()
         # Shift over the full series and only then cut to the window: a
         # 365-day window holds ~251 trading days, fewer than the 252-day
         # lookback, so pre-cutting left every return NaN and the history fell
@@ -95,7 +93,7 @@ class BaseAnnualizedReturnIndicator(PriceSeriesIndicator):
                 "price_lookback": lookback_prices,
             }
         ).dropna()
-        combined = combined[(combined.index.date >= cutoff_date) & (combined.index.date <= upper_date)]
+        combined = clip_to_window(combined, as_of, lookback_days)
         combined = combined[combined["price_lookback"] != 0]
         if combined.empty:
             return None
@@ -122,6 +120,9 @@ class BaseAnnualizedReturnIndicator(PriceSeriesIndicator):
 
         history.sort(key=lambda item: item["date"])
         return history
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value > self.threshold_pct else "normal"
 
 
 class AnnualizedReturnSP500Indicator(BaseAnnualizedReturnIndicator):

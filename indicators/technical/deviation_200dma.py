@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Dict, List, Optional
 
 import pandas as pd
 
 from common.config import INDEX_TICKERS, MOVING_AVG_WINDOW
-from indicators.base import IndicatorMetadata
+from indicators.base import IndicatorMetadata, clip_to_window
 from indicators.technical.base_price import PriceSeriesIndicator
 from common.models import IndicatorResult
 
@@ -66,21 +66,15 @@ class BasePrice200DMADeviationIndicator(PriceSeriesIndicator):
         *,
         status_map: Dict[str, str],
         as_of: datetime,
-        lookback_days: int,
+        lookback_days: Optional[int],
     ) -> Optional[List[Dict[str, object]]]:
         series_map = self.prepare_price_series(clean_df)
         series = series_map.get(self.market_label)
         if series is None or series.empty:
             return None
 
-        cutoff_date = as_of.date() - timedelta(days=lookback_days)
-        upper_date = as_of.date()
-        series = series[(series.index.date >= cutoff_date) & (series.index.date <= upper_date)]
-        if series.empty:
-            return None
-
         ma_series = series.rolling(window=MOVING_AVG_WINDOW).mean().dropna()
-        ma_series = ma_series[(ma_series.index.date >= cutoff_date) & (ma_series.index.date <= upper_date)]
+        ma_series = clip_to_window(ma_series, as_of, lookback_days)
         if ma_series.empty:
             return None
 
@@ -111,6 +105,9 @@ class BasePrice200DMADeviationIndicator(PriceSeriesIndicator):
 
         history.sort(key=lambda item: item["date"])
         return history
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value > self.threshold_pct else "normal"
 
 
 class Price200DMASP500Indicator(BasePrice200DMADeviationIndicator):

@@ -119,7 +119,12 @@ Retrieve the latest result for a single indicator. The `slug` is lowercase with 
   - `404` – indicator not known or has not been evaluated yet.
 
 ### GET /indicators/{slug}/history
-Return the time-series JSON produced from `output/history/{slug}.json`.
+Return the time-series JSON produced from `output/history/{slug}.json`. The file holds the indicator's full history (back to 1871 for some valuation series).
+
+- **Query parameters**
+  - `lookback_days` (optional integer, 1–36500): only points from the last N days. Omit for the full history.
+  - `max_points` (optional integer, 10–20000): thin the series to at most this many points for charting. Each run of consecutive points is represented by one real point: its last `high`/`low` point if it has one, else its last point. Status-only entries (no value) are dropped. The newest point is always kept.
+  - `status` on a point is the logged status for that date, or, before the log began, the status the indicator's rule gives that value. `high` means overheated, `low` washed out.
 
 - **Response 200**
   ```json
@@ -163,12 +168,11 @@ Trigger a background refresh cycle. The response returns immediately while the r
 - **Request Body**
   ```json
   {
-    "mode": "manual",
-    "lookback_days": 365
+    "mode": "manual"
   }
   ```
   - `mode` (`manual` | `full`): incremental vs cache-busting refresh.
-  - `lookback_days` (integer, clamped to 30–3650): how much history to regenerate in `output/history`.
+  - `lookback_days` (optional integer, clamped to 30–3650): limit the history written to `output/history` to the last N days. Omit it (the default) to export each indicator's full history.
   - `indicator_slug` (optional string): refresh a single indicator. Required when `mode` is `full`.
 
 - **Response 202**
@@ -176,7 +180,7 @@ Trigger a background refresh cycle. The response returns immediately while the r
   {
     "status": "accepted",
     "mode": "manual",
-    "lookback_days": 365
+    "lookback_days": null
   }
   ```
 

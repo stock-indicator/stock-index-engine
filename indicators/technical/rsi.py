@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Dict, List, Optional
 
 import pandas as pd
@@ -8,7 +8,7 @@ import pandas as pd
 from common.config import INDEX_TICKERS, RSI_PERIOD
 from common.fetchers import MarketDataFetcher
 from common.models import IndicatorResult
-from indicators.base import IndicatorMetadata
+from indicators.base import IndicatorMetadata, clip_to_window
 from indicators.technical.base_price import PriceSeriesIndicator
 
 
@@ -74,21 +74,14 @@ class BaseRSIIndicator(PriceSeriesIndicator):
         *,
         status_map: Dict[str, str],
         as_of: datetime,
-        lookback_days: int,
+        lookback_days: Optional[int],
     ) -> Optional[List[Dict[str, object]]]:
         series_map = self.prepare_price_series(clean_df)
         series = series_map.get(self.market_label)
         if series is None or series.empty:
             return None
 
-        cutoff_date = as_of.date() - timedelta(days=lookback_days)
-        upper_date = as_of.date()
-        series = series[(series.index.date >= cutoff_date) & (series.index.date <= upper_date)]
-        if series.empty:
-            return None
-
-        rsi_series = _compute_rsi(series).dropna()
-        rsi_series = rsi_series[(rsi_series.index.date >= cutoff_date) & (rsi_series.index.date <= upper_date)]
+        rsi_series = clip_to_window(_compute_rsi(series).dropna(), as_of, lookback_days)
         if rsi_series.empty:
             return None
 
@@ -114,6 +107,9 @@ class BaseRSIIndicator(PriceSeriesIndicator):
 
         history.sort(key=lambda item: item["date"])
         return history
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value > self.overbought_threshold else "normal"
 
 
 class RSISP500Indicator(BaseRSIIndicator):

@@ -133,7 +133,8 @@ def _run_locked(task: Callable[..., object], **kwargs: object) -> None:
 
 class RefreshRequest(BaseModel):
     mode: Literal["manual", "full"] = "manual"
-    lookback_days: int = 365
+    # Days of history to export; None exports everything in the clean data.
+    lookback_days: Optional[int] = None
     indicator_slug: Optional[str] = None
 
     @model_validator(mode='before')
@@ -150,7 +151,10 @@ class RefreshRequest(BaseModel):
 
 def _enrich_indicator(item: Dict[str, object]) -> Dict[str, object]:
     enriched = dict(item)
-    enriched.setdefault("slug", sanitize_column_name(str(item.get("name", ""))))
+    # Results carry their slug; older snapshots did not, so derive it from
+    # the name as before (every indicator from then has a matching slug).
+    if not enriched.get("slug"):
+        enriched["slug"] = sanitize_column_name(str(item.get("name", "")))
     return enriched
 
 
@@ -309,8 +313,9 @@ def get_indicator(slug: str) -> Dict[str, object]:
 def get_indicator_history(
     slug: str,
     lookback_days: Optional[int] = Query(None, ge=1, le=36500),
+    max_points: Optional[int] = Query(None, ge=10, le=20000),
 ) -> Dict[str, object]:
-    history = load_and_filter_history(slug.lower(), lookback_days)
+    history = load_and_filter_history(slug.lower(), lookback_days, max_points)
     if history is None:
         raise HTTPException(status_code=404, detail=f"History for '{slug}' not available")
     return history
@@ -319,7 +324,9 @@ def get_indicator_history(
 @app.post("/refresh", status_code=202, dependencies=[Depends(require_refresh_token)])
 def trigger_refresh(request: RefreshRequest, background_tasks: BackgroundTasks) -> Dict[str, object]:
     mode = request.mode
-    lookback_days = min(max(MIN_LOOKBACK_DAYS, request.lookback_days), MAX_LOOKBACK_DAYS)
+    lookback_days = request.lookback_days
+    if lookback_days is not None:
+        lookback_days = min(max(MIN_LOOKBACK_DAYS, lookback_days), MAX_LOOKBACK_DAYS)
     indicator_slug = request.indicator_slug
     if indicator_slug and get_indicator_by_slug(indicator_slug) is None:
         raise HTTPException(status_code=404, detail=f"Indicator '{indicator_slug}' not found")

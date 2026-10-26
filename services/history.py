@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import json
+import math
+import threading
 from datetime import date, datetime, timedelta
-from typing import Dict, Iterable, List, Optional
+from typing import Dict, Iterable, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
@@ -16,6 +18,14 @@ from services.output import LOG_CSV_PATH, sanitize_for_json
 
 logger = get_logger("services.history")
 HISTORY_DIR = OUTPUT_DIR / "history"
+
+# Parsed history files keyed by slug, reused until the file changes. A daily
+# series with decades of data is several MB of JSON, and the dashboard asks
+# for every indicator's history at once.
+_HISTORY_CACHE: Dict[str, Tuple[int, Dict[str, object]]] = {}
+_HISTORY_CACHE_LOCK = threading.Lock()
+# Statuses that mark a signal; downsampling keeps these points visible.
+_SIGNAL_STATUSES = {"high", "low"}
 
 
 def _strip_source_fields(value):
@@ -46,8 +56,13 @@ def generate_indicator_histories(
     *,
     indicators: Iterable,
     as_of: datetime,
-    lookback_days: int,
+    lookback_days: Optional[int] = None,
 ) -> None:
+    """Write ``output/history/<slug>.json`` for each indicator.
+
+    ``lookback_days`` of ``None`` (the default) exports everything in the clean
+    data; the API trims to the requested range when serving it.
+    """
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     indicators = list(indicators)
     alias_map = _build_alias_map(indicators)
@@ -82,6 +97,7 @@ def generate_indicator_histories(
                 as_of=as_of,
                 lookback_days=lookback_days,
             )
+        _fill_rule_statuses(indicator, series)
         payload = {
             "indicator": slug,
             "display_name": indicator.metadata.name,
@@ -96,44 +112,118 @@ def generate_indicator_histories(
         _upsert_history_to_db(slug, series)
 
 
-def load_indicator_history(slug: str) -> Optional[Dict[str, object]]:
-    path = HISTORY_DIR / f"{slug}.json"
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except json.JSONDecodeError as exc:  # pragma: no cover
-        logger.warning("Failed to parse history file %s: %s", path, exc)
-        return None
+def _fill_rule_statuses(indicator, series: List[Dict[str, object]]) -> None:
+    """Give points without a logged status the one the indicator's rule assigns."""
+    for item in series:
+        if item.get("status") is not None:
+            continue
+        value = _coerce_numeric(item.get("summary_value"))
+        if value is None:
+            continue
+        status = indicator.status_for_value(value)
+        if status is not None:
+            item["status"] = status
 
-def load_and_filter_history(slug: str, lookback_days: Optional[int] = None) -> Optional[Dict[str, object]]:
+
+def load_indicator_history(slug: str) -> Optional[Dict[str, object]]:
+    """The parsed history file for ``slug``. Callers must not mutate it."""
+    path = HISTORY_DIR / f"{slug}.json"
+    try:
+        mtime_ns = path.stat().st_mtime_ns
+    except FileNotFoundError:
+        return None
+    with _HISTORY_CACHE_LOCK:
+        cached = _HISTORY_CACHE.get(slug)
+    if cached is not None and cached[0] == mtime_ns:
+        return cached[1]
+    try:
+        history = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:  # pragma: no cover
+        logger.warning("Failed to read history file %s: %s", path, exc)
+        return None
+    with _HISTORY_CACHE_LOCK:
+        _HISTORY_CACHE[slug] = (mtime_ns, history)
+    return history
+
+
+def load_and_filter_history(
+    slug: str,
+    lookback_days: Optional[int] = None,
+    max_points: Optional[int] = None,
+) -> Optional[Dict[str, object]]:
+    """History for ``slug`` trimmed to ``lookback_days`` and at most ``max_points`` points."""
     history = load_indicator_history(slug)
     if history is None:
         return None
-    if lookback_days is None:
-        return history
-
     series = history.get("series")
     if not isinstance(series, list):
-        return history
+        return dict(history)
 
-    cutoff = utc_now().date() - timedelta(days=lookback_days)
-    filtered_series = [
-        item for item in series
-        if datetime.fromisoformat(item.get("date", "1970-01-01")).date() >= cutoff
-    ]
-    history["series"] = filtered_series
-    return history
+    if lookback_days is not None:
+        cutoff = (utc_now().date() - timedelta(days=lookback_days)).isoformat()
+        # ISO dates compare correctly as strings.
+        series = [item for item in series if str(item.get("date", "")) >= cutoff]
+    if max_points is not None:
+        series = downsample_series(series, max_points)
+    return {**history, "series": series}
+
+
+def downsample_series(series: List[Dict[str, object]], max_points: int) -> List[Dict[str, object]]:
+    """Thin a date-sorted series to at most ``max_points`` points for charting.
+
+    A series that already fits is returned unchanged. Otherwise status-only
+    entries (no value; they only plot as gaps) are dropped, the rest is split
+    into equal runs of consecutive points, and each run is represented by one
+    real point: its last high/low point when it has one, so signals stay
+    visible on a decades-long chart, else its last point.
+    """
+    if max_points <= 0 or len(series) <= max_points:
+        return series
+    valued = [item for item in series if item.get("summary_value") is not None]
+    if len(valued) <= max_points:
+        return valued
+    step = math.ceil(len(valued) / max_points)
+    thinned: List[Dict[str, object]] = []
+    for start in range(0, len(valued), step):
+        bucket = valued[start:start + step]
+        flagged = [item for item in bucket if item.get("status") in _SIGNAL_STATUSES]
+        thinned.append(flagged[-1] if flagged else bucket[-1])
+    # The newest reading always stays the last point.
+    thinned[-1] = valued[-1]
+    return thinned
 
 
 
 def _write_history_file(slug: str, payload: Dict[str, object]) -> None:
     path = HISTORY_DIR / f"{slug}.json"
-    write_text_atomic(path, json.dumps(sanitize_for_json(payload), indent=2))
+    sanitized = sanitize_for_json(payload)
+    write_text_atomic(path, _serialize_history(sanitized))
+    # Refreshes run inside the API process (scheduler, POST /refresh), so seed
+    # the read cache with what was just written instead of re-parsing ~50 MB
+    # of history on the first dashboard load after every refresh.
+    with _HISTORY_CACHE_LOCK:
+        _HISTORY_CACHE[slug] = (path.stat().st_mtime_ns, sanitized)
     logger.info("Wrote history series for %s to %s", slug, path)
 
 
-def _load_status_history(*, as_of: datetime, lookback_days: int, alias_map: Dict[str, str]) -> Dict[str, Dict[str, str]]:
+def _serialize_history(payload: Dict[str, object]) -> str:
+    """JSON with one compact line per series point.
+
+    Daily series reach back to 1927, so pretty-printing every point roughly
+    doubles the file; one line per point keeps it small and keeps a refresh's
+    diff to the lines that changed.
+    """
+    head = {key: value for key, value in payload.items() if key != "series"}
+    points = ",\n".join(
+        "    " + json.dumps(point, separators=(",", ":")) for point in payload.get("series", [])
+    )
+    head_json = json.dumps(head, indent=2)
+    return head_json[:-2] + ',\n  "series": [\n' + points + "\n  ]\n}\n"
+
+
+def _load_status_history(
+    *, as_of: datetime, lookback_days: Optional[int], alias_map: Dict[str, str]
+) -> Dict[str, Dict[str, str]]:
     if not LOG_CSV_PATH.exists():
         return {}
     try:
@@ -147,8 +237,9 @@ def _load_status_history(*, as_of: datetime, lookback_days: int, alias_map: Dict
     if df.empty or "date" not in df.columns:
         return {}
     df["date"] = pd.to_datetime(df["date"], errors="coerce")
-    cutoff = (as_of - timedelta(days=lookback_days)).date()
-    df = df[df["date"].dt.date >= cutoff]
+    if lookback_days is not None:
+        cutoff = (as_of - timedelta(days=lookback_days)).date()
+        df = df[df["date"].dt.date >= cutoff]
     status_lookup: Dict[str, Dict[str, str]] = {}
     for column in df.columns:
         if column in {"date", "generated_at", "mode", "triggered_available", "total_available", "triggered_total", "total_total"}:
@@ -182,21 +273,21 @@ def _build_series(
     clean_df: pd.DataFrame,
     status_map: Dict[str, str],
     as_of: datetime,
-    lookback_days: int,
+    lookback_days: Optional[int],
 ) -> List[Dict[str, object]]:
     df = clean_df.copy()
+    upper_ts = pd.Timestamp(as_of.date())
+    cutoff_ts = (
+        upper_ts - pd.Timedelta(days=lookback_days) if lookback_days is not None else pd.Timestamp.min
+    )
     if "data_start_date" in df.columns:
         df["data_start_date"] = pd.to_datetime(df["data_start_date"], errors="coerce")
         df = df.dropna(subset=["data_start_date"])
-        cutoff_ts = pd.Timestamp(as_of.date() - timedelta(days=lookback_days))
-        upper_ts = pd.Timestamp(as_of.date())
         df = df[(df["data_start_date"] >= cutoff_ts) & (df["data_start_date"] <= upper_ts)]
         df = df.sort_values("data_start_date")
     elif "date" in df.columns:
         df["date"] = pd.to_datetime(df["date"], errors="coerce")
         df = df.dropna(subset=["date"])
-        cutoff_ts = pd.Timestamp(as_of.date() - timedelta(days=lookback_days))
-        upper_ts = pd.Timestamp(as_of.date())
         df = df[(df["date"] >= cutoff_ts) & (df["date"] <= upper_ts)]
         df = df.sort_values("date")
     else:
@@ -233,7 +324,7 @@ def _append_status_only_entries(
     status_map: Dict[str, str],
     *,
     as_of: datetime,
-    lookback_days: int,
+    lookback_days: Optional[int],
 ) -> List[Dict[str, object]]:
     """Add entries for dates that carry a status but no observation.
 
@@ -250,8 +341,8 @@ def _append_status_only_entries(
     if not status_map:
         return series
     existing_dates = {item.get("date") for item in series}
-    cutoff = as_of.date() - timedelta(days=lookback_days)
     upper = as_of.date()
+    cutoff = upper - timedelta(days=lookback_days) if lookback_days is not None else date.min
     for status_date, status_value in status_map.items():
         if status_date in existing_dates:
             continue

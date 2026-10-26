@@ -8,7 +8,7 @@ The Stock Index Engine is a Python-based tool for fetching, calculating, and eva
 
 ## Features
 
-*   **Comprehensive Indicator Library:** Tracks over 20 key market indicators.
+*   **Comprehensive Indicator Library:** Tracks over 30 key market indicators, with history back to the 1870s where the data allows.
 *   **Categorization:** Organizes indicators into four main categories: Valuation, Sentiment, Macroeconomic, and Technical.
 *   **Data Fetching & Caching:** Downloads and caches data from various sources (e.g., FRED for economic data) to the `resources/` directory.
 *   **Data Output:** Generates detailed historical data and a real-time summary in JSON and CSV formats in the `output/` directory.
@@ -46,11 +46,12 @@ You can run the engine directly using Python.
 # Install dependencies
 pip install -r requirements.txt
 
-# Run a full refresh, regenerating 365 days of history
-python market_indicators.py --mode full --lookback-days 365
+# Refresh every indicator and export each one's full history
+python market_indicators.py --mode manual
 
-# Run an incremental refresh
-python market_indicators.py --mode manual --lookback-days 365
+# Rebuild one indicator from scratch (keep the shared download cache:
+# FINRA blocks datacenter IPs, so its file cannot always be re-downloaded)
+python market_indicators.py --mode full --indicator cape_ratio --keep-resource-cache
 ```
 
 ### 3. Running the API Server
@@ -114,6 +115,78 @@ has 30 observations, because a percentile off five readings is not a percentile.
 
 Metric definitions, failure handling and tuning knobs are in
 [docs/social-sentiment.md](docs/social-sentiment.md).
+
+## Long History and Two-Sided Signals
+
+### History depth
+
+Every refresh exports each indicator's **full** stored history to
+`output/history/<slug>.json`. The API trims it to the requested range
+(`lookback_days`) and can thin it for charting (`max_points`); see
+[docs/api.md](docs/api.md).
+
+The stored history backfills itself on the next refresh, with no full refresh
+needed:
+
+| Source | How far back |
+|---|---|
+| Price indicators (RSI, MACD, 200DMA, 12M return, VIX) | Each run downloads the full Yahoo history: S&P 500 from 1927, Nasdaq 100 from 1985, VIX from 1990 |
+| FRED macro indicators | Each run reads the whole series: CPI from 1947, 10Y yield from 1953, T10Y2Y from 1976 |
+| multpl.com valuation tables | PE, CAPE and dividend yield from 1871; P/B and P/S from 2000 |
+| CNN Fear & Greed | From January 2021, the earliest date CNN serves |
+| ETF Net Inflows (SPY) | From December 2003, the start of State Street's NAV history |
+| AAII, FINRA margin debt, BIS credit-to-GDP | Already complete (1987, 1997, 1947) |
+
+Not backfillable: QQQ flows (Invesco publishes only today's values), Insider Buy
+Share (would need every Form 4 since the start date), and the social and
+prediction-market indicators.
+
+The daily run log only begins when the engine was first deployed, so older
+history points take the status the indicator's own rule gives that value
+(`BaseIndicator.status_for_value`). A decades-long chart shows every past
+`high` and `low` reading, not just the ones the engine happened to log.
+
+### `high` and `low`
+
+`high` marks an overheated market: stretched valuations, complacency,
+overbought breadth. `low` marks a washed-out one: cheap valuations, panic,
+oversold breadth. The original indicators report only `high` or `normal`; the
+ones below report both. The summary counts lows in `low_available` and in
+`by_category.<category>.low`.
+
+### Added indicators
+
+| Indicator | Category | Source | From | `high` | `low` |
+|---|---|---|---|---|---|
+| Buffett Indicator | Valuation | Fed Z.1 corporate equities / GDP (FRED) | 1947 | > 150% | < 60% |
+| Tobin's Q | Valuation | Fed Z.1 corporate equities / net worth (FRED) | 1945 | > 1.4 | < 0.5 |
+| Excess CAPE Yield | Valuation | 1 / CAPE (multpl) minus real 10Y yield (FRED) | 1957 | < 1% | > 7% |
+| Stocks Above 200DMA (S&P 500) | Technical | TradingView `INDEX:S5TH` | 1990 | > 80% | < 20% |
+| Stocks Above 200DMA (Nasdaq 100) | Technical | TradingView `INDEX:NDTH` | 2006 | > 80% | < 20% |
+| VIX Term Structure | Technical | VIX / VIX3M (Yahoo) | 2006 | < 0.80 | > 1.00 |
+| Equity Put/Call Ratio | Sentiment | TradingView `USI:PCCE`, 10-day average | 2007 | < 0.60 | > 1.00 |
+| High-Yield Credit Spread | Macro | ICE BofA HY OAS: TradingView `FRED:BAMLH0A0HYM2`, plus FRED | 1996 | < 3.0% | > 7.0% |
+
+Thresholds were checked against the full history: the `high` bands catch the
+1968, 2000 and 2021 extremes, and the `low` bands catch the 2002, 2009, 2020,
+2022 and April 2025 lows. Z.1 is quarterly and published about ten weeks after
+each quarter, so Buffett and Tobin's Q scale the latest quarter by the S&P
+500's move since then; those rows carry `estimated: true` until Z.1 publishes
+the quarter.
+
+### TradingView data
+
+`common/tradingview.py` is a small Python port of the chart-session protocol
+used by [TradingView-API](https://github.com/Mathieu2301/TradingView-API). It
+connects anonymously to TradingView's chart websocket and reads full daily
+history, which covers breadth, CBOE put/call and FRED-mirror symbols that no
+keyless API serves. FRED's own API now returns only three years of ICE spread
+data.
+
+This interface is unofficial, so a failed download keeps the stored history.
+TradingView-based readings turn `unavailable` once their newest point is more
+than 7-10 days old, so a broken source cannot pass a frozen value off as
+current.
 
 ## Docker Deployment
 

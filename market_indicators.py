@@ -22,8 +22,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--lookback-days",
         type=int,
-        default=365,
-        help="Number of days of history to regenerate when exporting series",
+        default=None,
+        help="Days of history to export per indicator (default: all available)",
     )
     parser.add_argument(
         "--skip-history",
@@ -56,7 +56,7 @@ def main() -> None:
     logger.info(
         "Running indicator refresh (mode=%s, lookback_days=%s, skip_history=%s, indicator=%s)",
         args.mode,
-        args.lookback_days,
+        args.lookback_days or "all",
         args.skip_history,
         indicator_desc,
     )

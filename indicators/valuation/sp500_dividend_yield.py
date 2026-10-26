@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Optional
+
 from common.models import IndicatorResult
 from indicators.base import IndicatorMetadata
 from indicators.valuation.base_multpl import MultplIndicator
@@ -37,3 +39,6 @@ class SP500DividendYieldIndicator(MultplIndicator):
             status=status,
             notes="Source: multpl.com dividend yield table.",
         )
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value < 1.2 else "normal"

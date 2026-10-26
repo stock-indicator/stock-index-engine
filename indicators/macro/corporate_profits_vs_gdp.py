@@ -1,9 +1,12 @@
 from __future__ import annotations
 
+from datetime import datetime
+from typing import Dict, List, Optional
+
 import pandas as pd
 
 from common.models import IndicatorResult
-from indicators.base import IndicatorMetadata
+from indicators.base import IndicatorMetadata, clip_to_window
 from indicators.macro.base_fred import FREDIndicator
 
 
@@ -20,7 +23,38 @@ class CorporateProfitsToGDPIndicator(FREDIndicator):
         "gdp": "GDP",
         "corporate_profits": "CPATAX",
     }
-    default_history_days = 365 * 5
+
+    def build_history_series(
+        self,
+        clean_df: pd.DataFrame,
+        *,
+        status_map: Dict[str, str],
+        as_of: datetime,
+        lookback_days: Optional[int],
+    ) -> Optional[List[Dict[str, object]]]:
+        # Plot the profit share itself; the generic series would plot GDP,
+        # the first numeric column.
+        df = clean_df.dropna(subset=["gdp", "corporate_profits"]).copy()
+        if df.empty:
+            return None
+        df = df.set_index("data_start_date").sort_index()
+        share = clip_to_window(df["corporate_profits"] / df["gdp"] * 100, as_of, lookback_days)
+        return [
+            {
+                "date": ts.date().isoformat(),
+                "status": status_map.get(ts.date().isoformat()),
+                "summary_value": float(value),
+                "details": {
+                    "corporate_profit_share_pct": float(value),
+                    "corporate_profits": float(df.at[ts, "corporate_profits"]),
+                    "gdp": float(df.at[ts, "gdp"]),
+                },
+            }
+            for ts, value in share.items()
+        ]
+
+    def status_for_value(self, value: float) -> Optional[str]:
+        return "high" if value > 12 else "normal"
 
     def compute(self, clean_df: pd.DataFrame, fetcher) -> IndicatorResult:
         if clean_df.empty or "gdp" not in clean_df.columns or "corporate_profits" not in clean_df.columns:
